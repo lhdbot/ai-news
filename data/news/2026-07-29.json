@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T03:14:54.834Z",
+  "generated_at": "2026-07-29T03:20:59.879Z",
   "items": [
     {
       "id": "df22037e3e0f",
@@ -10,13 +10,13 @@
       "category": "行业动态",
       "tags": [
         "OpenAI",
-        "AI for Science",
-        "Agent"
+        "科学计算",
+        "AI智能体"
       ],
       "published_at": "2026-07-28T17:00:00.000Z",
       "title_zh": "智能体时代的科学计算",
-      "summary_zh": "OpenAI 实地报告显示，科学家正用 AI 编码智能体改造科学计算工作流。",
-      "why_it_matters": "科研软件现代化是 AI 落地的深水区之一，这份报告给出了真实使用图景。",
+      "summary_zh": "OpenAI 报告显示，科学家正用 AI 编码智能体改造科学计算工作流。",
+      "why_it_matters": "AI 智能体加速科研范式变革",
       "summarized": true
     },
     {
@@ -27,13 +27,13 @@
       "category": "行业动态",
       "tags": [
         "OpenAI",
-        "就业",
-        "ChatGPT"
+        "ChatGPT",
+        "职场"
       ],
       "published_at": "2026-07-27T03:30:00.000Z",
-      "title_zh": "OpenAI 研究：AI 如何拓展人们的工作边界",
-      "summary_zh": "ChatGPT 用户数据显示，AI 更多是在扩展而非替代员工的能力。",
-      "why_it_matters": "为\"AI 抢饭碗\"之争提供了来自最大用户群的一手数据。",
+      "title_zh": "AI 扩展而非替代员工能力",
+      "summary_zh": "ChatGPT 用户数据显示，AI 更多是在扩展而非替代员工的工作能力。",
+      "why_it_matters": "揭示 AI 对就业的真实影响",
       "summarized": true
     },
     {

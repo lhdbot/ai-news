@@ -1,16 +1,22 @@
 # AI 日报（ai-news）
 
-每天自动聚合全球优质 AI 资讯的中文网站：arXiv 论文（cs.AI / cs.CL / cs.LG）、OpenAI、Google DeepMind、Microsoft Research、Hugging Face Daily Papers，以及量子位、TechCrunch、The Verge、MIT Technology Review 等中英文媒体。由 DeepSeek 自动生成中文标题、一句话摘要和「为什么重要」，GitHub Actions 每日定时更新，Vercel 自动部署。
+每天自动聚合全球优质 AI 资讯的中文网站：arXiv 论文（cs.AI / cs.CL / cs.LG）、OpenAI、Google DeepMind、Microsoft Research、Hugging Face Daily Papers，以及量子位、TechCrunch、The Verge、MIT Technology Review 等中英文媒体。自动生成中文标题、一句话摘要和「为什么重要」。
 
-## 工作原理（Git 即 CMS）
+## 工作原理（本机模式，当前默认）
 
 ```
-GitHub Actions cron（北京时间每天 07:10）
-  → node scripts/fetch-news.mjs 抓取 10 个内容源（RSS / JSON API）
-  → DeepSeek 批量生成中文摘要（无 key 时降级为只聚合）
-  → 写入 data/news/YYYY-MM-DD.json 并提交回仓库（只提交 data/）
-  → push 触发 Vercel 重新部署
+Windows 计划任务 ai-news-daily（每天 07:10）
+  → scripts/local-update.bat
+    → node scripts/fetch-news.mjs   抓取 11 个内容源（RSS / JSON API）
+    → node scripts/summarize-local.mjs  调用本机 Kimi CLI 生成中文摘要（用本机 Kimi 额度，无需 API key）
+    → npm run build                 重建静态站
+    → git commit + push data/       提交数据（GitHub 作备份）
+网站服务: 登录 Windows 后由启动文件夹脚本 scripts/start-site.bat 自动拉起，
+         访问 http://localhost:3000
+日志: logs/update.log、logs/server.log
 ```
+
+云端模式（GitHub Actions cron + Vercel + DeepSeek key）已停用，仅保留 `.github/workflows/daily-update.yml` 手动触发作为备用。
 
 ## 本地开发
 
@@ -22,20 +28,11 @@ npm run dev                   # http://localhost:3000
 
 其他命令：`npm run build`（生产构建）、`npm run lint`。
 
-## 配置 DeepSeek API key
+## 配置摘要引擎
 
-摘要功能依赖 [DeepSeek API](https://platform.deepseek.com)（OpenAI 兼容接口，成本极低，月开销 <1 元）。
+默认使用**本机 Kimi CLI**（`scripts/summarize-local.mjs`，`kimi -p` 非交互调用），零额外成本。
 
-- 本地：设置环境变量 `DEEPSEEK_API_KEY` 后再运行抓取脚本
-  ```bash
-  # Windows PowerShell
-  $env:DEEPSEEK_API_KEY="sk-..."
-  node scripts/fetch-news.mjs
-  ```
-- GitHub Actions：仓库 **Settings → Secrets and variables → Actions** 添加名为
-  `DEEPSEEK_API_KEY` 的 secret，workflow 会自动注入。
-
-未配置 key 时脚本照常运行，只是不生成中文摘要（保留原标题与来源推断的分类，`summarized: false`）。
+也可改用 [DeepSeek API](https://platform.deepseek.com)（OpenAI 兼容，月开销 <1 元）：设置环境变量 `DEEPSEEK_API_KEY` 后 `fetch-news.mjs` 会优先用它摘要；未配置时只聚合不摘要（`summarized: false`），可再由 `summarize-local.mjs` 补摘要。
 
 ## 如何添加新的内容源
 
@@ -53,7 +50,7 @@ npm run dev                   # http://localhost:3000
 
 分类必须是以下之一：模型发布 / 论文研究 / 行业动态 / 工具产品 / 芯片算力 / 具身智能。
 
-## 部署到 Vercel
+## 部署到 Vercel（可选，当前未启用）
 
 1. 把本仓库 push 到 GitHub。
 2. 到 [vercel.com](https://vercel.com) 用 GitHub 登录，**Import** 该仓库 —— 零配置，自动识别 Next.js。
@@ -67,7 +64,10 @@ app/                    # Next.js App Router 页面（首页 / 归档 / 标签 /
 components/             # NewsCard、CategorySection、TagBadge、Header、Footer
 lib/news.ts             # 内容层：zod schema + 数据读取
 lib/site.ts             # 站点名称 / URL 等常量
-scripts/fetch-news.mjs  # 抓取 + 摘要脚本（Node 直接运行，无 TS 依赖）
+scripts/fetch-news.mjs  # 抓取脚本（Node 直接运行，无 TS 依赖）
+scripts/summarize-local.mjs  # 本机 Kimi CLI 摘要器
+scripts/local-update.bat     # 本地每日更新入口（计划任务调用）
+scripts/start-site.bat       # 登录后启动网站服务（启动文件夹调用）
 data/news/YYYY-MM-DD.json  # 每日新闻数据（由脚本生成并提交）
-.github/workflows/      # daily-update.yml（定时更新）、ci.yml（构建验证）
+.github/workflows/         # daily-update.yml（备用，手动触发）、ci.yml（构建验证）
 ```
