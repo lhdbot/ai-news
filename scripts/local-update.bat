@@ -1,5 +1,5 @@
 @echo off
-rem 本地每日更新: 抓取 -> Kimi 摘要 -> 构建 -> 提交/推送数据
+rem local daily update: fetch -> kimi summarize -> build -> commit/push
 cd /d C:\Users\86159\ai-news
 if not exist logs mkdir logs
 echo ==== %date% %time% ==== >> logs\update.log

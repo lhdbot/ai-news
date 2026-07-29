@@ -1,5 +1,5 @@
 @echo off
-rem 每周 AI 预测: 汇总近7天 -> Kimi 生成预测 -> 构建 -> 提交/推送
+rem weekly forecast: collect 7d -> kimi forecast -> build -> commit/push
 cd /d C:\Users\86159\ai-news
 if not exist logs mkdir logs
 echo ==== weekly %date% %time% ==== >> logs\update.log
