@@ -7,6 +7,8 @@ echo lock > logs\watch.lock
 echo ==== watch %date% %time% ==== >> logs\update.log
 node scripts\fetch-news.mjs >> logs\update.log 2>&1
 node scripts\summarize-local.mjs >> logs\update.log 2>&1
+rem daily personal impact analysis (self-guarded: skips if today's file exists)
+node scripts\daily-impact.mjs >> logs\update.log 2>&1
 git add data/ >> logs\update.log 2>&1
 git diff --cached --quiet && goto nochange
 echo [watch] new items found, rebuilding >> logs\update.log
