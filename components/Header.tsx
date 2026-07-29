@@ -19,6 +19,9 @@ export default function Header() {
           <Link href="/forecast" className="transition-colors hover:text-accent">
             预测
           </Link>
+          <Link href="/impact" className="transition-colors hover:text-accent">
+            影响分析
+          </Link>
           <Link href="/skills" className="transition-colors hover:text-accent">
             Skills
           </Link>

@@ -9,6 +9,7 @@ Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流
   → scripts/watch-update.bat
     → node scripts/fetch-news.mjs   抓取 14 个内容源（RSS / JSON API / GitHub Trending）
     → node scripts/summarize-local.mjs  只对"新条目"调用本机 Kimi CLI 摘要（无更新时零 LLM 消耗）
+    → node scripts/daily-impact.mjs  每日个人市场影响分析（当天已生成则跳过，一天最多一次 LLM 调用）
     → 有变化才: npm run build → 重启 3000 端口服务 → git commit + push
 另有 ai-news-daily（每天 07:10 全量刷新一次）、ai-news-weekly-forecast（每周一 08:00 生成预测）
 网站服务: 登录 Windows 后由启动文件夹脚本 scripts/start-site.bat 自动拉起，
@@ -101,7 +102,7 @@ GitHub Trending 源直连失败时会自动回退到 curl + 本地代理（环�
 ## 目录结构
 
 ```
-app/                    # Next.js App Router 页面（首页 / 板块页 /category/[slug] / 归档 / 标签 / 预测 / Skills / feed.xml / sitemap / robots）
+app/                    # Next.js App Router 页面（首页 / 板块页 /category/[slug] / 影响分析 /impact / 归档 / 标签 / 预测 / Skills / feed.xml / sitemap / robots）
 components/             # NewsCard、CategoryNav（左侧快速导航）、CategorySection（首页板块横向预览条）、TagBadge、Header、Footer
 lib/news.ts             # 内容层：zod schema + 数据读取 + 板块中英文 slug 映射（CATEGORY_SLUGS）
 lib/sources.ts          # 信息源读取（页脚展示用）
