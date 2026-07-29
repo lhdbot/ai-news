@@ -94,9 +94,9 @@ GitHub Trending 源直连失败时会自动回退到 curl + 本地代理（环�
 ## 目录结构
 
 ```
-app/                    # Next.js App Router 页面（首页 / 归档 / 标签 / feed.xml / sitemap / robots）
-components/             # NewsCard、CategorySection、TagBadge、Header、Footer
-lib/news.ts             # 内容层：zod schema + 数据读取
+app/                    # Next.js App Router 页面（首页 / 板块页 /category/[slug] / 归档 / 标签 / 预测 / Skills / feed.xml / sitemap / robots）
+components/             # NewsCard、CategoryNav（左侧快速导航）、CategorySection（首页板块横向预览条）、TagBadge、Header、Footer
+lib/news.ts             # 内容层：zod schema + 数据读取 + 板块中英文 slug 映射（CATEGORY_SLUGS）
 lib/site.ts             # 站点名称 / URL 等常量
 scripts/fetch-news.mjs  # 抓取脚本（Node 直接运行，无 TS 依赖）
 scripts/summarize-local.mjs  # 本机 Kimi CLI 摘要器

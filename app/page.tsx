@@ -1,6 +1,7 @@
 import Link from "next/link";
 import NewsCard from "@/components/NewsCard";
-import CategorySection, { categoryAnchor } from "@/components/CategorySection";
+import CategorySection from "@/components/CategorySection";
+import CategoryNav from "@/components/CategoryNav";
 import { CATEGORIES, formatDateCN, getLatestNews } from "@/lib/news";
 
 export default function HomePage() {
@@ -24,41 +25,22 @@ export default function HomePage() {
   const [headline, ...rest] = daily.items;
   // 固定板块顺序（CATEGORIES），板块内按时间倒序
   const byCategory = new Map<string, typeof rest>();
+  const counts: Record<string, number> = {};
   for (const category of CATEGORIES) {
-    byCategory.set(
-      category,
-      rest
-        .filter((item) => item.category === category)
-        .sort(
-          (a, b) =>
-            new Date(b.published_at).getTime() -
-            new Date(a.published_at).getTime(),
-        ),
-    );
+    const list = rest
+      .filter((item) => item.category === category)
+      .sort(
+        (a, b) =>
+          new Date(b.published_at).getTime() - new Date(a.published_at).getTime(),
+      );
+    byCategory.set(category, list);
+    counts[category] = list.length;
   }
 
   return (
     <div className="py-8 lg:flex lg:gap-8">
-      {/* 左侧快速导航（大屏显示，吸顶） */}
       <aside className="mb-6 shrink-0 lg:mb-0 lg:w-36">
-        <nav className="flex flex-wrap gap-1.5 text-sm lg:sticky lg:top-20 lg:flex-col lg:gap-1">
-          <p className="mb-1 hidden text-xs font-semibold tracking-wider text-muted lg:block">
-            快速导航
-          </p>
-          {CATEGORIES.map((category) => {
-            const count = byCategory.get(category)?.length ?? 0;
-            return (
-              <a
-                key={category}
-                href={`#${categoryAnchor(category)}`}
-                className="flex items-center justify-between gap-2 rounded-lg border border-border/60 px-2.5 py-1.5 text-muted transition-colors hover:border-accent/50 hover:text-accent lg:border-0 lg:px-2"
-              >
-                <span>{category}</span>
-                <span className="text-xs text-muted/70">{count}</span>
-              </a>
-            );
-          })}
-        </nav>
+        <CategoryNav counts={counts} />
       </aside>
 
       <div className="min-w-0 flex-1">
