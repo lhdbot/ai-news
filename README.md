@@ -1,13 +1,13 @@
 # AI 日报（ai-news）
 
-每天自动聚合全球优质 AI 资讯的中文网站：arXiv 论文（cs.AI / cs.CL / cs.LG）、OpenAI、Google DeepMind、Microsoft Research、Hugging Face Daily Papers，以及量子位、TechCrunch、The Verge、MIT Technology Review 等中英文媒体。自动生成中文标题、一句话摘要和「为什么重要」。
+每天自动聚合全球优质 AI 资讯的中文网站：arXiv 论文（cs.AI / cs.CL / cs.LG）、OpenAI、Google DeepMind、Microsoft Research、Hugging Face Daily Papers、GitHub Trending 日/周/月榜第一名，以及量子位、TechCrunch、The Verge、MIT Technology Review 等中英文媒体。每条新闻提供**中文标题、原文总结、学到什么、影响、对你的建议**四个部分，不只是链接搬运。
 
 ## 工作原理（本机模式，当前默认）
 
 ```
 Windows 计划任务 ai-news-daily（每天 07:10）
   → scripts/local-update.bat
-    → node scripts/fetch-news.mjs   抓取 11 个内容源（RSS / JSON API）
+    → node scripts/fetch-news.mjs   抓取 14 个内容源（RSS / JSON API / GitHub Trending）
     → node scripts/summarize-local.mjs  调用本机 Kimi CLI 生成中文摘要（用本机 Kimi 额度，无需 API key）
     → npm run build                 重建静态站
     → git commit + push data/       提交数据（GitHub 作备份）
@@ -42,13 +42,15 @@ npm run dev                   # http://localhost:3000
 {
   name: "来源名称",
   url: "https://example.com/feed.xml",
-  type: "rss",        // RSS/Atom 用 "rss"；JSON API 需在脚本里加一个 fetch 函数
+  type: "rss",        // RSS/Atom 用 "rss"；JSON API 参考 "hf"；GitHub Trending 用 "trending"
   weight: 8,          // 排序权重，官方一手源 10+，媒体 7-8
   category: "行业动态", // 无 LLM 摘要时的兜底分类
 }
 ```
 
 分类必须是以下之一：模型发布 / 论文研究 / 行业动态 / 工具产品 / 芯片算力 / 具身智能。
+
+GitHub Trending 源直连失败时会自动回退到 curl + 本地代理（环境变量 `AI_NEWS_PROXY`，默认 `http://127.0.0.1:7897`）。
 
 ## 部署到 Vercel（可选，当前未启用）
 

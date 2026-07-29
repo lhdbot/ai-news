@@ -31,8 +31,11 @@ if (!fs.existsSync(file)) {
 
 const data = JSON.parse(fs.readFileSync(file, 'utf8'));
 const forceArg = process.argv.find(a => a.startsWith('--force='));
+const allFlag = process.argv.includes('--all');
 let targets;
-if (forceArg) {
+if (allFlag) {
+  targets = data.items;
+} else if (forceArg) {
   targets = data.items.slice(0, parseInt(forceArg.split('=')[1], 10));
 } else {
   targets = data.items.filter(i => !i.summarized);
@@ -45,14 +48,16 @@ if (targets.length === 0) {
 
 function buildPrompt(batch) {
   const payload = batch.map(i => ({ id: i.id, title: i.title, snippet: (i.summary_zh || '').slice(0, 300), source: i.source }));
-  return `你是中文 AI 新闻编辑。对下面 JSON 数组中的每条新闻，生成中文字段。
+  return `你是中文 AI 新闻编辑，读者是一位想持续学习 AI 的开发者。对下面 JSON 数组中的每条新闻，生成中文字段。
 要求:
 - title_zh: 中文标题(15字内,可直接用原标题若已为中文)
-- summary_zh: 一句话中文摘要(40字内)
-- why_it_matters: 为什么重要(30字内,中文)
+- summary_zh: 对原文内容的总结(60字内,说清发生了什么,不要只复述标题)
+- learn: 读者可以从中学到什么(40字内,知识点/方法/趋势)
+- impact: 这件事的影响(30字内,对行业/技术/用户)
+- advice: 给读者的行动建议(30字内,具体可执行,如试试某个工具/关注某个方向/读原文)
 - category: 必须是 [${CATEGORIES.join('/')}] 之一
 - tags: 2-3个中文或专有名词标签
-- 只输出 JSON 数组,每项含 id/title_zh/summary_zh/why_it_matters/category/tags,不要输出任何其他文字,不要使用任何工具
+- 只输出 JSON 数组,每项含 id/title_zh/summary_zh/learn/impact/advice/category/tags,不要输出任何其他文字,不要使用任何工具
 
 输入:
 ${JSON.stringify(payload, null, 1)}`;
@@ -91,13 +96,18 @@ for (let i = 0; i < targets.length; i += BATCH) {
     if (!p || !CATEGORIES.includes(p.category)) continue;
     item.title_zh = String(p.title_zh || item.title);
     item.summary_zh = String(p.summary_zh || '');
-    item.why_it_matters = String(p.why_it_matters || '');
+    item.learn = String(p.learn || '');
+    item.impact = String(p.impact || '');
+    item.advice = String(p.advice || '');
     item.category = p.category;
     item.tags = Array.isArray(p.tags) ? p.tags.map(String).slice(0, 4) : [];
     item.summarized = true;
     done++;
   }
   console.log(`batch ${i / BATCH + 1}: summarized ${done}/${targets.length}`);
+  // 每批落盘一次，中断不丢已花费的额度
+  data.generated_at = new Date().toISOString();
+  fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
 }
 
 data.generated_at = new Date().toISOString();

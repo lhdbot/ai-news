@@ -73,19 +73,36 @@ export default function NewsCard({
       {item.summary_zh && (
         <p
           className={`mt-3 text-muted leading-relaxed ${
-            featured ? "text-base" : "text-sm line-clamp-3"
+            featured ? "text-base" : "text-sm"
           }`}
         >
+          <span className="mr-1 font-semibold text-fg/70">总结</span>
           {item.summary_zh}
         </p>
       )}
 
-      {item.why_it_matters && (
-        <div className="mt-3 rounded-lg border-l-2 border-accent bg-accent/5 px-3 py-2">
-          <p className="text-xs font-semibold text-accent">为什么重要</p>
-          <p className="mt-1 text-sm text-fg/80 leading-relaxed">
-            {item.why_it_matters}
-          </p>
+      {(item.learn || item.impact || item.why_it_matters || item.advice) && (
+        <div className="mt-3 space-y-2">
+          {item.learn && (
+            <div className="rounded-lg border-l-2 border-emerald-400 bg-emerald-400/5 px-3 py-2">
+              <p className="text-xs font-semibold text-emerald-300">学到什么</p>
+              <p className="mt-1 text-sm text-fg/80 leading-relaxed">{item.learn}</p>
+            </div>
+          )}
+          {(item.impact || item.why_it_matters) && (
+            <div className="rounded-lg border-l-2 border-accent bg-accent/5 px-3 py-2">
+              <p className="text-xs font-semibold text-accent">影响</p>
+              <p className="mt-1 text-sm text-fg/80 leading-relaxed">
+                {item.impact || item.why_it_matters}
+              </p>
+            </div>
+          )}
+          {item.advice && (
+            <div className="rounded-lg border-l-2 border-amber-400 bg-amber-400/5 px-3 py-2">
+              <p className="text-xs font-semibold text-amber-300">对你的建议</p>
+              <p className="mt-1 text-sm text-fg/80 leading-relaxed">{item.advice}</p>
+            </div>
+          )}
         </div>
       )}
 

@@ -30,3 +30,61 @@ body {
 ::selection {
   background: rgba(34, 211, 238, 0.3);
 }
+
+/* 每周预测 markdown 渲染样式 */
+.forecast-body {
+  line-height: 1.8;
+  color: var(--color-fg);
+}
+.forecast-body h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.forecast-body h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1.75rem 0 0.75rem;
+  padding-left: 0.6rem;
+  border-left: 3px solid var(--color-accent);
+}
+.forecast-body h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.25rem 0 0.5rem;
+}
+.forecast-body p {
+  margin: 0.6rem 0;
+  color: var(--color-fg);
+}
+.forecast-body ul,
+.forecast-body ol {
+  margin: 0.6rem 0 0.6rem 1.4rem;
+  display: grid;
+  gap: 0.4rem;
+}
+.forecast-body ul {
+  list-style: disc;
+}
+.forecast-body ol {
+  list-style: decimal;
+}
+.forecast-body strong {
+  color: var(--color-accent);
+}
+.forecast-body a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.forecast-body blockquote {
+  border-left: 3px solid var(--color-border);
+  padding-left: 1rem;
+  color: var(--color-muted);
+  margin: 0.8rem 0;
+}
+.forecast-body code {
+  background: var(--color-surface-2);
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.85em;
+}
