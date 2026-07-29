@@ -46,7 +46,7 @@ export default async function TagPage({
       </h1>
       <p className="mt-2 text-muted">共 {entries.length} 条相关资讯</p>
 
-      <div className="mt-8 grid gap-4 md:grid-cols-2">
+      <div className="mt-8 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
         {entries.map(({ date, item }) => (
           <div key={`${date}-${item.id}`}>
             <p className="mb-1.5 text-xs text-muted">{date}</p>

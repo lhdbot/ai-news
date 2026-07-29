@@ -49,7 +49,7 @@ export default async function DailyPage({
       </h1>
       <p className="mt-2 text-muted">共 {daily.items.length} 条</p>
 
-      <div className="mt-8 grid gap-4 md:grid-cols-2">
+      <div className="mt-8 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
         {daily.items.map((item) => (
           <NewsCard key={item.id} item={item} />
         ))}

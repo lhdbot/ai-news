@@ -12,13 +12,13 @@ export default function CategorySection({
   return (
     <section className="mt-10">
       <div className="mb-4 flex items-baseline gap-3">
-        <h2 className="text-xl font-bold">
+        <h2 className="text-lg font-bold">
           <span className="mr-2 text-accent">#</span>
           {category}
         </h2>
         <span className="text-sm text-muted">{items.length} 条</span>
       </div>
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
         {items.map((item) => (
           <NewsCard key={item.id} item={item} />
         ))}
