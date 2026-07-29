@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T09:37:17.132Z",
+  "generated_at": "2026-07-29T10:07:54.412Z",
   "items": [
     {
       "id": "df22037e3e0f",
@@ -1578,6 +1578,66 @@
       "learn": "认识开源模型滥用的现实风险，以及平台内容审核与技术伦理的挑战。",
       "impact": "开源AI平台面临更严监管压力，或推动模型发布审核收紧。",
       "advice": "开发者应关注模型使用合规要求，警惕生成内容的法律风险。"
+    },
+    {
+      "id": "7d80710fcda7",
+      "title": "Human Preference aligned Tabular Similarity",
+      "url": "https://arxiv.org/abs/2607.24880",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "表格嵌入",
+        "偏好对齐",
+        "表示学习"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "对齐人类偏好的表格相似度嵌入",
+      "summary_zh": "论文提出任务无关的表格数据嵌入方法，将人类偏好对齐引入表格相似度度量，使不同表格间的语义比较更贴近人的判断。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "表格嵌入可做任务无关表示，偏好对齐能改进相似度度量。",
+      "impact": "提升表格检索、匹配与数据管理的自动化水平。",
+      "advice": "做表格数据的读者可读原文，关注嵌入评估方法。"
+    },
+    {
+      "id": "2da82dd5d17c",
+      "title": "Eliminating Propagation Delay: Attention-Based Spatial-Temporal Fusion Graph Convolution Network for Traffic Flow Prediction",
+      "url": "https://arxiv.org/abs/2607.24885",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "图卷积网络",
+        "时空预测",
+        "注意力机制"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "注意力时空融合图卷积预测交通流",
+      "summary_zh": "论文提出基于注意力的时空融合图卷积网络，消除传统方法中的传播延迟假设，直接建模道路间即时影响以提升交通流预测精度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "注意力机制可替代固定传播延迟，改进时空图网络建模。",
+      "impact": "提高交通预测实时性，助力智能交通与城市规划。",
+      "advice": "做时空预测的读者可借鉴其注意力融合结构。"
+    },
+    {
+      "id": "9182fa3398ac",
+      "title": "Mechanisms of Width Scaling in Normalized Residual Networks: The Effective Alignment Dimension",
+      "url": "https://arxiv.org/abs/2607.24887",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "缩放定律",
+        "残差网络",
+        "深度学习理论"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "归一化残差网络宽度缩放机制",
+      "summary_zh": "论文研究归一化残差网络中宽度缩放的内在机制，提出“有效对齐维度”概念，修正现有神经网络宽度理论的不足。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "宽度缩放有理论极限，有效对齐维度可解释模型容量。",
+      "impact": "为大模型宽度设计与缩放规律提供理论依据。",
+      "advice": "关注缩放定律的读者可读原文理解新理论框架。"
     }
   ]
 }
