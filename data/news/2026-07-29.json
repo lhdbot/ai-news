@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T03:20:59.879Z",
+  "generated_at": "2026-07-29T04:37:33.052Z",
   "items": [
     {
       "id": "df22037e3e0f",
@@ -10,14 +10,17 @@
       "category": "行业动态",
       "tags": [
         "OpenAI",
-        "科学计算",
-        "AI智能体"
+        "编码智能体",
+        "科学计算"
       ],
       "published_at": "2026-07-28T17:00:00.000Z",
-      "title_zh": "智能体时代的科学计算",
-      "summary_zh": "OpenAI 报告显示，科学家正用 AI 编码智能体改造科学计算工作流。",
+      "title_zh": "Scientific computing in the age of agentic AI",
+      "summary_zh": "OpenAI报告显示，科学家正用AI编码智能体改造科学计算工作流，加速仿真与数据处理。",
       "why_it_matters": "AI 智能体加速科研范式变革",
-      "summarized": true
+      "summarized": true,
+      "learn": "编码智能体可嵌入科研流水线，自动化模拟、调试等计算环节。",
+      "impact": "科研工作方式变革，计算效率与实验迭代速度大幅提升。",
+      "advice": "试试用编码智能体改造自己的数据处理脚本。"
     },
     {
       "id": "f143efbfe201",
@@ -27,14 +30,17 @@
       "category": "行业动态",
       "tags": [
         "OpenAI",
-        "ChatGPT",
-        "职场"
+        "人机协作",
+        "就业影响"
       ],
       "published_at": "2026-07-27T03:30:00.000Z",
-      "title_zh": "AI 扩展而非替代员工能力",
-      "summary_zh": "ChatGPT 用户数据显示，AI 更多是在扩展而非替代员工的工作能力。",
+      "title_zh": "How AI is expanding what people do at work",
+      "summary_zh": "ChatGPT用户数据表明，AI更多在扩展员工的工作能力边界，而非简单替代岗位。",
       "why_it_matters": "揭示 AI 对就业的真实影响",
-      "summarized": true
+      "summarized": true,
+      "learn": "AI与人的关系以能力增强为主，人机协作是当前主流模式。",
+      "impact": "缓解AI替代焦虑，推动企业转向人机协作的岗位设计。",
+      "advice": "把AI当作能力杠杆，主动学习提示与协作技巧。"
     },
     {
       "id": "4921307b2bcd",
@@ -43,14 +49,18 @@
       "source": "arXiv cs.AI",
       "category": "论文研究",
       "tags": [
-        "Agent",
-        "自进化"
+        "LLM智能体",
+        "自进化",
+        "工作流"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "FlowEvo：工作流与可执行技能协同进化的自进化智能体",
-      "summary_zh": "让 LLM 智能体的工作流与技能库共同进化，持续提升任务表现。",
+      "title_zh": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "summary_zh": "提出FlowEvo，让LLM智能体的工作流与可执行技能库共同进化，持续提升任务表现。",
       "why_it_matters": "自进化是 Agent 研究的下一个前沿，可免去人工编排工作流的成本。",
-      "summarized": true
+      "summarized": true,
+      "learn": "工作流与技能协同进化是提升智能体自主性的有效路径。",
+      "impact": "推动智能体从静态提示走向自我改进，降低人工调优成本。",
+      "advice": "关注自进化智能体方向，读原文了解共进化机制。"
     },
     {
       "id": "b5f3b0935bd3",
@@ -59,14 +69,18 @@
       "source": "arXiv cs.AI",
       "category": "论文研究",
       "tags": [
-        "AI 安全",
-        "评估"
+        "风险评估",
+        "野火",
+        "决策系统"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "野火风险信号评估的单调性框架",
-      "summary_zh": "提出不追求\"风险最小化\"、而是单调一致的野火作业风险评估方法。",
+      "title_zh": "Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals",
+      "summary_zh": "提出不追求风险最小化、而是保证单调一致性的野火作业风险信号评估方法。",
       "why_it_matters": "面向公共安全高风险场景的 AI 评估方法论：可靠性优于分数。",
-      "summarized": true
+      "summarized": true,
+      "learn": "高风险场景中，评估指标的一致性比绝对最小化更可靠。",
+      "impact": "为应急决策AI提供更可信的评估范式，减少误判。",
+      "advice": "做安全关键系统时参考单调性评估的设计思路。"
     },
     {
       "id": "4ec98d0fe54e",
@@ -76,13 +90,17 @@
       "category": "论文研究",
       "tags": [
         "多模态",
-        "AI 安全"
+        "AI安全",
+        "对抗攻击"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "通过内部信息分解保护多模态 AI",
-      "summary_zh": "分解模型内部信息流，防御针对多模态大模型的攻击。",
+      "title_zh": "Securing Multimodal AI through Internal Information Decomposition",
+      "summary_zh": "通过分解多模态大模型的内部信息流，识别并阻断针对模型的对抗攻击。",
       "why_it_matters": "多模态模型攻击面更大，基于内部结构的防御是安全研究新思路。",
-      "summarized": true
+      "summarized": true,
+      "learn": "从模型内部表征入手是多模态安全防护的新思路。",
+      "impact": "提升多模态模型鲁棒性，护航其在敏感场景落地。",
+      "advice": "部署多模态应用时关注内部可解释性防御方法。"
     },
     {
       "id": "0dbbe509829c",
@@ -91,14 +109,18 @@
       "source": "arXiv cs.AI",
       "category": "论文研究",
       "tags": [
+        "手势识别",
         "人机交互",
-        "手势识别"
+        "失败分析"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "公共空间手势交互的运行时故障分析",
-      "summary_zh": "从帧级识别到事件级确认，系统分析公共手势交互的失败模式。",
+      "title_zh": "From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction",
+      "summary_zh": "从帧级识别升级到事件级确认，系统分析公共空间手势交互的运行时失败模式。",
       "why_it_matters": "可靠性是手势识别走出实验室、进入公共空间的关键瓶颈。",
-      "summarized": true
+      "summarized": true,
+      "learn": "事件级时序确认比单帧识别更能保障交互系统的可靠性。",
+      "impact": "改进公共交互设备的容错设计，提升用户体验。",
+      "advice": "做手势或交互识别时引入事件级确认机制。"
     },
     {
       "id": "63993fee1617",
@@ -108,13 +130,17 @@
       "category": "论文研究",
       "tags": [
         "边缘计算",
-        "推理优化"
+        "延迟预测",
+        "模型部署"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "异构边缘设备上可迁移的 LLM 时延预测",
-      "summary_zh": "快速预测大模型在不同边缘设备上的推理延迟，辅助低成本选型。",
+      "title_zh": "Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices",
+      "summary_zh": "提出可迁移的延迟预测方法，快速预估LLM在不同边缘设备上的推理耗时，辅助选型。",
       "why_it_matters": "端侧部署大模型需要这类工具，避免逐台设备实测。",
-      "summarized": true
+      "summarized": true,
+      "learn": "用延迟预测模型替代真机实测，可低成本完成端侧选型。",
+      "impact": "降低边缘AI部署门槛，加速端侧大模型落地。",
+      "advice": "做端侧部署前先用延迟预测工具筛选目标设备。"
     },
     {
       "id": "278b9257f4cf",
@@ -124,13 +150,17 @@
       "category": "论文研究",
       "tags": [
         "机器翻译",
-        "公平性"
+        "性别偏见",
+        "可解释性"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "GAND：性别歧义自然数据与对比归因资源",
-      "summary_zh": "用于解释机器翻译系统性别偏见的对比归因数据集。",
+      "title_zh": "Explaining GAND: A Resource on Gender-Ambiguous Natural Data & Contrastive Attribution",
+      "summary_zh": "发布性别模糊自然数据集GAND，用对比归因方法解释机器翻译中的性别偏见来源。",
       "why_it_matters": "公平性研究正从\"发现偏见\"走向\"归因偏见\"。",
-      "summarized": true
+      "summarized": true,
+      "learn": "对比归因技术可定位模型偏见具体来自哪些输入特征。",
+      "impact": "为AI公平性研究提供工具，推动翻译系统去偏。",
+      "advice": "关注模型公平性的开发者可用该数据集做偏见分析。"
     },
     {
       "id": "7e533551b5c6",
@@ -139,14 +169,18 @@
       "source": "arXiv cs.CL",
       "category": "工具产品",
       "tags": [
+        "LLM",
         "形式化数学",
-        "LLM 工具"
+        "标注工具"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "MioFFAn：LLM 自动化的数学公式形式化标注工具",
-      "summary_zh": "借助 LLM 自动完成数学公式从自然语言到形式化语言的标注。",
+      "title_zh": "MioFFAn: an Annotation Software for Formula Formalization with LLM Automation Capabilities",
+      "summary_zh": "发布标注软件MioFFAn，借助LLM自动将自然语言数学公式转化为形式化语言。",
       "why_it_matters": "形式化数据稀缺，工具化标注能加速自动定理证明研究。",
-      "summarized": true
+      "summarized": true,
+      "learn": "LLM可大幅降低数学形式化标注的人力成本。",
+      "impact": "加速形式化数学数据集建设，助力自动定理证明研究。",
+      "advice": "做数学AI或定理证明可试用该工具构建数据集。"
     },
     {
       "id": "bbe6d4f934ae",
@@ -155,14 +189,18 @@
       "source": "arXiv cs.CL",
       "category": "论文研究",
       "tags": [
+        "LLM评审",
         "同行评审",
-        "LLM 评估"
+        "提示设计"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "评审指南设计对 LLM 自动同行评审的影响",
-      "summary_zh": "系统评估不同评审指南设计如何改变 LLM 自动审稿的质量。",
+      "title_zh": "Evaluating the Impact of Reviewer Guideline Design on LLM-Based Automated Peer Review",
+      "summary_zh": "系统评估不同评审指南设计对LLM自动同行评审质量的影响，揭示提示设计的杠杆作用。",
       "why_it_matters": "AI 审稿进入学术流程之前，先弄清提示设计的影响至关重要。",
-      "summarized": true
+      "summarized": true,
+      "learn": "评审指南的提示设计显著影响LLM审稿质量，需精心设计。",
+      "impact": "为学术审稿自动化提供设计依据，提升评审可靠性。",
+      "advice": "用LLM做评审或评分任务时，先优化评审准则设计。"
     },
     {
       "id": "65e579b130b1",
@@ -172,13 +210,17 @@
       "category": "论文研究",
       "tags": [
         "Text-to-SQL",
-        "推理优化"
+        "DPO",
+        "推理成本"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "用 SFT 和 DPO 让 Text-to-SQL 学会\"何时推理\"",
-      "summary_zh": "训练模型判断 SQL 生成是否需要显式推理，平衡效果与成本。",
+      "title_zh": "Text-to-SQL何时推理：SFT与DPO",
+      "summary_zh": "论文提出训练模型判断SQL生成是否需要显式推理：简单查询直接生成，复杂查询才启用推理链，在保持准确率的同时降低计算成本。",
       "why_it_matters": "\"按需推理\"正成为降低大模型推理成本的重要范式。",
-      "summarized": true
+      "summarized": true,
+      "learn": "学习用SFT+DPO让模型自适应选择推理深度，按需分配算力。",
+      "impact": "为推理模型的成本控制提供新思路，利于Text-to-SQL落地。",
+      "advice": "在做SQL生成类应用时，读原文参考其训练方法。"
     },
     {
       "id": "2139a1d46195",
@@ -188,30 +230,37 @@
       "category": "论文研究",
       "tags": [
         "机器遗忘",
-        "LLM 评估"
+        "LLM评估",
+        "LENS"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "LENS：评估叙事性遗忘在抑制与崩溃之间的平衡",
-      "summary_zh": "新基准衡量 LLM 遗忘特定内容时\"既不过度也不失效\"的能力。",
+      "title_zh": "LENS基准：评估LLM叙事遗忘",
+      "summary_zh": "新基准LENS用于衡量大模型\"遗忘\"特定内容的质量：既要把目标内容删干净，又不能过度抑制导致无关能力崩溃。",
       "why_it_matters": "机器遗忘是版权与隐私合规的关键技术，需要更精细的度量。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解机器遗忘的评估难点：遗忘度与能力保留需同时度量。",
+      "impact": "推动模型遗忘技术标准化，关系数据合规与隐私删除。",
+      "advice": "关注机器遗忘方向，做合规需求时可参考该基准。"
     },
     {
       "id": "199bd74cf2bb",
       "title": "豆包搜索，走出了豆包",
       "url": "https://www.qbitai.com/2026/07/461961.html",
       "source": "量子位",
-      "category": "行业动态",
+      "category": "工具产品",
       "tags": [
-        "字节跳动",
         "豆包",
-        "Agent"
+        "搜索API",
+        "智能体"
       ],
       "published_at": "2026-07-28T10:12:52.000Z",
-      "title_zh": "豆包搜索，走出了豆包",
-      "summary_zh": "字节把豆包的搜索能力从应用中拆出，开放给外部智能体调用。",
+      "title_zh": "豆包搜索独立开放给智能体",
+      "summary_zh": "字节跳动将豆包App内的搜索能力拆分出来，作为独立服务开放给外部AI智能体调用，从应用功能升级为基础设施。",
       "why_it_matters": "搜索正成为 Agent 的基础设施，大厂开始把它当独立产品运营。",
-      "summarized": true
+      "summarized": true,
+      "learn": "大厂正把搜索等能力API化，搜索成为智能体时代基础设施。",
+      "impact": "降低开发者构建联网智能体门槛，加剧搜索API竞争。",
+      "advice": "开发智能体时可试用豆包搜索API替代自建检索。"
     },
     {
       "id": "27ef879b235e",
@@ -220,15 +269,18 @@
       "source": "MIT Tech Review AI",
       "category": "芯片算力",
       "tags": [
+        "HBM",
         "三星",
-        "SK 海力士",
-        "HBM"
+        "SK海力士"
       ],
       "published_at": "2026-07-28T09:18:57.000Z",
-      "title_zh": "三星芯片工程师跳槽潮涌向 SK 海力士",
-      "summary_zh": "AI 存储红利之下，三星半导体人才正流向竞争对手 SK 海力士。",
+      "title_zh": "三星芯片人才流向SK海力士",
+      "summary_zh": "AI热潮推高HBM等存储芯片需求，SK海力士业绩大涨，三星半导体工程师正成批跳槽至竞争对手SK海力士。",
       "why_it_matters": "HBM 争夺战从产能打到人才，韩国存储双雄的地位正在易位。",
-      "summarized": true
+      "summarized": true,
+      "learn": "AI算力红利正重塑存储芯片格局，HBM成为行业竞争焦点。",
+      "impact": "韩国存储双雄实力此消彼长，影响全球AI芯片供应链。",
+      "advice": "关注HBM产业链，理解算力瓶颈不只在GPU。"
     },
     {
       "id": "1968889ac84c",
@@ -237,15 +289,18 @@
       "source": "量子位",
       "category": "模型发布",
       "tags": [
-        "Kimi",
+        "Kimi K3",
         "开源模型",
         "OCR"
       ],
       "published_at": "2026-07-28T08:17:05.000Z",
-      "title_zh": "Kimi K3、Unlimited OCR 包揽全球前二，中国开源模型持续刷屏海外",
-      "summary_zh": "中国开源模型在全球榜单持续霸榜，Kimi K3 与 Unlimited OCR 分列前二。",
+      "title_zh": "Kimi K3等中国模型霸榜海外",
+      "summary_zh": "中国开源模型持续刷屏全球榜单，Kimi K3与Unlimited OCR包揽前二，在多项国际评测中超越海外同类模型。",
       "why_it_matters": "全球开源模型竞争的重心正在向中国团队倾斜。",
-      "summarized": true
+      "summarized": true,
+      "learn": "中国开源模型在通用与OCR等垂直能力上已达世界前列。",
+      "impact": "开源格局东移，海外开发者采用中国模型的比例上升。",
+      "advice": "试试Kimi K3和开源OCR模型，替换部分闭源API。"
     },
     {
       "id": "faed39fb9a8e",
@@ -254,13 +309,18 @@
       "source": "量子位",
       "category": "行业动态",
       "tags": [
-        "教育 AI"
+        "教育AI",
+        "认知建模",
+        "个性化学习"
       ],
       "published_at": "2026-07-28T07:32:47.000Z",
-      "title_zh": "当 AI 学会\"仿真思维\"，教师才能回归育人本质",
-      "summary_zh": "教育 AI 正从\"工具效率\"走向\"认知理解\"，进入深水区。",
+      "title_zh": "教育AI进入\"仿真思维\"阶段",
+      "summary_zh": "教育AI正从批改、搜题等效率工具，升级为理解学生认知过程的\"仿真思维\"系统，让教师回归育人本质。",
       "why_it_matters": "AI 教育的下一阶段不是替代教师，而是重构教学分工。",
-      "summarized": true
+      "summarized": true,
+      "learn": "AI教育应用趋势：从流程自动化转向认知建模与个性化引导。",
+      "impact": "重塑教与学分工，教育AI产品竞争转向认知理解深度。",
+      "advice": "关注AI+教育的认知建模方向，评估相关产品落地。"
     },
     {
       "id": "705e913db700",
@@ -269,32 +329,38 @@
       "source": "量子位",
       "category": "行业动态",
       "tags": [
+        "SSI",
         "Ilya",
-        "英伟达",
-        "Scaling"
+        "英伟达"
       ],
       "published_at": "2026-07-28T05:46:59.000Z",
-      "title_zh": "Ilya 获黄仁勋 50 亿美元押注：\"是时候 Scaling 了\"",
-      "summary_zh": "英伟达被曝重金投资 Ilya Sutskever 的 SSI，押注 Scaling 路线。",
+      "title_zh": "英伟达50亿美元押注Ilya",
+      "summary_zh": "英伟达被曝向Ilya Sutskever创立的SSI投资高达50亿美元，Ilya公开表示\"是时候Scaling了\"，押注规模化路线仍能突破。",
       "why_it_matters": "顶级算力与顶级科学家的绑定，说明巨头仍然相信规模定律。",
-      "summarized": true
+      "summarized": true,
+      "learn": "顶级资本仍在豪赌Scaling路线，安全超级智能成新叙事。",
+      "impact": "SSI估值飙升，加剧前沿模型人才与资本争夺战。",
+      "advice": "关注SSI动向和Scaling是否见顶的持续争论。"
     },
     {
       "id": "c7bb1df1e5a8",
       "title": "世界模型有触觉了！50万小时视频，训出首个隐式触觉世界动作模型",
       "url": "https://www.qbitai.com/2026/07/461827.html",
       "source": "量子位",
-      "category": "模型发布",
+      "category": "具身智能",
       "tags": [
         "世界模型",
-        "具身智能",
-        "触觉"
+        "触觉",
+        "具身智能"
       ],
       "published_at": "2026-07-28T05:25:31.000Z",
-      "title_zh": "世界模型有触觉了：50 万小时视频训出首个隐式触觉世界动作模型",
-      "summary_zh": "用海量视频训练出具备隐式触觉表征的世界动作模型。",
+      "title_zh": "首个隐式触觉世界动作模型",
+      "summary_zh": "研究者用50万小时视频训练出具备隐式触觉表征的世界动作模型，让世界模型首次获得\"触觉\"，无需专用触觉传感器数据。",
       "why_it_matters": "触觉是机器人操作最难的模态之一，视频预训练提供了新路径。",
-      "summarized": true
+      "summarized": true,
+      "learn": "从视频可蒸馏出隐式触觉表征，多模态世界模型的新路径。",
+      "impact": "为机器人操作提供低成本触觉先验，加速具身智能训练。",
+      "advice": "做具身智能可跟踪该工作，复用视频预训练思路。"
     },
     {
       "id": "7541bd2eaebf",
@@ -303,31 +369,38 @@
       "source": "MIT Tech Review AI",
       "category": "行业动态",
       "tags": [
-        "AI 安全",
+        "供应链安全",
         "Hugging Face",
-        "供应链"
+        "开源生态"
       ],
       "published_at": "2026-07-27T18:00:00.000Z",
-      "title_zh": "OpenAI 称 Hugging Face 攻击\"史无前例\"，但我们其实经历过",
-      "summary_zh": "MIT 评论指出，供应链攻击在开源生态早有先例，并非首次。",
+      "title_zh": "Hugging Face攻击早有先例",
+      "summary_zh": "OpenAI称Hugging Face遭攻击\"史无前例\"，但MIT评论指出开源生态的供应链攻击早有先例，npm、PyPI均曾中招，行业应正视老问题。",
       "why_it_matters": "AI 模型供应链安全已是系统性风险，不只是单一平台的问题。",
-      "summarized": true
+      "summarized": true,
+      "learn": "AI模型供应链安全风险与传统软件同源，需同等重视。",
+      "impact": "促使AI社区加强模型托管平台安全审计与签名机制。",
+      "advice": "拉取开源模型时校验来源与哈希，警惕恶意权重。"
     },
     {
       "id": "939407be1840",
       "title": "The path to artificial superintelligence",
       "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
       "source": "MIT Tech Review AI",
-      "category": "行业动态",
+      "category": "论文研究",
       "tags": [
         "ASI",
-        "多智能体"
+        "多智能体",
+        "医疗AI"
       ],
       "published_at": "2026-07-27T12:00:00.000Z",
-      "title_zh": "通往人工超级智能的路径",
-      "summary_zh": "以多智能体医疗系统为例，畅想 ASI 渐进演化的路线图。",
+      "title_zh": "通往超级智能的路径",
+      "summary_zh": "文章以多智能体医疗系统为例，描绘ASI渐进演化路线图：从专用智能体协作起步，逐步涌现超越人类的通用能力。",
       "why_it_matters": "超级智能的讨论正从哲学思辨转向系统工程视角。",
-      "summarized": true
+      "summarized": true,
+      "learn": "理解ASI可能经多智能体协作渐进涌现，而非单点突破。",
+      "impact": "为多智能体研究提供长期叙事，影响AGI路线讨论。",
+      "advice": "读原文了解多智能体系统如何向通用能力演进。"
     },
     {
       "id": "b9a045488420",
@@ -336,14 +409,18 @@
       "source": "MIT Tech Review AI",
       "category": "行业动态",
       "tags": [
-        "AI 制药",
-        "数据闭环"
+        "AI制药",
+        "数据闭环",
+        "生物医药"
       ],
       "published_at": "2026-07-27T11:40:16.000Z",
-      "title_zh": "闭环数据：AI 驱动药物发现的下一步",
-      "summary_zh": "打通实验数据的回流闭环，成为 AI 药企提效的关键。",
+      "title_zh": "AI药物研发的数据闭环",
+      "summary_zh": "AI制药公司正将实验结果自动回流到模型训练中，形成数据闭环，从而加速药物筛选与验证、降低研发成本。",
       "why_it_matters": "数据闭环决定 AI 药物研发能否跨越从演示到管线的鸿沟。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解数据闭环如何提升AI在垂直行业的落地效率",
+      "impact": "缩短新药研发周期，推动AI制药商业化",
+      "advice": "关注AI+生物医药赛道，读原文了解闭环架构"
     },
     {
       "id": "b3145b81dd96",
@@ -352,14 +429,18 @@
       "source": "MIT Tech Review AI",
       "category": "行业动态",
       "tags": [
-        "Agent",
-        "企业 AI"
+        "AI Agent",
+        "企业软件",
+        "基础设施"
       ],
       "published_at": "2026-07-27T11:32:58.000Z",
-      "title_zh": "企业级智能体 AI 的环境该怎么建",
-      "summary_zh": "企业引入 Agent 的价值远超聊天机器人，但需要配套的运行环境。",
+      "title_zh": "为Agent构建企业运行环境",
+      "summary_zh": "文章指出企业部署AI Agent需要配套的权限、工具接入与监控环境，价值远超聊天机器人，但基础设施仍不成熟。",
       "why_it_matters": "智能体落地的主战场正从 C 端玩具转向 B 端基础设施。",
-      "summarized": true
+      "summarized": true,
+      "learn": "理解企业级Agent落地所需的环境与治理要求",
+      "impact": "推动企业软件向Agent原生架构演进",
+      "advice": "设计Agent应用时先考虑权限与可观测性"
     },
     {
       "id": "5fa8da85f3b0",
@@ -368,31 +449,38 @@
       "source": "TechCrunch AI",
       "category": "行业动态",
       "tags": [
-        "AI 安全",
-        "并购",
-        "Agent"
+        "Cyera",
+        "Agent安全",
+        "收购"
       ],
       "published_at": "2026-07-29T00:09:05.000Z",
-      "title_zh": "Cyera 十亿美元收购 Oasis Security，为 AI 智能体上保险",
-      "summary_zh": "数据安全公司 Cyera 年内第三笔收购，瞄准 AI Agent 的身份与权限安全。",
+      "title_zh": "Cyera十亿美元收购Oasis",
+      "summary_zh": "数据安全公司Cyera以约10亿美元收购Oasis Security，为其年内第三笔收购，目的是补上AI Agent身份与权限管理的安全短板。",
       "why_it_matters": "智能体安全正成为安全赛道最热的并购主题。",
-      "summarized": true
+      "summarized": true,
+      "learn": "认识Agent非人类身份带来的新型安全风险",
+      "impact": "Agent安全成为数据安全厂商必争之地",
+      "advice": "为自家Agent做好身份与最小权限管控"
     },
     {
       "id": "c889cb1c75bd",
       "title": "AI’s finally expensive enough to make Wall Street nervous",
       "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
       "source": "The Verge AI",
-      "category": "行业动态",
+      "category": "芯片算力",
       "tags": [
+        "AI基建",
         "谷歌",
-        "算力成本"
+        "资本开支"
       ],
       "published_at": "2026-07-28T23:37:03.000Z",
-      "title_zh": "AI 终于贵到让华尔街紧张了",
-      "summary_zh": "谷歌财报让投资者直面 AI 基建的惊人账单。",
+      "title_zh": "AI烧钱令华尔街不安",
+      "summary_zh": "谷歌最新财报披露巨额AI基建资本开支，投资者开始担忧投入能否带来匹配回报，市场情绪转趋谨慎。",
       "why_it_matters": "资本市场的耐心开始成为 AI 军备竞赛的约束条件。",
-      "summarized": true
+      "summarized": true,
+      "learn": "看清AI算力军备竞赛的成本与回报压力",
+      "impact": "或引发AI股估值回调与资本开支审视",
+      "advice": "关注大厂财报中AI投入产出比的变化"
     },
     {
       "id": "af8439b14cb1",
@@ -401,47 +489,58 @@
       "source": "The Verge AI",
       "category": "行业动态",
       "tags": [
-        "AI 监管",
-        "OpenAI",
-        "Anthropic"
+        "AI安全",
+        "监管",
+        "联署声明"
       ],
       "published_at": "2026-07-28T23:14:53.000Z",
-      "title_zh": "AI 领袖联名呼吁政府对自动化 AI 采取行动",
-      "summary_zh": "OpenAI、Anthropic、谷歌、Meta 等员工联署，要求政府介入自动化 AI 风险。",
+      "title_zh": "AI从业者联署吁政府监管",
+      "summary_zh": "来自OpenAI、Anthropic、谷歌、Meta等公司的员工联名签署声明，呼吁政府对自动化AI研发带来的风险采取行动。",
       "why_it_matters": "一线从业者联名罕见，行业诉求正从自律转向制度约束。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解自动化AI研发的潜在风险与治理讨论",
+      "impact": "或加速AI安全立法与行业自律进程",
+      "advice": "关注AI安全政策动向，阅读联署原文"
     },
     {
       "id": "50c1f0597bb0",
       "title": "Bot-detection startup Spur nabs $200M from Insight",
       "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
       "source": "TechCrunch AI",
-      "category": "行业动态",
+      "category": "工具产品",
       "tags": [
-        "融资",
-        "安全"
+        "反机器人",
+        "Spur",
+        "融资"
       ],
       "published_at": "2026-07-28T21:29:34.000Z",
-      "title_zh": "机器人检测初创 Spur 获 Insight 2 亿美元融资",
-      "summary_zh": "Spur 用 AI 识别机器人流量，拿下大额融资。",
+      "title_zh": "Spur获2亿美元融资",
+      "summary_zh": "机器人流量检测初创Spur获得Insight Partners两亿美元投资，其AI技术可识别自动化与恶意机器人访问。",
       "why_it_matters": "AI 流量爆炸让\"反机器人\"成为互联网基础设施级生意。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解AI流量识别与反机器人技术赛道",
+      "impact": "AI时代流量真实性验证需求激增",
+      "advice": "做爬虫或风控的读者可研究其检测思路"
     },
     {
       "id": "7edc25ec5879",
       "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
       "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
       "source": "TechCrunch AI",
-      "category": "行业动态",
+      "category": "工具产品",
       "tags": [
         "MCP",
-        "诉讼"
+        "Runlayer",
+        "Rippling"
       ],
       "published_at": "2026-07-28T20:45:12.000Z",
-      "title_zh": "MCP 初创 Runlayer 起诉 Rippling 窃取产品创意",
-      "summary_zh": "Runlayer 称 Rippling 在评估其 MCP 网关产品后抄袭。",
+      "title_zh": "Runlayer指控Rippling抄袭",
+      "summary_zh": "MCP初创Runlayer称Rippling在评估其MCP网关产品后推出雷同功能，指控对方窃取产品创意，引发争议。",
       "why_it_matters": "MCP 生态大热，围绕它的商业纠纷开始出现。",
-      "summarized": true
+      "summarized": true,
+      "learn": "认识MCP生态竞争与大厂抄袭创业公司的风险",
+      "impact": "折射MCP网关赛道升温与知识产权隐患",
+      "advice": "关注MCP网关产品，创业者注意保护创意"
     },
     {
       "id": "c7dd00fb22f1",
@@ -450,15 +549,18 @@
       "source": "TechCrunch AI",
       "category": "行业动态",
       "tags": [
-        "Sam Altman",
         "OpenAI",
-        "AI 安全"
+        "Sam Altman",
+        "AI安全"
       ],
       "published_at": "2026-07-28T20:17:08.000Z",
-      "title_zh": "Sam Altman 准备\"减速\"",
-      "summary_zh": "经历\"第一次让我真正不安的安全事件\"后，Altman 立场转向谨慎。",
+      "title_zh": "Altman态度转向谨慎",
+      "summary_zh": "Sam Altman表示经历了一次令他真正不安的安全事件后，愿意放慢模型发布节奏，立场从激进转向谨慎。",
       "why_it_matters": "最激进的加速派松口，可能影响全行业的发布节奏。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解前沿模型能力带来的真实安全顾虑",
+      "impact": "OpenAI或放缓发布，影响行业竞争节奏",
+      "advice": "关注模型能力评估与安全对齐的讨论"
     },
     {
       "id": "133363b7076f",
@@ -468,13 +570,17 @@
       "category": "芯片算力",
       "tags": [
         "数据中心",
-        "电力"
+        "电力",
+        "算力"
       ],
       "published_at": "2026-07-28T15:42:26.000Z",
-      "title_zh": "美国最大电网或要求数据中心临时断电以防崩溃",
-      "summary_zh": "数据中心建设狂奔，电网运营商考虑紧急限电措施。",
+      "title_zh": "数据中心或面临限电",
+      "summary_zh": "美国最大电网运营商警告，AI数据中心用电激增，极端情况下可能对其实施临时断电以避免全网崩溃。",
       "why_it_matters": "电力正取代芯片，成为 AI 扩张的第一硬约束。",
-      "summarized": true
+      "summarized": true,
+      "learn": "理解AI算力扩张对电网基础设施的压力",
+      "impact": "电力供给成AI算力扩张的硬约束",
+      "advice": "关注算力成本与绿色能源相关动向"
     },
     {
       "id": "37db1a04f0b2",
@@ -484,14 +590,17 @@
       "category": "工具产品",
       "tags": [
         "Perplexity",
-        "Agent",
+        "AI Agent",
         "Windows"
       ],
       "published_at": "2026-07-28T12:11:42.000Z",
-      "title_zh": "Perplexity 的 Personal Computer 把 Windows 变成 AI 智能体",
-      "summary_zh": "Perplexity 的智能体工具登陆 Windows，可直接操作本地电脑。",
+      "title_zh": "Perplexity智能体登陆Windows",
+      "summary_zh": "Perplexity推出Personal Computer功能，让Windows电脑变成本地AI Agent，可直接操作文件和应用完成任务。",
       "why_it_matters": "操作系统级 Agent 的竞争从苹果生态扩展到了 Windows。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解本地电脑智能体的产品形态与能力边界",
+      "impact": "AI助手从问答走向接管个人电脑操作",
+      "advice": "试用该工具，体验本地Agent的工作流"
     },
     {
       "id": "c595dcbb461b",
@@ -501,13 +610,17 @@
       "category": "论文研究",
       "tags": [
         "可解释性",
-        "扩散模型"
+        "扩散模型",
+        "反事实解释"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "用扩散模型做基于概念的视觉反事实解释",
-      "summary_zh": "生成\"如果……会怎样\"的反事实图像，解释分类模型的决策依据。",
+      "title_zh": "扩散模型生成概念级反事实解释",
+      "summary_zh": "提出用扩散模型生成反事实图像，通过修改特定视觉概念来直观展示分类模型做出判断的依据，提升可解释性。",
       "why_it_matters": "可解释性正从热力图走向生成式反事实解释。",
-      "summarized": true
+      "summarized": true,
+      "learn": "反事实解释方法，扩散模型在模型可解释性中的应用思路。",
+      "impact": "让黑盒分类模型的决策可视化，推动AI可解释性研究。",
+      "advice": "做模型解释方向的开发者可读原文了解概念级解释思路。"
     },
     {
       "id": "2d7715849bd1",
@@ -517,13 +630,17 @@
       "category": "论文研究",
       "tags": [
         "时序模型",
-        "超算"
+        "HPC",
+        "遥测数据"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "SeT-Diff：面向超算遥测的语义时序基础模型",
-      "summary_zh": "用语义化时序基础模型分析 HPC 数据中心的遥测数据。",
+      "title_zh": "面向HPC遥测的语义时序基础模型",
+      "summary_zh": "提出SeT-Diff，将语义信息融入时序基础模型，用于分析高性能计算数据中心的遥测数据，提升监控与异常检测能力。",
       "why_it_matters": "大模型范式开始渗透超算运维这类专业时序场景。",
-      "summarized": true
+      "summarized": true,
+      "learn": "时序基础模型在运维遥测场景的建模方法。",
+      "impact": "有望改善数据中心智能运维与故障预测水平。",
+      "advice": "做AIOps或时序分析可关注语义化时序建模这一方向。"
     },
     {
       "id": "00e423a4c972",
@@ -533,14 +650,17 @@
       "category": "论文研究",
       "tags": [
         "量子计算",
-        "蛋白质",
-        "Agent"
+        "多智能体",
+        "蛋白质结构预测"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "QFoldAgent：量子优化多智能体系统预测蛋白质结构",
-      "summary_zh": "量子-经典混合的多智能体系统用于蛋白质结构预测。",
+      "title_zh": "量子多智能体系统预测蛋白质结构",
+      "summary_zh": "提出QFoldAgent，一个量子-经典混合的多智能体系统，自主协调量子优化流程来解决蛋白质结构预测问题。",
       "why_it_matters": "量子计算与 Agent 编排结合，探索超越经典的新范式。",
-      "summarized": true
+      "summarized": true,
+      "learn": "多智能体系统编排量子计算任务的新范式。",
+      "impact": "探索量子计算在生物医药领域的落地路径。",
+      "advice": "关注量子计算与Agent结合的趋势，可浏览原文了解架构。"
     },
     {
       "id": "5db88e2c2b3d",
@@ -549,14 +669,18 @@
       "source": "arXiv cs.AI",
       "category": "论文研究",
       "tags": [
-        "LLM 评估",
-        "可靠性"
+        "LLM评测",
+        "可靠性",
+        "输出一致性"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "同一问题，不同答案：超越准确率的 LLM 可靠性评估",
-      "summary_zh": "评估大模型输出一致性的新框架，不只看得分。",
+      "title_zh": "超越准确率：评估LLM可靠性",
+      "summary_zh": "指出同一问题多次提问会得到不同答案，提出新评估框架衡量大模型输出的一致性，弥补仅看准确率的评测盲区。",
       "why_it_matters": "企业级应用更需要\"稳定\"而非\"偶尔惊艳\"的模型。",
-      "summarized": true
+      "summarized": true,
+      "learn": "LLM评测需关注输出一致性与稳定性，不止准确率。",
+      "impact": "推动更严谨的大模型评测标准，影响模型选型依据。",
+      "advice": "做模型评测或选型时加入重复采样一致性测试。"
     },
     {
       "id": "b762070b6742",
@@ -565,15 +689,18 @@
       "source": "arXiv cs.AI",
       "category": "论文研究",
       "tags": [
-        "医疗 AI",
-        "Agent",
+        "Agent工作流",
+        "医疗AI",
         "小模型"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "DeepLens：小推理模型靠智能体工作流叫板前沿大模型",
-      "summary_zh": "医疗诊断多阶段工作流，让小模型达到前沿模型的诊断水平。",
+      "title_zh": "Agent工作流让小模型媲美前沿模型",
+      "summary_zh": "提出DeepLens诊断Agent，通过精心设计的多阶段Agent工作流，让小参数推理模型在医疗诊断任务上达到前沿大模型水平。",
       "why_it_matters": "好的工作流设计，可能比换更大的模型更划算。",
-      "summarized": true
+      "summarized": true,
+      "learn": "工作流设计可弥补模型能力差距，小模型加好编排性价比高。",
+      "impact": "降低高质量AI应用对昂贵大模型的依赖。",
+      "advice": "尝试用多阶段Agent工作流替代单一调用大模型的方案。"
     },
     {
       "id": "017463b03429",
@@ -582,14 +709,18 @@
       "source": "arXiv cs.CL",
       "category": "论文研究",
       "tags": [
-        "数据集",
-        "数学推理"
+        "低资源语言",
+        "数学推理",
+        "数据集"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "PatiGonit22K：孟加拉语复杂数学应用题数据集",
-      "summary_zh": "面向低资源语言的数学推理评测数据集。",
+      "title_zh": "孟加拉语数学应用题数据集发布",
+      "summary_zh": "发布PatiGonit22K数据集，包含2.2万条孟加拉语复杂数学应用题，用于评测和提升低资源语言的数学推理能力。",
       "why_it_matters": "多语言推理能力是模型公平性测评的短板。",
-      "summarized": true
+      "summarized": true,
+      "learn": "低资源语言数学推理评测数据集的构建方法。",
+      "impact": "填补低资源语言数学推理评测空白，促进多语言公平性。",
+      "advice": "做多语言模型可用该数据集测试孟加拉语推理能力。"
     },
     {
       "id": "9e06b741739b",
@@ -598,14 +729,18 @@
       "source": "arXiv cs.CL",
       "category": "论文研究",
       "tags": [
-        "NLP",
-        "低资源语言"
+        "作者归属",
+        "低资源语言",
+        "轻量方法"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "CHiPS：轻量级罗马尼亚语文本作者归属方法",
-      "summary_zh": "用字符直方图加位置信号，在低资源语言上做作者识别。",
+      "title_zh": "轻量特征实现罗马尼亚语作者识别",
+      "summary_zh": "提出CHiPS方法，结合字符直方图与位置信号等轻量特征，在罗马尼亚语文本上实现低成本的作者归属识别。",
       "why_it_matters": "轻量方法在低资源语种上依然很能打。",
-      "summarized": true
+      "summarized": true,
+      "learn": "简单统计特征在特定NLP任务上仍可胜过重型模型。",
+      "impact": "为低资源语言提供低算力的文本分析方案。",
+      "advice": "做文本分类别急着上大模型，先试传统统计特征基线。"
     },
     {
       "id": "65699f5161d3",
@@ -615,13 +750,17 @@
       "category": "论文研究",
       "tags": [
         "说话人验证",
-        "语音"
+        "跨语言",
+        "语音处理"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "简单语言归一化赢得跨语种说话人验证挑战",
-      "summary_zh": "TidyVoice 2026 挑战赛中，简单方法战胜复杂方案。",
+      "title_zh": "简单语言归一化赢下声纹挑战赛",
+      "summary_zh": "在TidyVoice 2026跨语言说话人验证挑战赛中，简单的语言归一化方法战胜了复杂的先进方案，验证了简洁方法的有效性。",
       "why_it_matters": "工程上\"简单的对的方法\"再次胜过堆复杂度。",
-      "summarized": true
+      "summarized": true,
+      "learn": "跨语言说话人验证中数据归一化比模型复杂度更关键。",
+      "impact": "提醒业界在语音任务中重视数据预处理而非堆模型。",
+      "advice": "做语音任务先优化数据归一化流程，再考虑换模型。"
     },
     {
       "id": "a3363c483cfb",
@@ -631,13 +770,17 @@
       "category": "论文研究",
       "tags": [
         "AI for Science",
-        "深度学习"
+        "基因关联",
+        "植物表型"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "叶脉结构全网络基因-环境关联的深度学习框架",
-      "summary_zh": "深度学习与统计联合建模，解析叶脉形态与基因环境的关系。",
+      "title_zh": "深度学习解析叶脉与基因环境关联",
+      "summary_zh": "提出深度学习与统计建模结合的框架，在全网络尺度分析植物叶脉形态与基因、环境之间的关联关系。",
       "why_it_matters": "AI for Science 在植物表型组学的新应用。",
-      "summarized": true
+      "summarized": true,
+      "learn": "深度学习与传统统计联合建模用于生物特征关联分析。",
+      "impact": "助力作物育种与植物表型研究，AI赋能农业科学。",
+      "advice": "做AI for Science可关注深度学习结合统计的混合建模范式。"
     },
     {
       "id": "7a26d8c16117",
@@ -646,14 +789,18 @@
       "source": "arXiv cs.LG",
       "category": "论文研究",
       "tags": [
-        "医疗 AI",
-        "诊断"
+        "医疗AI",
+        "痴呆诊断",
+        "知识增强"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "元知识协同增强的痴呆病因诊断",
-      "summary_zh": "用协同元知识提升 AI 对痴呆病因的分型诊断能力。",
+      "title_zh": "协同元知识提升痴呆病因诊断",
+      "summary_zh": "提出协同元知识增强方法，融合多源医学先验知识，提升AI对痴呆不同病因的分型诊断准确率。",
       "why_it_matters": "疑难分型是医疗 AI 最有价值的方向之一。",
-      "summarized": true
+      "summarized": true,
+      "learn": "元知识与领域先验融合可显著提升医疗诊断模型表现。",
+      "impact": "辅助医生更精准分型痴呆病因，改善诊疗效率。",
+      "advice": "做医疗AI可研究知识增强方法与临床数据的结合。"
     },
     {
       "id": "41249341d7dc",
@@ -662,14 +809,18 @@
       "source": "arXiv cs.LG",
       "category": "论文研究",
       "tags": [
-        "强化学习",
-        "优化"
+        "最优停止",
+        "摊销推理",
+        "强化学习"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "CC-AOS：成本与时域条件化的摊销反向归纳",
-      "summary_zh": "有限时域最优停止问题的高效摊销求解方法。",
+      "title_zh": "CC-AOS：有限时域最优停止的高效求解",
+      "summary_zh": "提出成本与时域条件化的摊销逆向归纳方法，用神经网络一次性学习有限时域最优停止问题的求解策略，避免逐例重复计算。",
       "why_it_matters": "最优停止是决策与资源调度的基础问题。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解摊销推理与逆向归纳结合的思路，以及最优停止问题在金融、调度中的应用。",
+      "impact": "降低序贯决策类问题的求解成本，利好量化与运营优化场景。",
+      "advice": "做决策优化方向的读者可读原文，关注摊销求解范式。"
     },
     {
       "id": "d4e62c194d3c",
@@ -678,14 +829,18 @@
       "source": "arXiv cs.LG",
       "category": "论文研究",
       "tags": [
-        "医疗 AI",
-        "EEG"
+        "脑电信号",
+        "CNN",
+        "医疗AI"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "用 EEG 与 CNN 预测 rTMS 抑郁症治疗效果",
-      "summary_zh": "用脑电信号预测经颅磁刺激治疗抑郁的疗效。",
+      "title_zh": "用脑电+CNN预测抑郁磁刺激疗效",
+      "summary_zh": "研究者用 CNN 分析患者脑电信号，在治疗前预测 rTMS 经颅磁刺激对抑郁症的疗效，辅助个性化治疗方案选择。",
       "why_it_matters": "精神类治疗的个体化预测是临床刚需。",
-      "summarized": true
+      "summarized": true,
+      "learn": "学习 EEG 信号分类的工程流程，以及医疗 AI 中疗效预测的研究范式。",
+      "impact": "有望减少无效治疗，推动精神医疗精准化。",
+      "advice": "关注医疗 AI 的读者可了解脑电数据预处理与 CNN 建模细节。"
     },
     {
       "id": "951771763fc9",
@@ -694,14 +849,18 @@
       "source": "arXiv cs.LG",
       "category": "论文研究",
       "tags": [
-        "云计算",
-        "碳排放"
+        "Serverless",
+        "碳感知",
+        "云调度"
       ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "满足 SLA 的跨地域无服务器云碳感知路由",
-      "summary_zh": "在分布式云调度中同时优化服务时延与碳排放。",
+      "title_zh": "兼顾时延与碳排放的云调度路由",
+      "summary_zh": "面向地理分布式 Serverless 云，提出在满足 SLA 时延约束下感知碳排放的请求路由方法，实现性能与减碳双优化。",
       "why_it_matters": "算力绿色化正成为云厂商的新考题。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解碳感知调度的建模方法，及 SLA 约束与多目标优化的平衡技巧。",
+      "impact": "为绿色云计算提供落地方案，降低数据中心碳足迹。",
+      "advice": "做云原生的读者可关注碳感知调度这一新兴方向。"
     },
     {
       "id": "658e3af9131f",
@@ -710,15 +869,18 @@
       "source": "Hugging Face Daily Papers",
       "category": "具身智能",
       "tags": [
-        "机器人",
-        "操作",
-        "UMI"
+        "UMI",
+        "操作策略",
+        "机器人数据"
       ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "HiFi-UMI：从高保真 UMI 数据学习可部署的机器人操作策略",
-      "summary_zh": "用高保真手持采集数据训练操作策略，缓解机器人数据稀缺。",
+      "title_zh": "HiFi-UMI：手持数据训练机器人操作",
+      "summary_zh": "仅使用高保真 UMI 手持采集数据训练可部署的机器人操作策略，无需机器人本体示教，显著缓解具身数据采集难题。",
       "why_it_matters": "数据瓶颈是具身智能最大的卡点之一。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解 UMI 数据采集范式及如何从人类手持演示直接学习操作策略。",
+      "impact": "大幅降低机器人数据成本，加速具身智能规模化训练。",
+      "advice": "做具身方向的读者建议读原文，尝试 UMI 式数据采集。"
     },
     {
       "id": "b04a13e58a43",
@@ -728,13 +890,17 @@
       "category": "论文研究",
       "tags": [
         "视频生成",
-        "提示工程"
+        "视觉提示",
+        "可控生成"
       ],
       "published_at": "2026-07-28T00:00:00.000Z",
       "title_zh": "视频模型的视觉提示工程",
-      "summary_zh": "用视觉提示替代文本提示来引导视频生成模型。",
+      "summary_zh": "研究用图像、轨迹等视觉提示替代文本提示引导视频生成模型，让生成控制更直观、表达力更强。",
       "why_it_matters": "视频生成可控性的新交互范式。",
-      "summarized": true
+      "summarized": true,
+      "learn": "学习视觉提示这一新交互范式，理解视频模型可控生成的思路。",
+      "impact": "拓展视频生成的控制方式，利好内容创作工具演进。",
+      "advice": "做视频生成的读者可关注视觉提示，尝试替代纯文本工作流。"
     },
     {
       "id": "be4195b53c8c",
@@ -743,14 +909,18 @@
       "source": "Hugging Face Daily Papers",
       "category": "论文研究",
       "tags": [
-        "多模态",
+        "token压缩",
+        "全模态",
         "推理优化"
       ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "OmniDelta：全模态大模型的技能驱动 Token 压缩预算分配",
-      "summary_zh": "按技能需求动态分配压缩预算，降低全模态模型推理成本。",
+      "title_zh": "OmniDelta：全模态模型动态压缩",
+      "summary_zh": "OmniDelta 按不同技能任务的需求动态分配 token 压缩预算，在保持全模态大模型能力的同时降低推理开销。",
       "why_it_matters": "全模态落地的核心障碍就是推理成本。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解 token 压缩与预算分配策略，掌握多模态推理降本的新思路。",
+      "impact": "降低全模态模型部署成本，推动端侧与高并发应用。",
+      "advice": "关注推理优化的读者可读原文，借鉴技能驱动的压缩思路。"
     },
     {
       "id": "5e11d44bb6c1",
@@ -760,13 +930,17 @@
       "category": "模型发布",
       "tags": [
         "世界模型",
-        "视频生成"
+        "视频生成",
+        "实时交互"
       ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "Wonder：做得更好的视频世界模型",
-      "summary_zh": "通用视频世界模型，支持实时相机控制生成。",
+      "title_zh": "Wonder：更强的视频世界模型",
+      "summary_zh": "Wonder 是通用视频世界模型，支持实时相机控制的场景生成，在生成质量与交互性上优于此前方法。",
       "why_it_matters": "世界模型是通向具身智能与游戏生成的关键路线。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解世界模型的最新进展，及实时相机控制对仿真与交互生成的意义。",
+      "impact": "推动世界模型走向可用，利好游戏、仿真与具身训练。",
+      "advice": "关注世界模型方向，有 Demo 可试玩体验相机控制生成。"
     },
     {
       "id": "1251aae4cb0c",
@@ -775,14 +949,18 @@
       "source": "Hugging Face Daily Papers",
       "category": "模型发布",
       "tags": [
-        "AI 安全",
-        "多模态"
+        "内容安全",
+        "多模态",
+        "分类器"
       ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "Shieldstral：3B 参数的策略自适应多模态安全分类器",
-      "summary_zh": "小参数安全分类器可按策略自适应检测多模态有害内容。",
+      "title_zh": "Shieldstral：小参数多模态安全分类器",
+      "summary_zh": "Shieldstral 是小参数规模的安全分类器，可按自定义策略自适应检测多模态有害内容，兼顾效果与部署成本。",
       "why_it_matters": "安全护栏轻量化，才能跟上模型的端侧部署。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解安全分类器的策略自适应设计，及小模型做内容审核的可行性。",
+      "impact": "降低多模态内容安全审核门槛，利好模型合规落地。",
+      "advice": "需要做内容安全的团队可试用该模型做审核基线。"
     },
     {
       "id": "02510969a1ac",
@@ -792,31 +970,414 @@
       "category": "工具产品",
       "tags": [
         "360",
-        "Agent",
-        "企业办公"
+        "智能体",
+        "企业平台"
       ],
       "published_at": "2026-07-29T01:53:15.000Z",
-      "title_zh": "周鸿祎发布纳米 Work：新一代企业智能体工作平台",
-      "summary_zh": "360 推出面向企业的智能体协作平台。",
+      "title_zh": "周鸿祎发布纳米Work企业智能体平台",
+      "summary_zh": "360 推出纳米Work，定位新一代企业智能体工作平台，支持多智能体协作完成办公与业务流程，面向企业级场景。",
       "why_it_matters": "国内大厂把 Agent 竞争烧向企业办公场景。",
-      "summarized": true
+      "summarized": true,
+      "learn": "观察国内大厂企业级 Agent 平台的产品形态与落地打法。",
+      "impact": "加剧企业智能体平台竞争，推动 Agent 进入办公场景。",
+      "advice": "关注企业 Agent 的读者可注册体验，对比同类产品能力。"
     },
     {
       "id": "c57c419013a8",
       "title": "九章云极Alaya Token完成Kimi K3适配 全球首个开源3T级模型入驻Token工厂",
       "url": "https://www.qbitai.com/2026/07/462058.html",
       "source": "量子位",
-      "category": "模型发布",
+      "category": "行业动态",
       "tags": [
-        "Kimi",
-        "开源模型",
-        "推理服务"
+        "Kimi K3",
+        "推理服务",
+        "开源模型"
       ],
       "published_at": "2026-07-29T01:45:36.000Z",
-      "title_zh": "九章云极 Alaya Token 完成 Kimi K3 适配，全球首个开源 3T 级模型入驻",
-      "summary_zh": "Kimi K3 接入 Token 工厂，开源超大模型进入推理服务市场。",
+      "title_zh": "Kimi K3接入九章云极Token工厂",
+      "summary_zh": "九章云极 Alaya Token 工厂完成对 Kimi K3 的适配，全球首个开源 3T 级参数模型进入其推理服务平台。",
       "why_it_matters": "3T 级开源模型的推理产业化才刚刚开始。",
-      "summarized": true
+      "summarized": true,
+      "learn": "了解超大开源模型的推理服务化模式，及 Token 工厂的算力运营思路。",
+      "impact": "开源超大模型推理门槛降低，推理服务市场竞争加剧。",
+      "advice": "有大模型推理需求的开发者可关注其 API 价格与性能。"
+    },
+    {
+      "id": "5f8449b50a00",
+      "title": "Do Models Fake Alignment Without Clear Consequences?",
+      "url": "https://arxiv.org/abs/2607.24758",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI安全",
+        "对齐",
+        "LLM"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "大模型会伪装对齐吗?",
+      "summary_zh": "研究探讨大语言模型在缺乏明确后果约束时,是否会表现出表面顺从、实则偏离的对齐伪装行为,分析其触发条件与检测方法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解对齐伪装概念及评估方法,认识仅靠RLHF难以根除模型策略性顺从。",
+      "impact": "推动对齐安全评估标准升级,影响高风险场景模型部署门槛。",
+      "advice": "关注对齐伪装研究,读原文了解评估框架。"
+    },
+    {
+      "id": "3a089eb3b0fb",
+      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.24759",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "多智能体",
+        "Agent",
+        "知识管理"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "超越记忆:多智能体协作知识工作框架",
+      "summary_zh": "提出一种模板化底层架构,支持多个LLM智能体在科研、教育等异构协作知识工作场景中共享与组织知识,突破单一记忆机制局限。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习多智能体协作中知识组织的新范式:模板化基座优于单纯记忆扩展。",
+      "impact": "为复杂协作型Agent系统设计提供新参考架构。",
+      "advice": "做多智能体系统可借鉴其模板化知识层设计。"
+    },
+    {
+      "id": "f914ce76f855",
+      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+      "url": "https://arxiv.org/abs/2607.24762",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "CUDA",
+        "Agent",
+        "性能优化"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "Kernel Forge:LLM自动优化CUDA内核",
+      "summary_zh": "提出Kernel Forge智能体框架,利用LLM自动生成并迭代优化CUDA内核,应对机器学习模型对高性能算子日益增长的需求。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM+智能体循环在低层GPU算子生成与调优中的应用方法。",
+      "impact": "降低CUDA内核开发门槛,加速模型推理训练优化。",
+      "advice": "关注LLM自动写算子方向,可尝试类似工具。"
+    },
+    {
+      "id": "6bb448c977c3",
+      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2607.24763",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "扩散模型",
+        "语言模型",
+        "评测"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "CaRE:掩码扩散语言模型评测协议",
+      "summary_zh": "针对掩码扩散语言模型提出CaRE评测协议,以计算感知方式评估重掩码策略,解决不同解码计算量下模型性能难以公平比较的问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识扩散语言模型这一新路线及其特有的评估维度(计算量-质量权衡)。",
+      "impact": "统一扩散语言模型评测标准,推动该方向公平对比。",
+      "advice": "关注扩散语言模型进展,评估时留意计算开销指标。"
+    },
+    {
+      "id": "efd658ea5172",
+      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.24764",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "推荐系统",
+        "电商",
+        "LLM应用"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "GrocLM:大模型助力电商生鲜推荐",
+      "summary_zh": "针对线上生鲜购物快速增长,提出GrocLM,将大语言模型应用于电商杂货品类推荐,改善商品分类与推荐效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM在垂直电商推荐场景的落地方式与领域适配思路。",
+      "impact": "展示LLM在细分零售场景的商用潜力。",
+      "advice": "做推荐系统可参考LLM语义建模品类的方法。"
+    },
+    {
+      "id": "c2caba4ea955",
+      "title": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking",
+      "url": "https://arxiv.org/abs/2607.24750",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "幻觉",
+        "数字人文",
+        "LLM"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "TimeCapsule:把幻觉用作历史研究法",
+      "summary_zh": "提出TimeCapsule方法,反其道而行利用LLM的生成式幻觉辅助历史意义建构,将虚构输出作为理解历史情境的探索工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "换个视角看幻觉:在人文研究中可控幻觉可作创造性探索工具。",
+      "impact": "拓展LLM在数字人文领域的非常规应用思路。",
+      "advice": "读原文了解幻觉的建设性用法与边界。"
+    },
+    {
+      "id": "f5b7c9a8e5c8",
+      "title": "Neuromorphic Diffusion Language Models: Addressing Compute and Memory Bottlenecks via Sparsity and Block Denoising",
+      "url": "https://arxiv.org/abs/2607.24841",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "神经形态计算",
+        "扩散模型",
+        "稀疏化"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "类脑扩散语言模型降算力开销",
+      "summary_zh": "提出神经形态扩散语言模型,通过稀疏化与分块去噪缓解自回归大模型的计算与显存瓶颈,探索更高效的生成架构。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解稀疏计算+扩散去噪结合类脑思路降低LLM推理成本的新架构。",
+      "impact": "为突破自回归模型算力瓶颈提供替代架构方向。",
+      "advice": "关注非自回归架构,适合研究高效推理方向。"
+    },
+    {
+      "id": "4a0d0b9744f6",
+      "title": "Research Report on Noise-Shaped One-Bit Coefficients in Discrete Polynomial Fourier Extension",
+      "url": "https://arxiv.org/abs/2607.24868",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "量化",
+        "信号处理",
+        "傅里叶"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "噪声整形一比特系数研究报告",
+      "summary_zh": "研究离散多项式傅里叶扩展中的噪声整形一比特系数,探讨极低比特量化下信号表示的精度保持方法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解一比特量化与噪声整形技术在信号处理中的理论基础。",
+      "impact": "为超低比特模型量化提供可参考的数学工具。",
+      "advice": "做模型量化的可读原文了解噪声整形思路。"
+    },
+    {
+      "id": "9d4b8df523c6",
+      "title": "Deep Label-Wise Attentive Temporal Convolutional Networks Improve Medical Coding",
+      "url": "https://arxiv.org/abs/2607.25129",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "文本分类",
+        "注意力机制"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "标签注意力时序网络改进医疗编码",
+      "summary_zh": "提出深度标签级注意力时序卷积网络,自动为病历分配诊断与操作编码,提升医疗编码这一耗时人工任务的准确率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习标签级注意力机制在多标签文本分类(医疗编码)中的应用。",
+      "impact": "提升医疗编码自动化水平,减轻医院行政负担。",
+      "advice": "做多标签分类可借鉴标签注意力设计。"
+    },
+    {
+      "id": "8e41175abda1",
+      "title": "A scaling law of contextual persistence in human language",
+      "url": "https://arxiv.org/abs/2607.25184",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "标度律",
+        "语言学",
+        "长上下文"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "人类语言上下文持续性的标度律",
+      "summary_zh": "研究发现人类语言中上下文信息持续性遵循幂律标度规律,揭示自然语言长程依赖的统计结构,对理解语言及建模有启示意义。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解语言长程依赖的标度律,为上下文窗口与记忆设计提供理论参照。",
+      "impact": "为长上下文建模与语言理解研究提供理论基础。",
+      "advice": "关注语言标度律研究,思考对长上下文设计的启示。"
+    },
+    {
+      "id": "b963d8d8ce26",
+      "title": "FinAbstain: Uncertainty-Calibrated Multimodal RAG for Selective Financial Forecasting",
+      "url": "https://arxiv.org/abs/2607.24875",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "RAG",
+        "不确定度校准",
+        "金融AI"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "FinAbstain：不确定度校准的金融预测RAG",
+      "summary_zh": "提出多模态RAG金融预测框架FinAbstain，通过不确定度校准让模型在把握不足时选择弃答，避免高风险预测。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "选择性预测与不确定度校准可降低RAG在金融场景的幻觉风险",
+      "impact": "提升AI金融分析的可靠性，减少错误预测损失",
+      "advice": "做金融RAG时引入弃答机制，读原文了解校准方法"
+    },
+    {
+      "id": "54f873c9938b",
+      "title": "Behavior-Driven Explainability",
+      "url": "https://arxiv.org/abs/2607.24881",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "可解释性",
+        "AI安全"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "行为驱动的AI可解释性方法",
+      "summary_zh": "针对日益复杂的AI系统，论文提出从系统行为出发构建可解释性的新思路，而非仅剖析内部结构。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "行为驱动解释是理解复杂黑箱系统的新视角",
+      "impact": "推动可解释AI方法从结构分析转向行为分析",
+      "advice": "关注可解释性研究，读原文理解行为驱动范式"
+    },
+    {
+      "id": "ab47d0f04416",
+      "title": "Inverse RL Helps Align AI by Imitating Humans",
+      "url": "https://arxiv.org/abs/2607.24900",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "逆强化学习",
+        "对齐"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "逆强化学习助力AI对齐",
+      "summary_zh": "论文探索用逆强化学习让语言模型通过模仿人类行为实现对齐，为对齐问题提供新路径。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "逆RL可从人类行为反推偏好，替代人工标注奖励",
+      "impact": "可能降低对齐训练对人工反馈标注的依赖",
+      "advice": "做对齐研究可关注IRL与RLHF的结合方向"
+    },
+    {
+      "id": "ee464f8a93ff",
+      "title": "Conformal Cascade: Distribution-Free Accuracy Guarantees for Multi-Tier LLM Inference",
+      "url": "https://arxiv.org/abs/2607.25018",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "共形预测",
+        "模型级联",
+        "推理优化"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "Conformal Cascade：多级LLM推理精度保证",
+      "summary_zh": "针对多级LLM级联推理，提出基于共形预测的无分布假设精度保证方法，兼顾成本与准确率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "共形预测可为LLM级联系统提供统计学精度保证",
+      "impact": "让大小模型混合部署更可控，降本更放心",
+      "advice": "做模型级联路由时可参考共形预测方法"
+    },
+    {
+      "id": "dd9b73cf0fe4",
+      "title": "Score-Based Stabilization for Time-Dependent Problems",
+      "url": "https://arxiv.org/abs/2607.25119",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "科学计算",
+        "分数匹配"
+      ],
+      "published_at": "2026-07-29T04:00:00.000Z",
+      "title_zh": "基于分数的时间依赖问题稳定化",
+      "summary_zh": "论文提出基于分数的稳定化方法，用于求解时间依赖的科学计算问题，提升数值稳定性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "扩散模型的分数匹配思想可用于稳定数值求解",
+      "impact": "拓展生成模型技术在科学计算中的应用",
+      "advice": "做AI for Science可关注分数方法与PDE结合"
+    },
+    {
+      "id": "f265e06f905c",
+      "title": "diegosouzapw/OmniRoute/stargazers: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [
+        "AI网关",
+        "开源",
+        "多模型"
+      ],
+      "published_at": "2026-07-29T04:31:47.081Z",
+      "title_zh": "OmniRoute：290+厂商免费AI网关",
+      "summary_zh": "MIT开源AI网关OmniRoute，单端点接入290+厂商500+模型，含配额感知自动降级和token压缩，适配Claude Code等工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "统一AI网关可聚合多模型并实现自动降级与压缩",
+      "impact": "降低开发者接入多模型的成本和复杂度",
+      "advice": "可试用OmniRoute统一管理各家模型API"
+    },
+    {
+      "id": "9f2d03dad9d7",
+      "title": "pascalorg/editor/stargazers: Create and share 3D architectural projects.",
+      "url": "https://github.com/pascalorg/editor/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "3D",
+        "开源",
+        "建筑设计"
+      ],
+      "published_at": "2026-07-29T04:31:46.759Z",
+      "title_zh": "Pascal：开源3D建筑项目编辑器",
+      "summary_zh": "开源3D建筑项目创建与分享工具，TypeScript开发，登上GitHub日榜，日增341星。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "Web端3D建筑编辑可用TypeScript技术栈实现",
+      "impact": "为建筑协作领域提供开源3D编辑方案",
+      "advice": "对Web3D感兴趣可读源码学习其架构"
+    },
+    {
+      "id": "dee51d834dbf",
+      "title": "koala73/worldmonitor/stargazers: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "url": "https://github.com/koala73/worldmonitor/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "开源",
+        "情报看板",
+        "AI聚合"
+      ],
+      "published_at": "2026-07-29T04:31:36.492Z",
+      "title_zh": "WorldMonitor：全球实时情报看板",
+      "summary_zh": "开源全球实时情报仪表盘，AI驱动新闻聚合、地缘监测与基础设施追踪，提供统一态势感知界面。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI新闻聚合加可视化可构建实时态势感知系统",
+      "impact": "让个人也能搭建企业级全球情报监测看板",
+      "advice": "可部署自用，学习其AI聚合与看板架构"
+    },
+    {
+      "id": "784e31a8b096",
+      "title": "首个鸿蒙PC开源AI统一工作台JiuwenSwarm，办公编程一站式搞定",
+      "url": "https://www.qbitai.com/2026/07/462065.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "鸿蒙",
+        "多智能体",
+        "开源"
+      ],
+      "published_at": "2026-07-29T03:29:59.000Z",
+      "title_zh": "鸿蒙PC首个开源AI工作台JiuwenSwarm",
+      "summary_zh": "首个面向鸿蒙PC的开源AI统一工作台JiuwenSwarm，支持多智能体协作，办公与编程一站式完成。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "多智能体工作台是AI桌面应用的新形态",
+      "impact": "推动鸿蒙PC生态的AI原生应用落地",
+      "advice": "鸿蒙开发者可试用该开源项目并参与共建"
     }
   ]
 }

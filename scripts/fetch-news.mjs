@@ -14,10 +14,14 @@
  */
 
 import { extract } from "@extractus/feed-extractor";
+import { execFile } from "node:child_process";
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
+
+const execFileP = promisify(execFile);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -119,6 +123,27 @@ const SOURCES = [
     type: "hf",
     weight: 9,
     category: "论文研究",
+  },
+  {
+    name: "GitHub Trending 日榜",
+    url: "https://github.com/trending?since=daily",
+    type: "trending",
+    weight: 9,
+    category: "工具产品",
+  },
+  {
+    name: "GitHub Trending 周榜",
+    url: "https://github.com/trending?since=weekly",
+    type: "trending",
+    weight: 9,
+    category: "工具产品",
+  },
+  {
+    name: "GitHub Trending 月榜",
+    url: "https://github.com/trending?since=monthly",
+    type: "trending",
+    weight: 9,
+    category: "工具产品",
   },
 ];
 
@@ -254,13 +279,80 @@ async function fetchHfSource(source, since) {
   return items;
 }
 
+/* ------------------------- GitHub Trending ------------------------- */
+
+/** github.com 网页在部分网络环境需走代理；优先直连，失败后回退 curl + 代理 */
+async function fetchHtml(url) {
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": "Mozilla/5.0" },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.text();
+  } catch (directErr) {
+    const proxy = process.env.AI_NEWS_PROXY ?? "http://127.0.0.1:7897";
+    const { stdout } = await execFileP(
+      "curl",
+      ["-s", "--max-time", String(FETCH_TIMEOUT_MS / 1000), "-x", proxy, "-A", "Mozilla/5.0", url],
+      { maxBuffer: 16 * 1024 * 1024 },
+    );
+    if (!stdout || stdout.length < 10000) {
+      throw new Error(`直连失败(${(directErr.message || "").slice(0, 80)})且代理抓取内容异常`);
+    }
+    return stdout;
+  }
+}
+
+/** 解析 Trending 页面第 1 名仓库 */
+async function fetchTrendingSource(source) {
+  const html = await withTimeout(fetchHtml(source.url), FETCH_TIMEOUT_MS + 5000, source.name);
+  const m = html.match(/<article class="Box-row">[\s\S]*?<\/article>/);
+  if (!m) throw new Error("未解析到 Trending 条目（页面结构可能已变更）");
+  const art = m[0];
+
+  const repoMatch = art.match(/<h2[^>]*>[\s\S]*?<a href="(\/[^"]+)"/);
+  if (!repoMatch) throw new Error("未解析到仓库链接");
+  const repoPath = repoMatch[1].trim(); // /owner/repo
+  const repoName = repoPath.slice(1);
+
+  const descMatch = art.match(/<p class="col-9[^"]*">([\s\S]*?)<\/p>/);
+  const desc = descMatch ? stripHtml(descMatch[1]) : "";
+
+  const langMatch = art.match(/itemprop="programmingLanguage">([^<]+)</);
+  const lang = langMatch ? langMatch[1].trim() : "";
+
+  const starsMatch = art.match(/([\d,]+)\s*stars\s*(today|this week|this month)/);
+  const stars = starsMatch ? `${starsMatch[1]} stars ${starsMatch[2]}` : "";
+
+  const url = `https://github.com${repoPath}`;
+  return [
+    {
+      id: hashId(normalizeUrl(url) + source.name),
+      title: `${repoName}: ${desc || "GitHub Trending #1"}`,
+      url,
+      source: source.name,
+      category: source.category,
+      tags: [],
+      published_at: new Date().toISOString(),
+      _weight: source.weight,
+      _description: [desc, lang && `语言: ${lang}`, stars && `热度: ${stars}`]
+        .filter(Boolean)
+        .join(" | ")
+        .slice(0, 500),
+    },
+  ];
+}
+
 async function fetchAllSources(since) {
   const results = await Promise.allSettled(
     SOURCES.map(async (source) => {
       const items =
         source.type === "hf"
           ? await fetchHfSource(source, since)
-          : await fetchRssSource(source, since);
+          : source.type === "trending"
+            ? await fetchTrendingSource(source)
+            : await fetchRssSource(source, since);
       console.log(`[ok] ${source.name}: ${items.length} 条`);
       return items;
     }),
@@ -321,11 +413,13 @@ async function summarizeBatch(apiKey, batch) {
     description: it._description,
   }));
   const prompt = [
-    "你是一名资深 AI 行业编辑。下面是若干条 AI 相关新闻/论文的标题与简介（JSON 数组）。",
+    "你是一名资深 AI 行业编辑，读者是一位想持续学习 AI 的开发者。下面是若干条 AI 相关新闻/论文/开源项目的标题与简介（JSON 数组）。",
     "请为每一条生成以下字段，并以 JSON object 返回，形如 {\"items\": [{\"idx\": 0, ...}]}：",
     '- "title_zh": 简洁准确的中文标题（不超过 30 字）',
-    '- "summary_zh": 一句话中文摘要（不超过 60 字）',
-    '- "why_it_matters": 这条新闻为什么重要（1-2 句中文，面向行业读者）',
+    '- "summary_zh": 对原文内容的总结（不超过 80 字，说清发生了什么，不要只复述标题）',
+    '- "learn": 读者可以从中学到什么（不超过 50 字，知识点/方法/趋势）',
+    '- "impact": 这件事的影响（不超过 40 字，对行业/技术/用户）',
+    '- "advice": 给读者的行动建议（不超过 40 字，具体可执行）',
     `- "category": 从以下分类中任选一个：${CATEGORIES.join("、")}`,
     '- "tags": 2-4 个标签（公司/模型/技术名词，尽量用原文专有名词）',
     "只返回 JSON，不要输出其他内容。",
@@ -388,7 +482,9 @@ async function summarizeAll(items) {
           ...it,
           title_zh: String(r.title_zh ?? ""),
           summary_zh: String(r.summary_zh ?? ""),
-          why_it_matters: String(r.why_it_matters ?? ""),
+          learn: String(r.learn ?? ""),
+          impact: String(r.impact ?? ""),
+          advice: String(r.advice ?? ""),
           category: CATEGORIES.includes(r.category) ? r.category : it.category,
           tags: Array.isArray(r.tags) ? r.tags.map(String).slice(0, 5) : [],
           summarized: true,

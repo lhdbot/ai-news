@@ -19,6 +19,9 @@ export const NewsItemSchema = z.object({
   title_zh: z.string().default(""),
   summary_zh: z.string().default(""),
   why_it_matters: z.string().default(""),
+  learn: z.string().default(""),      // 你可以从中学到什么
+  impact: z.string().default(""),     // 影响
+  advice: z.string().default(""),     // 对你的建议
   url: z.string(),
   source: z.string(),
   category: z.enum(CATEGORIES),

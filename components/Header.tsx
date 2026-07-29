@@ -16,6 +16,9 @@ export default function Header() {
           <Link href="/archive" className="transition-colors hover:text-accent">
             归档
           </Link>
+          <Link href="/forecast" className="transition-colors hover:text-accent">
+            预测
+          </Link>
           <a
             href="/feed.xml"
             className="transition-colors hover:text-accent"
