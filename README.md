@@ -18,6 +18,38 @@ Windows 计划任务 ai-news-daily（每天 07:10）
 
 云端模式（GitHub Actions cron + Vercel + DeepSeek key）已停用，仅保留 `.github/workflows/daily-update.yml` 手动触发作为备用。
 
+## 内容来源（14 个）
+
+**论文 / 研究**
+| 来源 | 地址 | 说明 |
+|---|---|---|
+| arXiv cs.AI | https://rss.arxiv.org/rss/cs.AI | 人工智能论文，工作日每日更新 |
+| arXiv cs.CL | https://rss.arxiv.org/rss/cs.CL | 计算与语言（NLP）论文 |
+| arXiv cs.LG | https://rss.arxiv.org/rss/cs.LG | 机器学习论文 |
+| Microsoft Research | https://www.microsoft.com/en-us/research/feed/ | 微软研究院博客 |
+| Hugging Face Daily Papers | https://huggingface.co/papers | 每日热榜论文（JSON API） |
+
+**大厂官方**
+| 来源 | 地址 | 说明 |
+|---|---|---|
+| OpenAI Blog | https://openai.com/news/rss.xml | OpenAI 官方动态 |
+| Google DeepMind | https://deepmind.google/blog/rss.xml | DeepMind 官方博客 |
+
+**开源热榜**
+| 来源 | 地址 | 说明 |
+|---|---|---|
+| GitHub Trending 日榜 | https://github.com/trending?since=daily | 当日第一名仓库 |
+| GitHub Trending 周榜 | https://github.com/trending?since=weekly | 当周第一名仓库 |
+| GitHub Trending 月榜 | https://github.com/trending?since=monthly | 当月第一名仓库 |
+
+**媒体**
+| 来源 | 地址 | 说明 |
+|---|---|---|
+| 量子位 | https://www.qbitai.com/feed | 中文 AI 媒体，每日多篇 |
+| TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/feed/ | 英文科技媒体 AI 频道 |
+| The Verge AI | https://www.theverge.com/rss/ai-artificial-intelligence/index.xml | 英文科技媒体 AI 频道（Atom） |
+| MIT Technology Review AI | https://www.technologyreview.com/topic/artificial-intelligence/feed/ | MIT 科技评论 AI 频道 |
+
 ## 本地开发
 
 ```bash
