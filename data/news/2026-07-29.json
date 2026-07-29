@@ -1,32 +1,40 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T03:04:15.960Z",
+  "generated_at": "2026-07-29T03:14:54.834Z",
   "items": [
     {
       "id": "df22037e3e0f",
       "title": "Scientific computing in the age of agentic AI",
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
       "source": "OpenAI",
-      "category": "模型发布",
-      "tags": [],
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI for Science",
+        "Agent"
+      ],
       "published_at": "2026-07-28T17:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "A new field report shows how scientists use AI coding agents to modernize scient",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "智能体时代的科学计算",
+      "summary_zh": "OpenAI 实地报告显示，科学家正用 AI 编码智能体改造科学计算工作流。",
+      "why_it_matters": "科研软件现代化是 AI 落地的深水区之一，这份报告给出了真实使用图景。",
+      "summarized": true
     },
     {
       "id": "f143efbfe201",
       "title": "How AI is expanding what people do at work",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
       "source": "OpenAI",
-      "category": "模型发布",
-      "tags": [],
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "就业",
+        "ChatGPT"
+      ],
       "published_at": "2026-07-27T03:30:00.000Z",
-      "title_zh": "",
-      "summary_zh": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT user",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "OpenAI 研究：AI 如何拓展人们的工作边界",
+      "summary_zh": "ChatGPT 用户数据显示，AI 更多是在扩展而非替代员工的能力。",
+      "why_it_matters": "为\"AI 抢饭碗\"之争提供了来自最大用户群的一手数据。",
+      "summarized": true
     },
     {
       "id": "4921307b2bcd",
@@ -34,12 +42,15 @@
       "url": "https://arxiv.org/abs/2607.21596",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "Agent",
+        "自进化"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.21596v1 Announce Type: new Abstract: Large language model agents incr",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "FlowEvo：工作流与可执行技能协同进化的自进化智能体",
+      "summary_zh": "让 LLM 智能体的工作流与技能库共同进化，持续提升任务表现。",
+      "why_it_matters": "自进化是 Agent 研究的下一个前沿，可免去人工编排工作流的成本。",
+      "summarized": true
     },
     {
       "id": "b5f3b0935bd3",
@@ -47,12 +58,15 @@
       "url": "https://arxiv.org/abs/2607.21597",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "AI 安全",
+        "评估"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.21597v1 Announce Type: new Abstract: Evaluating wildfire risk systems",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "野火风险信号评估的单调性框架",
+      "summary_zh": "提出不追求\"风险最小化\"、而是单调一致的野火作业风险评估方法。",
+      "why_it_matters": "面向公共安全高风险场景的 AI 评估方法论：可靠性优于分数。",
+      "summarized": true
     },
     {
       "id": "4ec98d0fe54e",
@@ -60,12 +74,15 @@
       "url": "https://arxiv.org/abs/2607.21600",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "多模态",
+        "AI 安全"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.21600v1 Announce Type: new Abstract: Multimodal large language models",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "通过内部信息分解保护多模态 AI",
+      "summary_zh": "分解模型内部信息流，防御针对多模态大模型的攻击。",
+      "why_it_matters": "多模态模型攻击面更大，基于内部结构的防御是安全研究新思路。",
+      "summarized": true
     },
     {
       "id": "0dbbe509829c",
@@ -73,12 +90,15 @@
       "url": "https://arxiv.org/abs/2607.21601",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "人机交互",
+        "手势识别"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.21601v1 Announce Type: new Abstract: Public-space gesture interaction",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "公共空间手势交互的运行时故障分析",
+      "summary_zh": "从帧级识别到事件级确认，系统分析公共手势交互的失败模式。",
+      "why_it_matters": "可靠性是手势识别走出实验室、进入公共空间的关键瓶颈。",
+      "summarized": true
     },
     {
       "id": "63993fee1617",
@@ -86,12 +106,15 @@
       "url": "https://arxiv.org/abs/2607.21602",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "边缘计算",
+        "推理优化"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.21602v1 Announce Type: new Abstract: Accurate latency prediction is c",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "异构边缘设备上可迁移的 LLM 时延预测",
+      "summary_zh": "快速预测大模型在不同边缘设备上的推理延迟，辅助低成本选型。",
+      "why_it_matters": "端侧部署大模型需要这类工具，避免逐台设备实测。",
+      "summarized": true
     },
     {
       "id": "278b9257f4cf",
@@ -99,25 +122,31 @@
       "url": "https://arxiv.org/abs/2607.22546",
       "source": "arXiv cs.CL",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "机器翻译",
+        "公平性"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22546v1 Announce Type: new Abstract: Machine translation (MT) systems",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "GAND：性别歧义自然数据与对比归因资源",
+      "summary_zh": "用于解释机器翻译系统性别偏见的对比归因数据集。",
+      "why_it_matters": "公平性研究正从\"发现偏见\"走向\"归因偏见\"。",
+      "summarized": true
     },
     {
       "id": "7e533551b5c6",
       "title": "MioFFAn: an Annotation Software for Formula Formalization with LLM Automation Capabilities",
       "url": "https://arxiv.org/abs/2607.22552",
       "source": "arXiv cs.CL",
-      "category": "论文研究",
-      "tags": [],
+      "category": "工具产品",
+      "tags": [
+        "形式化数学",
+        "LLM 工具"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22552v1 Announce Type: new Abstract: The automatic translation of mat",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "MioFFAn：LLM 自动化的数学公式形式化标注工具",
+      "summary_zh": "借助 LLM 自动完成数学公式从自然语言到形式化语言的标注。",
+      "why_it_matters": "形式化数据稀缺，工具化标注能加速自动定理证明研究。",
+      "summarized": true
     },
     {
       "id": "bbe6d4f934ae",
@@ -125,12 +154,15 @@
       "url": "https://arxiv.org/abs/2607.22553",
       "source": "arXiv cs.CL",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "同行评审",
+        "LLM 评估"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22553v1 Announce Type: new Abstract: Peer review is an essential proc",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "评审指南设计对 LLM 自动同行评审的影响",
+      "summary_zh": "系统评估不同评审指南设计如何改变 LLM 自动审稿的质量。",
+      "why_it_matters": "AI 审稿进入学术流程之前，先弄清提示设计的影响至关重要。",
+      "summarized": true
     },
     {
       "id": "65e579b130b1",
@@ -138,12 +170,15 @@
       "url": "https://arxiv.org/abs/2607.22622",
       "source": "arXiv cs.CL",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "Text-to-SQL",
+        "推理优化"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22622v1 Announce Type: new Abstract: Recent Text-to-SQL methods rely ",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "用 SFT 和 DPO 让 Text-to-SQL 学会\"何时推理\"",
+      "summary_zh": "训练模型判断 SQL 生成是否需要显式推理，平衡效果与成本。",
+      "why_it_matters": "\"按需推理\"正成为降低大模型推理成本的重要范式。",
+      "summarized": true
     },
     {
       "id": "2139a1d46195",
@@ -151,12 +186,15 @@
       "url": "https://arxiv.org/abs/2607.22657",
       "source": "arXiv cs.CL",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "机器遗忘",
+        "LLM 评估"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22657v1 Announce Type: new Abstract: Large language models (LLMs) can",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "LENS：评估叙事性遗忘在抑制与崩溃之间的平衡",
+      "summary_zh": "新基准衡量 LLM 遗忘特定内容时\"既不过度也不失效\"的能力。",
+      "why_it_matters": "机器遗忘是版权与隐私合规的关键技术，需要更精细的度量。",
+      "summarized": true
     },
     {
       "id": "199bd74cf2bb",
@@ -164,38 +202,50 @@
       "url": "https://www.qbitai.com/2026/07/461961.html",
       "source": "量子位",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "字节跳动",
+        "豆包",
+        "Agent"
+      ],
       "published_at": "2026-07-28T10:12:52.000Z",
-      "title_zh": "",
-      "summary_zh": "把搜索能力开放给Agent了",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "豆包搜索，走出了豆包",
+      "summary_zh": "字节把豆包的搜索能力从应用中拆出，开放给外部智能体调用。",
+      "why_it_matters": "搜索正成为 Agent 的基础设施，大厂开始把它当独立产品运营。",
+      "summarized": true
     },
     {
       "id": "27ef879b235e",
       "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
       "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
       "source": "MIT Tech Review AI",
-      "category": "行业动态",
-      "tags": [],
+      "category": "芯片算力",
+      "tags": [
+        "三星",
+        "SK 海力士",
+        "HBM"
+      ],
       "published_at": "2026-07-28T09:18:57.000Z",
-      "title_zh": "",
-      "summary_zh": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "三星芯片工程师跳槽潮涌向 SK 海力士",
+      "summary_zh": "AI 存储红利之下，三星半导体人才正流向竞争对手 SK 海力士。",
+      "why_it_matters": "HBM 争夺战从产能打到人才，韩国存储双雄的地位正在易位。",
+      "summarized": true
     },
     {
       "id": "1968889ac84c",
       "title": "Kimi K3、Unlimited OCR包揽全球前二，中国开源模型持续刷屏海外",
       "url": "https://www.qbitai.com/2026/07/461949.html",
       "source": "量子位",
-      "category": "行业动态",
-      "tags": [],
+      "category": "模型发布",
+      "tags": [
+        "Kimi",
+        "开源模型",
+        "OCR"
+      ],
       "published_at": "2026-07-28T08:17:05.000Z",
-      "title_zh": "",
-      "summary_zh": "",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "Kimi K3、Unlimited OCR 包揽全球前二，中国开源模型持续刷屏海外",
+      "summary_zh": "中国开源模型在全球榜单持续霸榜，Kimi K3 与 Unlimited OCR 分列前二。",
+      "why_it_matters": "全球开源模型竞争的重心正在向中国团队倾斜。",
+      "summarized": true
     },
     {
       "id": "faed39fb9a8e",
@@ -203,12 +253,14 @@
       "url": "https://www.qbitai.com/2026/07/461939.html",
       "source": "量子位",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "教育 AI"
+      ],
       "published_at": "2026-07-28T07:32:47.000Z",
-      "title_zh": "",
-      "summary_zh": "从“工具效率”到“认知理解”，教育AI进入深水区",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "当 AI 学会\"仿真思维\"，教师才能回归育人本质",
+      "summary_zh": "教育 AI 正从\"工具效率\"走向\"认知理解\"，进入深水区。",
+      "why_it_matters": "AI 教育的下一阶段不是替代教师，而是重构教学分工。",
+      "summarized": true
     },
     {
       "id": "705e913db700",
@@ -216,25 +268,33 @@
       "url": "https://www.qbitai.com/2026/07/461911.html",
       "source": "量子位",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "Ilya",
+        "英伟达",
+        "Scaling"
+      ],
       "published_at": "2026-07-28T05:46:59.000Z",
-      "title_zh": "",
-      "summary_zh": "迷人的Scaling曲线",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "Ilya 获黄仁勋 50 亿美元押注：\"是时候 Scaling 了\"",
+      "summary_zh": "英伟达被曝重金投资 Ilya Sutskever 的 SSI，押注 Scaling 路线。",
+      "why_it_matters": "顶级算力与顶级科学家的绑定，说明巨头仍然相信规模定律。",
+      "summarized": true
     },
     {
       "id": "c7bb1df1e5a8",
       "title": "世界模型有触觉了！50万小时视频，训出首个隐式触觉世界动作模型",
       "url": "https://www.qbitai.com/2026/07/461827.html",
       "source": "量子位",
-      "category": "行业动态",
-      "tags": [],
+      "category": "模型发布",
+      "tags": [
+        "世界模型",
+        "具身智能",
+        "触觉"
+      ],
       "published_at": "2026-07-28T05:25:31.000Z",
-      "title_zh": "",
-      "summary_zh": "",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "世界模型有触觉了：50 万小时视频训出首个隐式触觉世界动作模型",
+      "summary_zh": "用海量视频训练出具备隐式触觉表征的世界动作模型。",
+      "why_it_matters": "触觉是机器人操作最难的模态之一，视频预训练提供了新路径。",
+      "summarized": true
     },
     {
       "id": "7541bd2eaebf",
@@ -242,12 +302,16 @@
       "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
       "source": "MIT Tech Review AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "AI 安全",
+        "Hugging Face",
+        "供应链"
+      ],
       "published_at": "2026-07-27T18:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "OpenAI 称 Hugging Face 攻击\"史无前例\"，但我们其实经历过",
+      "summary_zh": "MIT 评论指出，供应链攻击在开源生态早有先例，并非首次。",
+      "why_it_matters": "AI 模型供应链安全已是系统性风险，不只是单一平台的问题。",
+      "summarized": true
     },
     {
       "id": "939407be1840",
@@ -255,12 +319,15 @@
       "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
       "source": "MIT Tech Review AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "ASI",
+        "多智能体"
+      ],
       "published_at": "2026-07-27T12:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "Imagine a healthcare system made up of multiple AI agents: one that manages symp",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "通往人工超级智能的路径",
+      "summary_zh": "以多智能体医疗系统为例，畅想 ASI 渐进演化的路线图。",
+      "why_it_matters": "超级智能的讨论正从哲学思辨转向系统工程视角。",
+      "summarized": true
     },
     {
       "id": "b9a045488420",
@@ -268,12 +335,15 @@
       "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
       "source": "MIT Tech Review AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "AI 制药",
+        "数据闭环"
+      ],
       "published_at": "2026-07-27T11:40:16.000Z",
-      "title_zh": "",
-      "summary_zh": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "闭环数据：AI 驱动药物发现的下一步",
+      "summary_zh": "打通实验数据的回流闭环，成为 AI 药企提效的关键。",
+      "why_it_matters": "数据闭环决定 AI 药物研发能否跨越从演示到管线的鸿沟。",
+      "summarized": true
     },
     {
       "id": "b3145b81dd96",
@@ -281,12 +351,15 @@
       "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
       "source": "MIT Tech Review AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "Agent",
+        "企业 AI"
+      ],
       "published_at": "2026-07-27T11:32:58.000Z",
-      "title_zh": "",
-      "summary_zh": "For the enterprise, the promise of agentic AI is much more than just a better ch",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "企业级智能体 AI 的环境该怎么建",
+      "summary_zh": "企业引入 Agent 的价值远超聊天机器人，但需要配套的运行环境。",
+      "why_it_matters": "智能体落地的主战场正从 C 端玩具转向 B 端基础设施。",
+      "summarized": true
     },
     {
       "id": "5fa8da85f3b0",
@@ -294,12 +367,16 @@
       "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
       "source": "TechCrunch AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "AI 安全",
+        "并购",
+        "Agent"
+      ],
       "published_at": "2026-07-29T00:09:05.000Z",
-      "title_zh": "",
-      "summary_zh": "The deal is Cyera's third acquisition this year.",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "Cyera 十亿美元收购 Oasis Security，为 AI 智能体上保险",
+      "summary_zh": "数据安全公司 Cyera 年内第三笔收购，瞄准 AI Agent 的身份与权限安全。",
+      "why_it_matters": "智能体安全正成为安全赛道最热的并购主题。",
+      "summarized": true
     },
     {
       "id": "c889cb1c75bd",
@@ -307,12 +384,15 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
       "source": "The Verge AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "谷歌",
+        "算力成本"
+      ],
       "published_at": "2026-07-28T23:37:03.000Z",
-      "title_zh": "",
-      "summary_zh": "It's earnings season, and investors got an unpleasant surprise from Google: an i",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "AI 终于贵到让华尔街紧张了",
+      "summary_zh": "谷歌财报让投资者直面 AI 基建的惊人账单。",
+      "why_it_matters": "资本市场的耐心开始成为 AI 军备竞赛的约束条件。",
+      "summarized": true
     },
     {
       "id": "af8439b14cb1",
@@ -320,12 +400,16 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
       "source": "The Verge AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "AI 监管",
+        "OpenAI",
+        "Anthropic"
+      ],
       "published_at": "2026-07-28T23:14:53.000Z",
-      "title_zh": "",
-      "summary_zh": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, M",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "AI 领袖联名呼吁政府对自动化 AI 采取行动",
+      "summary_zh": "OpenAI、Anthropic、谷歌、Meta 等员工联署，要求政府介入自动化 AI 风险。",
+      "why_it_matters": "一线从业者联名罕见，行业诉求正从自律转向制度约束。",
+      "summarized": true
     },
     {
       "id": "50c1f0597bb0",
@@ -333,12 +417,15 @@
       "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
       "source": "TechCrunch AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "融资",
+        "安全"
+      ],
       "published_at": "2026-07-28T21:29:34.000Z",
-      "title_zh": "",
-      "summary_zh": "Spur Intelligence has raised a $200 million round from Insight Partners for its ",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "机器人检测初创 Spur 获 Insight 2 亿美元融资",
+      "summary_zh": "Spur 用 AI 识别机器人流量，拿下大额融资。",
+      "why_it_matters": "AI 流量爆炸让\"反机器人\"成为互联网基础设施级生意。",
+      "summarized": true
     },
     {
       "id": "7edc25ec5879",
@@ -346,12 +433,15 @@
       "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
       "source": "TechCrunch AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "MCP",
+        "诉讼"
+      ],
       "published_at": "2026-07-28T20:45:12.000Z",
-      "title_zh": "",
-      "summary_zh": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP gateway pr",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "MCP 初创 Runlayer 起诉 Rippling 窃取产品创意",
+      "summary_zh": "Runlayer 称 Rippling 在评估其 MCP 网关产品后抄袭。",
+      "why_it_matters": "MCP 生态大热，围绕它的商业纠纷开始出现。",
+      "summarized": true
     },
     {
       "id": "c7dd00fb22f1",
@@ -359,38 +449,49 @@
       "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
       "source": "TechCrunch AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "Sam Altman",
+        "OpenAI",
+        "AI 安全"
+      ],
       "published_at": "2026-07-28T20:17:08.000Z",
-      "title_zh": "",
-      "summary_zh": "His change of position comes after \"the first security incident that I have felt",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "Sam Altman 准备\"减速\"",
+      "summary_zh": "经历\"第一次让我真正不安的安全事件\"后，Altman 立场转向谨慎。",
+      "why_it_matters": "最激进的加速派松口，可能影响全行业的发布节奏。",
+      "summarized": true
     },
     {
       "id": "133363b7076f",
       "title": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
       "url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
       "source": "TechCrunch AI",
-      "category": "行业动态",
-      "tags": [],
+      "category": "芯片算力",
+      "tags": [
+        "数据中心",
+        "电力"
+      ],
       "published_at": "2026-07-28T15:42:26.000Z",
-      "title_zh": "",
-      "summary_zh": "The decision arrives as the breakneck pace of data center construction has grid ",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "美国最大电网或要求数据中心临时断电以防崩溃",
+      "summary_zh": "数据中心建设狂奔，电网运营商考虑紧急限电措施。",
+      "why_it_matters": "电力正取代芯片，成为 AI 扩张的第一硬约束。",
+      "summarized": true
     },
     {
       "id": "37db1a04f0b2",
       "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
       "url": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
       "source": "The Verge AI",
-      "category": "行业动态",
-      "tags": [],
+      "category": "工具产品",
+      "tags": [
+        "Perplexity",
+        "Agent",
+        "Windows"
+      ],
       "published_at": "2026-07-28T12:11:42.000Z",
-      "title_zh": "",
-      "summary_zh": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing ",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "Perplexity 的 Personal Computer 把 Windows 变成 AI 智能体",
+      "summary_zh": "Perplexity 的智能体工具登陆 Windows，可直接操作本地电脑。",
+      "why_it_matters": "操作系统级 Agent 的竞争从苹果生态扩展到了 Windows。",
+      "summarized": true
     },
     {
       "id": "c595dcbb461b",
@@ -398,12 +499,15 @@
       "url": "https://arxiv.org/abs/2607.22544",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "可解释性",
+        "扩散模型"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22544v1 Announce Type: new Abstract: Visual counterfactual explanatio",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "用扩散模型做基于概念的视觉反事实解释",
+      "summary_zh": "生成\"如果……会怎样\"的反事实图像，解释分类模型的决策依据。",
+      "why_it_matters": "可解释性正从热力图走向生成式反事实解释。",
+      "summarized": true
     },
     {
       "id": "2d7715849bd1",
@@ -411,12 +515,15 @@
       "url": "https://arxiv.org/abs/2607.22548",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "时序模型",
+        "超算"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22548v1 Announce Type: new Abstract: Data centers and their compute n",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "SeT-Diff：面向超算遥测的语义时序基础模型",
+      "summary_zh": "用语义化时序基础模型分析 HPC 数据中心的遥测数据。",
+      "why_it_matters": "大模型范式开始渗透超算运维这类专业时序场景。",
+      "summarized": true
     },
     {
       "id": "00e423a4c972",
@@ -424,12 +531,16 @@
       "url": "https://arxiv.org/abs/2607.22549",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "量子计算",
+        "蛋白质",
+        "Agent"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22549v1 Announce Type: new Abstract: Hybrid quantum-classical protein",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "QFoldAgent：量子优化多智能体系统预测蛋白质结构",
+      "summary_zh": "量子-经典混合的多智能体系统用于蛋白质结构预测。",
+      "why_it_matters": "量子计算与 Agent 编排结合，探索超越经典的新范式。",
+      "summarized": true
     },
     {
       "id": "5db88e2c2b3d",
@@ -437,12 +548,15 @@
       "url": "https://arxiv.org/abs/2607.22554",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "LLM 评估",
+        "可靠性"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22554v1 Announce Type: new Abstract: Large language models (LLMs) oft",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "同一问题，不同答案：超越准确率的 LLM 可靠性评估",
+      "summary_zh": "评估大模型输出一致性的新框架，不只看得分。",
+      "why_it_matters": "企业级应用更需要\"稳定\"而非\"偶尔惊艳\"的模型。",
+      "summarized": true
     },
     {
       "id": "b762070b6742",
@@ -450,12 +564,16 @@
       "url": "https://arxiv.org/abs/2607.22555",
       "source": "arXiv cs.AI",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "医疗 AI",
+        "Agent",
+        "小模型"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22555v1 Announce Type: new Abstract: Medical diagnosis is a multi-sta",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "DeepLens：小推理模型靠智能体工作流叫板前沿大模型",
+      "summary_zh": "医疗诊断多阶段工作流，让小模型达到前沿模型的诊断水平。",
+      "why_it_matters": "好的工作流设计，可能比换更大的模型更划算。",
+      "summarized": true
     },
     {
       "id": "017463b03429",
@@ -463,12 +581,15 @@
       "url": "https://arxiv.org/abs/2607.22859",
       "source": "arXiv cs.CL",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "数据集",
+        "数学推理"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22859v1 Announce Type: new Abstract: Mathematical Word Problems (MWPs",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "PatiGonit22K：孟加拉语复杂数学应用题数据集",
+      "summary_zh": "面向低资源语言的数学推理评测数据集。",
+      "why_it_matters": "多语言推理能力是模型公平性测评的短板。",
+      "summarized": true
     },
     {
       "id": "9e06b741739b",
@@ -476,12 +597,15 @@
       "url": "https://arxiv.org/abs/2607.22884",
       "source": "arXiv cs.CL",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "NLP",
+        "低资源语言"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22884v1 Announce Type: new Abstract: We propose CHiPS, a lightweight ",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "CHiPS：轻量级罗马尼亚语文本作者归属方法",
+      "summary_zh": "用字符直方图加位置信号，在低资源语言上做作者识别。",
+      "why_it_matters": "轻量方法在低资源语种上依然很能打。",
+      "summarized": true
     },
     {
       "id": "65699f5161d3",
@@ -489,12 +613,15 @@
       "url": "https://arxiv.org/abs/2607.22923",
       "source": "arXiv cs.CL",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "说话人验证",
+        "语音"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22923v1 Announce Type: new Abstract: Cross-lingual mismatch remains a",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "简单语言归一化赢得跨语种说话人验证挑战",
+      "summary_zh": "TidyVoice 2026 挑战赛中，简单方法战胜复杂方案。",
+      "why_it_matters": "工程上\"简单的对的方法\"再次胜过堆复杂度。",
+      "summarized": true
     },
     {
       "id": "a3363c483cfb",
@@ -502,12 +629,15 @@
       "url": "https://arxiv.org/abs/2607.22763",
       "source": "arXiv cs.LG",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "AI for Science",
+        "深度学习"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22763v1 Announce Type: new Abstract: Leaf veins exhibit remarkable di",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "叶脉结构全网络基因-环境关联的深度学习框架",
+      "summary_zh": "深度学习与统计联合建模，解析叶脉形态与基因环境的关系。",
+      "why_it_matters": "AI for Science 在植物表型组学的新应用。",
+      "summarized": true
     },
     {
       "id": "7a26d8c16117",
@@ -515,12 +645,15 @@
       "url": "https://arxiv.org/abs/2607.22770",
       "source": "arXiv cs.LG",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "医疗 AI",
+        "诊断"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22770v1 Announce Type: new Abstract: Although artificial intelligence",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "元知识协同增强的痴呆病因诊断",
+      "summary_zh": "用协同元知识提升 AI 对痴呆病因的分型诊断能力。",
+      "why_it_matters": "疑难分型是医疗 AI 最有价值的方向之一。",
+      "summarized": true
     },
     {
       "id": "41249341d7dc",
@@ -528,12 +661,15 @@
       "url": "https://arxiv.org/abs/2607.22774",
       "source": "arXiv cs.LG",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "强化学习",
+        "优化"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22774v1 Announce Type: new Abstract: Finite-horizon optimal stopping ",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "CC-AOS：成本与时域条件化的摊销反向归纳",
+      "summary_zh": "有限时域最优停止问题的高效摊销求解方法。",
+      "why_it_matters": "最优停止是决策与资源调度的基础问题。",
+      "summarized": true
     },
     {
       "id": "d4e62c194d3c",
@@ -541,12 +677,15 @@
       "url": "https://arxiv.org/abs/2607.22776",
       "source": "arXiv cs.LG",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "医疗 AI",
+        "EEG"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22776v1 Announce Type: new Abstract: Repetitive transcranial magnetic",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "用 EEG 与 CNN 预测 rTMS 抑郁症治疗效果",
+      "summary_zh": "用脑电信号预测经颅磁刺激治疗抑郁的疗效。",
+      "why_it_matters": "精神类治疗的个体化预测是临床刚需。",
+      "summarized": true
     },
     {
       "id": "951771763fc9",
@@ -554,25 +693,32 @@
       "url": "https://arxiv.org/abs/2607.22806",
       "source": "arXiv cs.LG",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "云计算",
+        "碳排放"
+      ],
       "published_at": "2026-07-28T04:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "arXiv:2607.22806v1 Announce Type: new Abstract: Modern cloud deployments distrib",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "满足 SLA 的跨地域无服务器云碳感知路由",
+      "summary_zh": "在分布式云调度中同时优化服务时延与碳排放。",
+      "why_it_matters": "算力绿色化正成为云厂商的新考题。",
+      "summarized": true
     },
     {
       "id": "658e3af9131f",
       "title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
       "url": "https://huggingface.co/papers/2607.25895",
       "source": "Hugging Face Daily Papers",
-      "category": "论文研究",
-      "tags": [],
+      "category": "具身智能",
+      "tags": [
+        "机器人",
+        "操作",
+        "UMI"
+      ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "Learning deployable manipulation policies is bottlenecked by the scarcity of dat",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "HiFi-UMI：从高保真 UMI 数据学习可部署的机器人操作策略",
+      "summary_zh": "用高保真手持采集数据训练操作策略，缓解机器人数据稀缺。",
+      "why_it_matters": "数据瓶颈是具身智能最大的卡点之一。",
+      "summarized": true
     },
     {
       "id": "b04a13e58a43",
@@ -580,12 +726,15 @@
       "url": "https://huggingface.co/papers/2607.25537",
       "source": "Hugging Face Daily Papers",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "视频生成",
+        "提示工程"
+      ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "In the age of foundation models, a model is only as good as its prompt. For this",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "视频模型的视觉提示工程",
+      "summary_zh": "用视觉提示替代文本提示来引导视频生成模型。",
+      "why_it_matters": "视频生成可控性的新交互范式。",
+      "summarized": true
     },
     {
       "id": "be4195b53c8c",
@@ -593,64 +742,81 @@
       "url": "https://huggingface.co/papers/2607.25669",
       "source": "Hugging Face Daily Papers",
       "category": "论文研究",
-      "tags": [],
+      "tags": [
+        "多模态",
+        "推理优化"
+      ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "Emerging Omni-modal Large Language Models (OmniLLMs) enable unified understandin",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "OmniDelta：全模态大模型的技能驱动 Token 压缩预算分配",
+      "summary_zh": "按技能需求动态分配压缩预算，降低全模态模型推理成本。",
+      "why_it_matters": "全模态落地的核心障碍就是推理成本。",
+      "summarized": true
     },
     {
       "id": "5e11d44bb6c1",
       "title": "Wonder: Video World Model Done Better",
       "url": "https://huggingface.co/papers/2607.26037",
       "source": "Hugging Face Daily Papers",
-      "category": "论文研究",
-      "tags": [],
+      "category": "模型发布",
+      "tags": [
+        "世界模型",
+        "视频生成"
+      ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "We present Wonder, a general-purpose video world model for real-time, camera-con",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "Wonder：做得更好的视频世界模型",
+      "summary_zh": "通用视频世界模型，支持实时相机控制生成。",
+      "why_it_matters": "世界模型是通向具身智能与游戏生成的关键路线。",
+      "summarized": true
     },
     {
       "id": "1251aae4cb0c",
       "title": "Shieldstral",
       "url": "https://huggingface.co/papers/2607.25857",
       "source": "Hugging Face Daily Papers",
-      "category": "论文研究",
-      "tags": [],
+      "category": "模型发布",
+      "tags": [
+        "AI 安全",
+        "多模态"
+      ],
       "published_at": "2026-07-28T00:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "We introduce Shieldstral, a 3B-parameter policy-adaptive multimodal safety class",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "Shieldstral：3B 参数的策略自适应多模态安全分类器",
+      "summary_zh": "小参数安全分类器可按策略自适应检测多模态有害内容。",
+      "why_it_matters": "安全护栏轻量化，才能跟上模型的端侧部署。",
+      "summarized": true
     },
     {
       "id": "02510969a1ac",
       "title": "周鸿祎发布纳米Work：新一代企业智能体工作平台，为企业而生",
       "url": "https://www.qbitai.com/2026/07/462062.html",
       "source": "量子位",
-      "category": "行业动态",
-      "tags": [],
+      "category": "工具产品",
+      "tags": [
+        "360",
+        "Agent",
+        "企业办公"
+      ],
       "published_at": "2026-07-29T01:53:15.000Z",
-      "title_zh": "",
-      "summary_zh": "",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "周鸿祎发布纳米 Work：新一代企业智能体工作平台",
+      "summary_zh": "360 推出面向企业的智能体协作平台。",
+      "why_it_matters": "国内大厂把 Agent 竞争烧向企业办公场景。",
+      "summarized": true
     },
     {
       "id": "c57c419013a8",
       "title": "九章云极Alaya Token完成Kimi K3适配 全球首个开源3T级模型入驻Token工厂",
       "url": "https://www.qbitai.com/2026/07/462058.html",
       "source": "量子位",
-      "category": "行业动态",
-      "tags": [],
+      "category": "模型发布",
+      "tags": [
+        "Kimi",
+        "开源模型",
+        "推理服务"
+      ],
       "published_at": "2026-07-29T01:45:36.000Z",
-      "title_zh": "",
-      "summary_zh": "",
-      "why_it_matters": "",
-      "summarized": false
+      "title_zh": "九章云极 Alaya Token 完成 Kimi K3 适配，全球首个开源 3T 级模型入驻",
+      "summary_zh": "Kimi K3 接入 Token 工厂，开源超大模型进入推理服务市场。",
+      "why_it_matters": "3T 级开源模型的推理产业化才刚刚开始。",
+      "summarized": true
     }
   ]
 }
