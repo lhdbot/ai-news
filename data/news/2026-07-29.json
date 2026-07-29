@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T10:37:16.960Z",
+  "generated_at": "2026-07-29T12:07:56.286Z",
   "items": [
     {
       "id": "df22037e3e0f",
@@ -1638,6 +1638,110 @@
       "learn": "宽度缩放有理论极限，有效对齐维度可解释模型容量。",
       "impact": "为大模型宽度设计与缩放规律提供理论依据。",
       "advice": "关注缩放定律的读者可读原文理解新理论框架。"
+    },
+    {
+      "id": "edd602ad17f8",
+      "title": "permissionlesstech/bitchat/stargazers: bluetooth mesh chat, IRC vibes",
+      "url": "https://github.com/permissionlesstech/bitchat/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [],
+      "published_at": "2026-07-29T12:07:56.280Z",
+      "title_zh": "",
+      "summary_zh": "bluetooth mesh chat, IRC vibes | 语言: Swift | 热度: 7,019 stars this month",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "ff15a3902a92",
+      "title": "opengeos/GeoLibre/stargazers: A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "url": "https://github.com/opengeos/GeoLibre/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [],
+      "published_at": "2026-07-29T12:07:54.767Z",
+      "title_zh": "",
+      "summary_zh": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzi",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "aef292688ace",
+      "title": "block/buzz/stargazers: A hive mind communication platform",
+      "url": "https://github.com/block/buzz/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [],
+      "published_at": "2026-07-29T12:07:41.044Z",
+      "title_zh": "",
+      "summary_zh": "A hive mind communication platform | 语言: Rust | 热度: 15,046 stars this week",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "7a46f32d4020",
+      "title": "中科院院士对话北电数智AI专家：以 AI 与数学 “乘法效应” 开辟产业落地新路径",
+      "url": "https://www.qbitai.com/2026/07/462943.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-29T11:25:21.000Z",
+      "title_zh": "",
+      "summary_zh": "中科院、北电数智等专家共探数学与AI边界",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "e8035148749c",
+      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-29T11:54:29.000Z",
+      "title_zh": "",
+      "summary_zh": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "fb6c24829ef2",
+      "title": "We’re running out of reasons to ignore AI safety",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-29T11:30:50.000Z",
+      "title_zh": "",
+      "summary_zh": "Earlier this month, OpenAI gave several of its AI models a task: complete a test",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "e83ee80071b9",
+      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+      "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-29T11:00:00.000Z",
+      "title_zh": "",
+      "summary_zh": "Pangram has raised $9 million to scale its AI detection software. The startup ha",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "2faf95088d1e",
+      "title": "Artists are lawyering up against AI slop, and some are even winning",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-28T20:19:25.000Z",
+      "title_zh": "",
+      "summary_zh": "When The Atlantic published a searchable dataset of works used to train AI, Kirk",
+      "why_it_matters": "",
+      "summarized": false
     }
   ]
 }

@@ -2,7 +2,7 @@
 /**
  * AI 日报抓取 + 摘要脚本
  *
- * - 并发抓取 10 个内容源（RSS / JSON API），单源 15s 超时，失败仅告警
+ * - 并发抓取 data/sources.json 配置的内容源（RSS / JSON API），单源 15s 超时，失败仅告警
  * - 取近 48h 条目，按 URL 去重；官方源加权、每源限 5 条，取 top 30
  * - 有 DEEPSEEK_API_KEY 时调用 DeepSeek（OpenAI 兼容）批量生成
  *   中文标题 / 一句话摘要 / 为什么重要 / 分类 / 标签
@@ -44,108 +44,19 @@ const CATEGORIES = [
 ];
 
 /**
- * weight 越大排序越靠前（官方一手源优先）；official 标记用于无 key 时的分类推断
+ * 信息源列表来自 data/sources.json —— 想加源直接改那个文件，
+ * 下次抓取（巡检每 30 分钟跑一次）自动生效，无需动本脚本。
+ * 字段：name / url / type(rss|hf|trending) / weight(越大排序越靠前，
+ * 官方一手源 10+) / category(无 LLM 摘要时的兜底分类) / site(首页，页脚展示用)
  */
-const SOURCES = [
-  {
-    name: "arXiv cs.AI",
-    url: "https://rss.arxiv.org/rss/cs.AI",
-    type: "rss",
-    weight: 10,
-    category: "论文研究",
-  },
-  {
-    name: "arXiv cs.CL",
-    url: "https://rss.arxiv.org/rss/cs.CL",
-    type: "rss",
-    weight: 10,
-    category: "论文研究",
-  },
-  {
-    name: "arXiv cs.LG",
-    url: "https://rss.arxiv.org/rss/cs.LG",
-    type: "rss",
-    weight: 10,
-    category: "论文研究",
-  },
-  {
-    name: "OpenAI",
-    url: "https://openai.com/news/rss.xml",
-    type: "rss",
-    weight: 12,
-    category: "模型发布",
-  },
-  {
-    name: "Google DeepMind",
-    url: "https://deepmind.google/blog/rss.xml",
-    type: "rss",
-    weight: 12,
-    category: "模型发布",
-  },
-  {
-    name: "Microsoft Research",
-    url: "https://www.microsoft.com/en-us/research/feed/",
-    type: "rss",
-    weight: 11,
-    category: "论文研究",
-  },
-  {
-    name: "量子位",
-    url: "https://www.qbitai.com/feed",
-    type: "rss",
-    weight: 8,
-    category: "行业动态",
-  },
-  {
-    name: "TechCrunch AI",
-    url: "https://techcrunch.com/category/artificial-intelligence/feed/",
-    type: "rss",
-    weight: 7,
-    category: "行业动态",
-  },
-  {
-    name: "The Verge AI",
-    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-    type: "rss",
-    weight: 7,
-    category: "行业动态",
-  },
-  {
-    name: "MIT Tech Review AI",
-    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
-    type: "rss",
-    weight: 8,
-    category: "行业动态",
-  },
-  {
-    name: "Hugging Face Daily Papers",
-    url: "https://huggingface.co/api/daily_papers",
-    type: "hf",
-    weight: 9,
-    category: "论文研究",
-  },
-  {
-    name: "GitHub Trending 日榜",
-    url: "https://github.com/trending?since=daily",
-    type: "trending",
-    weight: 9,
-    category: "工具产品",
-  },
-  {
-    name: "GitHub Trending 周榜",
-    url: "https://github.com/trending?since=weekly",
-    type: "trending",
-    weight: 9,
-    category: "工具产品",
-  },
-  {
-    name: "GitHub Trending 月榜",
-    url: "https://github.com/trending?since=monthly",
-    type: "trending",
-    weight: 9,
-    category: "工具产品",
-  },
-];
+const SOURCES_FILE = path.join(ROOT, "data", "sources.json");
+
+function loadSources() {
+  const list = JSON.parse(fs.readFileSync(SOURCES_FILE, "utf-8"));
+  return list.filter((s) => s && s.name && s.url && s.type);
+}
+
+const SOURCES = loadSources();
 
 const USER_AGENT =
   "Mozilla/5.0 (compatible; ai-news-daily/1.0; +https://github.com/)";
