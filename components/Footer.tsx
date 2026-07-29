@@ -3,7 +3,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/site";
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-border/70">
-      <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-8 text-sm text-muted">
+      <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-8 text-sm text-muted">
         <p>
           {SITE_NAME} · 每日自动聚合全球 AI 资讯，由 DeepSeek 生成中文摘要
         </p>

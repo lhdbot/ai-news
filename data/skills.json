@@ -1,0 +1,58 @@
+[
+  {
+    "name": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "desc": "Anthropic 官方 skill 合集，17 个覆盖文档处理、设计创意、开发测试的 SKILL.md 示例。",
+    "why": "官方出品即最佳实践范本——想搞懂 skill 怎么写、能做什么，先从这里抄作业。",
+    "group": "官方"
+  },
+  {
+    "name": "skill-creator",
+    "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+    "desc": "官方「元 skill」：把重复流程沉淀、封装成你自己的 skill。",
+    "why": "凡是教过 agent 两遍的流程，都该让它帮你固化成可复用能力——用一次就回不去。",
+    "group": "官方"
+  },
+  {
+    "name": "webapp-testing",
+    "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+    "desc": "基于 Playwright 的网页自动化测试 skill，让 agent 自己开浏览器验证页面。",
+    "why": "改完前端不用再手动点页面验收，agent 直接跑一遍，把截图和结论交给你。",
+    "group": "官方"
+  },
+  {
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "desc": "★26 万+ 的开发工作流框架：强制 TDD、系统化调试、结构化协作流程。",
+    "why": "一人开发没有同事把关，它就是那位逼你守纪律的资深工程师。",
+    "group": "社区精选"
+  },
+  {
+    "name": "vercel-labs/agent-skills",
+    "url": "https://github.com/vercel-labs/agent-skills",
+    "desc": "Vercel 官方实验室出品，内含 react-best-practices：45 条 React/Next.js 性能规则。",
+    "why": "做 Next.js 必装——把 Vercel 团队的性能经验直接变成 agent 的审稿标准。",
+    "group": "社区精选"
+  },
+  {
+    "name": "ComposioHQ/awesome-claude-skills",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "desc": "★7 万+ 的策展清单，收录 1000+ 个社区 skill，按场景分类整理。",
+    "why": "不知道还有什么可装时，从这份清单里淘金——它是发现新 skill 的入口。",
+    "group": "社区精选"
+  },
+  {
+    "name": "AgriciDaniel/claude-seo",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "desc": "★1.2 万+，25 个 SEO 子 skill：关键词研究、内容优化、技术审计全覆盖。",
+    "why": "内容站的流量命脉——让 agent 按 SEO 规范审稿，比发出去再补救有效得多。",
+    "group": "场景适配"
+  },
+  {
+    "name": "kostja94/marketing-skills",
+    "url": "https://github.com/kostja94/marketing-skills",
+    "desc": "160+ 营销 skills：文案、冷邮件、社媒运营、增长策略，一人公司的推广工具箱。",
+    "why": "产品做完只是开始——冷启动阶段的推广动作，这里几乎都有现成打法。",
+    "group": "场景适配"
+  }
+]
