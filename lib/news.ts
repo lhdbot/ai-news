@@ -13,6 +13,21 @@ export const CATEGORIES = [
 
 export type Category = (typeof CATEGORIES)[number];
 
+// 板块页 URL 使用英文 slug：Windows 下 next start 无法匹配非 ASCII 的
+// 预渲染路由（中文路径 404），因此用 slug 做映射，页面内仍展示中文名。
+export const CATEGORY_SLUGS: Record<Category, string> = {
+  模型发布: "models",
+  论文研究: "papers",
+  行业动态: "industry",
+  工具产品: "tools",
+  芯片算力: "chips",
+  具身智能: "embodied",
+};
+
+export function categoryFromSlug(slug: string): Category | undefined {
+  return CATEGORIES.find((c) => CATEGORY_SLUGS[c] === slug);
+}
+
 export const NewsItemSchema = z.object({
   id: z.string(),
   title: z.string(),
