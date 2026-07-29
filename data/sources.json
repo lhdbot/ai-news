@@ -1,0 +1,114 @@
+[
+  {
+    "name": "arXiv cs.AI",
+    "url": "https://rss.arxiv.org/rss/cs.AI",
+    "type": "rss",
+    "weight": 10,
+    "category": "论文研究",
+    "site": "https://arxiv.org/list/cs.AI/recent"
+  },
+  {
+    "name": "arXiv cs.CL",
+    "url": "https://rss.arxiv.org/rss/cs.CL",
+    "type": "rss",
+    "weight": 10,
+    "category": "论文研究",
+    "site": "https://arxiv.org/list/cs.CL/recent"
+  },
+  {
+    "name": "arXiv cs.LG",
+    "url": "https://rss.arxiv.org/rss/cs.LG",
+    "type": "rss",
+    "weight": 10,
+    "category": "论文研究",
+    "site": "https://arxiv.org/list/cs.LG/recent"
+  },
+  {
+    "name": "OpenAI",
+    "url": "https://openai.com/news/rss.xml",
+    "type": "rss",
+    "weight": 12,
+    "category": "模型发布",
+    "site": "https://openai.com/news"
+  },
+  {
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "type": "rss",
+    "weight": 12,
+    "category": "模型发布",
+    "site": "https://deepmind.google/blog"
+  },
+  {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "type": "rss",
+    "weight": 11,
+    "category": "论文研究",
+    "site": "https://www.microsoft.com/en-us/research/"
+  },
+  {
+    "name": "量子位",
+    "url": "https://www.qbitai.com/feed",
+    "type": "rss",
+    "weight": 8,
+    "category": "行业动态",
+    "site": "https://www.qbitai.com"
+  },
+  {
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "type": "rss",
+    "weight": 7,
+    "category": "行业动态",
+    "site": "https://techcrunch.com/category/artificial-intelligence/"
+  },
+  {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "type": "rss",
+    "weight": 7,
+    "category": "行业动态",
+    "site": "https://www.theverge.com/ai-artificial-intelligence"
+  },
+  {
+    "name": "MIT Tech Review AI",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    "type": "rss",
+    "weight": 8,
+    "category": "行业动态",
+    "site": "https://www.technologyreview.com/topic/artificial-intelligence/"
+  },
+  {
+    "name": "Hugging Face Daily Papers",
+    "url": "https://huggingface.co/api/daily_papers",
+    "type": "hf",
+    "weight": 9,
+    "category": "论文研究",
+    "site": "https://huggingface.co/papers"
+  },
+  {
+    "name": "GitHub Trending 日榜",
+    "url": "https://github.com/trending?since=daily",
+    "type": "trending",
+    "weight": 9,
+    "category": "工具产品",
+    "site": "https://github.com/trending"
+  },
+  {
+    "name": "GitHub Trending 周榜",
+    "url": "https://github.com/trending?since=weekly",
+    "type": "trending",
+    "weight": 9,
+    "category": "工具产品",
+    "site": "https://github.com/trending?since=weekly"
+  },
+  {
+    "name": "GitHub Trending 月榜",
+    "url": "https://github.com/trending?since=monthly",
+    "type": "trending",
+    "weight": 9,
+    "category": "工具产品",
+    "site": "https://github.com/trending?since=monthly"
+  }
+]

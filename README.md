@@ -68,19 +68,26 @@ npm run dev                   # http://localhost:3000
 
 ## 如何添加新的内容源
 
-编辑 `scripts/fetch-news.mjs` 顶部的 `SOURCES` 数组，加一项即可：
+编辑 `data/sources.json`，加一项即可（不用动任何代码）：
 
-```js
+```json
 {
-  name: "来源名称",
-  url: "https://example.com/feed.xml",
-  type: "rss",        // RSS/Atom 用 "rss"；JSON API 参考 "hf"；GitHub Trending 用 "trending"
-  weight: 8,          // 排序权重，官方一手源 10+，媒体 7-8
-  category: "行业动态", // 无 LLM 摘要时的兜底分类
+  "name": "来源名称",
+  "url": "https://example.com/feed.xml",
+  "type": "rss",
+  "weight": 8,
+  "category": "行业动态",
+  "site": "https://example.com"
 }
 ```
 
-分类必须是以下之一：模型发布 / 论文研究 / 行业动态 / 工具产品 / 芯片算力 / 具身智能。
+- `type`：RSS/Atom 用 `"rss"`；JSON API 参考 `"hf"`；GitHub Trending 用 `"trending"`
+- `weight`：排序权重，官方一手源 10+，媒体 7-8
+- `category`：无 LLM 摘要时的兜底分类，必须是以下之一：模型发布 / 论文研究 / 行业动态 / 工具产品 / 芯片算力 / 具身智能
+- `site`：来源首页，网站页脚「信息来源」展示链接用（可选，缺省用 `url`）
+
+保存后无需重启：本地巡检每 30 分钟跑一次 `fetch-news.mjs`，下次抓取自动读新配置；
+有新内容时会自动摘要、重新构建，页脚的来源列表也随之更新。
 
 GitHub Trending 源直连失败时会自动回退到 curl + 本地代理（环境变量 `AI_NEWS_PROXY`，默认 `http://127.0.0.1:7897`）。
 
@@ -97,11 +104,13 @@ GitHub Trending 源直连失败时会自动回退到 curl + 本地代理（环�
 app/                    # Next.js App Router 页面（首页 / 板块页 /category/[slug] / 归档 / 标签 / 预测 / Skills / feed.xml / sitemap / robots）
 components/             # NewsCard、CategoryNav（左侧快速导航）、CategorySection（首页板块横向预览条）、TagBadge、Header、Footer
 lib/news.ts             # 内容层：zod schema + 数据读取 + 板块中英文 slug 映射（CATEGORY_SLUGS）
+lib/sources.ts          # 信息源读取（页脚展示用）
 lib/site.ts             # 站点名称 / URL 等常量
-scripts/fetch-news.mjs  # 抓取脚本（Node 直接运行，无 TS 依赖）
+scripts/fetch-news.mjs  # 抓取脚本（Node 直接运行，无 TS 依赖；源列表读 data/sources.json）
 scripts/summarize-local.mjs  # 本机 Kimi CLI 摘要器
 scripts/local-update.bat     # 本地每日更新入口（计划任务调用）
 scripts/start-site.bat       # 登录后启动网站服务（启动文件夹调用）
+data/sources.json        # 信息源配置（抓取脚本 + 页脚展示共用，加源只改这里）
 data/news/YYYY-MM-DD.json  # 每日新闻数据（由脚本生成并提交）
 .github/workflows/         # daily-update.yml（备用，手动触发）、ci.yml（构建验证）
 ```
