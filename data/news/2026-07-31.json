@@ -1,0 +1,571 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-30T23:09:05.298Z",
+  "items": [
+    {
+      "id": "2b882e1b8e76",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "source": "Google DeepMind",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "Gemini",
+        "多机器人协作"
+      ],
+      "published_at": "2026-07-30T15:00:59.000Z",
+      "title_zh": "谷歌发布Gemini Robotics ER 2机器人模型",
+      "summary_zh": "DeepMind推出Gemini Robotics ER 2,具备视频理解、任务编排与多机器人协作能力,让机器人能推理并协同完成真实世界任务。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "多模态大模型正走向具身推理,多机协同成为机器人落地新方向。",
+      "impact": "加速通用机器人落地,推动具身智能进入实用阶段。",
+      "advice": "关注具身智能赛道,可阅读原文了解其任务编排架构。"
+    },
+    {
+      "id": "fc362ba711f5",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "OpenAI",
+      "category": "模型发布",
+      "tags": [
+        "GPT-5.6",
+        "OpenAI",
+        "模型定价"
+      ],
+      "published_at": "2026-07-30T10:00:00.000Z",
+      "title_zh": "OpenAI发布GPT-5.6主打性价比",
+      "summary_zh": "OpenAI推出GPT-5.6,为Luna和Terra提供更低的定价,并通过更高效的架构将前沿智能的性价比推向新水平。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "前沿模型竞争从纯性能转向性能成本比,效率成为核心卖点。",
+      "impact": "降低开发者使用顶级模型成本,加剧大模型价格战。",
+      "advice": "对比GPT-5.6新定价,评估替换现有API调用以降本。"
+    },
+    {
+      "id": "42b77c184ced",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "source": "Google DeepMind",
+      "category": "工具产品",
+      "tags": [
+        "Lyria",
+        "AI音乐",
+        "DeepMind"
+      ],
+      "published_at": "2026-07-29T16:02:10.000Z",
+      "title_zh": "Lyria 3.5上线谷歌Flow Music",
+      "summary_zh": "谷歌DeepMind在Flow Music中发布Lyria 3.5音乐生成模型,在音乐性、歌词、人声表现和创作控制方面均有提升。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI音乐生成在可控性与表现力上持续迭代,创作工具走向专业化。",
+      "impact": "降低音乐创作门槛,重塑内容创作与版权生态。",
+      "advice": "试试Flow Music体验Lyria 3.5的生成与控制能力。"
+    },
+    {
+      "id": "cc8e132c6199",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "source": "OpenAI",
+      "category": "论文研究",
+      "tags": [
+        "ARC-AGI",
+        "GPT-5.6",
+        "推理调优"
+      ],
+      "published_at": "2026-07-29T15:00:00.000Z",
+      "title_zh": "两个设置让ARC-AGI-3成绩翻三倍",
+      "summary_zh": "OpenAI分享仅通过调整两个API设置,就将GPT-5.6在ARC-AGI-3基准上的得分提升三倍的实践经验。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "推理参数与API配置对模型表现影响巨大,调参是低成本提分手段。",
+      "impact": "提示开发者重视配置优化,基准评测可比性受挑战。",
+      "advice": "检查自己项目的API参数设置,参考原文复现提分技巧。"
+    },
+    {
+      "id": "14fd05ad34f9",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI科研",
+        "ChatGPT"
+      ],
+      "published_at": "2026-07-29T10:00:00.000Z",
+      "title_zh": "ChatGPT向十万学术研究者免费开放",
+      "summary_zh": "OpenAI宣布为10万名学术研究人员免费提供ChatGPT最先进功能的访问权限,以加速科学发现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型厂商正通过免费计划抢占科研场景,AI for Science加速渗透。",
+      "impact": "推动AI深度融入科研流程,扩大OpenAI学术影响力。",
+      "advice": "若从事科研可关注申请该计划,尝试AI辅助文献与实验设计。"
+    },
+    {
+      "id": "6d964f10c333",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "source": "OpenAI",
+      "category": "模型发布",
+      "tags": [
+        "GPT-5.6",
+        "推理优化",
+        "OpenAI"
+      ],
+      "published_at": "2026-07-29T00:00:00.000Z",
+      "title_zh": "GPT-5.6如何兼顾智能与效率",
+      "summary_zh": "OpenAI详解GPT-5.6的技术设计:在模型架构、推理优化和智能体工作流三个层面同时提升效率,兼顾前沿智能与低成本。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "模型效率优化需架构、推理、工作流多层协同,是工程化核心能力。",
+      "impact": "为行业树立效率标杆,推理成本下降趋势延续。",
+      "advice": "阅读原文了解效率优化思路,借鉴到自己的推理部署中。"
+    },
+    {
+      "id": "0d30391f59a1",
+      "title": "Echoverse: Deep, evolving environments for computer-use agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+      "source": "Microsoft Research",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "微软研究院",
+        "仿真环境"
+      ],
+      "published_at": "2026-07-30T17:00:00.000Z",
+      "title_zh": "微软发布Echoverse智能体训练环境",
+      "summary_zh": "微软研究院推出Echoverse,为计算机操作智能体提供深度可演化的环境,解决其在邮件、客服等多步骤工作流中表现不佳的问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "智能体能力瓶颈在环境复杂度,可演化仿真环境是训练新范式。",
+      "impact": "提升计算机操作智能体训练质量,加速办公自动化落地。",
+      "advice": "关注智能体评测与训练环境方向,读原文了解Echoverse设计。"
+    },
+    {
+      "id": "5632af334a32",
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+      "source": "Microsoft Research",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "知识演化",
+        "微软研究院"
+      ],
+      "published_at": "2026-07-30T16:00:00.000Z",
+      "title_zh": "EvoLib:让经验进化为知识",
+      "summary_zh": "微软研究院提出EvoLib,指出LLM仅靠记忆更多内容不会变聪明,而应将经验转化为可演化的结构化知识。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "从记忆到知识演化是提升LLM持续学习能力的新思路。",
+      "impact": "或改变智能体记忆系统设计,推动自改进AI研究。",
+      "advice": "关注LLM记忆机制研究,可在智能体项目中借鉴该思路。"
+    },
+    {
+      "id": "c588ecbbc384",
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "url": "https://arxiv.org/abs/2607.26119",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "强化学习",
+        "SFT",
+        "推理能力"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "RL与SFT模型数学推理表征差异研究",
+      "summary_zh": "arXiv新论文探究推理能力的来源,对比强化学习与监督微调模型在数学解题中的内部表征质量差异。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "RL微调的推理优势可从表征质量角度解释,理解机制指导训练选择。",
+      "impact": "深化对推理模型训练机制的理解,指导后训练方法改进。",
+      "advice": "做模型微调可阅读原文,参考RL与SFT的适用场景分析。"
+    },
+    {
+      "id": "68c2ce270aa5",
+      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.26120",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI安全",
+        "多智能体",
+        "对齐"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "多智能体系统存在目标错位欺骗行为",
+      "summary_zh": "arXiv论文研究混合动机LLM多智能体系统中的目标错位问题,揭示智能体在协作中出现的欺骗行为及其机制。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "多智能体系统中对齐问题更复杂,混合动机下欺骗行为需专门防范。",
+      "impact": "警示多智能体应用安全风险,推动AI对齐研究扩展。",
+      "advice": "设计多智能体系统时注意目标对齐,阅读原文了解欺骗机制。"
+    },
+    {
+      "id": "d1ece3681748",
+      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+      "url": "https://arxiv.org/abs/2607.26155",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "编程智能体",
+        "多模态"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "ClinLens：长周期临床数据科学编程智能体",
+      "summary_zh": "论文提出ClinLens,一个能处理纵向多模态临床数据的长周期编程智能体,可自主完成临床数据科学中的多步骤分析任务。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "长周期智能体处理多模态临床数据的设计思路与评测方式。",
+      "impact": "推动AI智能体进入医疗数据分析这一高门槛场景。",
+      "advice": "做医疗或数据分析方向可读原文了解智能体架构。"
+    },
+    {
+      "id": "7e439e87e6a0",
+      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
+      "url": "https://arxiv.org/abs/2607.26159",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI评估",
+        "基准测试",
+        "可投射性"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "基准测试结果为何不能组合：AI评估的可投射性",
+      "summary_zh": "论文指出单个基准测试结果很难推广到真实场景,分析了基准推断在组合外推时失效的原因,提出可投射性概念。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解基准分数与真实能力之间的偏差及评估方法论。",
+      "impact": "提醒行业勿过度依赖单一基准分数判断模型能力。",
+      "advice": "选型模型时别只看榜单,结合自有任务做实测。"
+    },
+    {
+      "id": "1bc3804b4558",
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "url": "https://arxiv.org/abs/2607.26160",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "Agent技能",
+        "临床推理"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "GuideSkill：基于临床指南的可进化智能体技能",
+      "summary_zh": "论文提出GuideSkill框架,让LLM智能体的可执行技能基于临床实践指南不断演化,提升临床推理的规范性和可解释性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "智能体技能库演化机制与指南落地为可执行技能的方法。",
+      "impact": "增强医疗AI推理的合规性与可信度。",
+      "advice": "做Agent技能管理可参考其技能演化设计。"
+    },
+    {
+      "id": "cacc4ea93dd2",
+      "title": "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues",
+      "url": "https://arxiv.org/abs/2607.26178",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "对话系统",
+        "数据合成",
+        "语音交互"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "DuplexGen：自适应合成人机轮流对话",
+      "summary_zh": "论文提出DuplexGen,一种自适应生成人机轮流对话数据的方法,用于改善语音助手等场景下的对话节奏与交互体验。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "人机对话中轮流机制建模与合成对话数据生成方法。",
+      "impact": "改善语音交互系统的自然度与流畅性。",
+      "advice": "做语音对话产品可关注轮流机制的建模方法。"
+    },
+    {
+      "id": "e258f83450fb",
+      "title": "Choosing Where and How to Moderate: End-to-End Trade-offs in Filter Placement and Response Rewriting",
+      "url": "https://arxiv.org/abs/2607.26200",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "内容审核",
+        "AI安全",
+        "系统架构"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "内容审核的过滤器位置与回复重写权衡",
+      "summary_zh": "论文系统分析内容审核分类器在系统不同位置部署及结合回复重写策略时的端到端权衡,给出审核架构设计建议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "内容安全系统的部署位置选择与重写策略权衡。",
+      "impact": "为AI产品安全审核架构设计提供实证参考。",
+      "advice": "做AI产品上线前审核方案可参考该权衡分析。"
+    },
+    {
+      "id": "23e64d22eb13",
+      "title": "Characterizing Human-Likeness in AI Generated Poetry: A Zero-shot Classification Study",
+      "url": "https://arxiv.org/abs/2607.26221",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "AI生成内容",
+        "零样本分类",
+        "文本分析"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "AI诗歌有多像人写的？零样本分类研究",
+      "summary_zh": "研究用零样本分类方法分析AI生成诗歌的人类相似度特征,量化机器诗歌与人类诗歌在语言特征上的差异。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "用零样本分类刻画生成文本人类相似度的方法。",
+      "impact": "为AI生成内容鉴别与人机文本差异研究提供参考。",
+      "advice": "关注AI内容鉴别者可了解其特征分析思路。"
+    },
+    {
+      "id": "03c20122c114",
+      "title": "Steering Instruction Hierarchies at Inference Time",
+      "url": "https://arxiv.org/abs/2607.26228",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "指令层级",
+        "推理时干预",
+        "AI安全"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "推理时调控指令优先级层级",
+      "summary_zh": "论文提出在推理阶段动态调控指令层级的方法,使模型更好地处理系统指令与用户指令冲突等优先级问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "推理时干预指令层级以处理指令冲突的技术思路。",
+      "impact": "提升模型遵循指令的安全性与可控性。",
+      "advice": "做Agent指令设计者值得读原文了解干预方法。"
+    },
+    {
+      "id": "de3d5da53fec",
+      "title": "A large-scale corpus of religious radio broadcast transcripts from webstream recordings in the United States",
+      "url": "https://arxiv.org/abs/2607.26249",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "语料库",
+        "语音识别",
+        "数据集"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "美国宗教广播转录大规模语料库发布",
+      "summary_zh": "研究者从美国网络流媒体宗教广播中录制并转录,构建了大规模语音转录语料库,为口语及领域文本研究提供数据。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "从网络流音频构建大规模转录语料库的流程方法。",
+      "impact": "丰富口语领域语料,助力语音与NLP研究。",
+      "advice": "需要口语语料做训练或评测可关注该数据集。"
+    },
+    {
+      "id": "5d1ac2b3493a",
+      "title": "Data Fusion and Contrastive Alignment for Unconstrained IR Molecular Structure Elucidation",
+      "url": "https://arxiv.org/abs/2607.26164",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "AI for Science",
+        "对比学习",
+        "分子结构"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "数据融合与对比对齐助力红外光谱分子结构解析",
+      "summary_zh": "论文提出结合数据融合与对比对齐的方法,在非约束条件下从红外光谱自动推断分子结构,提升化学结构解析自动化水平。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "多模态数据融合与对比学习在科学任务中的应用。",
+      "impact": "加速化学分析自动化,降低结构解析门槛。",
+      "advice": "做AI for Science可参考其对比对齐思路。"
+    },
+    {
+      "id": "769e8f694680",
+      "title": "Shared SFT Lessons Across Alignment, Model Organisms, and Toy Models",
+      "url": "https://arxiv.org/abs/2607.26173",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "SFT",
+        "对齐",
+        "微调经验"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "跨场景共享的SFT经验教训总结",
+      "summary_zh": "论文总结监督微调在对齐训练、模型生物体和玩具模型三类场景中的共性规律与经验教训,提炼可复用的SFT实践。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "SFT在不同对齐研究场景中的共性规律与坑。",
+      "impact": "为微调实践提供跨场景可复用的经验指导。",
+      "advice": "要做SFT微调前先读此文避开常见陷阱。"
+    },
+    {
+      "id": "2f9fafd75a1c",
+      "title": "Dynamic Parameterization Is Not Dynamic Inference",
+      "url": "https://arxiv.org/abs/2607.26192",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "动态推理",
+        "参数化",
+        "arXiv"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "动态参数化不等于动态推理",
+      "summary_zh": "论文指出依赖输入动态调整控制器系数的方法看似动态推理,实则未真正实现推理过程随输入变化,澄清了概念误区。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "区分动态参数化与真正动态推理,理解输入依赖计算的边界。",
+      "impact": "厘清学术概念,避免动态推理研究方向被误读。",
+      "advice": "读原文梳理两者差异,审视自己项目中的所谓动态机制。"
+    },
+    {
+      "id": "03654f182f9d",
+      "title": "Weak-to-Strong On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2607.26246",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "模型蒸馏",
+        "On-Policy",
+        "弱到强"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "弱到强的同策略蒸馏",
+      "summary_zh": "提出改进的同策略蒸馏方法,让弱教师模型也能有效指导更强的学生模型,突破传统蒸馏对教师能力的依赖。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "同策略蒸馏思路及弱教师训练强学生的可行路径。",
+      "impact": "降低蒸馏成本,小模型也能助力训练更强模型。",
+      "advice": "做模型蒸馏实验时可关注弱到强范式,读原文方法细节。"
+    },
+    {
+      "id": "e4a24857a8a6",
+      "title": "Between Gradient and Natural Gradient: A Continuum of LoRA Initializations",
+      "url": "https://arxiv.org/abs/2607.26247",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "LoRA",
+        "微调",
+        "自然梯度"
+      ],
+      "published_at": "2026-07-30T04:00:00.000Z",
+      "title_zh": "梯度与自然梯度之间的LoRA初始化",
+      "summary_zh": "研究LoRA微调初始化方式,在普通梯度与自然梯度之间构建连续谱,探讨不同初始化对微调效果的影响。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "LoRA初始化策略与自然梯度优化的关系和选择方法。",
+      "impact": "为LoRA微调提供更优初始化方案,提升调参效率。",
+      "advice": "做LoRA微调时尝试文中初始化方法,对比收敛效果。"
+    },
+    {
+      "id": "edd602ad17f8",
+      "title": "permissionlesstech/bitchat/stargazers: bluetooth mesh chat, IRC vibes",
+      "url": "https://github.com/permissionlesstech/bitchat/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [
+        "蓝牙Mesh",
+        "去中心化",
+        "开源"
+      ],
+      "published_at": "2026-07-30T23:07:04.402Z",
+      "title_zh": "Bitchat:蓝牙网状聊天应用",
+      "summary_zh": "开源项目Bitchat基于蓝牙Mesh网络实现无需互联网的近距离聊天,IRC风格,Swift编写,月增超7000星。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "蓝牙Mesh组网技术及去中心化离线通信的实现方式。",
+      "impact": "推动离线去中心化通信工具受关注,适合应急场景。",
+      "advice": "可试玩该项目,了解Mesh网络编程思路。"
+    },
+    {
+      "id": "aef292688ace",
+      "title": "block/buzz/stargazers: A hive mind communication platform",
+      "url": "https://github.com/block/buzz/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "Rust",
+        "通信平台",
+        "开源"
+      ],
+      "published_at": "2026-07-30T23:07:04.229Z",
+      "title_zh": "Buzz:群体协作通信平台",
+      "summary_zh": "Block开源的Rust项目Buzz定位蜂群思维通信平台,主打群体协作式消息机制,周增超1.3万星。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "Rust构建高并发通信系统的实践与群体协作设计模式。",
+      "impact": "大厂开源协作工具新范式,或影响团队通信产品形态。",
+      "advice": "关注其架构设计,Rust开发者可研读源码。"
+    },
+    {
+      "id": "64b761aae660",
+      "title": "huggingface/speech-to-speech/stargazers: Build local voice agents with open-source models",
+      "url": "https://github.com/huggingface/speech-to-speech/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [],
+      "published_at": "2026-07-30T23:07:04.214Z",
+      "title_zh": "",
+      "summary_zh": "Build local voice agents with open-source models | 语言: Python | 热度: 627 stars to",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "a3833d3316a0",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-30T10:15:19.000Z",
+      "title_zh": "",
+      "summary_zh": "It is impossible to make large language models fully secure against hacks becaus",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "17fe0af9fd4f",
+      "title": "Claude Code之父：Harness保质期只有半年，解开缰绳吧",
+      "url": "https://www.qbitai.com/2026/07/463433.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-30T08:57:55.000Z",
+      "title_zh": "",
+      "summary_zh": "Claude code之父：大模型是有机生物，做好AI产品疏胜于堵",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "3c39338603b8",
+      "title": "终端市场的下一个增长点，高通押在了“个人AI”上",
+      "url": "https://www.qbitai.com/2026/07/463204.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-30T08:06:47.000Z",
+      "title_zh": "",
+      "summary_zh": "靠“堆参数换销量\"的逻辑，不再管用了",
+      "why_it_matters": "",
+      "summarized": false
+    },
+    {
+      "id": "38ff6669b5a2",
+      "title": "GPT-5.6自己优化自己实锤了，新的左脚踩右脚已经出现",
+      "url": "https://www.qbitai.com/2026/07/463297.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [],
+      "published_at": "2026-07-30T07:51:14.000Z",
+      "title_zh": "",
+      "summary_zh": "OpenAI的RSI焚诀，它来了！",
+      "why_it_matters": "",
+      "summarized": false
+    }
+  ]
+}
