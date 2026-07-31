@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T01:37:19.033Z",
+  "generated_at": "2026-07-31T02:07:30.632Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -621,6 +621,26 @@
       "learn": "世界模型可让机器人在仿真环境中学习物理规律，降低真实训练成本。",
       "impact": "推动具身智能发展，缩小数字世界与物理世界交互的鸿沟。",
       "advice": "关注World Labs的Marble等模型进展，了解空间智能技术路线。"
+    },
+    {
+      "id": "9146ff1756af",
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "url": "https://openai.com/index/avatarin",
+      "source": "OpenAI",
+      "category": "工具产品",
+      "tags": [
+        "GPT-Realtime",
+        "语音Agent",
+        "零售"
+      ],
+      "published_at": "2026-07-30T00:00:00.000Z",
+      "title_zh": "avatarin用GPT-Realtime打造全天候零售导购",
+      "summary_zh": "avatarin基于OpenAI的GPT-Realtime语音模型，为日本山田电机顾客提供24小时多语言实时导购服务。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "实时语音API可用于构建低延迟、多语言的客服与导购Agent。",
+      "impact": "语音Agent加速落地零售场景，改变实体店的顾客服务方式。",
+      "advice": "试用GPT-Realtime API，做一个语音客服原型。"
     }
   ]
 }
