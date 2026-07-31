@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T13:07:17.341Z",
+  "generated_at": "2026-07-31T13:37:32.526Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -1241,6 +1241,26 @@
       "learn": "AI 伴侣硬件的交互模式正从被动录音转向主动对话，但商业模式仍在探索期。",
       "impact": "验证可穿戴 AI 设备留存难，高价策略或进一步收窄市场。",
       "advice": "关注 AI 伴侣硬件赛道，评估其真实用户留存数据。"
+    },
+    {
+      "id": "286e4f221438",
+      "title": "Google DeepMind’s new AI model can control a robot’s entire body",
+      "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "source": "The Verge AI",
+      "category": "具身智能",
+      "tags": [
+        "DeepMind",
+        "机器人控制",
+        "VLA"
+      ],
+      "published_at": "2026-07-30T17:18:45.000Z",
+      "title_zh": "DeepMind新模型可控制机器人全身",
+      "summary_zh": "Google DeepMind发布新版Gemini Robotics模型，宣称能统一控制机器人全身动作，实现更协调的全身运动与操作能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "视觉-语言-动作模型正从单臂操作走向全身协调控制，关注VLA架构演进。",
+      "impact": "推动通用人形机器人实用化，降低全身控制开发门槛。",
+      "advice": "关注Gemini Robotics技术报告，了解VLA模型设计思路。"
     }
   ]
 }
