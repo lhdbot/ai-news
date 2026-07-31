@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T11:37:17.270Z",
+  "generated_at": "2026-07-31T12:07:42.049Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -1221,6 +1221,26 @@
       "learn": "了解 AI Agent 技能路由机制:按需加载工具链与自进化知识库的设计思路。",
       "impact": "降低安全研究门槛,推动 AI 辅助渗透测试工具链标准化。",
       "advice": "访问 GitHub 仓库试用,研究其技能路由与工具自举实现。"
+    },
+    {
+      "id": "ec12e93eaf42",
+      "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "AI 硬件",
+        "Friend",
+        "可穿戴设备"
+      ],
+      "published_at": "2026-07-30T18:35:41.000Z",
+      "title_zh": "Friend AI 吊坠重发布 价格翻倍",
+      "summary_zh": "曾花 180 万美元营销的 AI 吊坠公司 Friend 重新发布产品，新版内置扬声器可主动与用户对话，售价是原价两倍。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 伴侣硬件的交互模式正从被动录音转向主动对话，但商业模式仍在探索期。",
+      "impact": "验证可穿戴 AI 设备留存难，高价策略或进一步收窄市场。",
+      "advice": "关注 AI 伴侣硬件赛道，评估其真实用户留存数据。"
     }
   ]
 }
