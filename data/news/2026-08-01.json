@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-07-31T16:39:03.530Z",
+  "generated_at": "2026-07-31T17:07:47.183Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -680,6 +680,26 @@
       "learn": "观察端侧 AI 的商业化与算力定价模式",
       "impact": "AI 助手订阅化或成行业新趋势",
       "advice": "关注苹果 AI 定价，评估对竞品影响"
+    },
+    {
+      "id": "d0dd515429ce",
+      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+      "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Snapchat",
+        "AI生成内容",
+        "推荐算法"
+      ],
+      "published_at": "2026-07-31T16:49:08.000Z",
+      "title_zh": "Snapchat停止推荐全AI生成短视频",
+      "summary_zh": "Snapchat调整推荐算法,Spotlight短视频板块不再给完全由AI生成的内容流量奖励,优先推广真人创作视频。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "内容平台开始用算法区分AI与真人创作,推荐机制成为治理AI内容泛滥的手段。",
+      "impact": "AI生成内容变现空间收窄,真人创作重获流量倾斜。",
+      "advice": "关注各平台AI内容政策变化,创作时保留人工参与痕迹。"
     }
   ]
 }
