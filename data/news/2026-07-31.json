@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T10:37:37.950Z",
+  "generated_at": "2026-07-31T11:07:26.840Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -1201,6 +1201,26 @@
       "learn": "了解物理AI的发展脉络，认识仿真与图形学技术对AI研究的长期价值。",
       "impact": "物理仿真与AI结合方向获权威认可，推动相关开源项目热度攀升。",
       "advice": "关注该获奖开源项目，读原文了解物理AI基础方法。"
+    },
+    {
+      "id": "409bc0b22978",
+      "title": "zhaoxuya520/reverse-skill/stargazers: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "AI Agent",
+        "渗透测试",
+        "开源工具"
+      ],
+      "published_at": "2026-07-31T11:07:03.746Z",
+      "title_zh": "AI 逆向渗透技能路由包开源",
+      "summary_zh": "GitHub 开源项目 reverse-skill:面向逆向工程、授权渗透测试的 AI 技能路由包,支持 Claude Code、Cursor 等客户端,可自动路由任务、按需自举工具链并自进化经验库,登上日榜。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 AI Agent 技能路由机制:按需加载工具链与自进化知识库的设计思路。",
+      "impact": "降低安全研究门槛,推动 AI 辅助渗透测试工具链标准化。",
+      "advice": "访问 GitHub 仓库试用,研究其技能路由与工具自举实现。"
     }
   ]
 }
