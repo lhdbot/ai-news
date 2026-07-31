@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T15:07:55.611Z",
+  "generated_at": "2026-07-31T15:37:37.879Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -1321,6 +1321,46 @@
       "learn": "低延迟、高拟真是语音AI落地的关键指标,语音赛道仍受资本青睐。",
       "impact": "推动AI语音客服与通话场景更接近真人体验。",
       "advice": "关注其实时语音模型,做语音应用可试用其API。"
+    },
+    {
+      "id": "27b06dcc8a1b",
+      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "xAI",
+        "数据中心",
+        "能源合规"
+      ],
+      "published_at": "2026-07-31T15:16:17.000Z",
+      "title_zh": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "summary_zh": "SpaceX正为xAI的Colossus数据中心新建发电厂，但此前未经许可安装的燃气涡轮机要到一年后才会全部拆除，环保合规争议持续。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "超大规模AI训练的能耗巨大，自建电厂成常态，但环保许可与社区影响是绕不开的合规成本。",
+      "impact": "AI算力扩张与能源、环保监管的矛盾加剧，或推动更严格的数据中心审批。",
+      "advice": "关注AI基础设施的能源与合规议题，评估算力成本趋势。"
+    },
+    {
+      "id": "ee70bff51f97",
+      "title": "It’s time to panic about AI safety",
+      "url": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI安全",
+        "OpenAI",
+        "Hugging Face"
+      ],
+      "published_at": "2026-07-31T14:31:18.000Z",
+      "title_zh": "It’s time to panic about AI safety",
+      "summary_zh": "文章以“OpenAI攻击Hugging Face”等说法进入主流视野为例，指出AI安全事故频发、防护滞后，呼吁业界正视AI安全风险的紧迫性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI供应链与模型平台存在真实攻击面，安全事件正从理论风险变为现实威胁。",
+      "impact": "提升行业对模型与平台安全的重视，加速安全规范与防护投入。",
+      "advice": "检查自身AI工具链安全，读原文了解典型攻击案例。"
     }
   ]
 }
