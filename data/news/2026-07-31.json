@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T07:38:11.145Z",
+  "generated_at": "2026-07-31T08:07:57.047Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -1041,6 +1041,46 @@
       "learn": "了解AI产品借助官方平台渠道可快速实现城市级规模化落地。",
       "impact": "加速AI应用向大众普及，政务渠道成推广新路径。",
       "advice": "关注该社区动态，研究其推广模式供产品借鉴。"
+    },
+    {
+      "id": "b86dc435d64a",
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI安全",
+        "欧盟监管"
+      ],
+      "published_at": "2026-07-31T15:00:00.000Z",
+      "title_zh": "OpenAI推进欧洲负责任AI实践",
+      "summary_zh": "OpenAI介绍其在欧洲落地的安全、透明度与内容来源溯源实践，以配合当地监管要求，展示负责任AI的具体措施。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI安全、透明度与内容溯源在欧洲监管下的落地做法。",
+      "impact": "推动AI企业合规化，影响欧洲市场准入与行业标准。",
+      "advice": "关注欧盟AI法案合规要求，读原文了解溯源机制。"
+    },
+    {
+      "id": "2875a4400bb8",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "AI监管",
+        "法律诉讼"
+      ],
+      "published_at": "2026-07-30T20:26:38.000Z",
+      "title_zh": "法官称政府对Anthropic指控证据不足",
+      "summary_zh": "美国联邦法官表示，特朗普政府将Anthropic列为'供应链风险'缺乏足够证据，该标签的合法性受到质疑。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI公司与政府监管博弈中的法律程序与举证责任。",
+      "impact": "或限制政府随意制裁AI企业，影响行业监管边界。",
+      "advice": "关注此案进展，了解AI政策与法律的互动。"
     }
   ]
 }
