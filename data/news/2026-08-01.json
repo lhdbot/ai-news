@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-07-31T19:37:12.984Z",
+  "generated_at": "2026-07-31T20:07:42.702Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -899,6 +899,26 @@
       "learn": "掌握投机解码中草稿模型训练的新思路及MLA结构特点。",
       "impact": "有助于进一步降低大模型推理延迟与成本。",
       "advice": "做推理优化的开发者可阅读其重建方法并测试加速效果。"
+    },
+    {
+      "id": "5c88eea83cf8",
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "谷歌",
+        "AI生成图像",
+        "虚假信息"
+      ],
+      "published_at": "2026-07-31T19:47:28.000Z",
+      "title_zh": "谷歌上线一天即下架 Earth AI 伪造图像功能",
+      "summary_zh": "谷歌 Earth AI 新功能允许任何人生成伪造图像并叠加到真实地点,因被批评会助长虚假信息传播,上线仅一天便被紧急下架。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "生成式AI的滥用风险(如伪造地理图像)可在发布后被舆论快速放大,发布前需评估误用场景与护栏。",
+      "impact": "凸显AI生成内容可信度危机,或推动平台加强图像生成限制与溯源机制。",
+      "advice": "关注AI内容溯源技术(如水印/C2PA),评估自家产品的滥用风险。"
     }
   ]
 }
