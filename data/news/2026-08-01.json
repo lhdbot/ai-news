@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-07-31T17:07:47.183Z",
+  "generated_at": "2026-07-31T17:38:01.167Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -700,6 +700,205 @@
       "learn": "内容平台开始用算法区分AI与真人创作,推荐机制成为治理AI内容泛滥的手段。",
       "impact": "AI生成内容变现空间收窄,真人创作重获流量倾斜。",
       "advice": "关注各平台AI内容政策变化,创作时保留人工参与痕迹。"
+    },
+    {
+      "id": "c588ecbbc384",
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "url": "https://arxiv.org/abs/2607.26119",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "推理模型",
+        "强化学习",
+        "SFT"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "探究推理能力来源:RL与SFT模型表征质量对比",
+      "summary_zh": "论文对比强化学习与监督微调模型在数学解题中的内部表征质量,探究大模型推理能力究竟从何而来、两种训练方式带来何种表征差异。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解RL与SFT对模型内部表征的不同影响,以及用表征分析解释推理能力的研究方法。",
+      "impact": "为推理模型训练路线选择提供机理层面的实证依据。",
+      "advice": "做模型微调选型的开发者可读原文,关注表征质量评估方法。"
+    },
+    {
+      "id": "68c2ce270aa5",
+      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.26120",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "多智能体",
+        "AI对齐",
+        "LLM安全"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "混合动机多智能体系统中的目标错位与欺骗",
+      "summary_zh": "研究LLM驱动的多智能体系统在混合动机场景下的目标错位问题,发现智能体之间会出现更多欺骗行为,揭示多智能体协作的安全隐患。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识多智能体系统中目标错位与欺骗行为的产生机制及评估思路。",
+      "impact": "提示多智能体应用落地前需重视对齐与安全问题。",
+      "advice": "构建多智能体系统时应加入行为监控与对齐测试。"
+    },
+    {
+      "id": "d1ece3681748",
+      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+      "url": "https://arxiv.org/abs/2607.26155",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI智能体",
+        "医疗AI",
+        "多模态"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "ClinLens:面向纵向多模态临床数据的长程编程智能体",
+      "summary_zh": "提出ClinLens,一个能处理纵向多模态临床数据的长 horizon 编程智能体,面向临床数据科学任务进行长期规划与代码执行。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解长程智能体在垂直领域的架构设计与多模态数据处理方法。",
+      "impact": "推动AI智能体在医疗数据分析等复杂专业场景落地。",
+      "advice": "关注医疗AI或长程Agent设计的开发者可研读其任务分解方法。"
+    },
+    {
+      "id": "7e439e87e6a0",
+      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
+      "url": "https://arxiv.org/abs/2607.26159",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI评估",
+        "基准测试"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "当基准测试结论无法组合:AI评估的可投射性",
+      "summary_zh": "论文指出AI基准测试结果很少能推广到真实场景,讨论基准推断不可组合的问题,提出评估可投射性这一概念来审视现有评测方法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解基准测试的局限性与评估结论外推失效的原因。",
+      "impact": "促使社区反思评测体系,改进模型能力评估方法。",
+      "advice": "选型模型时勿只看榜单分数,应结合自身场景实测。"
+    },
+    {
+      "id": "1bc3804b4558",
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "url": "https://arxiv.org/abs/2607.26160",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI智能体",
+        "临床推理",
+        "技能进化"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "GuideSkill:面向临床指南推理的可执行智能体技能进化",
+      "summary_zh": "提出GuideSkill,让LLM智能体的可执行技能基于临床实践指南不断进化,实现有指南依据的临床推理,提升医疗决策可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习将领域知识(临床指南)落地为可执行Agent技能的方法。",
+      "impact": "为知识密集型行业的Agent应用提供可复用范式。",
+      "advice": "可借鉴其'技能进化'思路,把行业规范编码进自己的Agent。"
+    },
+    {
+      "id": "30dadb92c574",
+      "title": "Recursive transformers for semiconductor thermo-mechanical reliability",
+      "url": "https://arxiv.org/abs/2607.27251",
+      "source": "arXiv cs.LG",
+      "category": "芯片算力",
+      "tags": [
+        "Transformer",
+        "半导体",
+        "代理模型"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "用于半导体热机械可靠性的递归Transformer",
+      "summary_zh": "将基于Transformer的代理模型应用于半导体热机械可靠性分析,用递归结构提升预测效率,加速芯片可靠性仿真。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Transformer作为代理模型在工程仿真加速中的应用方式。",
+      "impact": "AI代理模型有望缩短芯片设计验证周期。",
+      "advice": "做仿真或工程建模的读者可关注代理模型这一方向。"
+    },
+    {
+      "id": "b92bb97dd61c",
+      "title": "Regularizing modality contribution drift in multimodal continual learning",
+      "url": "https://arxiv.org/abs/2607.27260",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "多模态",
+        "持续学习",
+        "正则化"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "正则化多模态持续学习中的模态贡献漂移",
+      "summary_zh": "针对多模态持续学习中不同模态贡献随新任务漂移失衡的问题,提出正则化方法稳定各模态贡献,缓解遗忘并提升持续学习效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识多模态持续学习中的模态贡献漂移问题及正则化对策。",
+      "impact": "提升多模态模型在持续学习场景下的稳定性。",
+      "advice": "做多模态微调时可检查各模态贡献是否失衡。"
+    },
+    {
+      "id": "818ab59e6425",
+      "title": "DoTime: A Synthetic Benchmark Generator for Interventional and Counterfactual Time Series",
+      "url": "https://arxiv.org/abs/2607.27263",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "因果推断",
+        "时间序列",
+        "基准测试"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "DoTime:干预与反事实时间序列合成基准生成器",
+      "summary_zh": "提出DoTime,一个用于生成干预和反事实时间序列数据的合成基准工具,弥补现有因果推断基准在时间序列场景上的不足。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解因果推断基准的构建方法与合成数据生成思路。",
+      "impact": "为时间序列因果推断研究提供标准化评测工具。",
+      "advice": "做时序因果分析的读者可试用该基准验证算法。"
+    },
+    {
+      "id": "4ed6e5585f89",
+      "title": "PlatformBid: An Auto-Bidding Benchmark from a Unified Advertising Platform's Perspective",
+      "url": "https://arxiv.org/abs/2607.27265",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "自动出价",
+        "计算广告",
+        "强化学习"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "PlatformBid:统一广告平台视角的自动出价基准",
+      "summary_zh": "发布PlatformBid基准,从统一广告平台视角评估实时竞价中的自动出价算法,为广告智能出价研究提供标准评测环境。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解自动出价问题的建模方式与基准评测设计。",
+      "impact": "推动广告竞价算法研究的标准化与可复现性。",
+      "advice": "做计算广告或强化学习决策的读者可关注该基准。"
+    },
+    {
+      "id": "cb9102f54b68",
+      "title": "Beyond KV Reconstruction: Functional Reconstruction for MLA Draft Models in Speculative Decoding",
+      "url": "https://arxiv.org/abs/2607.27269",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "投机解码",
+        "MLA",
+        "推理加速"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "超越KV重建:MLA草稿模型投机解码的功能重建",
+      "summary_zh": "针对投机解码中使用多头潜在注意力(MLA)的草稿模型,提出功能重建方法替代传统KV重建,提升草稿模型质量与解码加速效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握投机解码中草稿模型训练的新思路及MLA结构特点。",
+      "impact": "有助于进一步降低大模型推理延迟与成本。",
+      "advice": "做推理优化的开发者可阅读其重建方法并测试加速效果。"
     }
   ]
 }
