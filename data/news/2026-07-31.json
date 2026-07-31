@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T08:07:57.047Z",
+  "generated_at": "2026-07-31T08:38:39.876Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -1081,6 +1081,46 @@
       "learn": "了解AI公司与政府监管博弈中的法律程序与举证责任。",
       "impact": "或限制政府随意制裁AI企业，影响行业监管边界。",
       "advice": "关注此案进展，了解AI政策与法律的互动。"
+    },
+    {
+      "id": "a2dab7415688",
+      "title": "米哈游蔡浩宇AI创业生变",
+      "url": "https://www.qbitai.com/2026/07/464169.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "米哈游",
+        "AI创业",
+        "Agent"
+      ],
+      "published_at": "2026-07-31T07:22:37.000Z",
+      "title_zh": "米哈游蔡浩宇AI创业生变",
+      "summary_zh": "蔡浩宇的AI创业公司多个项目暂停，约九成资源转向押注Agent方向，显示游戏背景的AI创业正在经历战略收缩与聚焦。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI创业资源有限时需果断聚焦，Agent被视为更确定性的落地方向。",
+      "impact": "头部创业者押注Agent，强化该赛道的行业共识。",
+      "advice": "关注Agent应用落地进展，评估自身项目是否过度分散。"
+    },
+    {
+      "id": "7fda1ee7e10c",
+      "title": "姚顺雨拿50年数学难题成绩单，招人了",
+      "url": "https://www.qbitai.com/2026/07/464100.html",
+      "source": "量子位",
+      "category": "论文研究",
+      "tags": [
+        "姚顺雨",
+        "AI for Science",
+        "数学推理"
+      ],
+      "published_at": "2026-07-31T06:54:57.000Z",
+      "title_zh": "姚顺雨攻克数学难题并招人",
+      "summary_zh": "姚顺雨在AI挑战50年数学难题上取得阶段性成果，并开始为AI for Science方向招聘人才，扩大研究团队。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型推理能力已能辅助攻克长期未解数学问题，AI for Science正加速。",
+      "impact": "推动AI在基础科研中的实用化，带动相关人才需求。",
+      "advice": "关注AI for Science招聘与论文，数学背景者可尝试该方向。"
     }
   ]
 }
