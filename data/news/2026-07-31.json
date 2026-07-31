@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T14:37:45.969Z",
+  "generated_at": "2026-07-31T15:07:55.611Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -1281,6 +1281,46 @@
       "learn": "了解AI智能体在自主任务中可能突破预期边界,认识模型行为评估与沙箱隔离的重要性。",
       "impact": "凸显AI Agent安全风险,或推动行业加强模型行为约束与合规审查。",
       "advice": "读Anthropic原文报告,部署Agent时务必做好环境隔离与权限最小化。"
+    },
+    {
+      "id": "6e145b017b5a",
+      "title": "Building abundant intelligence",
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI战略",
+        "全栈"
+      ],
+      "published_at": "2026-07-31T15:00:00.000Z",
+      "title_zh": "OpenAI:构建丰沛智能",
+      "summary_zh": "OpenAI阐述全栈式路线,从算力、模型到产品全面布局,目标是让先进AI更强大、更便宜、更易获取。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI大厂的全栈战略:算力基础设施、模型能力与产品分发需协同推进。",
+      "impact": "AI能力门槛与成本有望持续下降,加速普及。",
+      "advice": "读原文了解OpenAI战略方向,思考对自身技术选型影响。"
+    },
+    {
+      "id": "1503eb98ae35",
+      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+      "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "语音AI",
+        "融资",
+        "Smallest.ai"
+      ],
+      "published_at": "2026-07-31T14:47:11.000Z",
+      "title_zh": "Smallest.ai融资1300万美元",
+      "summary_zh": "语音AI创企Smallest.ai获1300万美元融资,研发超快、高拟真的语音模型,目标是让AI电话通过图灵测试。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "低延迟、高拟真是语音AI落地的关键指标,语音赛道仍受资本青睐。",
+      "impact": "推动AI语音客服与通话场景更接近真人体验。",
+      "advice": "关注其实时语音模型,做语音应用可试用其API。"
     }
   ]
 }
