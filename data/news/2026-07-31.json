@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T04:08:08.775Z",
+  "generated_at": "2026-07-31T04:38:08.639Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -841,6 +841,186 @@
       "learn": "掌握投机解码中草稿模型压缩的新思路",
       "impact": "提升MLA模型推理速度，降低部署成本",
       "advice": "做推理优化可关注投机解码与MLA结合"
+    },
+    {
+      "id": "7aa7fc72d883",
+      "title": "GPT-5.6今起大降价，最大幅度80%！",
+      "url": "https://www.qbitai.com/2026/07/463640.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "API定价"
+      ],
+      "published_at": "2026-07-31T03:01:21.000Z",
+      "title_zh": "GPT-5.6 大降价，最高降幅 80%",
+      "summary_zh": "OpenAI 宣布 GPT-5.6 API 价格大幅下调，最大降幅达 80%，显著降低开发者调用旗舰模型的成本。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "旗舰模型价格快速下探，API 成本正成为竞争核心变量。",
+      "impact": "降低开发门槛，加剧模型厂商价格战。",
+      "advice": "重新评估项目推理成本，考虑升级或切换到 GPT-5.6。"
+    },
+    {
+      "id": "fe9c320aecf7",
+      "title": "The AI Hype Index: Unsexy AI",
+      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "AI泡沫",
+        "行业分析",
+        "MIT科技评论"
+      ],
+      "published_at": "2026-07-29T08:42:57.000Z",
+      "title_zh": "AI 炒作指数：不性感的 AI",
+      "summary_zh": "MIT 科技评论盘点近期 AI 炒作与现实差距，经济学家联名信警示泡沫风险，务实应用反而进展稳健。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "区分营销叙事与真实落地，关注低调但实用的 AI 应用。",
+      "impact": "行业情绪趋于理性，泡沫争论升温。",
+      "advice": "读原文校准对 AI 热度的判断，避免盲目追高。"
+    },
+    {
+      "id": "32ac40c41356",
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "AI安全",
+        "红队测试"
+      ],
+      "published_at": "2026-07-31T01:06:54.000Z",
+      "title_zh": "Anthropic 自曝模型曾攻破三家公司",
+      "summary_zh": "Anthropic 披露其模型在安全测试中成功入侵三家企业系统，此前 OpenAI 模型也曾攻破 Hugging Face，引发对模型攻击性能力的关注。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "前沿模型已具备真实渗透能力，红队测试不可或缺。",
+      "impact": "推动行业加强模型安全评估与部署管控。",
+      "advice": "关注模型安全报告，为自家系统做 AI 攻击面评估。"
+    },
+    {
+      "id": "52dc53679825",
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "AI投资",
+        "对冲基金"
+      ],
+      "published_at": "2026-07-30T23:25:58.000Z",
+      "title_zh": "AI 对冲基金抛售公开持仓，死守 Anthropic",
+      "summary_zh": "前 OpenAI 研究员创立的 Situational Awareness 基金被迫清仓公开股票组合，但仍保留 Anthropic 股份。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "顶级 AI 投资人用仓位投票：模型公司股权被视为核心资产。",
+      "impact": "凸显一级市场 AI 股权的稀缺与追捧。",
+      "advice": "关注头部模型公司的融资与估值动态作为风向标。"
+    },
+    {
+      "id": "70c959290a92",
+      "title": "Reddit reports a solid quarter but shows signs of AI’s impact",
+      "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Reddit",
+        "数据授权",
+        "AI搜索"
+      ],
+      "published_at": "2026-07-30T23:08:58.000Z",
+      "title_zh": "Reddit 财报稳健，AI 影响初现",
+      "summary_zh": "Reddit 公布强劲季度业绩，但 AI 搜索分流流量、数据授权关系的不确定性为其前景蒙上阴影。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "UGC 平台的价值正被 AI 重新定价：既是数据源也被分流。",
+      "impact": "内容平台与 AI 公司的博弈加剧。",
+      "advice": "关注 Reddit 数据授权模式，思考内容的 AI 时代定价。"
+    },
+    {
+      "id": "2d9d29aee7d3",
+      "title": "The loss of Situational Awareness",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI投资",
+        "风险",
+        "对冲基金"
+      ],
+      "published_at": "2026-07-30T23:02:41.000Z",
+      "title_zh": "失去情境感知：AI 基金的教训",
+      "summary_zh": "The Verge 评论 Situational Awareness 基金清盘事件，分析高集中度押注 AI 概念的风险，并给出普通投资者建议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "集中押注单一赛道的高杠杆基金，回撤时可能被迫清盘。",
+      "impact": "为 AI 投资热降温，提示散户风险。",
+      "advice": "读原文了解事件始末，检视自身 AI 相关仓位集中度。"
+    },
+    {
+      "id": "4601f1f1c89f",
+      "title": "Investors love AI, as long as you’re a cloud host",
+      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "亚马逊",
+        "数据中心",
+        "云计算"
+      ],
+      "published_at": "2026-07-30T22:41:41.000Z",
+      "title_zh": "投资者只爱云厂商的 AI 故事",
+      "summary_zh": "亚马逊持续加码数据中心支出却获投资者认可，市场似乎只愿意为云基础设施的 AI 投入买单。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "资本市场对 AI 回报的耐心因业务而异，基建叙事最受青睐。",
+      "impact": "云厂商资本开支持续扩张，算力军备竞赛升级。",
+      "advice": "跟踪云厂商财报中的资本开支，判断算力供需走向。"
+    },
+    {
+      "id": "b5180026e6d1",
+      "title": "LinkedIn actually adds a ‘seems like AI slop’ button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "LinkedIn",
+        "AI内容",
+        "内容质量"
+      ],
+      "published_at": "2026-07-30T22:33:19.000Z",
+      "title_zh": "LinkedIn 上线“疑似 AI 水文”按钮",
+      "summary_zh": "LinkedIn 推出标记疑似 AI 生成低质内容的功能，用户可直接对疑似 AI slop 的帖子表态。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "平台开始用用户反馈机制对抗 AI 低质内容泛滥。",
+      "impact": "倒逼内容创作者提升质量，净化信息流。",
+      "advice": "用 AI 辅助写作时保留个人观点，避免产出同质化内容。"
+    },
+    {
+      "id": "ee384203db2a",
+      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "苹果",
+        "Apple Intelligence",
+        "订阅模式"
+      ],
+      "published_at": "2026-07-30T22:31:59.000Z",
+      "title_zh": "库克暗示 iCloud+ 将推 AI 付费档",
+      "summary_zh": "苹果 CEO 库克在财报电话会暗示，未来或允许用户付费提升 Apple Intelligence 的使用额度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 功能正成为订阅服务新的分层付费卖点。",
+      "impact": "苹果探索 AI 变现路径，或带动行业跟进。",
+      "advice": "关注苹果订阅定价策略，思考 AI 功能的付费模式设计。"
     }
   ]
 }
