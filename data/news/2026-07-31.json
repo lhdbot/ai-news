@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T03:37:19.777Z",
+  "generated_at": "2026-07-31T04:08:08.775Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -641,6 +641,206 @@
       "learn": "实时语音API可用于构建低延迟、多语言的客服与导购Agent。",
       "impact": "语音Agent加速落地零售场景，改变实体店的顾客服务方式。",
       "advice": "试用GPT-Realtime API，做一个语音客服原型。"
+    },
+    {
+      "id": "ca8260c2b8e8",
+      "title": "Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation",
+      "url": "https://arxiv.org/abs/2607.27210",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "提示工程",
+        "Prompt Chaining",
+        "文本生成"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "提示链实践：自动生成学术报告案例研究",
+      "summary_zh": "论文通过一个自动生成学术报告的案例，实践展示如何将复杂写作任务拆分为多个提示链式调用大模型完成，提升输出质量与可控性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握提示链（Prompt Chaining）拆解复杂任务的工程方法",
+      "impact": "为长文档自动化生成提供可复用的实践范式",
+      "advice": "尝试把长文写作拆成多步提示链流程"
+    },
+    {
+      "id": "5abbe347bb93",
+      "title": "AI-assisted pre-review of open-source software submissions: an experience report from BOSC 2026",
+      "url": "https://arxiv.org/abs/2607.27228",
+      "source": "arXiv cs.CL",
+      "category": "行业动态",
+      "tags": [
+        "同行评审",
+        "开源软件",
+        "AI应用"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "AI辅助开源软件投稿预审：BOSC 2026经验报告",
+      "summary_zh": "BOSC 2026会议分享了用AI对开源软件投稿进行预审的实践经验，探讨其在提升同行评审效率方面的效果与局限。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI辅助同行评审的实际流程与边界",
+      "impact": "AI开始介入学术评审流程，提高审稿效率",
+      "advice": "关注AI辅助评审工具，投稿前可自查"
+    },
+    {
+      "id": "944a3baa15df",
+      "title": "Sympathetic Framing: Evaluating AI Alignment across Sociodemographic Groups",
+      "url": "https://arxiv.org/abs/2607.27232",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "AI对齐",
+        "公平性",
+        "LLM评估"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "共情框架：跨社会人口群体评估AI对齐",
+      "summary_zh": "研究提出在不同社会人口群体间评估大模型对齐性的框架，检验模型对不同人群的回答是否存在偏向或共情差异。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识模型对齐在不同人群间的公平性评估方法",
+      "impact": "推动AI公平性与多元对齐研究",
+      "advice": "做产品时注意测试不同用户群体下的模型表现"
+    },
+    {
+      "id": "086791d2a109",
+      "title": "LayerRAG-Bench: A Cross-Layer Reliability Benchmark for Agentic Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2607.27353",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "RAG",
+        "Agent",
+        "评测基准"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "LayerRAG-Bench：跨层可靠性的智能体RAG基准",
+      "summary_zh": "论文发布LayerRAG-Bench基准，从多个层级评估智能体化检索增强生成系统的可靠性，弥补现有RAG评测的不足。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Agentic RAG可靠性的分层评测思路",
+      "impact": "为评估和改进RAG系统提供新基准",
+      "advice": "搭建RAG系统时参考该基准做可靠性测试"
+    },
+    {
+      "id": "f8369c33b248",
+      "title": "BridgeAlign: Bridging Preference Alignment for Humanities and Social Sciences",
+      "url": "https://arxiv.org/abs/2607.27366",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "偏好对齐",
+        "数据合成",
+        "人文社科"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "BridgeAlign：弥合人文社科领域的偏好对齐",
+      "summary_zh": "研究面向人文社会科学场景的数据合成与偏好对齐方法BridgeAlign，改善大模型在文科任务上的对齐效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习面向垂直领域的偏好数据合成与对齐方法",
+      "impact": "提升大模型在人文社科场景的可用性",
+      "advice": "做垂直领域应用可借鉴其数据合成思路"
+    },
+    {
+      "id": "30dadb92c574",
+      "title": "Recursive transformers for semiconductor thermo-mechanical reliability",
+      "url": "https://arxiv.org/abs/2607.27251",
+      "source": "arXiv cs.LG",
+      "category": "芯片算力",
+      "tags": [
+        "Transformer",
+        "半导体",
+        "代理模型"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "递归Transformer用于半导体热机械可靠性",
+      "summary_zh": "论文将递归Transformer作为代理模型，用于预测半导体器件的热机械可靠性，加速芯片设计中的仿真验证。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Transformer代理模型在芯片仿真中的应用",
+      "impact": "AI加速半导体可靠性分析，缩短设计周期",
+      "advice": "关注AI for Science在芯片设计中的落地"
+    },
+    {
+      "id": "b92bb97dd61c",
+      "title": "Regularizing modality contribution drift in multimodal continual learning",
+      "url": "https://arxiv.org/abs/2607.27260",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "持续学习",
+        "多模态",
+        "正则化"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "正则化多模态持续学习中的模态贡献漂移",
+      "summary_zh": "研究针对多模态持续学习中模态贡献随任务漂移的问题，提出正则化方法保持各模态的均衡贡献，缓解遗忘。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解多模态持续学习中的模态失衡与缓解方法",
+      "impact": "提升多模态模型长期学习的稳定性",
+      "advice": "做多模态微调时留意模态贡献漂移问题"
+    },
+    {
+      "id": "818ab59e6425",
+      "title": "DoTime: A Synthetic Benchmark Generator for Interventional and Counterfactual Time Series",
+      "url": "https://arxiv.org/abs/2607.27263",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "因果推断",
+        "时间序列",
+        "基准生成"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "DoTime：干预与反事实时间序列合成基准生成器",
+      "summary_zh": "论文发布DoTime，一个生成干预和反事实时间序列的合成基准工具，用于评估因果推断模型在时间序列上的表现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解时间序列因果推断的合成基准构造方法",
+      "impact": "推动时间序列因果推理的可靠评测",
+      "advice": "做时序因果分析可用DoTime验证模型"
+    },
+    {
+      "id": "4ed6e5585f89",
+      "title": "PlatformBid: An Auto-Bidding Benchmark from a Unified Advertising Platform's Perspective",
+      "url": "https://arxiv.org/abs/2607.27265",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "自动出价",
+        "计算广告",
+        "基准"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "PlatformBid：统一广告平台视角的自动出价基准",
+      "summary_zh": "论文提出PlatformBid基准，从广告平台统一视角评估实时竞价中的自动出价算法，比单一广告主视角更贴近实际。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解自动出价算法的平台级评测新视角",
+      "impact": "为广告竞价算法研究提供更真实的基准",
+      "advice": "关注计算广告中强化学习出价的进展"
+    },
+    {
+      "id": "cb9102f54b68",
+      "title": "Beyond KV Reconstruction: Functional Reconstruction for MLA Draft Models in Speculative Decoding",
+      "url": "https://arxiv.org/abs/2607.27269",
+      "source": "arXiv cs.LG",
+      "category": "模型发布",
+      "tags": [
+        "投机解码",
+        "MLA",
+        "推理加速"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "超越KV重建：MLA草稿模型的功能重建",
+      "summary_zh": "研究针对MLA注意力在投机解码中的草稿模型压缩问题，提出功能重建方法替代KV重建，提升草稿模型质量与解码加速效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握投机解码中草稿模型压缩的新思路",
+      "impact": "提升MLA模型推理速度，降低部署成本",
+      "advice": "做推理优化可关注投机解码与MLA结合"
     }
   ]
 }
