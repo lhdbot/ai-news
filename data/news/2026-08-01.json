@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-07-31T16:10:54.898Z",
+  "generated_at": "2026-07-31T16:39:03.530Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -68,12 +68,19 @@
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
       "source": "OpenAI",
       "category": "模型发布",
-      "tags": [],
+      "tags": [
+        "GPT-5.6",
+        "OpenAI",
+        "定价"
+      ],
       "published_at": "2026-07-30T10:00:00.000Z",
-      "title_zh": "",
-      "summary_zh": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient",
+      "title_zh": "Advancing the price-performance frontier with GPT-5.6",
+      "summary_zh": "OpenAI下调GPT-5.6在Luna和Terra方案中的定价,称得益于更高效的推理优化,进一步压低旗舰模型使用成本。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "模型厂商正靠推理效率优化打价格战,同性能成本持续下降。",
+      "impact": "降低AI应用开发与接入门槛,加剧模型价格竞争。",
+      "advice": "重新核算API调用成本,评估迁移到更便宜档位的收益。"
     },
     {
       "id": "9146ff1756af",
@@ -401,12 +408,18 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
       "source": "The Verge AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "LinkedIn",
+        "AI内容治理"
+      ],
       "published_at": "2026-07-31T10:23:33.000Z",
-      "title_zh": "",
-      "summary_zh": "A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to",
+      "title_zh": "LinkedIn actually adds a ‘seems like AI slop’ button",
+      "summary_zh": "LinkedIn新增标记功能,允许用户对疑似AI批量生成的低质内容点选'seems like AI slop',以治理平台内容质量。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "平台开始用用户反馈信号对抗AI生成内容泛滥问题。",
+      "impact": "推动社交平台建立AI内容甄别与降权机制。",
+      "advice": "发内容时避免AI腔,保持个人原创表达以防被标记。"
     },
     {
       "id": "32ac40c41356",
@@ -414,12 +427,19 @@
       "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
       "source": "TechCrunch AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "Anthropic",
+        "AI安全",
+        "红队测试"
+      ],
       "published_at": "2026-07-31T01:06:54.000Z",
-      "title_zh": "",
-      "summary_zh": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history",
+      "title_zh": "Anthropic says its own AI models breached three companies during security tests",
+      "summary_zh": "继OpenAI模型在测试中入侵Hugging Face后,Anthropic自查发现自家模型在安全测试中也成功入侵了三家公司系统。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "前沿模型已具备真实渗透能力,红队测试须覆盖攻击性行为。",
+      "impact": "倒逼行业加强模型能力评估与安全防护边界。",
+      "advice": "关注模型红队报告,部署AI时评估其被滥用攻击的风险。"
     },
     {
       "id": "52dc53679825",
@@ -427,12 +447,19 @@
       "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
       "source": "TechCrunch AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "AI投资",
+        "Anthropic",
+        "对冲基金"
+      ],
       "published_at": "2026-07-30T23:25:58.000Z",
-      "title_zh": "",
-      "summary_zh": "The former OpenAI researcher’s fund was forced to unwind public equities after l",
+      "title_zh": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "summary_zh": "前OpenAI研究员创立的Situational Awareness基金在亏损后被迫清盘公开股票组合,但仍保留Anthropic股权。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "AI概念投资风险高,但头部模型公司股权仍被长期看好。",
+      "impact": "提示AI一级市场估值与二级市场波动的分化。",
+      "advice": "理性看待AI投资叙事,区分概念炒作与真实资产价值。"
     },
     {
       "id": "70c959290a92",
@@ -440,12 +467,19 @@
       "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
       "source": "TechCrunch AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "Reddit",
+        "AI搜索",
+        "数据授权"
+      ],
       "published_at": "2026-07-30T23:08:58.000Z",
-      "title_zh": "",
-      "summary_zh": "Reddit's financial situation is looking good but uncertainty about its relations",
+      "title_zh": "Reddit reports a solid quarter but shows signs of AI’s impact",
+      "summary_zh": "Reddit季度业绩表现良好,但AI搜索减少外部引流、数据授权关系不确定性等问题开始显现。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "AI搜索正在改变流量分发,内容社区商业模式受冲击。",
+      "impact": "内容平台与AI公司的数据博弈将重塑流量生态。",
+      "advice": "关注AI搜索对流量来源的影响,内容从业者多渠道布局。"
     },
     {
       "id": "2d9d29aee7d3",
@@ -453,12 +487,19 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
       "source": "The Verge AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "AI投资",
+        "基金",
+        "评论"
+      ],
       "published_at": "2026-07-30T23:02:41.000Z",
-      "title_zh": "",
-      "summary_zh": "I am not by any means an expert at finance but I think I do now have some advice",
+      "title_zh": "The loss of Situational Awareness",
+      "summary_zh": "评论文章复盘这只明星AI基金被迫清仓的经过,作者以非金融背景视角总结给普通读者的投资建议与教训。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "叙事驱动的基金风险极高,名气不等于投资能力。",
+      "impact": "为AI投资热潮降温,警示散户勿盲目追随明星基金。",
+      "advice": "读原文了解事件全貌,个人投资避免重仓单一AI叙事。"
     },
     {
       "id": "ee384203db2a",
@@ -466,12 +507,179 @@
       "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
       "source": "The Verge AI",
       "category": "行业动态",
-      "tags": [],
+      "tags": [
+        "苹果",
+        "iCloud",
+        "AI订阅"
+      ],
       "published_at": "2026-07-30T22:31:59.000Z",
-      "title_zh": "",
-      "summary_zh": "Apple may allow users to pay to increase their AI usage limits. During an earnin",
+      "title_zh": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "summary_zh": "苹果CEO库克在财报电话会上暗示,可能推出iCloud Plus付费层级,让重度用户付费提升Apple Intelligence使用额度。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "端云结合的AI服务正走向订阅分层变现模式。",
+      "impact": "苹果AI商业化提速,或开启消费级AI订阅新战场。",
+      "advice": "关注苹果AI订阅定价,评估其生态内AI功能的实用价值。"
+    },
+    {
+      "id": "c5ad624a6ffb",
+      "title": "Disrupting a Criminal Scam Operation",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI滥用",
+        "反诈"
+      ],
+      "published_at": "2026-08-04T00:00:00.000Z",
+      "title_zh": "Disrupting a Criminal Scam Operation",
+      "summary_zh": "OpenAI披露其打断了一个位于柬埔寨的犯罪诈骗行动,该团伙利用ChatGPT辅助实施投资类诈骗,相关账号被封禁。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "模型厂商通过行为监测识别并阻断恶意滥用已成常态。",
+      "impact": "展示平台侧滥用治理成效,也为反诈提供新思路。",
+      "advice": "阅读OpenAI滥用治理报告,了解AI诈骗话术以提升防范。"
+    },
+    {
+      "id": "2b882e1b8e76",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "source": "Google DeepMind",
+      "category": "具身智能",
+      "tags": [
+        "Gemini Robotics",
+        "DeepMind",
+        "机器人"
+      ],
+      "published_at": "2026-07-30T15:00:59.000Z",
+      "title_zh": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "summary_zh": "Google DeepMind推出Gemini Robotics ER 2模型,具备视频理解、任务编排与多机器人协作能力,让机器人推理并解决真实任务。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "视觉语言模型正成为机器人大脑,多机协作是新方向。",
+      "impact": "加速通用机器人落地,推动具身智能进入实用阶段。",
+      "advice": "关注Gemini Robotics开发者文档,跟踪具身智能进展。"
+    },
+    {
+      "id": "ca8260c2b8e8",
+      "title": "Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation",
+      "url": "https://arxiv.org/abs/2607.27210",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "Prompt Chaining",
+        "arXiv",
+        "科研自动化"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation",
+      "summary_zh": "arXiv新论文通过案例研究展示用提示链(Prompt Chaining)分解任务,自动生成学术文献综述报告,应对文献爆炸式增长。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "将复杂任务拆成多步提示链,比单次提示更可靠可控。",
+      "impact": "为科研写作自动化提供可复用的工程方法。",
+      "advice": "读原文学习提示链设计,尝试用它搭建文献综述流程。"
+    },
+    {
+      "id": "5abbe347bb93",
+      "title": "AI-assisted pre-review of open-source software submissions: an experience report from BOSC 2026",
+      "url": "https://arxiv.org/abs/2607.27228",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "AI审稿",
+        "同行评审",
+        "BOSC"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "AI 辅助审稿实践：BOSC 2026 经验报告",
+      "summary_zh": "BOSC 2026 会议尝试用 AI 对开源软件投稿进行预评审，分享了部署过程、效果与局限的实践经验。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 AI 辅助同行评审的落地方式与边界",
+      "impact": "学术审稿流程或迎来 AI 提效变革",
+      "advice": "读原文，借鉴其评审工作流设计"
+    },
+    {
+      "id": "944a3baa15df",
+      "title": "Sympathetic Framing: Evaluating AI Alignment across Sociodemographic Groups",
+      "url": "https://arxiv.org/abs/2607.27232",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "AI对齐",
+        "公平性",
+        "LLM评估"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "同情框架：跨社会人口群体的 AI 对齐评估",
+      "summary_zh": "论文提出 Sympathetic Framing 方法，评估大语言模型在不同社会人口群体上的对齐表现与差异。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握评估 LLM 群体公平性的新视角",
+      "impact": "推动 AI 对齐研究关注群体公平性",
+      "advice": "做对齐评估时引入人口统计学维度"
+    },
+    {
+      "id": "086791d2a109",
+      "title": "LayerRAG-Bench: A Cross-Layer Reliability Benchmark for Agentic Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2607.27353",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "RAG",
+        "Agent",
+        "基准测试"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "LayerRAG-Bench：智能体 RAG 跨层可靠性基准",
+      "summary_zh": "新基准 LayerRAG-Bench 针对智能体式 RAG 系统，跨多个层级系统评估其可靠性与故障模式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习如何系统性评估 Agentic RAG 可靠性",
+      "impact": "为 RAG 系统质量评估提供新标准",
+      "advice": "用该基准测试你的 RAG 应用"
+    },
+    {
+      "id": "f8369c33b248",
+      "title": "BridgeAlign: Bridging Preference Alignment for Humanities and Social Sciences",
+      "url": "https://arxiv.org/abs/2607.27366",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "偏好对齐",
+        "数据合成",
+        "人文社科"
+      ],
+      "published_at": "2026-07-31T04:00:00.000Z",
+      "title_zh": "BridgeAlign：人文社科领域的偏好对齐",
+      "summary_zh": "论文提出 BridgeAlign，通过数据合成方法弥合大模型在人文与社会科学领域的偏好对齐差距。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解面向垂直领域的对齐数据合成方法",
+      "impact": "提升 LLM 在人文社科场景的可用性",
+      "advice": "做领域微调时参考其数据合成思路"
+    },
+    {
+      "id": "93f2f3d16d8b",
+      "title": "Siri AI could come with a paywall for power users",
+      "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "苹果",
+        "Siri",
+        "AI商业化"
+      ],
+      "published_at": "2026-07-31T16:08:18.000Z",
+      "title_zh": "Siri AI 或对高级用户收费",
+      "summary_zh": "库克暗示苹果可能让用户付费购买更多算力，为 Siri AI 高级功能引入订阅或按量付费模式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察端侧 AI 的商业化与算力定价模式",
+      "impact": "AI 助手订阅化或成行业新趋势",
+      "advice": "关注苹果 AI 定价，评估对竞品影响"
     }
   ]
 }
