@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T08:38:39.876Z",
+  "generated_at": "2026-07-31T09:07:31.218Z",
   "items": [
     {
       "id": "2b882e1b8e76",
@@ -1121,6 +1121,26 @@
       "learn": "大模型推理能力已能辅助攻克长期未解数学问题，AI for Science正加速。",
       "impact": "推动AI在基础科研中的实用化，带动相关人才需求。",
       "advice": "关注AI for Science招聘与论文，数学背景者可尝试该方向。"
+    },
+    {
+      "id": "487981959078",
+      "title": "Univé builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Enterprise",
+        "企业AI落地"
+      ],
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "title_zh": "Univé用ChatGPT打造AI团队",
+      "summary_zh": "荷兰保险公司Univé通过部署ChatGPT Enterprise,结合培训与内部推广,系统性地将全体员工培养成具备AI应用能力的队伍。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "企业落地AI的关键是工具+培训+文化建设结合,而非单纯采购软件。",
+      "impact": "为大企业规模化推广生成式AI提供了可参考的实施范本。",
+      "advice": "读原文案例,借鉴其员工AI培训与推广路径用于自己团队。"
     }
   ]
 }
