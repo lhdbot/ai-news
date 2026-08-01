@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T07:07:18.038Z",
+  "generated_at": "2026-08-01T07:37:33.608Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -1139,6 +1139,26 @@
       "learn": "掌握世界模型与合成数据训练思路：物理AI竞争焦点正从采集数据转向生成可用的虚拟环境。",
       "impact": "推动合成世界成为训练主流，降低具身智能数据成本。",
       "advice": "关注World Labs的世界模型进展，了解合成数据在具身智能中的应用。"
+    },
+    {
+      "id": "6d58997b466c",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "OpenAI",
+      "category": "论文研究",
+      "tags": [
+        "OpenAI",
+        "数学",
+        "AI for Science"
+      ],
+      "published_at": "2026-08-01T00:00:00.000Z",
+      "title_zh": "OpenAI在数学与理论计算机科学取得十项进展",
+      "summary_zh": "OpenAI公布其在数学和理论计算机科学领域长期悬而未决的公开问题上的新研究进展，展示模型推理能力在严肃科研问题上的突破。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型推理能力已能参与解决前沿数学难题，AI for Science是重要趋势。",
+      "impact": "推动AI辅助科研进入核心数学领域，可能改变理论科学研究范式。",
+      "advice": "阅读OpenAI原文了解具体突破，关注AI辅助科研方向。"
     }
   ]
 }
