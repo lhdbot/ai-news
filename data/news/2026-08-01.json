@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T03:37:13.130Z",
+  "generated_at": "2026-08-01T04:07:43.120Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -959,6 +959,106 @@
       "learn": "了解新兴市场从流量驱动到付费驱动的转变,把握订阅与内购的本地化定价策略。",
       "impact": "印度成为应用开发者新的收入增长极,出海竞争将加剧。",
       "advice": "有出海计划可关注印度市场,研究其低价订阅与本地支付方案。"
+    },
+    {
+      "id": "1bf64b2f9cf4",
+      "title": "AI顶会现场，见到了一家美妆巨头",
+      "url": "https://www.qbitai.com/2026/08/464364.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "欧莱雅",
+        "AI落地",
+        "美妆科技"
+      ],
+      "published_at": "2026-08-01T02:52:18.000Z",
+      "title_zh": "欧莱雅把AI装进美妆全链路",
+      "summary_zh": "在AI顶会现场，美妆巨头欧莱雅展示了将AI应用于美妆研发、生产到销售全链路的实践，传统消费品牌正加速拥抱AI技术。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI在消费行业的落地路径：从皮肤分析到个性化推荐的全链路应用思路。",
+      "impact": "传统企业深度应用AI，加速AI从实验室走向日常消费场景。",
+      "advice": "关注AI在垂直行业的落地案例，思考可借鉴到自身项目的场景。"
+    },
+    {
+      "id": "cb8ef2d60e0e",
+      "title": "Here’s the problem with putting an AI image generator in Google Earth",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "Google Earth",
+        "AI生图",
+        "深度伪造"
+      ],
+      "published_at": "2026-07-31T20:12:14.000Z",
+      "title_zh": "谷歌地球AI生图功能引争议",
+      "summary_zh": "谷歌地球上线AI图像生成功能，用户只需一句提示词就能生成扭曲现实的图像，被质疑会混淆真实地理信息与虚构内容。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解AI生图工具与真实数据结合时的风险：逼真内容可能误导用户对现实的认知。",
+      "impact": "引发对AI生成内容与真实信息混用的担忧，推动平台审视产品责任。",
+      "advice": "体验AI生图时注意信息可信度，关注生成内容标注规范。"
+    },
+    {
+      "id": "abe78d62759c",
+      "title": "Google Earth’s AI deepfake tool only lasted one day",
+      "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "深度伪造",
+        "AI治理"
+      ],
+      "published_at": "2026-07-31T19:13:29.000Z",
+      "title_zh": "谷歌地球AI工具上线一天即下线",
+      "summary_zh": "谷歌关闭了周四刚推出的谷歌地球AI功能，该功能允许用户生成篡改现实的图像，因深度伪造争议仅存活一天。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI功能发布需提前评估滥用风险，快速发布-快速撤回成为大厂应对争议的常态。",
+      "impact": "大厂对AI滥用反应提速，产品上线前的安全评估将更严格。",
+      "advice": "发布AI功能前做滥用场景评估，建立快速下线预案。"
+    },
+    {
+      "id": "cdef019f7271",
+      "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
+      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Sam Altman",
+        "AI监管",
+        "OpenAI"
+      ],
+      "published_at": "2026-07-31T17:26:32.000Z",
+      "title_zh": "不止Altman想给AI踩刹车",
+      "summary_zh": "多年全速推进AI后，OpenAI CEO奥特曼表示或许该放慢脚步，而持同样想法的行业人士并非只有他一个。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察AI行业从竞赛思维转向审慎发展的信号，理解技术节奏与社会接受度的平衡。",
+      "impact": "行业领袖集体转向谨慎，或影响AI研发投入节奏与监管走向。",
+      "advice": "关注AI安全与监管讨论，评估自身项目对政策变化的敏感性。"
+    },
+    {
+      "id": "e8b5e8d005e1",
+      "title": "The major labels propose rules to keep AI slop off the charts",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI音乐",
+        "唱片公司",
+        "内容治理"
+      ],
+      "published_at": "2026-07-31T16:36:48.000Z",
+      "title_zh": "唱片巨头拟抵制AI低质音乐",
+      "summary_zh": "环球、索尼、华纳三大唱片公司等提出规则，旨在阻止AI批量生成的低质音乐作品冲击榜单，保护真人创作的音乐生态。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI内容泛滥对创意产业的冲击，以及行业自律规则的应对思路。",
+      "impact": "音乐行业建立AI内容门槛，或成其他创意领域治理AI内容的范本。",
+      "advice": "关注AI内容质量治理规则，创作AI内容时注重质量而非数量。"
     }
   ]
 }
