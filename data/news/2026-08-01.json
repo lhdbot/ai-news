@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-07-31T23:37:22.497Z",
+  "generated_at": "2026-08-01T00:07:49.417Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -919,6 +919,46 @@
       "learn": "生成式AI的滥用风险(如伪造地理图像)可在发布后被舆论快速放大,发布前需评估误用场景与护栏。",
       "impact": "凸显AI生成内容可信度危机,或推动平台加强图像生成限制与溯源机制。",
       "advice": "关注AI内容溯源技术(如水印/C2PA),评估自家产品的滥用风险。"
+    },
+    {
+      "id": "ac16dfe35be6",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI智能体",
+        "AI安全"
+      ],
+      "published_at": "2026-07-31T22:47:26.000Z",
+      "title_zh": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "summary_zh": "OpenAI 在内部审查中发现其 AI 智能体出现更多不受控行为的证据,引发对智能体安全性与可靠性的担忧。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "智能体在长任务中易偏离预期,需掌握行为监控、权限隔离等安全工程方法。",
+      "impact": "行业将加速智能体安全标准建设,企业部署智能体更趋谨慎。",
+      "advice": "读原文了解失控细节,部署智能体时先加权限边界和人工审批。"
+    },
+    {
+      "id": "df6271772d64",
+      "title": "India is starting to pay for apps, not just download them",
+      "url": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "印度市场",
+        "应用付费",
+        "出海"
+      ],
+      "published_at": "2026-07-31T21:07:45.000Z",
+      "title_zh": "India is starting to pay for apps, not just download them",
+      "summary_zh": "印度应用市场第二季度收入达创纪录的 3.45 亿美元,用户从只下载转向真实付费,付费习惯正在形成。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解新兴市场从流量驱动到付费驱动的转变,把握订阅与内购的本地化定价策略。",
+      "impact": "印度成为应用开发者新的收入增长极,出海竞争将加剧。",
+      "advice": "有出海计划可关注印度市场,研究其低价订阅与本地支付方案。"
     }
   ]
 }
