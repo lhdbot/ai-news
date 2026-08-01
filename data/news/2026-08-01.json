@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T11:07:23.139Z",
+  "generated_at": "2026-08-01T11:37:26.896Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -1159,6 +1159,26 @@
       "learn": "大模型推理能力已能参与解决前沿数学难题，AI for Science是重要趋势。",
       "impact": "推动AI辅助科研进入核心数学领域，可能改变理论科学研究范式。",
       "advice": "阅读OpenAI原文了解具体突破，关注AI辅助科研方向。"
+    },
+    {
+      "id": "2b4ae3830fbb",
+      "title": "microsoft/AI-For-Beginners/stargazers: 12 Weeks, 24 Lessons, AI for All!",
+      "url": "https://github.com/microsoft/AI-For-Beginners/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "微软",
+        "开源课程",
+        "AI入门"
+      ],
+      "published_at": "2026-08-01T11:37:05.207Z",
+      "title_zh": "微软AI入门课登GitHub热榜",
+      "summary_zh": "微软开源的AI入门课程《AI-For-Beginners》登上GitHub日榜，提供12周24节课的体系化内容，以Jupyter Notebook形式呈现，单日获869星。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "系统学习AI基础的免费路径：从机器学习到深度学习，边学边动手跑Notebook。",
+      "impact": "优质免费课程降低AI学习门槛，成为开发者入门的热门选择。",
+      "advice": "收藏该仓库，按12周节奏跟学并动手完成每课练习。"
     }
   ]
 }
