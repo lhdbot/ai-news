@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated_at": "2026-08-01T20:07:34.559Z",
+  "generated_at": "2026-08-01T20:37:42.542Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -521,6 +521,26 @@
       "learn": "AI 生成音乐已进入主流榜单，了解其创作模式与鉴别方法是新技能。",
       "impact": "AI 内容冲击音乐产业，版权、原创性与榜单公信力面临挑战。",
       "advice": "关注 AI 音乐检测工具与版权政策动向，读原文了解争论细节。"
+    },
+    {
+      "id": "9bb4cc8e0aec",
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI监管",
+        "深度伪造",
+        "xAI"
+      ],
+      "published_at": "2026-08-01T20:26:04.000Z",
+      "title_zh": "xAI起诉明州'脱衣'应用禁令被驳回",
+      "summary_zh": "xAI起诉要求阻止明尼苏达州禁止'一键脱衣'(nudify)类应用的法律,法官驳回其请求,禁令继续生效。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解生成式AI滥用的法律治理趋势,以及各州对深度伪造内容的监管立法实践。",
+      "impact": "AI内容监管趋严,倒逼模型厂商加强生成内容安全限制。",
+      "advice": "关注AI内容安全法规动向,开发时注意合规边界。"
     }
   ]
 }
