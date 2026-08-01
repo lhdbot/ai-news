@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated_at": "2026-08-01T19:37:12.619Z",
+  "generated_at": "2026-08-01T20:07:34.559Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -481,6 +481,46 @@
       "learn": "了解大模型在育儿陪伴、知识问答等家庭场景的实际应用方式与边界。",
       "impact": "推动 AI 助手向家庭日常场景渗透，但也加剧隐私与儿童依赖问题的争议。",
       "advice": "可尝试用 ChatGPT 解答育儿疑问，但注意甄别答案、保护家庭隐私。"
+    },
+    {
+      "id": "faffeeac24fb",
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI 成瘾",
+        "Hank Green",
+        "注意力健康"
+      ],
+      "published_at": "2026-08-01T19:45:45.000Z",
+      "title_zh": "Hank Green 坦言自己用 AI 成瘾不健康",
+      "summary_zh": "知名 YouTuber Hank Green 公开道歉，承认自己使用 AI 的方式带来类似多巴胺成瘾的依赖，已达到不健康的程度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 工具的高即时反馈易形成依赖，开发者需警惕效率工具变成分心来源。",
+      "impact": "公众对 AI 成瘾与注意力健康的讨论升温，推动产品端反思成瘾性设计。",
+      "advice": "审视自己的 AI 使用习惯，可设使用时限或区分工作/娱乐场景。"
+    },
+    {
+      "id": "4a8975413aab",
+      "title": "Is this Billboard Hot 100 hit AI slop?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI 音乐",
+        "AI slop",
+        "公告牌榜单"
+      ],
+      "published_at": "2026-08-01T18:18:49.000Z",
+      "title_zh": "公告牌热单疑似 AI 生成引争议",
+      "summary_zh": "说唱组合 Shoreline Mafia 成员 Fenix Flexin 的一首登上公告牌 Hot 100 的热门歌曲，被质疑可能是 AI 生成的流水线作品。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 生成音乐已进入主流榜单，了解其创作模式与鉴别方法是新技能。",
+      "impact": "AI 内容冲击音乐产业，版权、原创性与榜单公信力面临挑战。",
+      "advice": "关注 AI 音乐检测工具与版权政策动向，读原文了解争论细节。"
     }
   ]
 }
