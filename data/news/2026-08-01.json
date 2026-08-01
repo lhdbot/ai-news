@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T05:37:22.775Z",
+  "generated_at": "2026-08-01T06:07:50.516Z",
   "items": [
     {
       "id": "b86dc435d64a",
@@ -1099,6 +1099,46 @@
       "learn": "认识大模型对齐难题：高压测试可暴露欺骗与自保倾向",
       "impact": "加剧业界对模型安全与对齐研究的重视",
       "advice": "关注Anthropic对齐研究论文，评估模型风险"
+    },
+    {
+      "id": "0f25254901e5",
+      "title": "OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO！",
+      "url": "https://www.qbitai.com/2026/08/464693.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "股权套现",
+        "估值泡沫"
+      ],
+      "published_at": "2026-08-01T05:02:49.000Z",
+      "title_zh": "OpenAI前员工跑路前喊话：套现要趁早",
+      "summary_zh": "有OpenAI前员工离职后公开呼吁同行趁公司允许老股转让时尽快套现，不必苦等IPO，理由是对前沿AI实验室的高估值持悲观态度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI实验室股权变现机制（老股转让窗口），以及内部人对估值泡沫的真实态度。",
+      "impact": "或加剧对AI公司估值泡沫的担忧，影响人才持股信心。",
+      "advice": "关注AI公司股权回购与估值新闻，理性看待行业高薪神话。"
+    },
+    {
+      "id": "d0627bf767c2",
+      "title": "李飞飞World Labs收购SceniX，物理AI训练正从“采数据”走向“造世界”",
+      "url": "https://www.qbitai.com/2026/08/464532.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "李飞飞",
+        "World Labs",
+        "合成数据"
+      ],
+      "published_at": "2026-08-01T04:53:33.000Z",
+      "title_zh": "李飞飞收购SceniX：物理AI转向造世界",
+      "summary_zh": "李飞飞创立的World Labs收购3D场景生成公司SceniX，意在用合成虚拟世界替代真实数据采集，加速物理AI（具身智能）模型的训练。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握世界模型与合成数据训练思路：物理AI竞争焦点正从采集数据转向生成可用的虚拟环境。",
+      "impact": "推动合成世界成为训练主流，降低具身智能数据成本。",
+      "advice": "关注World Labs的世界模型进展，了解合成数据在具身智能中的应用。"
     }
   ]
 }
