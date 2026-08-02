@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T14:07:22.617Z",
+  "generated_at": "2026-08-02T14:37:37.935Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -561,6 +561,26 @@
       "learn": "了解蜂群思维通信范式,学习用 Rust 构建高并发协作系统的思路。",
       "impact": "为多智能体与协作工具领域提供新的开源参考实现。",
       "advice": "去 GitHub 读源码,关注其多智能体通信机制设计。"
+    },
+    {
+      "id": "92beec8f131b",
+      "title": "Is paying artists enough to convince them to embrace AI?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "生成式AI",
+        "版权补偿",
+        "创作者经济"
+      ],
+      "published_at": "2026-07-31T21:16:29.000Z",
+      "title_zh": "付费能说服艺术家接受AI吗",
+      "summary_zh": "插画师多年来持续警告生成式AI威胁创作生态,一些公司尝试通过付费补偿换取艺术家支持,但金钱能否真正化解创作者对AI的抵触仍存争议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI内容生成的版权与补偿模式之争,以及创作者经济中利益分配的新探索。",
+      "impact": "影响AI训练数据的版权合作模式,关系内容创作者与AI公司的长期博弈。",
+      "advice": "关注AI版权补偿案例,读原文了解艺术家真实态度。"
     }
   ]
 }
