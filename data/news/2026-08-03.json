@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-02T22:07:13.593Z",
+  "generated_at": "2026-08-02T22:37:57.755Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -321,6 +321,107 @@
       "learn": "了解AI发展与安全的争论焦点，以及头部公司推动监管的动机与影响。",
       "impact": "头部人物呼吁减速或影响监管走向与行业研发节奏。",
       "advice": "收听Equity播客原文，关注AI监管政策动向。"
+    },
+    {
+      "id": "fdd9cfe72d0e",
+      "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
+      "url": "https://www.qbitai.com/2026/08/464781.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "遥操作",
+        "机器人保洁"
+      ],
+      "published_at": "2026-08-01T10:45:46.000Z",
+      "title_zh": "「天线宝宝」机器人上门做保洁",
+      "summary_zh": "有公司推出机器人上门保洁服务，每小时200元，但机器人实际由人工远程操控，所谓智能主要靠人在背后操作。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "具身智能落地常用遥操作兜底，既能服务真实场景，也能收集真实数据训练模型。",
+      "impact": "暴露具身智能技术成熟度不足，但人机混合模式或成商业化过渡路径。",
+      "advice": "关注遥操作数据采集模式，评估具身智能项目时区分真自主与人工辅助。"
+    },
+    {
+      "id": "4782694beb5f",
+      "title": "获奖之后，王虹最想感谢的人",
+      "url": "https://www.qbitai.com/2026/08/464761.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "王虹",
+        "科研人物",
+        "学术传承"
+      ],
+      "published_at": "2026-08-01T10:38:47.000Z",
+      "title_zh": "获奖之后，王虹最想感谢的人",
+      "summary_zh": "学者王虹获奖后受访，特别感谢一位给予她很大帮助的人，回顾了科研路上关键支持对其成长的影响。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "顶尖科研成果背后离不开导师与同行的支持，学术传承和合作网络至关重要。",
+      "impact": "展现科研社区互助文化，激励年轻研究者重视师承与协作。",
+      "advice": "读原文了解其科研经历，主动建立自己的学术合作与求助网络。"
+    },
+    {
+      "id": "3195c53ffa0b",
+      "title": "奥特曼也逃不过刷TikTok上瘾，Sora背后最抓马的一段来了",
+      "url": "https://www.qbitai.com/2026/08/464713.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "奥特曼",
+        "Sora",
+        "算法成瘾"
+      ],
+      "published_at": "2026-08-01T10:33:18.000Z",
+      "title_zh": "奥特曼自曝刷TikTok上瘾",
+      "summary_zh": "OpenAI CEO奥特曼透露自己曾连刷3小时TikTok上瘾，同时披露Sora视频生成产品背后的一段戏剧性经历。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "推荐算法的成瘾机制连AI领袖也难以抗拒，产品设计上瘾性与用户福祉存在张力。",
+      "impact": "引发对AI产品成瘾性与算法责任的讨论，或影响视频生成产品策略。",
+      "advice": "读原文看Sora幕后故事，反思自家产品的用户粘性设计边界。"
+    },
+    {
+      "id": "0f25254901e5",
+      "title": "OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO！",
+      "url": "https://www.qbitai.com/2026/08/464693.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "估值",
+        "股权套现"
+      ],
+      "published_at": "2026-08-01T05:02:49.000Z",
+      "title_zh": "OpenAI前员工喊话:趁早套现别等IPO",
+      "summary_zh": "一位OpenAI前员工离职后公开表示，对前沿AI实验室估值持悲观态度，建议持股员工趁二级市场机会尽快套现，不要苦等IPO。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "前沿AI公司估值高企但退出渠道不确定，股权变现存在窗口期风险。",
+      "impact": "加剧市场对AI独角兽估值泡沫的担忧，或影响员工持股信心。",
+      "advice": "持有AI公司股权者关注二级市场退出渠道，投资者警惕估值泡沫。"
+    },
+    {
+      "id": "d0627bf767c2",
+      "title": "李飞飞World Labs收购SceniX，物理AI训练正从“采数据”走向“造世界”",
+      "url": "https://www.qbitai.com/2026/08/464532.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "李飞飞",
+        "World Labs",
+        "合成数据",
+        "世界模型"
+      ],
+      "published_at": "2026-08-01T04:53:33.000Z",
+      "title_zh": "李飞飞World Labs收购SceniX",
+      "summary_zh": "李飞飞创办的World Labs收购3D场景技术公司SceniX，物理AI训练正从采集真实数据转向合成生成虚拟世界，竞争焦点变成谁能造出更多有用的世界。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "合成数据与仿真环境正成为物理AI训练新范式，可突破真实数据采集的成本与规模瓶颈。",
+      "impact": "推动世界模型与物理AI发展，合成世界生成能力成新一轮竞争壁垒。",
+      "advice": "关注世界模型与合成数据方向，跟踪World Labs技术进展。"
     }
   ]
 }
