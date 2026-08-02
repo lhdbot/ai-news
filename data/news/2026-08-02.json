@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T10:37:13.001Z",
+  "generated_at": "2026-08-02T11:07:48.869Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -541,6 +541,26 @@
       "learn": "了解生成式AI滥用的法律治理趋势,以及各州对深度伪造内容的监管立法实践。",
       "impact": "AI内容监管趋严,倒逼模型厂商加强生成内容安全限制。",
       "advice": "关注AI内容安全法规动向,开发时注意合规边界。"
+    },
+    {
+      "id": "aef292688ace",
+      "title": "block/buzz/stargazers: A hive mind communication platform",
+      "url": "https://github.com/block/buzz/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "GitHub开源",
+        "Rust",
+        "多智能体"
+      ],
+      "published_at": "2026-08-02T11:07:04.280Z",
+      "title_zh": "Buzz:蜂群思维协作平台",
+      "summary_zh": "Rust 编写的开源项目 buzz 走红 GitHub 周榜,主打\"蜂群思维\"式通信协作,一周获 9000 star,或为多智能体协同提供新思路。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解蜂群思维通信范式,学习用 Rust 构建高并发协作系统的思路。",
+      "impact": "为多智能体与协作工具领域提供新的开源参考实现。",
+      "advice": "去 GitHub 读源码,关注其多智能体通信机制设计。"
     }
   ]
 }
