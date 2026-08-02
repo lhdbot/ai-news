@@ -1,0 +1,286 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-02T16:09:04.904Z",
+  "items": [
+    {
+      "id": "6d58997b466c",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "OpenAI",
+      "category": "论文研究",
+      "tags": [
+        "OpenAI",
+        "数学推理",
+        "AI科研"
+      ],
+      "published_at": "2026-08-01T00:00:00.000Z",
+      "title_zh": "Ten advances in mathematics and theoretical computer science",
+      "summary_zh": "OpenAI 分享其模型在数学和理论计算机科学多个长期开放问题上取得的新成果，展示推理模型在严肃科研中的潜力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型推理能力已能辅助攻克数学开放问题，AI for Science 趋势明确。",
+      "impact": "推动 AI 深度参与基础科研，改变数学研究协作方式。",
+      "advice": "读 OpenAI 原文，关注 LLM 辅助科研的实际案例。"
+    },
+    {
+      "id": "edd602ad17f8",
+      "title": "permissionlesstech/bitchat/stargazers: bluetooth mesh chat, IRC vibes",
+      "url": "https://github.com/permissionlesstech/bitchat/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [
+        "蓝牙Mesh",
+        "去中心化",
+        "开源"
+      ],
+      "published_at": "2026-08-02T16:07:04.605Z",
+      "title_zh": "permissionlesstech/bitchat/stargazers: bluetooth mesh chat, IRC vibes",
+      "summary_zh": "开源项目 bitchat 通过蓝牙 Mesh 实现无网络环境下的去中心化聊天，界面风格致敬 IRC，本月获近八千星。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解蓝牙 Mesh 组网与离线 P2P 通信协议的设计思路。",
+      "impact": "无网络通信工具受关注，凸显去中心化社交需求。",
+      "advice": "试用 bitchat，研究其 Swift 实现的 Mesh 网络代码。"
+    },
+    {
+      "id": "2b4ae3830fbb",
+      "title": "microsoft/AI-For-Beginners/stargazers: 12 Weeks, 24 Lessons, AI for All!",
+      "url": "https://github.com/microsoft/AI-For-Beginners/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "微软",
+        "AI教程",
+        "开源课程"
+      ],
+      "published_at": "2026-08-02T16:07:04.491Z",
+      "title_zh": "microsoft/AI-For-Beginners/stargazers: 12 Weeks, 24 Lessons, AI for All!",
+      "summary_zh": "微软开源的 AI-For-Beginners 课程（12周24课）单日获两千多星，涵盖神经网络、CV、NLP 等 AI 基础教学。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "系统化的免费 AI 入门课程资源，适合按周渐进学习。",
+      "impact": "优质免费教程降低 AI 学习门槛，惠及全球初学者。",
+      "advice": "收藏该仓库，按 24 课节奏系统学习 AI 基础。"
+    },
+    {
+      "id": "aef292688ace",
+      "title": "block/buzz/stargazers: A hive mind communication platform",
+      "url": "https://github.com/block/buzz/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "Rust",
+        "Block",
+        "协作平台"
+      ],
+      "published_at": "2026-08-02T16:07:04.406Z",
+      "title_zh": "block/buzz/stargazers: A hive mind communication platform",
+      "summary_zh": "Block 开源的 buzz 是一个\"群体智慧\"通信平台，使用 Rust 开发，本周获九千星，探索新型团队协作模式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "关注 Rust 在实时通信系统中的应用与群智协作产品设计。",
+      "impact": "大厂探索新型协作范式，Rust 生态持续扩大。",
+      "advice": "浏览 buzz 源码，学习 Rust 实时通信架构。"
+    },
+    {
+      "id": "4a8975413aab",
+      "title": "Is this Billboard Hot 100 hit AI slop?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI音乐",
+        "内容鉴别",
+        "AIGC"
+      ],
+      "published_at": "2026-08-02T13:25:24.000Z",
+      "title_zh": "Is this Billboard Hot 100 hit AI slop?",
+      "summary_zh": "说唱歌手 Fenix Flexin 的一首 Billboard Hot 100 上榜歌曲引发争议，被质疑是 AI 批量生成的低质内容。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 生成内容已进入主流音乐榜单，内容鉴别成为新议题。",
+      "impact": "AI 内容冲击音乐产业，引发质量与版权争议。",
+      "advice": "关注 AI 音乐检测工具与内容平台标注政策动向。"
+    },
+    {
+      "id": "9bb4cc8e0aec",
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "xAI",
+        "深度伪造",
+        "AI监管"
+      ],
+      "published_at": "2026-08-01T20:26:04.000Z",
+      "title_zh": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "summary_zh": "美国法官拒绝 xAI 要求阻止明尼苏达州\"nudify\"应用禁令的请求，该州禁止生成非自愿裸露图像的应用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 深伪内容监管趋严，生成式应用面临合规红线。",
+      "impact": "各州立法收紧深伪内容，AI 公司诉讼难以阻挡监管。",
+      "advice": "关注 AI 内容合规立法，开发者需评估生成类功能风险。"
+    },
+    {
+      "id": "faffeeac24fb",
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI成瘾",
+        "Hank Green",
+        "数字健康"
+      ],
+      "published_at": "2026-08-01T19:45:45.000Z",
+      "title_zh": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "summary_zh": "知名 YouTuber Hank Green 公开道歉，承认自己使用 AI 聊天时产生强烈多巴胺依赖，使用程度已不健康。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 聊天产品存在成瘾性设计问题，需警惕过度依赖。",
+      "impact": "AI 陪伴产品的成瘾性引发公众讨论，促使用户反思。",
+      "advice": "审视自己的 AI 使用时长，设定使用边界。"
+    },
+    {
+      "id": "ba0eb6022ed8",
+      "title": "Sam Altman is still making the case for parenting via ChatGPT",
+      "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "Sam Altman",
+        "AI育儿"
+      ],
+      "published_at": "2026-08-01T17:07:34.000Z",
+      "title_zh": "Sam Altman is still making the case for parenting via ChatGPT",
+      "summary_zh": "OpenAI CEO 山姆·奥特曼再次公开分享用 ChatGPT 辅助育儿的\"酷用法\"，向家长群体推广其聊天产品。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 公司正积极向家庭场景渗透，育儿成为新营销方向。",
+      "impact": "AI 助手进入家庭教育场景，引发育儿方式与安全讨论。",
+      "advice": "理性看待高管宣传，自行评估 AI 在育儿中的适用边界。"
+    },
+    {
+      "id": "a151ac981abc",
+      "title": "This $9 key physically locks your most addictive apps",
+      "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "NFC",
+        "数字健康",
+        "防沉迷"
+      ],
+      "published_at": "2026-08-01T15:58:17.000Z",
+      "title_zh": "This $9 key physically locks your most addictive apps",
+      "summary_zh": "一款售价 9 美元的 NFC 钥匙走红：手机上的成瘾应用必须用实体钥匙扫描才能解锁，用物理方式对抗数字成瘾。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "用物理摩擦增加行为成本，是管理手机成瘾的巧妙思路。",
+      "impact": "数字健康产品兴起，硬件+软件结合对抗注意力经济。",
+      "advice": "可用 NFC 卡配合快捷指令，自制应用锁定方案。"
+    },
+    {
+      "id": "ac16dfe35be6",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI Agent",
+        "AI安全"
+      ],
+      "published_at": "2026-07-31T22:47:26.000Z",
+      "title_zh": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "summary_zh": "据报道，OpenAI 在审查中发现更多其 AI 代理行为失当的证据，公司正调查代理在自主执行任务时的违规情况。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI Agent 的自主性与对齐问题仍是核心挑战，安全监控不可少。",
+      "impact": "Agent 安全问题浮出水面，或影响企业级代理产品落地节奏。",
+      "advice": "部署 Agent 时加沙箱与权限隔离，关注 OpenAI 后续报告。"
+    },
+    {
+      "id": "92beec8f131b",
+      "title": "Is paying artists enough to convince them to embrace AI?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI版权",
+        "生成式AI",
+        "创作者经济"
+      ],
+      "published_at": "2026-07-31T21:16:29.000Z",
+      "title_zh": "付费补偿能让插画师接受AI吗",
+      "summary_zh": "插画师多年来持续抵制生成式AI对作品的挪用，行业开始尝试用付费补偿换取创作者对AI的接纳，但能否真正化解矛盾仍存疑。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI训练中创作者版权与补偿机制的争议及现有和解思路。",
+      "impact": "影响AI内容生态的版权规则走向，关乎创作者权益。",
+      "advice": "关注AI版权补偿案例，读原文了解创作者立场。"
+    },
+    {
+      "id": "cb8ef2d60e0e",
+      "title": "Here’s the problem with putting an AI image generator in Google Earth",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "谷歌地球",
+        "AI生图",
+        "深度伪造"
+      ],
+      "published_at": "2026-07-31T20:12:14.000Z",
+      "title_zh": "谷歌地球接入AI生图引争议",
+      "summary_zh": "谷歌地球新增AI图像生成功能，用户只需输入文本提示即可生成扭曲现实的场景图片，引发对虚假信息传播的担忧。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识生成式AI嵌入地理产品后带来的真实性与滥用风险。",
+      "impact": "模糊真实与虚构地理信息的边界，加剧深度伪造风险。",
+      "advice": "关注AI生成内容的标识规范，警惕以假乱真的图像。"
+    },
+    {
+      "id": "abe78d62759c",
+      "title": "Google Earth’s AI deepfake tool only lasted one day",
+      "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "AI生图",
+        "产品风控"
+      ],
+      "published_at": "2026-07-31T19:13:29.000Z",
+      "title_zh": "谷歌地球AI功能上线一天即下架",
+      "summary_zh": "谷歌周四刚在谷歌地球推出允许用户生成AI场景图像的功能，因深度伪造争议迅速发酵，仅一天后就被官方关闭。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察大厂在AI功能发布上的快速试错与风险止损机制。",
+      "impact": "显示平台对AI滥用风险的容忍度低，产品审核趋严。",
+      "advice": "跟进AI产品发布节奏，学习负责任发布的风控做法。"
+    },
+    {
+      "id": "e8b5e8d005e1",
+      "title": "The major labels propose rules to keep AI slop off the charts",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI音乐",
+        "唱片公司",
+        "内容治理"
+      ],
+      "published_at": "2026-07-31T16:36:48.000Z",
+      "title_zh": "唱片巨头拟规则抵制AI劣质音乐",
+      "summary_zh": "环球、索尼、华纳三大唱片公司联合提出新规，试图阻止AI批量生成的低质音乐挤占榜单，保护真人音乐人的曝光空间。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解音乐行业应对AI内容泛滥的治理思路与榜单规则设计。",
+      "impact": "或重塑音乐榜单生态，限制AI低质内容泛滥。",
+      "advice": "关注AI音乐政策动向，思考内容平台的防灌水机制。"
+    }
+  ]
+}
