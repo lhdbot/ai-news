@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-02T20:07:13.302Z",
+  "generated_at": "2026-08-02T20:37:25.777Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -281,6 +281,26 @@
       "learn": "了解音乐行业应对AI内容泛滥的治理思路与榜单规则设计。",
       "impact": "或重塑音乐榜单生态，限制AI低质内容泛滥。",
       "advice": "关注AI音乐政策动向，思考内容平台的防灌水机制。"
+    },
+    {
+      "id": "59a85518969c",
+      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Fender",
+        "AI营销",
+        "音乐行业"
+      ],
+      "published_at": "2026-08-02T19:40:58.000Z",
+      "title_zh": "Fender CEO称乐队队友如同模拟AI",
+      "summary_zh": "Fender首席执行官Bud Cole在T3采访中将乐队成员比作“模拟AI”，借AI概念类比音乐协作，引发对音乐人态度的讨论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察传统硬件厂商如何借AI叙事做营销，理解AI概念正渗透各行业话术。",
+      "impact": "显示AI热潮已延伸至乐器等传统行业，推动相关话题出圈。",
+      "advice": "读原文了解完整访谈，关注传统行业拥抱AI的叙事方式。"
     }
   ]
 }
