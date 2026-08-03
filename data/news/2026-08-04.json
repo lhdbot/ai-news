@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-03T18:37:19.163Z",
+  "generated_at": "2026-08-03T19:07:31.468Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -681,6 +681,66 @@
       "learn": "政府机构的AI采购偏好反映头部模型的品牌与生态优势，市场集中度高。",
       "impact": "巩固OpenAI在政企市场的领先地位，加剧竞争格局分化。",
       "advice": "关注政企AI采购趋势，评估ChatGPT生态对职业发展的价值。"
+    },
+    {
+      "id": "9dfa8f07c07e",
+      "title": "Trump’s AI protectionism has come for robotics",
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "AI政策",
+        "机器人",
+        "供应链"
+      ],
+      "published_at": "2026-08-03T18:43:30.000Z",
+      "title_zh": "特朗普AI保护主义伸向机器人领域",
+      "summary_zh": "MIT科技评论报道,特朗普政府的AI保护主义政策开始影响机器人产业,美国以国家安全为由加强对机器人技术出口与供应链的限制。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI政策如何从软件扩展到硬件,保护主义如何重塑全球机器人供应链格局。",
+      "impact": "加剧美中机器人产业脱钩,影响全球供应链与技术合作。",
+      "advice": "关注机器人供应链变化,评估国产替代方案的进展。"
+    },
+    {
+      "id": "6d2b08be4460",
+      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "苹果",
+        "Siri",
+        "AI助手"
+      ],
+      "published_at": "2026-08-03T18:43:43.000Z",
+      "title_zh": "苹果修好Siri,为何反响平淡",
+      "summary_zh": "苹果姗姗来迟的AI改造终于让Siri达到预期水准,但相比竞品的快速迭代,这次升级显得缺乏惊喜,用户和市场反应平淡。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "产品节奏与用户预期管理同样重要,功能补齐不等于体验领先,AI助手竞争已进入深水区。",
+      "impact": "苹果AI追赶压力仍存,语音助手竞争格局未因升级改写。",
+      "advice": "实测新版Siri,对比Gemini等竞品评估苹果AI实力。"
+    },
+    {
+      "id": "153c499b0419",
+      "title": "Europe’s AI labeling and transparency rules are now in effect",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "欧盟AI法案",
+        "AI监管",
+        "内容标识"
+      ],
+      "published_at": "2026-08-03T17:46:48.000Z",
+      "title_zh": "欧盟AI标注与透明规则生效",
+      "summary_zh": "欧盟AI法案中的标注与透明度条款正式生效,要求AI生成内容必须明确标识,提升用户对合成内容的辨识能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解欧盟AI法案落地路径,AI内容水印与标注正成为全球合规的基本要求。",
+      "impact": "AI厂商须为生成内容加标识,提高出海合规成本。",
+      "advice": "研究EU AI Act细则,面向欧洲的产品提前做合规准备。"
     }
   ]
 }
