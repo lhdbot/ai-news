@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T11:37:44.452Z",
+  "generated_at": "2026-08-03T12:07:41.798Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -1022,6 +1022,26 @@
       "learn": "分层加载与权重量化技术可大幅降低本地推理大模型的显存门槛",
       "impact": "让消费级显卡也能运行超大模型，降低本地部署成本",
       "advice": "克隆项目试试在普通显卡上跑70B模型"
+    },
+    {
+      "id": "92f8a546317f",
+      "title": "China’s Alibaba takes another swipe at America’s AI supremacy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "source": "The Verge AI",
+      "category": "模型发布",
+      "tags": [
+        "阿里巴巴",
+        "大模型",
+        "中美AI竞争"
+      ],
+      "published_at": "2026-08-03T11:20:37.000Z",
+      "title_zh": "阿里发布最强模型再挑战美国AI霸权",
+      "summary_zh": "阿里巴巴发布其迄今规模最大、能力最强的AI模型，宣称在多项能力上与美国头部模型竞争，进一步缩小中美AI差距。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解国产大模型的最新进展与中美AI竞争格局，关注开源模型的能力边界。",
+      "impact": "加剧中美大模型竞争，为开发者提供更强的开源替代选择。",
+      "advice": "下载体验该开源模型，对比测试其在实际业务场景中的表现。"
     }
   ]
 }
