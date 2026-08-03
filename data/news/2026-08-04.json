@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-03T23:10:13.549Z",
+  "generated_at": "2026-08-03T23:37:39.481Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -821,6 +821,26 @@
       "learn": "了解无轮次语音模型与实时语音AI的低延迟架构设计思路。",
       "impact": "推动语音助手走向自然连续对话，提升人机语音交互体验。",
       "advice": "阅读OpenAI原文，尝试接入实时语音API做原型。"
+    },
+    {
+      "id": "0f03d6926d63",
+      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Palantir",
+        "行业争议",
+        "财报"
+      ],
+      "published_at": "2026-08-03T23:19:50.000Z",
+      "title_zh": "Palantir暴利季，CEO称AI行业是“马克思主义”",
+      "summary_zh": "Palantir季度利润达10亿美元，CEO Alex Karp借此公开批评AI行业存在“马克思主义”倾向，引发业内争议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Palantir商业模式与高利润路径，以及AI行业围绕数据主权与意识形态的分歧。",
+      "impact": "凸显国防AI公司盈利能力，加剧行业政治立场争论。",
+      "advice": "读原文了解Karp观点，关注Palantir财报与政府AI订单动向。"
     }
   ]
 }
