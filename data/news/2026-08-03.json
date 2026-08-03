@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T11:07:22.491Z",
+  "generated_at": "2026-08-03T11:37:44.452Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -1002,6 +1002,26 @@
       "learn": "AI落地部署是行业新痛点,AI正被用于自动化AI自身的企业级集成流程。",
       "impact": "或降低企业AI部署门槛,推动AI应用规模化落地。",
       "advice": "关注企业AI部署工具赛道,可跟踪June后续产品进展。"
+    },
+    {
+      "id": "e6e05c4f8498",
+      "title": "lyogavin/airllm/stargazers: AirLLM 70B inference with single 4GB GPU",
+      "url": "https://github.com/lyogavin/airllm/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "AirLLM",
+        "大模型推理",
+        "显存优化"
+      ],
+      "published_at": "2026-08-03T11:37:03.571Z",
+      "title_zh": "AirLLM：4GB显存跑70B大模型",
+      "summary_zh": "开源项目AirLLM实现单张4GB显存GPU推理70B大模型，通过逐层加载和量化技术突破显存限制，GitHub热度迅速攀升。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "分层加载与权重量化技术可大幅降低本地推理大模型的显存门槛",
+      "impact": "让消费级显卡也能运行超大模型，降低本地部署成本",
+      "advice": "克隆项目试试在普通显卡上跑70B模型"
     }
   ]
 }
