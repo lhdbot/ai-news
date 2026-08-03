@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T05:37:50.234Z",
+  "generated_at": "2026-08-03T06:08:26.792Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -802,6 +802,66 @@
       "learn": "了解用动力系统理论分析LLM生成过程的新视角与理论工具。",
       "impact": "推动LLM可解释性理论研究，或助力模型鉴别与水印技术。",
       "advice": "对LLM理论感兴趣可读原文，关注可解释性研究进展。"
+    },
+    {
+      "id": "a2157f235d34",
+      "title": "阿里Qwen3.8正式发布，编程与办公再进化，推理更快更稳定",
+      "url": "https://www.qbitai.com/2026/08/465215.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "Qwen",
+        "开源模型",
+        "阿里巴巴"
+      ],
+      "published_at": "2026-08-03T04:58:17.000Z",
+      "title_zh": "阿里Qwen3.8发布：编程办公双进化",
+      "summary_zh": "阿里发布新一代基座大模型Qwen3.8，整体性能进入全球第一梯队，推理更快更稳定，Qwen3.8-Max与27B版本预计下周开源。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "国产大模型持续逼近全球第一梯队，开源策略成为生态竞争关键手段。",
+      "impact": "加剧大模型开源竞争，降低开发者使用顶尖模型的门槛。",
+      "advice": "关注下周开源的Qwen3.8-27B，可本地部署测试编程能力。"
+    },
+    {
+      "id": "794691a7eb9d",
+      "title": "阿里“千问办公”开启公测",
+      "url": "https://www.qbitai.com/2026/08/465211.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "千问办公",
+        "AI办公",
+        "Qwen"
+      ],
+      "published_at": "2026-08-03T04:47:44.000Z",
+      "title_zh": "阿里“千问办公”开启公测",
+      "summary_zh": "阿里旗下AI办公产品“千问办公”(QwenWork)开启公测，面向个人和企业用户，内置最新旗舰模型Qwen3.8，主打办公场景。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型厂商正从模型竞争转向场景化产品落地，办公是重要切入点。",
+      "impact": "推动AI办公产品普及，与微软Copilot等正面竞争。",
+      "advice": "申请公测体验，对比其与现有AI办公工具的实际效果。"
+    },
+    {
+      "id": "6c181d76ea79",
+      "title": "赛博义父Tibo爆料：谷歌早一年就做出了ChatGPT，硬是没敢发！",
+      "url": "https://www.qbitai.com/2026/08/465176.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "ChatGPT",
+        "创新者窘境"
+      ],
+      "published_at": "2026-08-03T04:29:44.000Z",
+      "title_zh": "爆料称谷歌早一年造出ChatGPT未敢发布",
+      "summary_zh": "前Stability AI高管Tibo爆料，谷歌在ChatGPT发布前一年就已做出类似产品，但因顾虑风险未敢发布，错失先发优势。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大公司的创新者窘境：技术领先不等于产品领先，发布决策同样关键。",
+      "impact": "再次印证大组织在颠覆性技术上的决策迟缓风险。",
+      "advice": "读原文了解细节，思考技术领先与产品落地的关系。"
     }
   ]
 }
