@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-03T16:37:52.785Z",
+  "generated_at": "2026-08-03T17:08:11.583Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -461,6 +461,226 @@
       "learn": "观察传统乐器行业如何理解和借力AI叙事进行品牌表达。",
       "impact": "反映AI话题渗透传统行业，引发音乐人身份焦虑讨论。",
       "advice": "可读原文采访，思考AI对创意行业的长期影响。"
+    },
+    {
+      "id": "77f4e4cd0920",
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "url": "https://arxiv.org/abs/2607.28629",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "Agent",
+        "Ollama",
+        "自动化"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "OpenClaw与Ollama构建自主Agent系统",
+      "summary_zh": "论文探讨用OpenClaw与本地推理框架Ollama构建完全自主、可扩展的AI Agent系统，推动Agent从被动响应走向主动执行。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解本地化Agent系统架构与自主任务编排思路",
+      "impact": "降低构建私有Agent系统的门槛",
+      "advice": "试用Ollama本地部署小模型搭建Agent"
+    },
+    {
+      "id": "c874a75499fc",
+      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+      "url": "https://arxiv.org/abs/2607.28631",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI Scientist",
+        "基准评估",
+        "自动科研"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "AI能否评审AI科学家系统",
+      "summary_zh": "研究用多模型自动评审机制对AI Scientist自动科研系统的产出进行基准评估，检验AI评价AI研究的可行性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识自动科研系统的评估方法与多模型互评机制",
+      "impact": "为AI自动科研建立质量度量标准",
+      "advice": "关注AI Scientist类项目的评审可靠性讨论"
+    },
+    {
+      "id": "b6d9813ef3dd",
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "url": "https://arxiv.org/abs/2607.28632",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "数学猜想",
+        "AI4Science"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "LLM辅助发现重大数学猜想",
+      "summary_zh": "提出用大语言模型框架系统性探索并提出重大数学猜想，目标是辅助数学家寻找下一个黎曼猜想级别的问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM在数学猜想生成中的框架设计",
+      "impact": "拓展AI辅助数学研究的新范式",
+      "advice": "关注AI for Math方向的进展与工具"
+    },
+    {
+      "id": "24fe86695122",
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2607.28642",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "长程推理",
+        "思维链",
+        "上下文压缩"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "ThinkReset:有限上下文长程推理",
+      "summary_zh": "提出ThinkReset方法，通过可学习的中间接口压缩和重置推理上下文，让模型在有限窗口内完成长链条推理。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习长思维链的上下文压缩与重置技巧",
+      "impact": "提升长程推理效率，降低显存开销",
+      "advice": "长链推理任务可关注上下文管理新方法"
+    },
+    {
+      "id": "3ede8eeb2acb",
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "url": "https://arxiv.org/abs/2607.28657",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "提示工程",
+        "Prompt优化",
+        "LLM"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "TAPR:任务感知的提示重写器",
+      "summary_zh": "提出TAPR框架，用任务感知的提示重写器自动优化用户提示词，从而提升大模型在各类任务上的表现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握自动提示重写提升LLM效果的思路",
+      "impact": "减少手工调提示词的成本",
+      "advice": "尝试在项目中加入提示自动优化环节"
+    },
+    {
+      "id": "e8dcda2e4186",
+      "title": "LARA: Lightweight Adapters in the Residual Stream for Composable Adaptation and Alignment",
+      "url": "https://arxiv.org/abs/2607.28669",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "参数高效微调",
+        "Adapter",
+        "模型对齐"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "LARA:残差流轻量适配器",
+      "summary_zh": "提出LARA方法，在模型残差流中插入轻量可加适配器，实现可组合、低开销的模型适配与对齐。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解残差流适配器这一参数高效微调新方式",
+      "impact": "让多能力组合微调更轻量灵活",
+      "advice": "微调需求可跟踪Adapter类新方法"
+    },
+    {
+      "id": "da9082f29517",
+      "title": "Hierarchical Copula-Gumbel-Top-\\texorpdfstring{$K$}{K} Routing: Two-Sided Dependence Control for Frozen Mixture-of-Experts at Fixed Per-Token Routing Laws",
+      "url": "https://arxiv.org/abs/2607.28670",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "MoE",
+        "路由机制",
+        "模型推理"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "冻结MoE的分层路由控制",
+      "summary_zh": "提出分层Copula-Gumbel-Top-K路由方法，在不重新训练的情况下控制冻结MoE模型专家选择的双侧依赖性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解MoE路由机制及其无训练调控手段",
+      "impact": "提升MoE模型推理可控性与稳定性",
+      "advice": "研究MoE架构者可阅读原文了解路由细节"
+    },
+    {
+      "id": "607f827a09e0",
+      "title": "Mitigating Class-Tail Undercoverage in Medical Vision-Language Models under Clinical Shift",
+      "url": "https://arxiv.org/abs/2607.28696",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "视觉语言模型",
+        "长尾分布"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "缓解医疗视觉语言模型长尾遗漏",
+      "summary_zh": "针对临床场景分布偏移下医疗视觉语言模型对罕见类别覆盖不足的问题，提出缓解类别尾部欠覆盖的方法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识医疗AI中的长尾分布与临床偏移问题",
+      "impact": "提高医疗AI对罕见病的识别可靠性",
+      "advice": "医疗AI开发者应重视长尾类别评估"
+    },
+    {
+      "id": "b109fb544430",
+      "title": "Flow Matching with Missing Data",
+      "url": "https://arxiv.org/abs/2607.28698",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "Flow Matching",
+        "生成模型",
+        "缺失数据"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "缺失数据下的流匹配生成",
+      "summary_zh": "研究将流匹配生成模型扩展到含缺失数据的场景，突破其要求完整观测数据的假设，拓宽应用范围。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习Flow Matching处理不完整数据的扩展方法",
+      "impact": "让流匹配可用于真实不完整数据集",
+      "advice": "做生成模型可关注流匹配新变体"
+    },
+    {
+      "id": "36ef488ff0b1",
+      "title": "MMFGU: Multimodal Federated Graph Unlearning",
+      "url": "https://arxiv.org/abs/2607.28708",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "联邦学习",
+        "机器遗忘",
+        "图学习"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "MMFGU:多模态联邦图遗忘",
+      "summary_zh": "提出MMFGU框架，在多模态联邦图学习场景下实现机器遗忘，让用户数据可从分布式训练的图模型中移除。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解联邦学习与机器遗忘的结合方向",
+      "impact": "增强分布式图模型的数据隐私合规能力",
+      "advice": "关注隐私合规需求可了解机器遗忘技术"
+    },
+    {
+      "id": "16bd0e2adad9",
+      "title": "Congress’s favorite AI tool? ChatGPT",
+      "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "政企市场"
+      ],
+      "published_at": "2026-08-03T16:40:55.000Z",
+      "title_zh": "ChatGPT成美国国会最爱AI工具",
+      "summary_zh": "众议院支出记录显示，国会山付费使用的AI工具中，OpenAI的ChatGPT占据绝对主导地位，远超其他竞品。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "政府机构的AI采购偏好反映头部模型的品牌与生态优势，市场集中度高。",
+      "impact": "巩固OpenAI在政企市场的领先地位，加剧竞争格局分化。",
+      "advice": "关注政企AI采购趋势，评估ChatGPT生态对职业发展的价值。"
     }
   ]
 }
