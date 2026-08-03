@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-03T19:37:30.608Z",
+  "generated_at": "2026-08-03T20:07:25.466Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -781,6 +781,26 @@
       "learn": "AI公司品牌营销的边界：高调消费在公众审视下易引发反感。",
       "impact": "AI公司公关形象与用户信任度面临考验。",
       "advice": "关注OpenAI舆论风波走向，思考技术公司的公关策略。"
+    },
+    {
+      "id": "06f39bba1d35",
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AWS",
+        "Vibe Coding",
+        "AI编程"
+      ],
+      "published_at": "2026-08-03T20:00:00.000Z",
+      "title_zh": "AWS 与 Superblocks 合作押注 Vibe Coding",
+      "summary_zh": "AWS 允许 Vibe Coding 工具 Superblocks 嵌入私有云,让企业可在自有环境内用自然语言生成应用,云厂商开始深度绑定 AI 编程工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "云厂商正将 AI 编程工具纳入私有化生态,Vibe Coding 从个人玩具走向企业级部署。",
+      "impact": "加速 AI 编程工具进入企业市场,私有化成竞争关键。",
+      "advice": "关注 AWS 生态动态,试用 Superblocks 评估团队协作场景。"
     }
   ]
 }
