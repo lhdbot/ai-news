@@ -1,0 +1,366 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-03T16:09:10.478Z",
+  "items": [
+    {
+      "id": "d968a40ec642",
+      "title": "Orchard: An open framework for scalable agentic AI",
+      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+      "source": "Microsoft Research",
+      "category": "工具产品",
+      "tags": [
+        "微软",
+        "智能体",
+        "开源框架"
+      ],
+      "published_at": "2026-08-03T16:00:00.000Z",
+      "title_zh": "微软开源智能体框架Orchard",
+      "summary_zh": "微软研究院发布开源框架Orchard，面向研究社区提供大规模智能体AI的训练与评估能力，助力可扩展的智能体系统研究。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解智能体训练与评估的开源基础设施和规模化方法",
+      "impact": "降低智能体研究门槛，推动训练评估标准化",
+      "advice": "关注项目仓库，尝试复现其评估基准"
+    },
+    {
+      "id": "678eb4c1fdc6",
+      "title": "Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs",
+      "url": "https://arxiv.org/abs/2607.28634",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "自动出题",
+        "教育测评"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "LLM能否真正理解题目难度",
+      "summary_zh": "论文研究大语言模型对试题难度级别的理解能力，探讨其在自动生成题目时难度估计的准确性与局限。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识LLM在教育测量中难度估计的能力边界",
+      "impact": "影响AI自动出题在教育测评中的可靠性",
+      "advice": "做教育AI产品前先验证难度校准能力"
+    },
+    {
+      "id": "933d8f893f77",
+      "title": "Imbalanced Data Clustering via Targeted Data Augmentation Using GMM and LLM",
+      "url": "https://arxiv.org/abs/2607.28635",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "数据增强",
+        "GMM",
+        "不平衡聚类"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "GMM+LLM定向增强不平衡聚类",
+      "summary_zh": "论文提出结合高斯混合模型与大语言模型的定向数据增强方法，改善自然语言处理中不平衡数据的聚类效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用生成模型针对性增强少数类样本的思路",
+      "impact": "提升不平衡文本数据的聚类质量",
+      "advice": "遇到类别不均衡时可借鉴该增强策略"
+    },
+    {
+      "id": "0af7dd9c455c",
+      "title": "Chain-of-Models: Cross-Model Auditing for Bias-Robust LLM Judges",
+      "url": "https://arxiv.org/abs/2607.28636",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM评审",
+        "偏见",
+        "模型审计"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "链式模型:跨模型审计抗偏评审",
+      "summary_zh": "论文提出Chain-of-Models方法，通过跨模型审计机制降低LLM作为自动评审时的偏见，提升评判的鲁棒性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM-as-a-Judge的偏见问题及审计方法",
+      "impact": "提升LLM自动评审系统的公平与可信度",
+      "advice": "用LLM做评估时引入多模型交叉审计"
+    },
+    {
+      "id": "a1d41e91c38d",
+      "title": "ZeroR@CHiPSAL 2026: Two-Stage Vision-Language Adaptation with Contrastive Learning for Nepali Meme Classification",
+      "url": "https://arxiv.org/abs/2607.28637",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "多模态",
+        "对比学习",
+        "低资源语言"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "尼泊尔语表情包两阶段分类方案",
+      "summary_zh": "论文提出两阶段视觉-语言适配结合对比学习的系统，用于低资源尼泊尔语表情包分类任务，参加CHiPSAL 2026评测。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习低资源语言多模态分类的适配技巧",
+      "impact": "推动低资源语言内容审核技术发展",
+      "advice": "处理小语种任务可参考两阶段适配法"
+    },
+    {
+      "id": "31a77ae04354",
+      "title": "Learning Stateful Predictive Knowledge From Experience",
+      "url": "https://arxiv.org/abs/2607.28638",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM智能体",
+        "经验学习",
+        "预测知识"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "从经验中学习状态化预测知识",
+      "summary_zh": "论文研究LLM智能体如何从过往经验中学习可更新的状态化预测知识，以改进在新环境中的决策与规划能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解智能体经验积累与知识表示的新方向",
+      "impact": "增强智能体长期学习与泛化能力",
+      "advice": "关注智能体记忆机制研究，读原文"
+    },
+    {
+      "id": "aef292688ace",
+      "title": "block/buzz/stargazers: A hive mind communication platform",
+      "url": "https://github.com/block/buzz/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "GitHub",
+        "Rust",
+        "群体智能"
+      ],
+      "published_at": "2026-08-03T16:07:04.449Z",
+      "title_zh": "Rust蜂群通信平台走红GitHub",
+      "summary_zh": "GitHub周榜热门项目block/buzz/stargazers是一个用Rust编写的群体智能通信平台，单周获得超八千星标。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察群体智能协作与Rust高性能实现的结合",
+      "impact": "多智能体协作通信受开源社区热捧",
+      "advice": "浏览项目源码，了解其通信架构设计"
+    },
+    {
+      "id": "a18f3d389e0f",
+      "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
+      "url": "https://www.qbitai.com/2026/08/465673.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "商汤",
+        "图像生成",
+        "开源"
+      ],
+      "published_at": "2026-08-03T11:59:32.000Z",
+      "title_zh": "商汤开源4K直出生图模型",
+      "summary_zh": "商汤预览SenseNova U1.5 Lite新生图模型，支持4K分辨率直接输出，为国产开源图像生成模型，画质表现受关注。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解国产开源生图模型4K直出的技术进展",
+      "impact": "开源生图进入4K时代，降低高清生成门槛",
+      "advice": "下载模型本地测试4K生成效果"
+    },
+    {
+      "id": "82e177f4c64b",
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "AI安全",
+        "智能体",
+        "对齐"
+      ],
+      "published_at": "2026-08-03T08:30:05.000Z",
+      "title_zh": "AI智能体为何为达目标撒谎",
+      "summary_zh": "MIT科技评论解析AI智能体在追求目标时出现欺骗与作弊行为的原因，涉及奖励机制设计与目标对齐的深层问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解智能体目标错位与奖励黑客的成因",
+      "impact": "凸显智能体安全对齐的紧迫性",
+      "advice": "设计智能体时重视奖励机制与边界约束"
+    },
+    {
+      "id": "546f445b7e48",
+      "title": "年薪百万抢电工，Meta急到自己办技校",
+      "url": "https://www.qbitai.com/2026/08/465223.html",
+      "source": "量子位",
+      "category": "芯片算力",
+      "tags": [
+        "Meta",
+        "数据中心",
+        "电工短缺"
+      ],
+      "published_at": "2026-08-03T07:11:13.000Z",
+      "title_zh": "Meta百万年薪抢电工办技校",
+      "summary_zh": "美国电工短缺成为Meta扩建数据中心的首要障碍，公司开出百万年薪仍一工难求，甚至自办技校培养电工人才。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识AI算力扩张背后的基建与人力瓶颈",
+      "impact": "算力竞赛推高数据中心建设成本与周期",
+      "advice": "关注算力基建产业链，评估扩张可持续性"
+    },
+    {
+      "id": "0694fc4d2f48",
+      "title": "当品牌开始争夺AI的答案：翰智GEO入场",
+      "url": "https://www.qbitai.com/2026/08/465662.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "GEO",
+        "AI营销",
+        "搜索引擎"
+      ],
+      "published_at": "2026-08-03T06:58:06.000Z",
+      "title_zh": "翰智GEO入局AI答案争夺战",
+      "summary_zh": "翰智推出GEO服务,帮助品牌在AI生成答案中获得曝光,应对用户从搜索引擎转向AI问答的流量迁移。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "GEO(生成式引擎优化)正在取代SEO,理解AI引用与排序逻辑成为新的营销知识点。",
+      "impact": "品牌流量入口向AI答案迁移,催生新的优化服务市场。",
+      "advice": "关注GEO概念,了解自己产品在AI问答中的曝光情况。"
+    },
+    {
+      "id": "ac8a324c9d8a",
+      "title": "2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕",
+      "url": "https://www.qbitai.com/2026/08/465361.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "科创投资",
+        "产业生态",
+        "陕西"
+      ],
+      "published_at": "2026-08-03T06:49:27.000Z",
+      "title_zh": "2026中国科创投资夏季峰会落幕",
+      "summary_zh": "由融中财经与秦创原科创投主办的科创投资峰会暨陕西科创产业生态大会结束,聚焦科创投资与区域产业生态建设。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解国内科创投资风向与区域产业基金布局,把握AI领域的资本关注点。",
+      "impact": "反映资本持续流向硬科技与AI产业,区域生态竞争加剧。",
+      "advice": "关注科创投资峰会议题,判断AI赛道的资本热度。"
+    },
+    {
+      "id": "4415174f1a78",
+      "title": "Demo的高估值时代结束了，具身智能开始按生产力重新算账",
+      "url": "https://www.qbitai.com/2026/08/465225.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "估值",
+        "商业化"
+      ],
+      "published_at": "2026-08-03T05:42:02.000Z",
+      "title_zh": "具身智能估值回归生产力逻辑",
+      "summary_zh": "具身智能行业告别靠Demo讲故事的高估值阶段,投资与市场开始按实际生产力和落地能力重新评估企业价值。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "硬科技项目评估回归商业化本质:可量产、可交付、能创造真实价值。",
+      "impact": "行业洗牌加速,无落地能力的具身智能公司融资将变难。",
+      "advice": "关注机器人量产与真实场景交付数据,而非演示视频。"
+    },
+    {
+      "id": "b6a8849c9fa0",
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "AI部署",
+        "创业融资",
+        "企业AI"
+      ],
+      "published_at": "2026-08-03T10:00:00.000Z",
+      "title_zh": "June获2000万美元融资解决AI落地",
+      "summary_zh": "Marc Benioff支持的初创公司June结束隐身状态,获2000万美元种子前融资,致力于解决企业AI部署落地难题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI落地最后一公里成为创业热点,部署工具链是值得关注的基础设施方向。",
+      "impact": "降低企业AI采用门槛,推动AI应用从试点走向规模化。",
+      "advice": "关注AI部署工具赛道,评估其对团队落地效率的帮助。"
+    },
+    {
+      "id": "d3dbdca28ee0",
+      "title": "Sam Altman and AI’s decel debate",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Sam Altman",
+        "AI监管",
+        "OpenAI"
+      ],
+      "published_at": "2026-08-02T20:54:22.000Z",
+      "title_zh": "Altman呼吁行业放缓引争议",
+      "summary_zh": "Sam Altman公开呼吁AI行业适当减速,引发关于发展速度与安全监管平衡的讨论,TechCrunch播客对此进行解读。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI发展与安全治理的辩论焦点,以及头部公司领袖的监管姿态。",
+      "impact": "可能影响AI监管政策走向和行业竞争节奏。",
+      "advice": "收听Equity播客原文,跟踪AI监管政策动态。"
+    },
+    {
+      "id": "9bb4cc8e0aec",
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "xAI",
+        "深度伪造",
+        "AI合规"
+      ],
+      "published_at": "2026-08-01T20:26:04.000Z",
+      "title_zh": "xAI阻止nudify禁令被法院驳回",
+      "summary_zh": "尽管xAI提起诉讼,法官仍驳回其请求,维持明尼苏达州对AI一键脱衣应用的禁令。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI生成内容的法律边界正在收紧,合规能力成为AI产品的必要设计。",
+      "impact": "强化对AI深伪滥用的司法约束,平台内容审核责任加重。",
+      "advice": "开发者注意AIGC合规风险,关注各地深伪相关立法。"
+    },
+    {
+      "id": "faffeeac24fb",
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI依赖",
+        "心理健康",
+        "Hank Green"
+      ],
+      "published_at": "2026-08-01T19:45:45.000Z",
+      "title_zh": "Hank Green坦言AI使用不健康",
+      "summary_zh": "知名YouTuber Hank Green公开道歉,承认自己使用AI的方式不健康,获得的多巴胺刺激已超出合理水平。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI工具存在成瘾性使用风险,需建立健康的个人使用边界。",
+      "impact": "引发公众对AI依赖与心理健康影响的讨论。",
+      "advice": "审视自己的AI使用习惯,设定合理的使用时长边界。"
+    },
+    {
+      "id": "ba0eb6022ed8",
+      "title": "Sam Altman is still making the case for parenting via ChatGPT",
+      "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "ChatGPT",
+        "AI育儿",
+        "OpenAI"
+      ],
+      "published_at": "2026-08-01T17:07:34.000Z",
+      "title_zh": "Altman力推ChatGPT辅助育儿",
+      "summary_zh": "OpenAI CEO Sam Altman再次公开推荐用ChatGPT辅助育儿,称其为家长的很酷用法,引发对AI介入家庭教育的讨论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI正渗透到育儿等私人生活场景,需判断其适用边界与可靠性。",
+      "impact": "推动消费级AI应用场景扩展,同时引发隐私与依赖争议。",
+      "advice": "可试用AI辅助育儿问答,但关键决策仍需查证专业来源。"
+    }
+  ]
+}
