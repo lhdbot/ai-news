@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T03:37:44.750Z",
+  "generated_at": "2026-08-03T04:08:56.747Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -442,6 +442,306 @@
       "learn": "Agent长期记忆架构思路：记忆与Skill分层管理、跨任务迁移与自演进设计。",
       "impact": "为Agent长期记忆提供开源方案，推动Agent从会话级走向持续学习。",
       "advice": "去GitHub读MindMemOS源码，尝试接入自己的Agent项目。"
+    },
+    {
+      "id": "77f4e4cd0920",
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "url": "https://arxiv.org/abs/2607.28629",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "Ollama",
+        "自主AI"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "summary_zh": "论文探讨基于OpenClaw与Ollama构建全自主、可扩展的智能体系统，推动AI从反应式交互向自主规划执行的转变。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解智能体系统从反应式到自主式的架构演进与本地化部署思路。",
+      "impact": "降低自主智能体开发门槛，推动本地化Agent应用落地。",
+      "advice": "试用Ollama本地部署模型，搭建简易Agent原型。"
+    },
+    {
+      "id": "c874a75499fc",
+      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+      "url": "https://arxiv.org/abs/2607.28631",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI Scientist",
+        "自动评审",
+        "基准测试"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+      "summary_zh": "研究用多模型自动评审来评估能自主生成科研成果的AI Scientist系统，构建基准检验自动评审的可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识AI自主科研系统的评估难题与多模型交叉评审方法。",
+      "impact": "为AI自动科研建立评估标准，影响科研自动化方向。",
+      "advice": "关注AI for Science进展，读原文了解评审基准设计。"
+    },
+    {
+      "id": "b6d9813ef3dd",
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "url": "https://arxiv.org/abs/2607.28632",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "数学猜想",
+        "AI4Math"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "summary_zh": "提出用大语言模型辅助发现重大数学猜想的框架，目标是让AI参与寻找下一个黎曼猜想级别的数学问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM在数学猜想生成中的应用范式与局限。",
+      "impact": "拓展AI在基础数学研究中的角色，或改变数学发现方式。",
+      "advice": "关注AI数学研究动态，尝试用LLM辅助数学探索。"
+    },
+    {
+      "id": "24fe86695122",
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2607.28642",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "思维链",
+        "长程推理",
+        "上下文压缩"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "summary_zh": "针对长思维链在有限上下文中的瓶颈，ThinkReset通过可学习的中间接口压缩与重置推理状态，支持长程推理。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习在有限上下文窗口内实现长程推理的状态压缩思路。",
+      "impact": "缓解长链推理的上下文限制，提升复杂任务推理能力。",
+      "advice": "关注长上下文推理优化方向，读原文了解机制设计。"
+    },
+    {
+      "id": "3ede8eeb2acb",
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "url": "https://arxiv.org/abs/2607.28657",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "提示工程",
+        "Prompt优化",
+        "LLM"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "summary_zh": "提出任务感知提示重写框架TAPR，自动改写用户提示以提升LLM在各类任务上的表现，无需人工调提示。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握自动提示优化的思路，替代手工提示工程。",
+      "impact": "降低提示工程门槛，提升LLM应用的稳定性与效果。",
+      "advice": "在项目中尝试自动提示优化替代手写prompt。"
+    },
+    {
+      "id": "678eb4c1fdc6",
+      "title": "Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs",
+      "url": "https://arxiv.org/abs/2607.28634",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM评估",
+        "教育AI",
+        "自动出题"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs",
+      "summary_zh": "研究检验LLM对试题难度的估计能力，发现其难度判断与真实数据存在偏差，影响自动生成试题的可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识LLM在教育测量任务中的能力边界与校准问题。",
+      "impact": "提醒教育领域谨慎使用LLM自动出题与难度标注。",
+      "advice": "用LLM出题时加入人工校验环节，勿全信难度判断。"
+    },
+    {
+      "id": "933d8f893f77",
+      "title": "Imbalanced Data Clustering via Targeted Data Augmentation Using GMM and LLM",
+      "url": "https://arxiv.org/abs/2607.28635",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "数据增强",
+        "聚类",
+        "不平衡数据"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "Imbalanced Data Clustering via Targeted Data Augmentation Using GMM and LLM",
+      "summary_zh": "针对NLP中不平衡数据聚类问题，结合高斯混合模型与LLM进行定向数据增强，改善少数类的聚类效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用LLM生成增强数据缓解类别不平衡的实用方法。",
+      "impact": "提升不平衡场景下文本聚类质量，利好数据稀缺任务。",
+      "advice": "处理不平衡数据时可尝试LLM合成少数类样本。"
+    },
+    {
+      "id": "0af7dd9c455c",
+      "title": "Chain-of-Models: Cross-Model Auditing for Bias-Robust LLM Judges",
+      "url": "https://arxiv.org/abs/2607.28636",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM-as-Judge",
+        "偏见缓解",
+        "模型审计"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "Chain-of-Models: Cross-Model Auditing for Bias-Robust LLM Judges",
+      "summary_zh": "提出跨模型审计方法Chain-of-Models，通过多模型相互审计降低单一LLM作为自动评审时的偏见。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM-as-Judge的偏见问题与多模型交叉审计对策。",
+      "impact": "提升LLM自动评估的公平性与可信度。",
+      "advice": "用LLM做评估时引入多模型交叉验证降低偏见。"
+    },
+    {
+      "id": "a1d41e91c38d",
+      "title": "ZeroR@CHiPSAL 2026: Two-Stage Vision-Language Adaptation with Contrastive Learning for Nepali Meme Classification",
+      "url": "https://arxiv.org/abs/2607.28637",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "多模态",
+        "对比学习",
+        "低资源语言"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "ZeroR@CHiPSAL 2026: Two-Stage Vision-Language Adaptation with Contrastive Learning for Nepali Meme Classification",
+      "summary_zh": "CHiPSAL 2026参赛系统，用两阶段视觉-语言适配加对比学习实现低资源语言尼泊尔语的表情包分类。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习低资源语言下多模态模型的适配与对比学习技巧。",
+      "impact": "推动低资源语言多模态理解，方法可迁移到小语种任务。",
+      "advice": "做小语种多模态任务可参考其两阶段适配方案。"
+    },
+    {
+      "id": "31a77ae04354",
+      "title": "Learning Stateful Predictive Knowledge From Experience",
+      "url": "https://arxiv.org/abs/2607.28638",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "经验学习",
+        "预测知识"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "Learning Stateful Predictive Knowledge From Experience",
+      "summary_zh": "研究让LLM智能体从过往经验中学习有状态的预测性知识，使Agent能积累经验并预测环境变化。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Agent经验学习与状态化知识表示的前沿思路。",
+      "impact": "增强智能体的长期记忆与预测能力，推动Agent进化。",
+      "advice": "关注Agent记忆机制研究，思考如何为应用加经验积累。"
+    },
+    {
+      "id": "e8dcda2e4186",
+      "title": "LARA: Lightweight Adapters in the Residual Stream for Composable Adaptation and Alignment",
+      "url": "https://arxiv.org/abs/2607.28669",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "参数高效微调",
+        "模型对齐",
+        "arXiv"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "LARA:残差流中的轻量适配器实现可组合对齐",
+      "summary_zh": "论文提出LARA方法,将轻量适配器注入模型残差流,支持多个适配模块的可组合式适应与对齐,无需全量微调即可灵活叠加能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解残差流适配器这一新型参数高效微调思路及其可组合性优势。",
+      "impact": "降低多任务定制与对齐成本,推动模块化适配技术发展。",
+      "advice": "做PEFT或对齐研究可读原文,关注其与LoRA的对比。"
+    },
+    {
+      "id": "da9082f29517",
+      "title": "Hierarchical Copula-Gumbel-Top-\\texorpdfstring{$K$}{K} Routing: Two-Sided Dependence Control for Frozen Mixture-of-Experts at Fixed Per-Token Routing Laws",
+      "url": "https://arxiv.org/abs/2607.28670",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "MoE",
+        "路由机制",
+        "arXiv"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "层级Copula-Gumbel-Top-K路由控制MoE专家依赖",
+      "summary_zh": "论文提出层级Copula-Gumbel-Top-K路由机制,在冻结的MoE模型上固定每token路由规则的同时,实现对专家间双侧依赖关系的可控调节。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识Gumbel-Top-K随机路由与Copula依赖建模在MoE中的结合方式。",
+      "impact": "提升MoE路由可控性,有助于专家均衡与推理稳定性。",
+      "advice": "关注MoE架构的开发者可读原文了解路由设计新思路。"
+    },
+    {
+      "id": "607f827a09e0",
+      "title": "Mitigating Class-Tail Undercoverage in Medical Vision-Language Models under Clinical Shift",
+      "url": "https://arxiv.org/abs/2607.28696",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "视觉语言模型",
+        "长尾分布"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "缓解临床偏移下医疗视觉语言模型的长尾欠覆盖",
+      "summary_zh": "研究针对医疗视觉语言模型在临床分布偏移下对罕见类别的欠覆盖问题,提出缓解方法以改善类尾样本的识别与描述能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解医疗多模态模型中的分布偏移与长尾问题及应对策略。",
+      "impact": "提升医疗AI在真实临床场景对罕见病例的可靠性。",
+      "advice": "做医疗AI或长尾学习的可关注该文方法并读原文。"
+    },
+    {
+      "id": "b109fb544430",
+      "title": "Flow Matching with Missing Data",
+      "url": "https://arxiv.org/abs/2607.28698",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "流匹配",
+        "生成模型",
+        "缺失数据"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "含缺失数据的流匹配方法",
+      "summary_zh": "论文扩展流匹配框架,使其能处理存在缺失观测的数据,突破原方法要求数据完整可见的假设,拓宽了生成建模的适用范围。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习流匹配生成模型基础及其在不完整数据场景下的推广思路。",
+      "impact": "让流匹配可用于医疗等数据常缺失的领域,扩大应用面。",
+      "advice": "做生成模型研究可读原文,对比扩散模型的缺失数据处理。"
+    },
+    {
+      "id": "36ef488ff0b1",
+      "title": "MMFGU: Multimodal Federated Graph Unlearning",
+      "url": "https://arxiv.org/abs/2607.28708",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "联邦学习",
+        "机器遗忘",
+        "图神经网络"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "MMFGU:多模态联邦图遗忘学习",
+      "summary_zh": "论文提出MMFGU,面向多模态联邦图学习场景实现机器遗忘,可在不重新训练的情况下移除特定数据影响,兼顾隐私与效率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解联邦学习、图学习与机器遗忘三者结合的前沿方向。",
+      "impact": "推动隐私合规的图学习,满足数据删除权等监管需求。",
+      "advice": "关注隐私计算与机器遗忘方向,可读原文了解实现机制。"
     }
   ]
 }
