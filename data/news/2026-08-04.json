@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-03T19:07:31.468Z",
+  "generated_at": "2026-08-03T19:37:30.608Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -741,6 +741,46 @@
       "learn": "了解欧盟AI法案落地路径,AI内容水印与标注正成为全球合规的基本要求。",
       "impact": "AI厂商须为生成内容加标识,提高出海合规成本。",
       "advice": "研究EU AI Act细则,面向欧洲的产品提前做合规准备。"
+    },
+    {
+      "id": "6005530a97f8",
+      "title": "DesignArena creators raise $7.9 million to bring taste to AI models",
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "DesignArena",
+        "融资",
+        "AI评测"
+      ],
+      "published_at": "2026-08-03T19:28:57.000Z",
+      "title_zh": "DesignArena融资790万美元为AI注入审美",
+      "summary_zh": "AI设计评测平台DesignArena获790万美元融资，通过全球530万用户的人类投票为模型提供设计品味层面的评估数据。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI能力评估正从基准跑分转向真实用户偏好投票，品味成为新维度。",
+      "impact": "设计类AI模型的评测与迭代方式将被重塑。",
+      "advice": "注册DesignArena体验其众包评测，关注审美评测赛道。"
+    },
+    {
+      "id": "f30b130fca5e",
+      "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "公关",
+        "品牌营销"
+      ],
+      "published_at": "2026-08-03T19:09:56.000Z",
+      "title_zh": "网红参加OpenAI奢华之旅引争议",
+      "summary_zh": "OpenAI首次邀请网红参加品牌奢华旅行，在AI行业紧张氛围下引发网络舆论反弹，被质疑公关策略失当。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI公司品牌营销的边界：高调消费在公众审视下易引发反感。",
+      "impact": "AI公司公关形象与用户信任度面临考验。",
+      "advice": "关注OpenAI舆论风波走向，思考技术公司的公关策略。"
     }
   ]
 }
