@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-03T20:07:25.466Z",
+  "generated_at": "2026-08-03T20:37:24.920Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -801,6 +801,26 @@
       "learn": "云厂商正将 AI 编程工具纳入私有化生态,Vibe Coding 从个人玩具走向企业级部署。",
       "impact": "加速 AI 编程工具进入企业市场,私有化成竞争关键。",
       "advice": "关注 AWS 生态动态,试用 Superblocks 评估团队协作场景。"
+    },
+    {
+      "id": "d04cc35bd3cc",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "source": "OpenAI",
+      "category": "工具产品",
+      "tags": [
+        "OpenAI",
+        "语音AI",
+        "实时交互"
+      ],
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "title_zh": "OpenAI六个月打造实时语音AI系统",
+      "summary_zh": "OpenAI介绍其GPT-Live系统，采用无轮次语音模型实现与AI的连续自然对话，分享了六个月内构建低延迟实时语音交互的工程技术细节。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解无轮次语音模型与实时语音AI的低延迟架构设计思路。",
+      "impact": "推动语音助手走向自然连续对话，提升人机语音交互体验。",
+      "advice": "阅读OpenAI原文，尝试接入实时语音API做原型。"
     }
   ]
 }
