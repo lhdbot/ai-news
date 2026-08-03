@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T03:07:15.743Z",
+  "generated_at": "2026-08-03T03:37:44.750Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -422,6 +422,26 @@
       "learn": "合成数据与仿真环境正成为物理AI训练新范式，可突破真实数据采集的成本与规模瓶颈。",
       "impact": "推动世界模型与物理AI发展，合成世界生成能力成新一轮竞争壁垒。",
       "advice": "关注世界模型与合成数据方向，跟踪World Labs技术进展。"
+    },
+    {
+      "id": "a772002981a8",
+      "title": "AI不再用完即忘：华为诺亚开源MindMemOS，记忆和Skill一起进化",
+      "url": "https://www.qbitai.com/2026/08/464835.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "AI Agent",
+        "记忆系统",
+        "华为诺亚"
+      ],
+      "published_at": "2026-08-03T02:51:33.000Z",
+      "title_zh": "华为诺亚开源MindMemOS：让AI记忆与技能共同进化",
+      "summary_zh": "华为诺亚方舟实验室开源面向AI Agent的记忆操作层MindMemOS，让Agent的记忆可迁移、可自演进，摆脱用完即忘的状态。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "Agent长期记忆架构思路：记忆与Skill分层管理、跨任务迁移与自演进设计。",
+      "impact": "为Agent长期记忆提供开源方案，推动Agent从会话级走向持续学习。",
+      "advice": "去GitHub读MindMemOS源码，尝试接入自己的Agent项目。"
     }
   ]
 }
