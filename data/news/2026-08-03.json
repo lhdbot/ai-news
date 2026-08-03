@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T05:07:22.085Z",
+  "generated_at": "2026-08-03T05:37:50.234Z",
   "items": [
     {
       "id": "6d58997b466c",
@@ -742,6 +742,66 @@
       "learn": "了解联邦学习、图学习与机器遗忘三者结合的前沿方向。",
       "impact": "推动隐私合规的图学习,满足数据删除权等监管需求。",
       "advice": "关注隐私计算与机器遗忘方向,可读原文了解实现机制。"
+    },
+    {
+      "id": "957e04ea7776",
+      "title": "Topology-Aware Data Movement for Disaggregated GPU Inference",
+      "url": "https://arxiv.org/abs/2607.28633",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "LLM推理",
+        "GPU",
+        "系统优化"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "Topology-Aware Data Movement for Disaggregated GPU Inference",
+      "summary_zh": "论文针对解耦式LLM推理架构中GPU间数据搬运开销大的问题，提出感知硬件拓扑的数据迁移方法，优化通信路径以降低延迟、提升推理吞吐。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解解耦推理架构及GPU拓扑对通信性能的影响，认识系统层优化思路。",
+      "impact": "有助于降低大模型推理成本，提升大规模部署效率。",
+      "advice": "关注推理系统优化方向，可读原文了解拓扑调度方法。"
+    },
+    {
+      "id": "a95d0ce8999e",
+      "title": "Sensitivity Analysis of GRU, LSTM and Transformer Encoder in Classification of Automated Driving Systems",
+      "url": "https://arxiv.org/abs/2607.28665",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "自动驾驶",
+        "Transformer",
+        "LSTM"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "Sensitivity Analysis of GRU, LSTM and Transformer Encoder in Classification of Automated Driving Systems",
+      "summary_zh": "研究对比GRU、LSTM与Transformer编码器在自动驾驶系统分类任务中的表现，分析各模型对输入扰动和参数变化的敏感性，为模型选型提供依据。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习不同序列模型在自动驾驶场景的鲁棒性差异及敏感性分析方法。",
+      "impact": "为自动驾驶感知模型选型与可靠性评估提供实证参考。",
+      "advice": "做时序分类任务时可参考其对比方法评估模型鲁棒性。"
+    },
+    {
+      "id": "fb31beb90889",
+      "title": "Guarantees on Dynamical System Distinguishability for LLM Token Generation",
+      "url": "https://arxiv.org/abs/2607.28667",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "动力系统",
+        "可解释性"
+      ],
+      "published_at": "2026-08-03T04:00:00.000Z",
+      "title_zh": "Guarantees on Dynamical System Distinguishability for LLM Token Generation",
+      "summary_zh": "论文从动力系统理论视角研究LLM逐词元生成过程，为不同模型的生成行为可区分性提供理论保证，深化对生成机制的理解。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解用动力系统理论分析LLM生成过程的新视角与理论工具。",
+      "impact": "推动LLM可解释性理论研究，或助力模型鉴别与水印技术。",
+      "advice": "对LLM理论感兴趣可读原文，关注可解释性研究进展。"
     }
   ]
 }
