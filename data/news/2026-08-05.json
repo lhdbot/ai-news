@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-04T17:07:49.831Z",
+  "generated_at": "2026-08-04T17:38:08.126Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -521,6 +521,206 @@
       "learn": "了解AI编程与对话工具在教育场景的落地方式及插件生态的扩展趋势。",
       "impact": "推动AI进入基础教育，拓展ChatGPT和Codex的应用边界。",
       "advice": "试用Codex教育插件，思考AI工具在教学或培训场景的用法。"
+    },
+    {
+      "id": "0602acf24a70",
+      "title": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
+      "url": "https://arxiv.org/abs/2608.00004",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "自动评判",
+        "数学推理",
+        "LLM评估"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "低成本自动评判自然语言数学证明",
+      "summary_zh": "论文提出一种自动评分方法，用较低成本对自然语言书写的数学证明进行评判，缓解人工批改证明昂贵低效的问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM自动评判（LLM-as-a-Judge）在数学推理评估中的应用与降本思路。",
+      "impact": "降低数学证明评估成本，助力数学AI数据筛选与模型训练。",
+      "advice": "做推理模型评估的读者可读原文，借鉴其评判管线设计。"
+    },
+    {
+      "id": "757fa76551cd",
+      "title": "RubricReviewer: From Direct Critique to Objective and Comprehensive Rubric-Driven Peer Review",
+      "url": "https://arxiv.org/abs/2608.00005",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "同行评审",
+        "评分细则",
+        "LLM评判"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "RubricReviewer：评分细则驱动的论文同行评审",
+      "summary_zh": "针对顶会评审主观、不一致的问题，提出RubricReviewer框架，用结构化评分细则驱动模型给出客观全面的同行评审意见。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用评分细则（rubric）约束LLM输出，提升评审类任务的客观性与覆盖面。",
+      "impact": "推动学术评审自动化，提高评审一致性与可解释性。",
+      "advice": "写评审或构建评判Agent时可借鉴其rubric设计方法。"
+    },
+    {
+      "id": "b5c074830521",
+      "title": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
+      "url": "https://arxiv.org/abs/2608.00007",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "长期记忆",
+        "终身学习"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "MemoryForge：为LLM智能体合成终身记忆",
+      "summary_zh": "提出MemoryForge方法，为大模型智能体合成和管理终身记忆，使其行为更接近人类式的长期记忆积累与运用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解智能体长期记忆的合成与组织方法，是Agent工程的重要方向。",
+      "impact": "增强智能体长期一致性，推动个性化Agent落地。",
+      "advice": "开发Agent的读者可关注其记忆架构，思考接入自己的产品。"
+    },
+    {
+      "id": "c66b86b8819c",
+      "title": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
+      "url": "https://arxiv.org/abs/2608.00009",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "评测基准",
+        "长期记忆",
+        "对话智能体"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "AgentMemBench：对话智能体长期记忆评测基准",
+      "summary_zh": "提出AgentMemBench基准，系统性评测对话式AI智能体的长期记忆管理策略，填补该方向缺乏统一评测标准的空白。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识长期记忆管理的评测维度，学会用基准对比不同记忆策略。",
+      "impact": "为Agent记忆系统提供统一标尺，加速记忆方案迭代。",
+      "advice": "选型记忆方案时可用此基准做对比测试。"
+    },
+    {
+      "id": "718bfdcd3f76",
+      "title": "DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis",
+      "url": "https://arxiv.org/abs/2608.00011",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "语音合成",
+        "扩散模型",
+        "TTS"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "DLLM-TTS：离散扩散语言模型语音合成",
+      "summary_zh": "提出DLLM-TTS，用块级离散扩散语言模型做文本转语音，探索扩散式生成在TTS中的新范式以改善现有系统的局限。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解离散扩散模型在语音生成中的应用，跟进TTS技术新范式。",
+      "impact": "或带来更自然的语音合成质量，丰富TTS技术路线。",
+      "advice": "关注语音方向的读者可读原文，对比扩散与自回归TTS。"
+    },
+    {
+      "id": "facd668c27cc",
+      "title": "Uncertainty-Aware Simulation-Based Inference for Operations Research with Large Language Models",
+      "url": "https://arxiv.org/abs/2608.00019",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "不确定性",
+        "运筹优化",
+        "仿真推断"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "不确定性感知的LLM运筹仿真推断",
+      "summary_zh": "针对大模型在运筹优化场景部署的不确定性问题，提出不确定性感知的仿真推断方法，提升LLM在运筹决策中的可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习不确定性量化方法，理解LLM落地决策类场景的风险控制。",
+      "impact": "提升LLM在运筹、优化等严谨决策场景的可信度。",
+      "advice": "做决策类AI应用的读者可借鉴其不确定性处理思路。"
+    },
+    {
+      "id": "18f6f3d363af",
+      "title": "Learning Compositional Meta-Routing for Agentic Workflows: An Executable Benchmark",
+      "url": "https://arxiv.org/abs/2608.00106",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "路由",
+        "工作流"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "智能体工作流的组合式元路由学习",
+      "summary_zh": "提出组合式元路由学习方法，让智能体系统不仅决定调哪个工具，还学会组合决策，并附带可执行基准验证效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Agent工作流中路由决策的学习方法，超越规则式路由。",
+      "impact": "提升多Agent工作流的自动化调度能力与效率。",
+      "advice": "搭建多Agent系统的读者可关注学习式路由取代手写规则。"
+    },
+    {
+      "id": "f0882fb99675",
+      "title": "MetaRoute-Bench: Evaluating Meta-Decision Policies for Agentic Workflow Routing",
+      "url": "https://arxiv.org/abs/2608.00107",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "评测基准",
+        "智能体路由",
+        "元决策"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "MetaRoute-Bench：智能体路由元决策评测基准",
+      "summary_zh": "提出MetaRoute-Bench，评测智能体工作流中反复做路由选择的元决策策略，检验模型能否学会何时调用何种能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解Agent路由元决策的评测方法，认识该能力对复杂工作流的关键性。",
+      "impact": "为Agent调度策略提供评测标准，推动工作流智能化。",
+      "advice": "可与同批元路由论文对照阅读，评估自家Agent路由方案。"
+    },
+    {
+      "id": "51010120806f",
+      "title": "Progressive$^2$: A Teacher-Student Progressive Co-Evolving Knowledge Distillation Method for Substantial Model Compression",
+      "url": "https://arxiv.org/abs/2608.00129",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "知识蒸馏",
+        "模型压缩",
+        "师生共进化"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "Progressive²：师生共进化知识蒸馏压缩模型",
+      "summary_zh": "提出Progressive²知识蒸馏方法，教师与学生模型渐进式共同进化，实现大幅模型压缩同时尽量保持性能。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习渐进式蒸馏与共进化训练技巧，用于小模型压缩。",
+      "impact": "降低模型部署成本，利好端侧和低成本推理场景。",
+      "advice": "需要压缩模型的团队可尝试其渐进蒸馏方案。"
+    },
+    {
+      "id": "68d7ad2b17b7",
+      "title": "Rethinking Pretraining for Specialized Design Data: Evidence from the JONES-19 Cultural Design Dataset",
+      "url": "https://arxiv.org/abs/2608.00135",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "预训练",
+        "垂直领域",
+        "设计数据"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "反思专业设计数据的预训练：JONES-19数据集",
+      "summary_zh": "基于JONES-19文化设计档案数据集，实证研究专业设计数据上预训练的有效性与问题，反思垂直领域预训练策略。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识垂直领域预训练的数据选择与设计考量，避免盲目加数据。",
+      "impact": "为建筑、设计等专业领域AI训练提供实证参考。",
+      "advice": "做垂直领域模型的读者可读原文，反思自己的预训练数据策略。"
     }
   ]
 }
