@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T05:07:17.375Z",
+  "generated_at": "2026-08-04T05:37:29.034Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1001,6 +1001,26 @@
       "learn": "了解国内科技投资的最新风向与资本关注的技术赛道。",
       "impact": "反映资本对AI等硬科技赛道的信心,影响创业方向。",
       "advice": "关注大会发布的行业报告,把握融资与技术趋势。"
+    },
+    {
+      "id": "2163b413300d",
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "苹果",
+        "诉讼"
+      ],
+      "published_at": "2026-08-03T22:00:00.000Z",
+      "title_zh": "Apple is getting this wrong",
+      "summary_zh": "OpenAI 公开回应苹果提起的诉讼,称其指控毫无根据,并澄清了涉及其员工的相关说法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "科技巨头间围绕人才与合作的法律博弈,反映 AI 竞争格局紧张。",
+      "impact": "巨头纠纷升级,或影响 AI 生态合作与人才流动。",
+      "advice": "关注双方官方声明,理性看待舆论,读原文了解细节。"
     }
   ]
 }
