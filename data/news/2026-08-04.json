@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T13:07:17.620Z",
+  "generated_at": "2026-08-04T13:37:44.498Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1340,6 +1340,46 @@
       "learn": "观察科技巨头如何通过舆论策略影响诉讼走向，理解法律与公关的联动打法。",
       "impact": "巨头诉讼公开化可能影响AI合作格局与相关监管讨论。",
       "advice": "阅读原文了解双方论点，关注苹果AI合作策略变化。"
+    },
+    {
+      "id": "c06c4540f1ac",
+      "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
+      "url": "https://www.qbitai.com/2026/08/466386.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "开源",
+        "科研Agent",
+        "MIT协议"
+      ],
+      "published_at": "2026-08-04T13:14:27.000Z",
+      "title_zh": "开源版Claude Science发布",
+      "summary_zh": "北大与元空AI Agent联合实验室推出开源科研助手,零依赖、MIT协议,内置30多项科研技能,对标Claude Science。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Agent+Skills架构如何服务科研工作流,以及开源复刻商业产品的思路。",
+      "impact": "降低科研AI工具使用门槛,推动学术场景Agent开源生态发展。",
+      "advice": "去GitHub克隆试用,把文献检索、论文写作等技能接入自己的工作流。"
+    },
+    {
+      "id": "cc9f36984901",
+      "title": "Is the future of data centers portable? Runware builds a pod to find out",
+      "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "数据中心",
+        "AI基础设施",
+        "Runware"
+      ],
+      "published_at": "2026-08-04T13:00:00.000Z",
+      "title_zh": "Runware试水便携式数据中心",
+      "summary_zh": "AI基础设施公司Runware发布模块化数据中心Pod,探索可移动、快速部署的算力形态,以应对传统数据中心建设周期长的瓶颈。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识模块化/集装箱式数据中心这一趋势:算力供给正走向灵活部署与就近交付。",
+      "impact": "或缩短AI算力上线周期,改变基础设施交付方式,利好推理服务商。",
+      "advice": "关注边缘算力与模块化数据中心方向,评估其对推理成本的影响。"
     }
   ]
 }
