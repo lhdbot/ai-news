@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T13:37:44.498Z",
+  "generated_at": "2026-08-04T14:07:31.459Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1380,6 +1380,26 @@
       "learn": "认识模块化/集装箱式数据中心这一趋势:算力供给正走向灵活部署与就近交付。",
       "impact": "或缩短AI算力上线周期,改变基础设施交付方式,利好推理服务商。",
       "advice": "关注边缘算力与模块化数据中心方向,评估其对推理成本的影响。"
+    },
+    {
+      "id": "d74f42007843",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "苹果",
+        "OpenAI",
+        "商业秘密"
+      ],
+      "published_at": "2026-08-04T14:03:01.000Z",
+      "title_zh": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "summary_zh": "苹果在法庭文件中扩大对OpenAI的商业秘密调查，称更多前员工可能将公司机密数据带给了OpenAI。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI人才争夺已演变为法律战，跳槽涉及商业秘密与竞业的合规风险。",
+      "impact": "加剧苹果与OpenAI对立，人才流动更趋谨慎。",
+      "advice": "关注此案进展，跳槽时注意保密协议与竞业条款。"
     }
   ]
 }
