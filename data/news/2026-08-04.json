@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T11:37:41.163Z",
+  "generated_at": "2026-08-04T12:07:36.392Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1300,6 +1300,46 @@
       "learn": "了解 AI 内容农场如何利用论坛操纵搜索排名，以及平台方的检测与治理思路。",
       "impact": "社区内容真实性受冲击，倒逼论坛升级反垃圾机制。",
       "advice": "浏览社区推荐时留意甄别 AI 水军帖，可关注内容真实性检测工具。"
+    },
+    {
+      "id": "e374de05c878",
+      "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+      "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "太空激光通信",
+        "卫星互联网",
+        "光通信"
+      ],
+      "published_at": "2026-08-04T12:00:00.000Z",
+      "title_zh": "EON拟用太空激光替代海底光缆",
+      "summary_zh": "Endeavour Optical Networks计划发射高速太空激光通信系统，将数据传输主干从海底光纤迁移至轨道，以突破带宽与延迟瓶颈。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解自由空间光通信如何以光速直连卫星与地面站，绕开海底光缆的物理与地理限制。",
+      "impact": "若成功将重塑全球骨干网架构，大幅降低跨境传输延迟与铺设成本。",
+      "advice": "关注光通信与卫星组网方向，跟踪该领域初创公司动态。"
+    },
+    {
+      "id": "421264cc869b",
+      "title": "OpenAI drags Apple’s lawsuit into the court of public opinion",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "苹果",
+        "法律诉讼"
+      ],
+      "published_at": "2026-08-04T11:27:55.000Z",
+      "title_zh": "OpenAI将苹果诉讼推向舆论场",
+      "summary_zh": "苹果与OpenAI的法律纠纷升级，OpenAI采取公开回应策略，把法庭之争延伸至公众舆论层面，双方交锋愈发激烈。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察科技巨头如何通过舆论策略影响诉讼走向，理解法律与公关的联动打法。",
+      "impact": "巨头诉讼公开化可能影响AI合作格局与相关监管讨论。",
+      "advice": "阅读原文了解双方论点，关注苹果AI合作策略变化。"
     }
   ]
 }
