@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-04T16:37:39.404Z",
+  "generated_at": "2026-08-04T17:07:49.831Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -501,6 +501,26 @@
       "learn": "AI算力扩张受电力基础设施约束，能源政策正成为数据中心落地的关键变量。",
       "impact": "或放缓AI算力扩张速度，推高新建数据中心合规成本。",
       "advice": "关注AI算力与能源政策的交叉议题，评估相关投资风险。"
+    },
+    {
+      "id": "b274d6785ee9",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "source": "OpenAI",
+      "category": "工具产品",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "AI教育"
+      ],
+      "published_at": "2026-08-04T00:00:00.000Z",
+      "title_zh": "ChatGPT与Codex推出教育插件",
+      "summary_zh": "OpenAI为ChatGPT Work和Codex推出教育类插件，帮助K-12教师用AI辅助教学与课程设计。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI编程与对话工具在教育场景的落地方式及插件生态的扩展趋势。",
+      "impact": "推动AI进入基础教育，拓展ChatGPT和Codex的应用边界。",
+      "advice": "试用Codex教育插件，思考AI工具在教学或培训场景的用法。"
     }
   ]
 }
