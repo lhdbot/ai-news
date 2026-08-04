@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T11:07:41.622Z",
+  "generated_at": "2026-08-04T11:37:41.163Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1280,6 +1280,26 @@
       "learn": "Agent 记忆可资产化管理：分层分类、团队共享是工程落地关键方向。",
       "impact": "推动 Agent 从单体记忆走向团队级记忆协作，利好企业级应用。",
       "advice": "正在搭建多 Agent 系统的读者可读原文，评估其记忆分层方案。"
+    },
+    {
+      "id": "71649e07497c",
+      "title": "Can Reddit fend off a new wave of AI SEO spam?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Reddit",
+        "AI垃圾内容",
+        "SEO"
+      ],
+      "published_at": "2026-08-04T02:04:10.000Z",
+      "title_zh": "Reddit 能否抵御 AI SEO 垃圾内容浪潮",
+      "summary_zh": "AI 生成的 SEO 垃圾帖子正涌入 Reddit 各版块，伪装成真实用户提问与推荐以操纵搜索排名，平台和版主正在加强识别与清理手段。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 AI 内容农场如何利用论坛操纵搜索排名，以及平台方的检测与治理思路。",
+      "impact": "社区内容真实性受冲击，倒逼论坛升级反垃圾机制。",
+      "advice": "浏览社区推荐时留意甄别 AI 水军帖，可关注内容真实性检测工具。"
     }
   ]
 }
