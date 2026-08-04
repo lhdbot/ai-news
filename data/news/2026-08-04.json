@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T15:07:22.671Z",
+  "generated_at": "2026-08-04T15:37:36.892Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1400,6 +1400,26 @@
       "learn": "AI人才争夺已演变为法律战，跳槽涉及商业秘密与竞业的合规风险。",
       "impact": "加剧苹果与OpenAI对立，人才流动更趋谨慎。",
       "advice": "关注此案进展，跳槽时注意保密协议与竞业条款。"
+    },
+    {
+      "id": "1d4e5617f724",
+      "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+      "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "特斯拉",
+        "马斯克",
+        "人形机器人"
+      ],
+      "published_at": "2026-08-04T15:20:06.000Z",
+      "title_zh": "马斯克财报会上半时间在谈AI与机器人",
+      "summary_zh": "分析特斯拉近七年财报电话会，发现马斯克一半时间在谈AI和人形机器人，而非汽车业务本身。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解特斯拉战略重心已从电动车转向AI与具身智能，关注财报中的业务叙事变化。",
+      "impact": "传统车企估值逻辑正被AI故事重塑，机器人和自动驾驶成核心看点。",
+      "advice": "关注特斯拉Optimus进展，学习机器人与自动驾驶技术路线。"
     }
   ]
 }
