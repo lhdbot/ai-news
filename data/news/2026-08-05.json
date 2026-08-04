@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-04T16:10:38.421Z",
+  "generated_at": "2026-08-04T16:37:39.404Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -481,6 +481,26 @@
       "learn": "了解 AI 生成音乐的现状与争议，思考 AI 内容检测与标注问题。",
       "impact": "AI 内容进入主流音乐市场，冲击创作行业。",
       "advice": "关注 AI 音乐检测工具，思考内容真实性边界。"
+    },
+    {
+      "id": "67d9c56c5b0c",
+      "title": "Texas says data centers must pass an audit before connecting to the grid",
+      "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "数据中心",
+        "电力",
+        "政策监管"
+      ],
+      "published_at": "2026-08-04T15:33:21.000Z",
+      "title_zh": "德州要求数据中心并网前先过审计",
+      "summary_zh": "美国德州出台新规，数据中心接入电网前须通过审计评估，这可能延缓新数据中心的审批与建设进度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI算力扩张受电力基础设施约束，能源政策正成为数据中心落地的关键变量。",
+      "impact": "或放缓AI算力扩张速度，推高新建数据中心合规成本。",
+      "advice": "关注AI算力与能源政策的交叉议题，评估相关投资风险。"
     }
   ]
 }
