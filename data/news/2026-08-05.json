@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-04T22:37:19.394Z",
+  "generated_at": "2026-08-04T23:07:40.560Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -981,6 +981,26 @@
       "learn": "了解前沿模型网络安全能力的第三方评估机制，及模型提供方如何界定与管控滥用风险。",
       "impact": "推动建立大模型网络安全能力评估规范，影响行业安全测试边界。",
       "advice": "读 OpenAI 原文，关注模型攻防能力评估方法与安全红线。"
+    },
+    {
+      "id": "3377842032d0",
+      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+      "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "SpaceX",
+        "Tesla",
+        "储能"
+      ],
+      "published_at": "2026-08-04T21:07:26.000Z",
+      "title_zh": "SpaceX今年已购3.29亿美元特斯拉Megapack",
+      "summary_zh": "SpaceX今年已向特斯拉采购3.29亿美元Megapack储能电池，用于地面设施供电，凸显马斯克旗下公司间的深度业务互联。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI与航天基础设施对大规模储能的依赖，以及巨头生态内垂直整合的商业模式。",
+      "impact": "储能成算力与航天基础设施关键，利好储能产业链。",
+      "advice": "关注AI数据中心配套的储能赛道，阅读TechCrunch原文。"
     }
   ]
 }
