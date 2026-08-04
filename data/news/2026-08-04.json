@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T09:08:46.554Z",
+  "generated_at": "2026-08-04T09:38:07.623Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1160,6 +1160,86 @@
       "learn": "了解专业领域数据预训练与通用范式的差异及实证方法。",
       "impact": "为建筑、设计等垂直领域模型训练提供实证参考。",
       "advice": "做垂直领域模型训练时可参考其数据与预训练策略。"
+    },
+    {
+      "id": "1420a6a5b4a2",
+      "title": "数学家24小时驳回OpenAI攻破的猜想！“AI证对了每句话，但已跟原猜想无关”",
+      "url": "https://www.qbitai.com/2026/08/465792.html",
+      "source": "量子位",
+      "category": "论文研究",
+      "tags": [
+        "OpenAI",
+        "数学推理",
+        "AI验证"
+      ],
+      "published_at": "2026-08-04T09:22:46.000Z",
+      "title_zh": "数学家24小时驳回OpenAI攻破的猜想",
+      "summary_zh": "OpenAI宣称AI攻破某数学猜想，次日人类论文回应指出AI提出的反例不成立，AI虽每步推理正确但已偏离原猜想本身。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI数学推理存在局部正确但整体偏题的问题，验证结论需人类专家把关。",
+      "impact": "提醒业界审慎看待AI攻克数学难题的宣传，凸显人工验证必要性。",
+      "advice": "关注AI+数学证明进展，读原文了解反例为何失效。"
+    },
+    {
+      "id": "7f20304a5ee1",
+      "title": "开发者苦 “造轮子” 久矣，HarmonyOS 7 正在抹平系统能力的接入鸿沟",
+      "url": "https://www.qbitai.com/2026/08/466262.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "HarmonyOS",
+        "Agent",
+        "开发工具"
+      ],
+      "published_at": "2026-08-04T09:18:08.000Z",
+      "title_zh": "HarmonyOS 7抹平系统能力接入鸿沟",
+      "summary_zh": "HarmonyOS 7通过新机制降低开发者重复造轮子的成本，系统级能力更易接入，Skill和Agent也能被封装调用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解鸿蒙将系统能力与AI Agent封装结合的开发新范式，减少重复开发。",
+      "impact": "降低鸿蒙开发门槛，推动Agent能力与操作系统深度融合。",
+      "advice": "鸿蒙开发者可试用HarmonyOS 7新特性，体验Skill封装。"
+    },
+    {
+      "id": "774d7aed4aa0",
+      "title": "OpenAI天价网红公关活动，捅马蜂窝了",
+      "url": "https://www.qbitai.com/2026/08/466032.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "公关",
+        "品牌营销"
+      ],
+      "published_at": "2026-08-04T09:13:57.000Z",
+      "title_zh": "OpenAI天价网红公关活动引争议",
+      "summary_zh": "OpenAI投入巨资请网红做田园牧歌式公关宣传，画风与公司形象违和，引发舆论反感和争议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察AI公司品牌营销策略及其风险，公关失当可能反噬公众形象。",
+      "impact": "影响OpenAI公众形象，引发对AI巨头营销方式的讨论。",
+      "advice": "关注AI公司公关动态，理性辨别营销内容与真实进展。"
+    },
+    {
+      "id": "516dd1521311",
+      "title": "腾讯混元Hy ASR 3.0 preview：让语音识别理解上下文",
+      "url": "https://www.qbitai.com/2026/08/465973.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "腾讯混元",
+        "语音识别",
+        "ASR"
+      ],
+      "published_at": "2026-08-04T08:58:21.000Z",
+      "title_zh": "腾讯混元发布Hy ASR 3.0语音识别",
+      "summary_zh": "腾讯混元发布Hy ASR 3.0 preview版语音识别模型，能理解上下文语境提升识别准确率，腾讯元宝已接入该能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解上下文感知的语音识别技术趋势，ASR正从单句识别走向语境理解。",
+      "impact": "提升中文语音识别体验，推动ASR在AI助手中落地应用。",
+      "advice": "可在腾讯元宝中体验新版语音识别效果。"
     }
   ]
 }
