@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T00:37:13.049Z",
+  "generated_at": "2026-08-04T01:07:38.500Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -841,6 +841,26 @@
       "learn": "了解Palantir商业模式与高利润路径，以及AI行业围绕数据主权与意识形态的分歧。",
       "impact": "凸显国防AI公司盈利能力，加剧行业政治立场争论。",
       "advice": "读原文了解Karp观点，关注Palantir财报与政府AI订单动向。"
+    },
+    {
+      "id": "54e616a32e5e",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "url": "https://openai.com/index/circles",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "电信",
+        "AI应用落地"
+      ],
+      "published_at": "2026-08-03T00:00:00.000Z",
+      "title_zh": "Circles用OpenAI技术实现电信个性化",
+      "summary_zh": "电信公司Circles借助OpenAI API和Codex打造AI原生电信体验，提升用户个性化服务能力和开发效率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大模型API与代码助手在传统行业（电信）落地个性化服务的方式。",
+      "impact": "推动AI原生应用在电信行业普及，提升用户体验。",
+      "advice": "关注行业AI落地案例，思考如何将OpenAI API接入自己的业务场景。"
     }
   ]
 }
