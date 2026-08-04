@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T08:08:00.941Z",
+  "generated_at": "2026-08-04T08:37:56.200Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1041,6 +1041,26 @@
       "learn": "端侧AI与物理AI成为资本新风口，模型轻量化与端云协同是关键技术方向。",
       "impact": "加速端侧AI商业化进程，推动智能终端产业升级。",
       "advice": "关注端侧模型部署技术，了解Om AI的产品与开源方案。"
+    },
+    {
+      "id": "0bea14c11902",
+      "title": "DeepSeek低价风暴打服硅谷！海外平台争相倒贴V4 Flash",
+      "url": "https://www.qbitai.com/2026/08/465814.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "DeepSeek",
+        "模型价格战",
+        "API"
+      ],
+      "published_at": "2026-08-04T08:18:45.000Z",
+      "title_zh": "DeepSeek V4 Flash 低价引海外平台倒贴",
+      "summary_zh": "DeepSeek 发布 V4 Flash 模型并以极低价格开放，海外平台为接入甚至愿意补贴用户，低价策略震动硅谷，引发订阅用户热捧。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "模型推理成本持续下探，低价 API 已成为抢占开发者和市场份额的核心竞争手段。",
+      "impact": "加剧全球大模型价格战，挤压中小厂商利润空间，用户调用成本大降。",
+      "advice": "体验 V4 Flash API，评估将现有应用迁移至低成本模型的可行性。"
     }
   ]
 }
