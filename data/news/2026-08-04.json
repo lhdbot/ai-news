@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T03:37:19.772Z",
+  "generated_at": "2026-08-04T04:07:55.034Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -881,6 +881,106 @@
       "learn": "了解推理成本倒挂现象，以及跨云调度、弹性伸缩等推理降本工程方法。",
       "impact": "推理降本成AI应用生死线，跨云架构或成出海标配。",
       "advice": "读原文研究其跨云调度方案，评估自家推理成本结构。"
+    },
+    {
+      "id": "0602acf24a70",
+      "title": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
+      "url": "https://arxiv.org/abs/2608.00004",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "数学推理",
+        "自动评测",
+        "LLM评判"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "低成本自动评判自然语言数学证明",
+      "summary_zh": "arXiv新论文提出一种自动评判自然语言数学证明的方法,以低成本实现对证明正确性的自动打分,缓解人工评分昂贵耗时的问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解用LLM自动评估数学推理质量的方法与评测设计思路。",
+      "impact": "降低数学推理模型训练与评测成本,推动自动化评分发展。",
+      "advice": "做推理评测的开发者可读原文,借鉴其评判流程设计。"
+    },
+    {
+      "id": "757fa76551cd",
+      "title": "RubricReviewer: From Direct Critique to Objective and Comprehensive Rubric-Driven Peer Review",
+      "url": "https://arxiv.org/abs/2608.00005",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "同行评审",
+        "评分量表",
+        "LLM应用"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "RubricReviewer:量表驱动的同行评审",
+      "summary_zh": "arXiv新论文提出RubricReviewer,将直接批评式评审转变为基于评分量表的客观全面评审,旨在提升学术同行评审的一致性与覆盖度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用结构化量表(rubric)约束LLM评审输出,提升客观性。",
+      "impact": "或改善AI辅助审稿质量,减少评审主观偏差。",
+      "advice": "关注LLM评审类应用者可读原文,借鉴量表设计方法。"
+    },
+    {
+      "id": "b5c074830521",
+      "title": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
+      "url": "https://arxiv.org/abs/2608.00007",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "长期记忆",
+        "终身学习"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "MemoryForge:为LLM智能体合成终身记忆",
+      "summary_zh": "arXiv新论文提出MemoryForge,为大语言模型智能体合成终身记忆,使其更接近人类式的长期记忆能力,改善持续交互表现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解智能体长期记忆的构建方法:记忆合成与终身学习机制。",
+      "impact": "推动具备长期记忆的AI智能体落地,提升个性化体验。",
+      "advice": "做Agent开发者可关注其记忆合成机制并尝试复现。"
+    },
+    {
+      "id": "c66b86b8819c",
+      "title": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
+      "url": "https://arxiv.org/abs/2608.00009",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "长期记忆",
+        "评测基准"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "AgentMemBench:对话智能体长期记忆基准",
+      "summary_zh": "arXiv新论文发布AgentMemBench,一个系统评估对话式AI智能体长期记忆管理策略的基准,填补该方向缺乏统一评测的空白。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解长期记忆策略的系统性评测维度与基准设计方法。",
+      "impact": "为记忆增强智能体提供统一评测标准,促进方案对比迭代。",
+      "advice": "开发对话Agent时可用该基准评估自己的记忆方案。"
+    },
+    {
+      "id": "718bfdcd3f76",
+      "title": "DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis",
+      "url": "https://arxiv.org/abs/2608.00011",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "语音合成",
+        "扩散模型",
+        "TTS"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "DLLM-TTS:离散扩散语言模型语音合成",
+      "summary_zh": "arXiv新论文提出DLLM-TTS,将块级离散扩散语言模型用于文本转语音合成,探索扩散建模范式在TTS上的新路径。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解离散扩散模型在语音合成中的应用及与自回归方案差异。",
+      "impact": "为TTS提供新建模范式,或提升合成质量与生成效率。",
+      "advice": "关注语音方向的开发者可读原文,跟踪扩散式TTS进展。"
     }
   ]
 }
