@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-04T18:07:22.743Z",
+  "generated_at": "2026-08-04T18:38:04.451Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -721,6 +721,246 @@
       "learn": "认识垂直领域预训练的数据选择与设计考量，避免盲目加数据。",
       "impact": "为建筑、设计等专业领域AI训练提供实证参考。",
       "advice": "做垂直领域模型的读者可读原文，反思自己的预训练数据策略。"
+    },
+    {
+      "id": "ced0a1fe95e9",
+      "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
+      "url": "https://arxiv.org/abs/2608.00001",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI意识",
+        "AI安全",
+        "思想实验"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "用经典思想实验测量AI意识",
+      "summary_zh": "论文重提莱布尼茨磨坊等经典意识思想实验,尝试构建可用于AI安全评估的意识测量框架,为判断模型是否具有主观体验提供分析工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI意识研究的哲学基础及思想实验在安全评估中的用法",
+      "impact": "为AI安全中的意识与福祉评估提供新研究视角",
+      "advice": "对AI意识话题感兴趣可读arXiv原文"
+    },
+    {
+      "id": "eeeaf404218c",
+      "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
+      "url": "https://arxiv.org/abs/2608.00003",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "LLM智能体",
+        "OpenFOAM",
+        "科学计算"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "AutoFOAM:自我优化的CFD智能体",
+      "summary_zh": "提出可自主操作OpenFOAM的AI智能体,能自动完成计算流体动力学仿真流程,并通过自我反思机制迭代修正错误、改进结果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习LLM智能体在科学计算中的自我纠错与闭环优化方法",
+      "impact": "降低CFD仿真门槛,推动AI赋能工程科研自动化",
+      "advice": "做仿真的开发者可关注LLM+科学计算的Agent范式"
+    },
+    {
+      "id": "5faad06f6d1f",
+      "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
+      "url": "https://arxiv.org/abs/2608.00006",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "RAG",
+        "虚假信息",
+        "中小企业"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "RAG助力中小企业识别虚假信息",
+      "summary_zh": "针对中小企业信息甄别能力弱的问题,研究用RAG为大模型注入特定领域上下文知识,提升其对虚假信息的识别与缓解效果并做了建模分析。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握RAG在垂直领域知识增强与事实核查中的应用思路",
+      "impact": "为中小企业低成本部署可信AI应用提供参考",
+      "advice": "做RAG应用时可借鉴其领域知识注入与评估方法"
+    },
+    {
+      "id": "ed3b67ea7709",
+      "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
+      "url": "https://arxiv.org/abs/2608.00008",
+      "source": "arXiv cs.AI",
+      "category": "芯片算力",
+      "tags": [
+        "本地部署",
+        "GPU功耗",
+        "能效基准"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "本地部署LLM的GPU能耗实测",
+      "summary_zh": "在消费级GPU上对本地部署的大模型进行功耗基准测试,量化不同模型与推理负载下的能耗表现,为端侧部署的能效评估提供初步数据。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解本地推理的功耗特征及能耗基准测试方法",
+      "impact": "为个人和边缘场景部署LLM提供能效选型依据",
+      "advice": "本地跑模型可关注其测试方法与功耗数据"
+    },
+    {
+      "id": "6c3fa2330c48",
+      "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
+      "url": "https://arxiv.org/abs/2608.00014",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "模型评测",
+        "思维链",
+        "核心集选择"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "CoT-Core:加速大模型评测",
+      "summary_zh": "提出面向思维链推理的核心集选择方法,从评测集中挑出少量代表性样本即可近似完整评测结果,大幅降低LLM评估的计算开销。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习核心集选择思想及CoT感知采样加速评测的技巧",
+      "impact": "降低模型评测成本,加快模型迭代对比效率",
+      "advice": "频繁评测模型可尝试用核心集抽样减少开销"
+    },
+    {
+      "id": "1ccbe76120c9",
+      "title": "Predicting Startup Exit from Textual Descriptors - A Computational Linguistics Framework",
+      "url": "https://arxiv.org/abs/2608.00045",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "计算语言学",
+        "创业预测",
+        "NLP应用"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "用文本特征预测创业公司退出",
+      "summary_zh": "提出计算语言学框架,仅利用创业公司的文本描述信息即可预测其未来退出结局(如并购或失败),验证了文本信号在投资预测中的价值。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解NLP特征在商业预测与投资决策中的应用方式",
+      "impact": "为投资机构用AI辅助尽调与风险评估提供工具",
+      "advice": "对NLP+金融交叉感兴趣可阅读该框架细节"
+    },
+    {
+      "id": "7cd6a57d7204",
+      "title": "A Constitution-Grid Instrument for Data-Efficient RL Alignment (C-Guard)",
+      "url": "https://arxiv.org/abs/2608.00180",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "RLHF",
+        "AI对齐",
+        "宪法AI"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "C-Guard:数据高效的RL对齐",
+      "summary_zh": "针对多目标冲突下的对齐难题,提出宪法-网格工具C-Guard,用结构化规则约束强化学习过程,在较少数据下实现更稳定的对齐效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习基于宪法式规则约束的RLHF数据高效对齐方法",
+      "impact": "降低对齐训练的数据成本,提升多目标场景安全性",
+      "advice": "做对齐研究可关注规则化约束与RL结合的路线"
+    },
+    {
+      "id": "a4e534c5e998",
+      "title": "Averaging Bias: Human Faithfulness Annotations are not Locally Faithful",
+      "url": "https://arxiv.org/abs/2608.00205",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "忠实性评估",
+        "人工标注",
+        "评估偏差"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "人工忠实性标注存在平均偏差",
+      "summary_zh": "研究发现对文本忠实性的人工标注在聚合平均后看似可靠,但在局部样本上并不忠实,揭示了当前摘要忠实性评估方法的系统性偏差。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识人工评估中的聚合偏差,审慎看待标注指标",
+      "impact": "推动改进生成内容忠实性的评估方法与基准",
+      "advice": "做评估相关工作时警惕平均分掩盖的局部失真"
+    },
+    {
+      "id": "12f82b4205f2",
+      "title": "Bridging the English-Arabic Medical Knowledge Gap: Targeted Low-Rank Adaptation via Causal Layer Selection",
+      "url": "https://arxiv.org/abs/2608.00207",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LoRA",
+        "跨语言迁移",
+        "医学AI"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "LoRA弥合英阿医学知识鸿沟",
+      "summary_zh": "通过因果层级选择定位与医学知识相关的层,再用定向低秩适配(LoRA)微调,将模型的英文医学知识迁移到阿拉伯语,缩小跨语言知识差距。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习基于因果分析的层选择+LoRA跨语言迁移方法",
+      "impact": "低成本提升小语种专业领域模型能力",
+      "advice": "做多语言微调可借鉴其层级选择与LoRA组合"
+    },
+    {
+      "id": "855572a10e67",
+      "title": "A Few Neurons Reveal When LLMs Misuse Tools: Sparse Detection and Selective Steering for Reliable Tool Use",
+      "url": "https://arxiv.org/abs/2608.00218",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "可解释性",
+        "工具调用",
+        "AI智能体"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "少量神经元识别LLM工具误用",
+      "summary_zh": "发现智能体LLM误用工具的行为可由少数神经元反映,据此提出稀疏检测与选择性引导方法,在不影响正常能力的前提下提升工具调用可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解机制可解释性在Agent行为监控与干预中的应用",
+      "impact": "为构建更可靠的AI智能体提供可解释的调控手段",
+      "advice": "开发Agent可关注神经级检测与引导的安全思路"
+    },
+    {
+      "id": "fd06088642dc",
+      "title": "AutoCause: A Python framework that automates expert decisions in environmental time-series causal discovery",
+      "url": "https://arxiv.org/abs/2608.00198",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "因果发现",
+        "时间序列",
+        "Python框架"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "AutoCause：环境时间序列因果发现自动化框架",
+      "summary_zh": "arXiv 新论文发布 Python 框架 AutoCause，将环境领域时间序列数据中的因果发现流程自动化，替代原本依赖专家经验判断的环节。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "因果发现方法及其在环境时序数据上的自动化落地思路。",
+      "impact": "降低因果推断门槛，推动环境科学数据驱动研究。",
+      "advice": "读原文了解框架设计，做时序分析可试用。"
+    },
+    {
+      "id": "33637019b535",
+      "title": "A Physics-Chemistry-Informed Neural Network (PCINN) for Real-Time Spatial-ALD Coverage Prediction and Reliable Kinetics Inversion",
+      "url": "https://arxiv.org/abs/2608.00212",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "物理信息神经网络",
+        "原子层沉积",
+        "半导体工艺"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "PCINN：实时预测空间原子层沉积覆盖率",
+      "summary_zh": "论文提出物理化学信息神经网络 PCINN，可实时预测空间原子层沉积（ALD）的薄膜覆盖率，并可靠反演反应动力学参数。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "物理信息神经网络（PINN）在工业过程建模与反问题求解中的应用。",
+      "impact": "加速半导体薄膜工艺优化，降低实验试错成本。",
+      "advice": "关注 PINN 在工艺仿真中的应用，可读原文。"
     }
   ]
 }
