@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-04T20:37:22.034Z",
+  "generated_at": "2026-08-04T21:07:42.582Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -961,6 +961,26 @@
       "learn": "物理信息神经网络（PINN）在工业过程建模与反问题求解中的应用。",
       "impact": "加速半导体薄膜工艺优化，降低实验试错成本。",
       "advice": "关注 PINN 在工艺仿真中的应用，可读原文。"
+    },
+    {
+      "id": "977f60f7e5e3",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "网络安全",
+        "模型评估"
+      ],
+      "published_at": "2026-08-04T19:00:00.000Z",
+      "title_zh": "OpenAI 回应第三方网络安全评估事件",
+      "summary_zh": "OpenAI 解释近期涉及其模型的第三方网络安全评估事件，说明评估中模型被用于网络攻击测试的情况，并阐述安全评估规范与应对措施。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解前沿模型网络安全能力的第三方评估机制，及模型提供方如何界定与管控滥用风险。",
+      "impact": "推动建立大模型网络安全能力评估规范，影响行业安全测试边界。",
+      "advice": "读 OpenAI 原文，关注模型攻防能力评估方法与安全红线。"
     }
   ]
 }
