@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T08:37:56.200Z",
+  "generated_at": "2026-08-04T09:08:46.554Z",
   "items": [
     {
       "id": "d968a40ec642",
@@ -1061,6 +1061,105 @@
       "learn": "模型推理成本持续下探，低价 API 已成为抢占开发者和市场份额的核心竞争手段。",
       "impact": "加剧全球大模型价格战，挤压中小厂商利润空间，用户调用成本大降。",
       "advice": "体验 V4 Flash API，评估将现有应用迁移至低成本模型的可行性。"
+    },
+    {
+      "id": "facd668c27cc",
+      "title": "Uncertainty-Aware Simulation-Based Inference for Operations Research with Large Language Models",
+      "url": "https://arxiv.org/abs/2608.00019",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "运筹优化",
+        "不确定性量化"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "LLM不确定性感知仿真推断用于运筹优化",
+      "summary_zh": "论文提出将大语言模型部署到运筹学场景时,引入不确定性感知的仿真推断方法,量化模型预测的可信度,提升决策可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解仿真推断(SBI)与不确定性量化如何结合LLM用于决策类任务。",
+      "impact": "推动LLM在运筹、调度等高可靠性场景落地。",
+      "advice": "做决策类AI应用的开发者可读原文了解不确定性建模思路。"
+    },
+    {
+      "id": "18f6f3d363af",
+      "title": "Learning Compositional Meta-Routing for Agentic Workflows: An Executable Benchmark",
+      "url": "https://arxiv.org/abs/2608.00106",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "模型路由",
+        "基准评测"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "智能体工作流的组合式元路由学习",
+      "summary_zh": "论文提出可执行的基准,研究智能体系统如何学习组合式元路由策略,即在多步骤工作流中动态选择合适的模型或工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解智能体路由(meta-routing)概念及可执行基准的评测方法。",
+      "impact": "为多智能体系统的成本与性能优化提供评测标准。",
+      "advice": "搭建Agent工作流的开发者可关注路由策略研究以降本增效。"
+    },
+    {
+      "id": "f0882fb99675",
+      "title": "MetaRoute-Bench: Evaluating Meta-Decision Policies for Agentic Workflow Routing",
+      "url": "https://arxiv.org/abs/2608.00107",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "基准评测",
+        "元决策"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "MetaRoute-Bench:智能体路由元决策评测基准",
+      "summary_zh": "论文发布MetaRoute-Bench基准,用于评估智能体工作流中路由的元决策策略,衡量系统在何时调用何种模型或工具的决策质量。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识智能体元决策策略的评测维度与基准设计思路。",
+      "impact": "为Agent路由研究提供统一可比的评测基准。",
+      "advice": "可用该基准测试自己的Agent路由方案,读原文了解细节。"
+    },
+    {
+      "id": "51010120806f",
+      "title": "Progressive$^2$: A Teacher-Student Progressive Co-Evolving Knowledge Distillation Method for Substantial Model Compression",
+      "url": "https://arxiv.org/abs/2608.00129",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "知识蒸馏",
+        "模型压缩"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "Progressive²:师生协同进化的渐进知识蒸馏",
+      "summary_zh": "论文提出Progressive²知识蒸馏方法,让教师与学生模型渐进协同进化,在大幅压缩模型规模的同时尽量保持性能。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解渐进式知识蒸馏与师生共进化实现模型压缩的方法。",
+      "impact": "有助于降低大模型部署成本,推动端侧应用。",
+      "advice": "关注模型压缩与端侧部署的开发者可研读该蒸馏方案。"
+    },
+    {
+      "id": "68d7ad2b17b7",
+      "title": "Rethinking Pretraining for Specialized Design Data: Evidence from the JONES-19 Cultural Design Dataset",
+      "url": "https://arxiv.org/abs/2608.00135",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "预训练",
+        "垂直领域",
+        "设计数据集"
+      ],
+      "published_at": "2026-08-04T04:00:00.000Z",
+      "title_zh": "面向专业设计数据的预训练再思考",
+      "summary_zh": "论文基于JONES-19文化设计数据集,研究设计建筑类档案数据的预训练策略,质疑通用预训练范式在专业领域的适用性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解专业领域数据预训练与通用范式的差异及实证方法。",
+      "impact": "为建筑、设计等垂直领域模型训练提供实证参考。",
+      "advice": "做垂直领域模型训练时可参考其数据与预训练策略。"
     }
   ]
 }
