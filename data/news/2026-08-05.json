@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T02:07:22.180Z",
+  "generated_at": "2026-08-05T02:37:45.523Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1101,6 +1101,66 @@
       "learn": "了解 AI 语音导览与地理位置服务结合的应用形态，观察消费级 AI 产品的场景创新。",
       "impact": "拓展 AI 在文化旅游与城市探索场景的消费级应用。",
       "advice": "下载体验该产品，思考 AI 如何与本地生活场景结合。"
+    },
+    {
+      "id": "30e8185e86cb",
+      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "英伟达",
+        "AI安全",
+        "行业联盟"
+      ],
+      "published_at": "2026-08-04T19:28:49.000Z",
+      "title_zh": "英伟达牵头开放安全AI联盟一周见效",
+      "summary_zh": "英伟达主导的开放安全AI联盟成立仅一周,成员已超12家,并快速展示安全AI方面的初步进展,推进行业标准制定。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "行业联盟如何推动AI安全标准落地,关注开放协作与封闭路线的博弈。",
+      "impact": "加速AI安全标准统一,英伟达生态话语权进一步扩大。",
+      "advice": "关注该联盟发布的安全规范,评估其对开发合规的影响。"
+    },
+    {
+      "id": "f74b40f6583f",
+      "title": "How an OpenAI influencer trip backfired",
+      "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "公关",
+        "营销"
+      ],
+      "published_at": "2026-08-04T18:16:11.000Z",
+      "title_zh": "OpenAI网红营销活动翻车",
+      "summary_zh": "OpenAI邀请网红参加品牌旅行以提升形象,却引发舆论反弹,被质疑用营销包装回避实质性争议,效果适得其反。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "科技公司公关策略的边界,营销背书与用户信任之间的微妙关系。",
+      "impact": "损害OpenAI公众形象,引发对AI公司营销伦理的讨论。",
+      "advice": "读原文了解事件始末,思考技术传播中真实性的重要性。"
+    },
+    {
+      "id": "507e71c13bb9",
+      "title": "‘Not healthy’ LLM use is more common than you think",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "LLM",
+        "AI依赖",
+        "数字健康"
+      ],
+      "published_at": "2026-08-04T17:33:46.000Z",
+      "title_zh": "不健康的LLM使用比想象中普遍",
+      "summary_zh": "知名科普YouTuber Hank Green宣布暂停部分活动,引发对大语言模型被过度依赖、用于替代真实思考等不健康使用方式的讨论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "识别AI依赖的风险,理解何时该用AI、何时应保持独立思考。",
+      "impact": "推动公众反思AI使用习惯,促进健康AI素养建设。",
+      "advice": "审视自己的AI使用习惯,避免用AI替代深度思考和学习。"
     }
   ]
 }
