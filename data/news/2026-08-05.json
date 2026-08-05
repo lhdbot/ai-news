@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T12:37:46.078Z",
+  "generated_at": "2026-08-05T13:07:44.530Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1461,6 +1461,26 @@
       "learn": "小型高效模型使AI能力可在本地设备运行,端侧推理渐成趋势",
       "impact": "端侧AI保护隐私、降低成本,利于Mac开发者集成AI",
       "advice": "关注Liquid AI模型与端侧推理SDK,评估本地部署方案"
+    },
+    {
+      "id": "db62e9447d41",
+      "title": "Google Assistant will disappear from your phone next month",
+      "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Google",
+        "Gemini",
+        "语音助理"
+      ],
+      "published_at": "2026-08-05T11:12:50.000Z",
+      "title_zh": "谷歌助理下月从手机退场",
+      "summary_zh": "谷歌宣布下个月将下架手机上的 Google Assistant,由 Gemini 全面接替,经典语音助理时代正式落幕。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大厂AI助理产品线的代际更替节奏,以及Gemini作为统一入口的战略布局。",
+      "impact": "传统语音助理退出主流,AI入口全面转向大模型对话式交互。",
+      "advice": "尽早熟悉Gemini手机端功能,对比其与Assistant的能力差异。"
     }
   ]
 }
