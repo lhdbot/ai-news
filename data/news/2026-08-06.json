@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-05T19:07:13.664Z",
+  "generated_at": "2026-08-05T19:37:48.920Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -861,6 +861,26 @@
       "learn": "了解PII检测评测方法与现有隐私过滤工具的局限。",
       "impact": "为依赖隐私过滤服务的产品提供选型与风险提示。",
       "advice": "处理用户数据的开发者应读原文评估过滤方案可靠性。"
+    },
+    {
+      "id": "1979ddc0566e",
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "Jeff Dean",
+        "AI创业"
+      ],
+      "published_at": "2026-08-05T19:30:19.000Z",
+      "title_zh": "Jeff Dean离开谷歌创业",
+      "summary_zh": "谷歌传奇AI高管Jeff Dean与多位即将离职的高管共同创办新创公司，具体方向尚未披露，被视为谷歌AI人才外流的标志性事件。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大厂核心AI人才持续流向创业，技术领军人物动向反映行业热点与资源迁移趋势。",
+      "impact": "谷歌AI领导力受挫，创业生态或迎新的重量级玩家。",
+      "advice": "关注新公司后续披露方向，读原文了解团队背景。"
     }
   ]
 }
