@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T07:07:22.818Z",
+  "generated_at": "2026-08-05T07:37:40.936Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1281,6 +1281,46 @@
       "learn": "AI算力已成高利润资产，掌握GPU资源即可转售变现，算力即现金流",
       "impact": "算力供需紧张催生倒卖市场，凸显GPU资源稀缺与AI基础设施价值",
       "advice": "关注算力市场与云GPU租赁价格波动，评估算力成本对AI项目的影响"
+    },
+    {
+      "id": "72ef7e24d01a",
+      "title": "微软叫停Tokenmaxxing！预算卡死，超限自负",
+      "url": "https://www.qbitai.com/2026/08/466739.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "微软",
+        "Token成本",
+        "GPT-5.6"
+      ],
+      "published_at": "2026-08-05T06:33:40.000Z",
+      "title_zh": "微软叫停Tokenmaxxing，超预算自负",
+      "summary_zh": "微软内部默认使用GPT-5.6，同时收紧员工的Token消耗预算，明确超出额度部分需自行承担，遏制过度使用AI的行为。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Token成本控制意识，大模型时代API用量即成本，需学会精打细算。",
+      "impact": "预示企业AI使用从扩张转向控费，Token预算管理将成常态。",
+      "advice": "日常开发中关注Token用量，学会用缓存和小模型降本。"
+    },
+    {
+      "id": "81171427ff92",
+      "title": "老黄垒20年的CUDA护城河，AI刚刚用10小时凿开了",
+      "url": "https://www.qbitai.com/2026/08/466553.html",
+      "source": "量子位",
+      "category": "芯片算力",
+      "tags": [
+        "CUDA",
+        "英伟达",
+        "AI编程"
+      ],
+      "published_at": "2026-08-05T05:53:38.000Z",
+      "title_zh": "AI十小时凿开CUDA护城河",
+      "summary_zh": "有团队借助AI工具仅用10小时就完成了原本依赖CUDA生态的工作，显示英伟达经营20年的CUDA软件壁垒正被AI快速削弱。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识CUDA护城河的本质，AI代码生成正在降低GPU编程的迁移门槛。",
+      "impact": "或动摇英伟达软件生态垄断，加速多平台算力竞争。",
+      "advice": "关注AI辅助代码迁移工具，留意非CUDA算力生态进展。"
     }
   ]
 }
