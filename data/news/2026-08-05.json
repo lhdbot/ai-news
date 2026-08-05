@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T00:37:13.424Z",
+  "generated_at": "2026-08-05T01:07:35.891Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1001,6 +1001,86 @@
       "learn": "了解AI与航天基础设施对大规模储能的依赖，以及巨头生态内垂直整合的商业模式。",
       "impact": "储能成算力与航天基础设施关键，利好储能产业链。",
       "advice": "关注AI数据中心配套的储能赛道，阅读TechCrunch原文。"
+    },
+    {
+      "id": "4707f42c55fa",
+      "title": "AMD’s data center business is booming while gaming takes a backseat",
+      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+      "source": "The Verge AI",
+      "category": "芯片算力",
+      "tags": [
+        "AMD",
+        "数据中心",
+        "AI芯片"
+      ],
+      "published_at": "2026-08-04T23:03:39.000Z",
+      "title_zh": "AMD数据中心营收翻倍，游戏业务退居次席",
+      "summary_zh": "受AI算力需求推动，AMD数据中心业务营收同比增长超一倍，成为公司核心增长引擎，而传统的游戏芯片业务相对萎缩，重要性下降。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI算力需求正重塑芯片厂商收入结构，关注GPU与数据中心市场格局变化。",
+      "impact": "AI芯片市场竞争加剧，AMD成为英伟达之外的重要算力供应方。",
+      "advice": "关注AMD财报与MI系列加速卡动态，评估算力多元化趋势。"
+    },
+    {
+      "id": "ed45a6ea5322",
+      "title": "SpaceX made more revenue as an AI company than a space company",
+      "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "SpaceX",
+        "AI基础设施",
+        "算力"
+      ],
+      "published_at": "2026-08-04T21:42:17.000Z",
+      "title_zh": "SpaceX的AI业务收入反超航天主业",
+      "summary_zh": "SpaceX的AI相关业务收入同比增长超三倍，达到26亿美元，首次超过其传统航天发射业务收入，公司性质正向AI基础设施方向倾斜。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI基础设施需求之大，连航天公司都靠算力业务反超主业，算力即新基建。",
+      "impact": "AI基础设施成为跨行业巨头的核心营收来源，算力军备竞赛升级。",
+      "advice": "关注科技巨头AI基础设施布局，读原文了解收入结构细节。"
+    },
+    {
+      "id": "167f98deda50",
+      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "source": "TechCrunch AI",
+      "category": "模型发布",
+      "tags": [
+        "开源模型",
+        "GLM-5.2",
+        "AI安全"
+      ],
+      "published_at": "2026-08-04T20:05:26.000Z",
+      "title_zh": "开源模型逼近前沿水平，但安全差距仍在",
+      "summary_zh": "SaferAI最新报告指出，智谱Z.ai的开源权重模型GLM-5.2能力已接近前沿闭源模型，但在安全防护措施上仍与领先模型存在明显差距。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "开源模型能力与闭源差距快速缩小，但安全对齐仍是短板，选型需权衡。",
+      "impact": "开源生态竞争力提升，但安全风险可能随模型扩散同步放大。",
+      "advice": "试用GLM开源模型，评估自建安全护栏的必要性。"
+    },
+    {
+      "id": "cbd7ccd48977",
+      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "云计算",
+        "算力合作"
+      ],
+      "published_at": "2026-08-04T19:48:40.000Z",
+      "title_zh": "Anthropic与AI云初创Volta签百亿美元大单",
+      "summary_zh": "Anthropic近期密集拓展云合作，最新与AI云初创公司Volta签署价值100亿美元的协议，为其模型训练和推理锁定大规模算力资源。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "头部大模型公司算力开支进入百亿美元量级，云合作成为扩张关键手段。",
+      "impact": "算力大单频现，推高AI基础设施成本门槛，初创云厂商迎来机会。",
+      "advice": "关注Anthropic生态与新兴AI云厂商，评估推理成本走势。"
     }
   ]
 }
