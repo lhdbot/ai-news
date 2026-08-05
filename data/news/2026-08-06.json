@@ -1,0 +1,546 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-05T16:11:12.434Z",
+  "items": [
+    {
+      "id": "977f60f7e5e3",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "网络安全",
+        "模型评估"
+      ],
+      "published_at": "2026-08-04T19:00:00.000Z",
+      "title_zh": "OpenAI 回应第三方网络安全评估事件",
+      "summary_zh": "OpenAI 就近期涉及其模型的第三方网络安全评估事件作出说明，解释事件经过并概述后续改进措施。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大模型安全评估的第三方审计机制及其透明度争议。",
+      "impact": "推动模型安全评估规范化，影响厂商与审计方信任关系。",
+      "advice": "阅读 OpenAI 官方说明，关注模型红队评估方法论。"
+    },
+    {
+      "id": "b274d6785ee9",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "source": "OpenAI",
+      "category": "工具产品",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "AI教育"
+      ],
+      "published_at": "2026-08-04T00:00:00.000Z",
+      "title_zh": "ChatGPT 与 Codex 推出教育插件",
+      "summary_zh": "OpenAI 为 ChatGPT Work 和 Codex 推出面向 K-12 教师的新教育插件，辅助备课、教学与编程学习。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 编程工具正向教育场景延伸，插件化是主要落地方式。",
+      "impact": "降低教师使用 AI 门槛，拓展 AI 教育市场。",
+      "advice": "试用 Codex 教育插件，观察 AI 辅助教学设计思路。"
+    },
+    {
+      "id": "2163b413300d",
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "苹果",
+        "诉讼"
+      ],
+      "published_at": "2026-08-03T22:00:00.000Z",
+      "title_zh": "OpenAI 回应苹果诉讼称其无理",
+      "summary_zh": "OpenAI 针对苹果提起的诉讼发布声明，称指控毫无根据，并纠正了有关其员工的不实说法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 AI 巨头间的法律博弈，人才与知识产权是争夺焦点。",
+      "impact": "大厂法律冲突升级，或影响 AI 人才流动与合作格局。",
+      "advice": "关注科技巨头诉讼动态，评估其对行业合作的长期影响。"
+    },
+    {
+      "id": "69d6ebb581ce",
+      "title": "Deep Divide-and-Reduce in Symbolic Regression",
+      "url": "https://arxiv.org/abs/2608.02628",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "符号回归",
+        "分治算法",
+        "可解释AI"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "符号回归的深度分治归约方法",
+      "summary_zh": "论文提出深度分治归约框架用于符号回归，将复杂表达式递归拆解简化，提升可解释模型的搜索效率与精度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "分治思想结合深度学习可显著改善符号回归的搜索空间问题。",
+      "impact": "推动可解释 AI 在科学发现中的实用化。",
+      "advice": "读原文了解分治策略，可在科学建模任务中尝试符号回归。"
+    },
+    {
+      "id": "576a74aa9ee7",
+      "title": "Multimodal Auto-regressive Transformer Surrogate for Modeling Variable Operations and Quantifying Uncertainty in Geological Carbon Storage",
+      "url": "https://arxiv.org/abs/2608.02629",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "Transformer",
+        "碳封存",
+        "代理模型"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "多模态自回归 Transformer 助力碳封存建模",
+      "summary_zh": "论文提出多模态自回归 Transformer 代理模型，对地质碳封存中可变井况操作进行建模并量化不确定性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "自回归 Transformer 可作为复杂物理系统的高效代理模型。",
+      "impact": "加速碳封存仿真，助力碳中和技术落地。",
+      "advice": "关注 AI for Science 中代理模型与不确定性量化方向。"
+    },
+    {
+      "id": "0aa9fec21d68",
+      "title": "LLMs Can Annotate Attribution Graphs",
+      "url": "https://arxiv.org/abs/2608.02632",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "可解释性",
+        "归因图",
+        "电路追踪"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "大模型可自动标注归因图",
+      "summary_zh": "论文发现 LLM 能为电路追踪（circuit tracing）生成的归因图自动添加语义标注，降低机制可解释性分析成本。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "LLM 可辅助解释自身内部电路，可解释性研究可半自动化。",
+      "impact": "降低机制可解释性研究门槛，加速模型透明化进程。",
+      "advice": "了解 circuit tracing 方法，跟进 Anthropic 系可解释性工作。"
+    },
+    {
+      "id": "bc163d0b36ee",
+      "title": "GeoID-PINN: Identifiability-Aware Regional Epidemic Inference with Geographic Coupling",
+      "url": "https://arxiv.org/abs/2608.02633",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "PINN",
+        "疫情建模",
+        "科学计算"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "GeoID-PINN：地理耦合的区域疫情推断",
+      "summary_zh": "论文提出 GeoID-PINN，结合物理信息神经网络与地理耦合关系，解决区域疫情监测数据下参数可辨识性问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "PINN 结合地理先验可提升传染病模型参数推断可靠性。",
+      "impact": "提升区域疫情预测精度，辅助公共卫生决策。",
+      "advice": "了解 PINN 思想，适合时序建模与科学计算交叉方向开发者。"
+    },
+    {
+      "id": "0dff86e882e5",
+      "title": "Verifier-Guided Model Discovery for Physical Dynamical Systems with Pretrained Symbolic Transformers",
+      "url": "https://arxiv.org/abs/2608.02662",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "符号Transformer",
+        "物理建模",
+        "模型发现"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "验证器引导的物理系统模型发现",
+      "summary_zh": "论文提出用预训练符号 Transformer 结合验证器引导，从数据中可靠发现非线性物理动力系统方程。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "预训练符号模型加验证反馈可提升物理方程发现的可靠性。",
+      "impact": "推动自动化科学发现，改善非线性系统预测。",
+      "advice": "关注符号 Transformer 在科学发现中的应用，可读原文。"
+    },
+    {
+      "id": "51bd2065b93e",
+      "title": "cloudflare/computer/stargazers: Give your agent a computer 👾",
+      "url": "https://github.com/cloudflare/computer/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "Cloudflare",
+        "Agent",
+        "开源"
+      ],
+      "published_at": "2026-08-05T16:07:20.097Z",
+      "title_zh": "Cloudflare 开源 Agent 电脑环境",
+      "summary_zh": "Cloudflare 开源项目 computer，为 AI Agent 提供可操作的云端电脑环境，TypeScript 实现，单日获近 800 星。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "Agent 基础设施正成为热点，云端沙箱电脑是重要方向。",
+      "impact": "降低 Agent 执行环境搭建门槛，利好 Agent 应用生态。",
+      "advice": "试用该项目为自家 Agent 接入云端电脑能力。"
+    },
+    {
+      "id": "362f3683b227",
+      "title": "zhaoxuya520/reverse-skill/stargazers: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "逆向工程",
+        "渗透测试",
+        "AI Agent"
+      ],
+      "published_at": "2026-08-05T16:07:19.989Z",
+      "title_zh": "逆向渗透安全技能路由包开源",
+      "summary_zh": "开源 AI 技能路由包，面向逆向工程与授权渗透测试，支持自动路由、按需自举工具链和自进化经验库，适配 Claude Code、Cursor 等客户端。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "技能路由包模式让 AI 编程客户端可按需加载专业能力。",
+      "impact": "降低安全研究自动化门槛，推动 AI Agent 技能生态发展。",
+      "advice": "在 Claude Code 或 Cursor 中试装该技能包体验路由机制。"
+    },
+    {
+      "id": "edd602ad17f8",
+      "title": "permissionlesstech/bitchat/stargazers: bluetooth mesh chat, IRC vibes",
+      "url": "https://github.com/permissionlesstech/bitchat/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [
+        "蓝牙Mesh",
+        "开源",
+        "去中心化通信"
+      ],
+      "published_at": "2026-08-05T16:07:05.208Z",
+      "title_zh": "permissionlesstech/bitchat/stargazers: bluetooth mesh chat, IRC vibes",
+      "summary_zh": "开源项目Bitchat基于蓝牙Mesh实现无网聊天，界面复古如IRC，采用Swift开发，本月GitHub获星超8400。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "蓝牙Mesh网络可构建去中心化通信应用，无需互联网基础设施。",
+      "impact": "展示离网通信需求与技术可行性，推动去中心化应用发展。",
+      "advice": "关注蓝牙Mesh与去中心化通信方向，可读源码学习实现。"
+    },
+    {
+      "id": "cc17e8887d44",
+      "title": "别再吹AI生图了，不能图层编辑的AI都是“画饼”",
+      "url": "https://www.qbitai.com/2026/08/467034.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "AI生图",
+        "图层编辑",
+        "设计工具"
+      ],
+      "published_at": "2026-08-05T14:09:18.000Z",
+      "title_zh": "别再吹AI生图了，不能图层编辑的AI都是“画饼”",
+      "summary_zh": "兔展智能发布RabbitVis，让AI生图支持图层化编辑，覆盖设计全流程，解决AI出图无法二次修改的痛点。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI生图正从一次性生成走向可编辑、可分层的工作流形态。",
+      "impact": "可能改变设计行业AI工具形态，真正进入专业工作流。",
+      "advice": "设计师可试用RabbitVis，关注可编辑生图技术发展。"
+    },
+    {
+      "id": "f03eaf90c723",
+      "title": "等等，MiniMax H3不是刚发布吗？怎么就卷到几分钱的价格了……",
+      "url": "https://www.qbitai.com/2026/08/467036.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "MiniMax",
+        "大模型",
+        "价格战"
+      ],
+      "published_at": "2026-08-05T13:47:51.000Z",
+      "title_zh": "等等，MiniMax H3不是刚发布吗？怎么就卷到几分钱的价格了……",
+      "summary_zh": "MiniMax新模型H3发布后迅速被各类平台接入，调用价格卷至几分钱级别，开发者可低成本开箱即用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "模型发布到低价接入的周期急剧缩短，推理成本持续下探。",
+      "impact": "模型价格竞争加剧，开发者用AI的门槛进一步降低。",
+      "advice": "有需求的开发者可直接试用H3，对比各平台接入成本。"
+    },
+    {
+      "id": "6bcfd01b60a1",
+      "title": "又一家AI基金暴雷了",
+      "url": "https://www.qbitai.com/2026/08/467001.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "开源模型",
+        "AI投资",
+        "基金暴雷"
+      ],
+      "published_at": "2026-08-05T12:43:18.000Z",
+      "title_zh": "又一家AI基金暴雷了",
+      "summary_zh": "又一家AI主题基金出现暴雷，分析认为开源大模型的崛起改写了游戏规则，冲击了传统AI投资逻辑。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "开源模型正在重塑AI商业化与投资逻辑，闭源溢价被削弱。",
+      "impact": "AI投资风险显现，开源生态加速改变行业格局。",
+      "advice": "关注开源模型生态，理性看待AI领域投资热度。"
+    },
+    {
+      "id": "0c11e60a4646",
+      "title": "淘天开启2027届应届生招聘：AI技术类岗位占比超9成",
+      "url": "https://www.qbitai.com/2026/08/466998.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "阿里巴巴",
+        "校招",
+        "AI人才"
+      ],
+      "published_at": "2026-08-05T09:38:49.000Z",
+      "title_zh": "淘天开启2027届应届生招聘：AI技术类岗位占比超9成",
+      "summary_zh": "阿里巴巴淘天集团启动2027届应届生招聘，AI技术类岗位占比超过90%，反映大厂AI人才需求结构剧变。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "电商大厂招聘重心全面转向AI，技术人才结构加速迭代。",
+      "impact": "反映行业AI人才需求旺盛，影响应届生职业选择。",
+      "advice": "应届生可关注AI岗位机会，提前储备相关技能。"
+    },
+    {
+      "id": "aa7650f0795d",
+      "title": "114B参数、6B激活，Sand.ai刚刚开源全球首个千亿MoE视频生成模型",
+      "url": "https://www.qbitai.com/2026/08/466847.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "MoE",
+        "视频生成",
+        "开源模型"
+      ],
+      "published_at": "2026-08-05T07:05:41.000Z",
+      "title_zh": "114B参数、6B激活，Sand.ai刚刚开源全球首个千亿MoE视频生成模型",
+      "summary_zh": "Sand.ai开源全球首个千亿参数MoE视频生成模型，总参数114B、激活仅6B，10秒1080P视频成本约5毛钱。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "MoE架构以低激活参数实现千亿级视频生成，大幅降低成本。",
+      "impact": "开源高质量视频模型，推动视频生成成本与门槛下降。",
+      "advice": "可关注Sand.ai开源仓库，试用并研究MoE视频架构。"
+    },
+    {
+      "id": "9dfa8f07c07e",
+      "title": "Trump’s AI protectionism has come for robotics",
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "机器人",
+        "AI政策",
+        "保护主义"
+      ],
+      "published_at": "2026-08-03T18:43:30.000Z",
+      "title_zh": "Trump’s AI protectionism has come for robotics",
+      "summary_zh": "MIT科技评论报道，特朗普政府的AI保护主义政策开始波及机器人领域，可能影响全球机器人产业供应链与合作。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI技术竞争正从软件模型扩展至机器人等硬件实体领域。",
+      "impact": "地缘政治加剧机器人产业割裂，影响全球供应链布局。",
+      "advice": "关注机器人产业国际政策变化，评估技术自主方向。"
+    },
+    {
+      "id": "4318a91a18d8",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI搜索",
+        "电商",
+        "Shopify"
+      ],
+      "published_at": "2026-08-05T15:56:14.000Z",
+      "title_zh": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "summary_zh": "Shopify表示AI搜索为商家带来更多流量和销量，而非取代谷歌搜索，与出版商流量被蚕食的情况不同。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI搜索对电商是增量渠道，与对传统出版业的冲击不同。",
+      "impact": "缓解电商对AI搜索分流焦虑，重塑流量获取策略。",
+      "advice": "电商从业者可研究AI搜索优化，布局新流量入口。"
+    },
+    {
+      "id": "d088fab015ca",
+      "title": "Hark previews its browser use agent for completing tasks",
+      "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "AI Agent",
+        "浏览器自动化",
+        "Hark"
+      ],
+      "published_at": "2026-08-05T15:46:27.000Z",
+      "title_zh": "Hark previews its browser use agent for completing tasks",
+      "summary_zh": "Hark预览其浏览器使用Agent，可自动完成任务，并宣称比竞品更快更便宜，瞄准浏览器自动化赛道。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "浏览器Agent成为竞争热点，速度与成本是核心指标。",
+      "impact": "推动浏览器自动化Agent竞争，加速实际应用落地。",
+      "advice": "可关注并试用各类浏览器Agent，评估自动化工作流。"
+    },
+    {
+      "id": "9c21f3501190",
+      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+      "source": "TechCrunch AI",
+      "category": "具身智能",
+      "tags": [
+        "机器人",
+        "自动化工厂",
+        "TechCrunch"
+      ],
+      "published_at": "2026-08-05T15:05:00.000Z",
+      "title_zh": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "summary_zh": "TechCrunch Disrupt 2026新增真实世界AI舞台，聚焦机器人、自动化工厂乃至灭绝动物复活等AI与物理世界交叉主题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI应用重心从纯软件走向物理世界，具身智能受关注。",
+      "impact": "反映行业对AI实体化落地的期待，引导投资方向。",
+      "advice": "关注具身智能与AI硬件结合方向的发展动态。"
+    },
+    {
+      "id": "6716d33c74e9",
+      "title": "Anthropic is hiring an AI chip design team",
+      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "Anthropic",
+        "自研芯片",
+        "算力"
+      ],
+      "published_at": "2026-08-05T14:13:18.000Z",
+      "title_zh": "Anthropic组建自研AI芯片团队",
+      "summary_zh": "Anthropic正在招聘工程师组建团队,设计自研定制AI芯片,以降低对第三方芯片供应商的依赖。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "头部模型公司纷纷自研芯片,软硬一体化成为大模型竞争的新方向。",
+      "impact": "加剧AI芯片竞争,削弱对英伟达等供应商的依赖。",
+      "advice": "关注自研芯片趋势,了解推理成本下降对应用的影响。"
+    },
+    {
+      "id": "c2ae90aa7691",
+      "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+      "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "端侧推理",
+        "Liquid AI",
+        "MacPaw"
+      ],
+      "published_at": "2026-08-05T12:28:38.000Z",
+      "title_zh": "MacPaw用Liquid AI做端侧推理",
+      "summary_zh": "MacPaw采用Liquid AI的模型,为其应用商店开发者提供设备端推理能力,并构建本地版AI助手Eney。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "小模型端侧推理正在落地,隐私和低延迟是核心卖点。",
+      "impact": "推动AI应用向本地化、隐私友好的方向演进。",
+      "advice": "可试用端侧推理方案,评估本地小模型在自己产品中的可行性。"
+    },
+    {
+      "id": "1dbe2cc7f0dc",
+      "title": "Trump’s AI testing plan is limited and vague",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI监管",
+        "政策",
+        "安全"
+      ],
+      "published_at": "2026-08-05T10:29:47.000Z",
+      "title_zh": "特朗普AI测试计划被指模糊",
+      "summary_zh": "特朗普政府推出评估AI网络安全风险的框架,但被批评内容有限且含糊,缺乏可操作的细则。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI安全监管政策在制定中,企业需关注合规要求走向。",
+      "impact": "政策不确定性增加,AI公司合规方向尚不明朗。",
+      "advice": "跟踪美国AI监管政策动态,提前评估产品合规风险。"
+    },
+    {
+      "id": "4707f42c55fa",
+      "title": "AMD’s data center business is booming while gaming takes a backseat",
+      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+      "source": "The Verge AI",
+      "category": "芯片算力",
+      "tags": [
+        "AMD",
+        "数据中心",
+        "AI算力"
+      ],
+      "published_at": "2026-08-04T23:03:39.000Z",
+      "title_zh": "AMD数据中心收入翻倍",
+      "summary_zh": "受AI算力需求推动,AMD数据中心业务收入同比增长超过一倍,游戏业务则退居次要地位。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI算力需求重塑芯片公司收入结构,数据中心成主战场。",
+      "impact": "AMD加速追赶英伟达,AI芯片市场竞争升温。",
+      "advice": "关注AMD GPU生态和ROCm进展,作为英伟达之外的选型参考。"
+    },
+    {
+      "id": "ed45a6ea5322",
+      "title": "SpaceX made more revenue as an AI company than a space company",
+      "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "SpaceX",
+        "AI收入",
+        "算力"
+      ],
+      "published_at": "2026-08-04T21:42:17.000Z",
+      "title_zh": "SpaceX的AI收入超过航天业务",
+      "summary_zh": "SpaceX的AI相关收入增长三倍多至26亿美元,AI业务收入首次超过其传统航天业务。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI基础设施需求巨大,连航天公司也靠算力业务赚钱。",
+      "impact": "显示AI算力商业化潜力,跨界玩家加速入局。",
+      "advice": "关注AI算力服务市场,留意非传统玩家的基础设施布局。"
+    },
+    {
+      "id": "f74b40f6583f",
+      "title": "How an OpenAI influencer trip backfired",
+      "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "营销",
+        "公关"
+      ],
+      "published_at": "2026-08-04T18:16:11.000Z",
+      "title_zh": "OpenAI网红营销活动翻车",
+      "summary_zh": "OpenAI邀请网红参加品牌旅行活动进行推广,结果适得其反,引发舆论反感和信任争议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI公司面向大众的营销方式需要谨慎,过度营销易引发反感。",
+      "impact": "损害OpenAI公众形象,凸显AI公司公关挑战。",
+      "advice": "观察AI公司品牌建设方式,思考技术产品如何做信任营销。"
+    },
+    {
+      "id": "507e71c13bb9",
+      "title": "‘Not healthy’ LLM use is more common than you think",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "LLM",
+        "AI依赖",
+        "心理健康"
+      ],
+      "published_at": "2026-08-04T17:33:46.000Z",
+      "title_zh": "不健康使用LLM现象普遍",
+      "summary_zh": "知名科普博主Hank Green宣布减少使用LLM,引发对人们过度依赖和不健康使用大模型现象的讨论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "需警惕对LLM的过度依赖,保持独立思考和判断能力。",
+      "impact": "促使行业关注AI使用心理健康与依赖问题。",
+      "advice": "审视自己的AI使用习惯,把LLM当助手而非思考替代品。"
+    }
+  ]
+}
