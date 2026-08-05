@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T14:07:17.980Z",
+  "generated_at": "2026-08-05T14:37:55.052Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1501,6 +1501,46 @@
       "learn": "开源模型崛起正冲击闭源商业逻辑，理解开源生态如何重塑AI产业格局。",
       "impact": "AI投资估值体系受冲击，资本对闭源模型公司更趋谨慎。",
       "advice": "读原文了解事件细节，关注开源模型对AI投资逻辑的影响。"
+    },
+    {
+      "id": "f03eaf90c723",
+      "title": "等等，MiniMax H3不是刚发布吗？怎么就卷到几分钱的价格了……",
+      "url": "https://www.qbitai.com/2026/08/467036.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "MiniMax",
+        "价格战",
+        "推理成本"
+      ],
+      "published_at": "2026-08-05T13:47:51.000Z",
+      "title_zh": "MiniMax H3发布即卷价格",
+      "summary_zh": "MiniMax H3发布不久，第三方平台已可开箱即用，调用价格被卷到几分钱级别，模型成本竞争白热化。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解国内大模型价格战现状，以及模型快速接入第三方生态的分发模式。",
+      "impact": "推理成本持续下降，开发者用模型门槛更低。",
+      "advice": "对比各家平台H3调用价格，低成本试用接入自己的项目。"
+    },
+    {
+      "id": "6716d33c74e9",
+      "title": "Anthropic is hiring an AI chip design team",
+      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "Anthropic",
+        "自研芯片",
+        "Claude"
+      ],
+      "published_at": "2026-08-05T14:13:18.000Z",
+      "title_zh": "Anthropic组建自研AI芯片团队",
+      "summary_zh": "Anthropic正在招聘芯片设计团队，计划为Claude系列模型研发定制AI芯片，减少对第三方芯片供应商的依赖。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "头部模型公司垂直整合趋势：自研芯片以优化推理成本与供应链安全。",
+      "impact": "AI竞争延伸至硬件层，或改变芯片市场格局。",
+      "advice": "关注大模型公司自研芯片动向，理解软硬件协同优化方向。"
     }
   ]
 }
