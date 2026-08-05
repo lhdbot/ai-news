@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T01:07:35.891Z",
+  "generated_at": "2026-08-05T01:37:43.114Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1081,6 +1081,26 @@
       "learn": "头部大模型公司算力开支进入百亿美元量级，云合作成为扩张关键手段。",
       "impact": "算力大单频现，推高AI基础设施成本门槛，初创云厂商迎来机会。",
       "advice": "关注Anthropic生态与新兴AI云厂商，评估推理成本走势。"
+    },
+    {
+      "id": "21a7d7856c49",
+      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+      "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "AI 应用",
+        "语音导览",
+        "LBS"
+      ],
+      "published_at": "2026-08-04T19:34:34.000Z",
+      "title_zh": "Wrinkles：AI 讲述身边地点的隐秘故事",
+      "summary_zh": "Wrinkles 是一款同时上线 iOS 和 Android 的应用，利用 AI 充当语音导览，向用户讲述周围地点背后不为人知的历史与故事。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 AI 语音导览与地理位置服务结合的应用形态，观察消费级 AI 产品的场景创新。",
+      "impact": "拓展 AI 在文化旅游与城市探索场景的消费级应用。",
+      "advice": "下载体验该产品，思考 AI 如何与本地生活场景结合。"
     }
   ]
 }
