@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-05T21:07:13.750Z",
+  "generated_at": "2026-08-05T21:37:23.223Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -901,6 +901,26 @@
       "learn": "AI Agent正成为电商SaaS的核心竞争力,收购式人才并购是大厂补AI能力的常见路径。",
       "impact": "电商营销AI化加速,智能体或重塑客户运营方式。",
       "advice": "关注电商场景的AI Agent落地,可读原文了解其产品方向。"
+    },
+    {
+      "id": "48c7edfbf2c0",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "Meta",
+        "编程智能体",
+        "Muse Code"
+      ],
+      "published_at": "2026-08-05T21:21:28.000Z",
+      "title_zh": "Meta 发布 Muse Code 代码智能体",
+      "summary_zh": "Meta 推出编程智能体 Muse Code,声称能处理大型代码库,进一步扩充其 AI 编码产品线。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大厂正把 AI 编程助手升级为能驾驭大型代码库的自主智能体。",
+      "impact": "大型项目的 AI 辅助开发能力升级,编码智能体竞争加剧。",
+      "advice": "关注 Muse Code 实测表现,对比现有 Copilot/Cursor 评估是否试用。"
     }
   ]
 }
