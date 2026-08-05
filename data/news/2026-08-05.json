@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T10:37:17.912Z",
+  "generated_at": "2026-08-05T11:07:53.804Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1361,6 +1361,66 @@
       "learn": "大厂招聘结构是行业风向标，AI技能正成为应届生求职的核心竞争力。",
       "impact": "电商行业AI人才需求爆发，加剧AI人才争夺，推高相关岗位薪资预期。",
       "advice": "在校生尽早积累AI项目经验，关注大厂AI校招岗位要求并针对性准备。"
+    },
+    {
+      "id": "fe3278d55355",
+      "title": "huangruiteng/loopx/stargazers: Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "url": "https://github.com/huangruiteng/loopx/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "AI智能体",
+        "GitHub Trending",
+        "Codex"
+      ],
+      "published_at": "2026-08-05T11:07:21.746Z",
+      "title_zh": "loopx:AI智能体团队的轻量级循环状态内核",
+      "summary_zh": "GitHub日榜项目loopx为长时间运行的AI编程智能体团队提供状态内核，兼容Codex、Claude Code等，支持持久目标、配额感知自动唤醒与可验证交接。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解智能体循环工程：用持久状态与证据日志管理长任务多智能体协作。",
+      "impact": "为长时程编程智能体提供通用编排方案，降低多代理协作门槛。",
+      "advice": "到GitHub体验loopx，尝试将其接入自己的编码智能体工作流。"
+    },
+    {
+      "id": "b0846dadd572",
+      "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+      "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI气象",
+        "融资",
+        "WindBorne"
+      ],
+      "published_at": "2026-08-05T11:00:00.000Z",
+      "title_zh": "WindBorne获3700万美元融资，AI气象预测商业化",
+      "summary_zh": "气象气球公司WindBorne Systems完成3700万美元B轮融资，用于扩大其全球传感气球网络，结合AI模型改进天气预报并探索盈利模式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI气象预测结合自研传感数据可形成数据壁垒，是AI垂直落地的范式。",
+      "impact": "推动AI天气预报商业化，挑战传统气象服务模式。",
+      "advice": "关注AI+气象赛道，读原文了解其数据闭环商业模式。"
+    },
+    {
+      "id": "1dbe2cc7f0dc",
+      "title": "Trump’s AI testing plan is limited and vague",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI监管",
+        "网络安全",
+        "美国政策"
+      ],
+      "published_at": "2026-08-05T10:29:47.000Z",
+      "title_zh": "特朗普政府AI测试框架被指模糊有限",
+      "summary_zh": "特朗普政府发布评估AI模型网络安全风险的测试框架，但被批评覆盖范围有限、标准模糊，缺乏明确的执行细节与约束力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI安全监管动向：政府测试框架的设计思路与常见争议点。",
+      "impact": "影响美国AI合规走向，企业面临不确定的监管预期。",
+      "advice": "关注AI安全评估标准演进，读原文了解框架具体条款。"
     }
   ]
 }
