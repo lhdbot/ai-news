@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T03:37:22.818Z",
+  "generated_at": "2026-08-05T04:07:58.355Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1161,6 +1161,106 @@
       "learn": "识别AI依赖的风险,理解何时该用AI、何时应保持独立思考。",
       "impact": "推动公众反思AI使用习惯,促进健康AI素养建设。",
       "advice": "审视自己的AI使用习惯,避免用AI替代深度思考和学习。"
+    },
+    {
+      "id": "1037d70d951c",
+      "title": "TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering",
+      "url": "https://arxiv.org/abs/2608.02609",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "机器翻译",
+        "低资源语言",
+        "数字人文"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "TabletCraft:楔形文字双向机器翻译与渲染",
+      "summary_zh": "论文提出 TabletCraft 系统,实现阿卡德语与现代语言双向神经机器翻译,并支持楔形文字渲染,助力解读约50万块泥板文献。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解NMT在低资源古语言上的应用,以及文本到象形符号渲染的技术思路。",
+      "impact": "降低楔形文字研究门槛,展示AI在数字人文领域的潜力。",
+      "advice": "读arXiv原文,关注低资源语言翻译的方法设计。"
+    },
+    {
+      "id": "0b6789274281",
+      "title": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
+      "url": "https://arxiv.org/abs/2608.02612",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM评测",
+        "黑盒优化",
+        "基准测试"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "BBOWP-Bench:LLM黑盒优化文字题基准",
+      "summary_zh": "新基准 BBOWP-Bench 评测大模型将文字描述的黑盒优化问题形式化并求解的能力,填补该方向评测空白。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识优化建模类任务对LLM的挑战,了解黑盒优化的评测方法。",
+      "impact": "为LLM优化推理能力提供量化标尺,推动相关能力改进。",
+      "advice": "读原文看评测结果,可用该基准测自己用的模型。"
+    },
+    {
+      "id": "1224fb4a577d",
+      "title": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
+      "url": "https://arxiv.org/abs/2608.02613",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "端侧AI",
+        "Agent",
+        "记忆系统"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "MemArena:端侧个人记忆助手基准",
+      "summary_zh": "论文发布 MemArena,面向端侧部署的智能体个人记忆助手的第一人称视角大规模评测基准。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解端侧智能体的记忆机制设计与评测,关注隐私友好的本地化AI趋势。",
+      "impact": "推动端侧记忆助手标准化评测,加速个人AI助理落地。",
+      "advice": "关注端侧Agent与记忆系统方向,读原文了解基准设计。"
+    },
+    {
+      "id": "747ac3e9ff36",
+      "title": "OncoTriad-QA: A Patient-Level Radiology-Pathology-Genomics Benchmark for Pan-Cancer Reasoning",
+      "url": "https://arxiv.org/abs/2608.02615",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "多模态",
+        "癌症诊断"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "OncoTriad-QA:泛癌多模态推理基准",
+      "summary_zh": "新基准 OncoTriad-QA 整合患者级放射影像、病理与基因组数据,评测模型在泛癌诊断推理上的多模态能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习医疗多模态数据融合思路,了解AI在肿瘤诊断中的推理评测方式。",
+      "impact": "推动医疗AI从单一模态走向综合诊断推理,利好精准医疗。",
+      "advice": "做医疗AI的读者可读原文,关注多模态融合评测方法。"
+    },
+    {
+      "id": "3218cd51afce",
+      "title": "Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks",
+      "url": "https://arxiv.org/abs/2608.02616",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "隐私保护",
+        "PII检测",
+        "OpenAI"
+      ],
+      "published_at": "2026-08-05T04:00:00.000Z",
+      "title_zh": "OpenAI隐私过滤器跨语言评测",
+      "summary_zh": "首个独立评测:在42个基准上测试OpenAI隐私过滤器的跨语言、跨领域PII检测能力,揭示其覆盖与不足。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解PII检测的跨语言难点,认识依赖单一隐私过滤方案的风险。",
+      "impact": "为隐私合规工具选型提供依据,促使厂商改进多语言保护。",
+      "advice": "处理用户数据时别只依赖单一过滤器,读原文看短板。"
     }
   ]
 }
