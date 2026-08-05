@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-05T19:37:48.920Z",
+  "generated_at": "2026-08-05T20:07:24.827Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -881,6 +881,26 @@
       "learn": "大厂核心AI人才持续流向创业，技术领军人物动向反映行业热点与资源迁移趋势。",
       "impact": "谷歌AI领导力受挫，创业生态或迎新的重量级玩家。",
       "advice": "关注新公司后续披露方向，读原文了解团队背景。"
+    },
+    {
+      "id": "f8b2b7a3d4cd",
+      "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Klaviyo",
+        "AI Agent",
+        "企业收购"
+      ],
+      "published_at": "2026-08-05T20:05:00.000Z",
+      "title_zh": "Klaviyo收购Agency,创始人出任CPO",
+      "summary_zh": "电商营销公司Klaviyo收购连续创业者Elias Torres的Agency公司,Torres加入Klaviyo担任首席产品官,负责领导其AI Agent产品的开发。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI Agent正成为电商SaaS的核心竞争力,收购式人才并购是大厂补AI能力的常见路径。",
+      "impact": "电商营销AI化加速,智能体或重塑客户运营方式。",
+      "advice": "关注电商场景的AI Agent落地,可读原文了解其产品方向。"
     }
   ]
 }
