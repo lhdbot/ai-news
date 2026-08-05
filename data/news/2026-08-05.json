@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T14:37:55.052Z",
+  "generated_at": "2026-08-05T15:07:42.127Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1541,6 +1541,26 @@
       "learn": "头部模型公司垂直整合趋势：自研芯片以优化推理成本与供应链安全。",
       "impact": "AI竞争延伸至硬件层，或改变芯片市场格局。",
       "advice": "关注大模型公司自研芯片动向，理解软硬件协同优化方向。"
+    },
+    {
+      "id": "9c21f3501190",
+      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+      "source": "TechCrunch AI",
+      "category": "具身智能",
+      "tags": [
+        "机器人",
+        "自动化工厂",
+        "TechCrunch"
+      ],
+      "published_at": "2026-08-05T15:05:00.000Z",
+      "title_zh": "TechCrunch Disrupt 2026 增设现实AI舞台",
+      "summary_zh": "TechCrunch宣布Disrupt 2026大会新增Real World AI舞台,聚焦AI与现实世界的结合,展示机器人、自动化工厂及复活灭绝动物等前沿应用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI正从纯软件走向物理世界,机器人与实体产业结合成为新热点。",
+      "impact": "推动AI落地实体产业,加速机器人与制造业融合。",
+      "advice": "关注大会直播,了解具身智能与工业自动化的最新案例。"
     }
   ]
 }
