@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T12:07:22.364Z",
+  "generated_at": "2026-08-05T12:37:46.078Z",
   "items": [
     {
       "id": "2163b413300d",
@@ -1421,6 +1421,46 @@
       "learn": "了解AI安全监管动向：政府测试框架的设计思路与常见争议点。",
       "impact": "影响美国AI合规走向，企业面临不确定的监管预期。",
       "advice": "关注AI安全评估标准演进，读原文了解框架具体条款。"
+    },
+    {
+      "id": "51bd2065b93e",
+      "title": "cloudflare/computer/stargazers: Give your agent a computer 👾",
+      "url": "https://github.com/cloudflare/computer/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "AI代理",
+        "Cloudflare",
+        "开源"
+      ],
+      "published_at": "2026-08-05T12:37:20.466Z",
+      "title_zh": "Cloudflare开源项目:给AI代理配一台电脑",
+      "summary_zh": "Cloudflare在GitHub开源TypeScript项目,让AI代理拥有可操作的云端虚拟电脑,单日获796星,引发关注。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI代理需要安全隔离的运行环境,云端沙箱成代理基础设施新方向",
+      "impact": "降低AI代理执行真实任务的门槛,推动代理生态发展",
+      "advice": "试读该仓库文档,了解代理沙箱的实现方式"
+    },
+    {
+      "id": "c2ae90aa7691",
+      "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+      "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "端侧推理",
+        "Liquid AI",
+        "MacPaw"
+      ],
+      "published_at": "2026-08-05T12:28:38.000Z",
+      "title_zh": "MacPaw联手Liquid AI推端侧推理",
+      "summary_zh": "MacPaw将采用Liquid AI的模型为其应用商店开发者提供端侧推理能力,并用其构建本地版AI助手Eney。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "小型高效模型使AI能力可在本地设备运行,端侧推理渐成趋势",
+      "impact": "端侧AI保护隐私、降低成本,利于Mac开发者集成AI",
+      "advice": "关注Liquid AI模型与端侧推理SDK,评估本地部署方案"
     }
   ]
 }
