@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T14:37:19.802Z",
+  "generated_at": "2026-08-06T15:07:30.328Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -1361,6 +1361,26 @@
       "learn": "大模型可生成有感染力的叙事,需警惕AI对人类认知的操纵。",
       "impact": "凸显AI伦理风险,或推动监管关注AI心理影响。",
       "advice": "关注AI安全与伦理议题,使用AI时保持批判性思维。"
+    },
+    {
+      "id": "f5f908b6ffe4",
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "source": "Google DeepMind",
+      "category": "模型发布",
+      "tags": [
+        "DeepMind",
+        "气象AI",
+        "气旋预测"
+      ],
+      "published_at": "2026-08-06T15:06:15.000Z",
+      "title_zh": "WeatherNext:AI气旋预测取得突破",
+      "summary_zh": "Google DeepMind发布WeatherNext模型,在热带气旋路径与强度预测上显著超越传统数值方法,可提供更准确的天气预报。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI模型可从历史气象数据中学习大气演化规律,替代部分传统物理数值模拟。",
+      "impact": "提升极端天气预警能力,推动AI在气象领域落地应用。",
+      "advice": "关注AI气象模型进展,阅读DeepMind原文了解技术细节。"
     }
   ]
 }
