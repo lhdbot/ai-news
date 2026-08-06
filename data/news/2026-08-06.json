@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T09:07:21.052Z",
+  "generated_at": "2026-08-06T09:37:50.275Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -1061,6 +1061,106 @@
       "learn": "Agentic能力已成模型竞争新焦点，第三方基准榜单是评估模型实力的重要参考。",
       "impact": "国产模型在智能体赛道领先，加速AI Agent应用落地。",
       "advice": "试用Qwen3.8构建Agent应用，关注Artificial Analysis榜单变化。"
+    },
+    {
+      "id": "ddf59b7a3c16",
+      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+      "url": "https://arxiv.org/abs/2608.04012",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "系统可靠性",
+        "理论框架",
+        "AAS"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "AI系统长期持久性理论:AAS评分",
+      "summary_zh": "论文提出冗余调整后的人工年龄评分(AAS)框架,用于建模和预测AI系统在长期运行中的持久性与退化规律。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解如何量化AI系统老化,认识冗余设计对系统寿命的影响",
+      "impact": "为评估AI系统长期可靠性提供理论工具,影响部署决策",
+      "advice": "关注AI系统生命周期评估方法,长期项目可读原文"
+    },
+    {
+      "id": "5c219df244ce",
+      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2608.04066",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "Agent",
+        "自验证",
+        "长周期任务"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "自验证Agent:区分承诺漂移与绑定漂移",
+      "summary_zh": "论文提出LLM提议、执行器决策的自验证Agent工具,解决长周期任务中目标漂移的验证问题,区分承诺漂移与绑定漂移。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习长周期Agent的漂移问题分类及自验证架构设计思路",
+      "impact": "提升长周期Agent可靠性,推动Agent工程化落地",
+      "advice": "构建长任务Agent时可借鉴提议-验证分离架构"
+    },
+    {
+      "id": "6e16c733e5c6",
+      "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
+      "url": "https://arxiv.org/abs/2608.04071",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "MCTS",
+        "多模态生成",
+        "表格理解"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "MCTS用于表格转多模态报告生成",
+      "summary_zh": "论文将蒙特卡洛树搜索应用于从表格数据自动生成多模态专业报告,通过搜索优化文本与图表的组合质量。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解MCTS在生成任务中的规划应用,拓展搜索式生成思路",
+      "impact": "提升自动报告生成质量,利好金融分析等场景",
+      "advice": "做报告生成需求可尝试搜索规划方法,读原文"
+    },
+    {
+      "id": "882603a94d86",
+      "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
+      "url": "https://arxiv.org/abs/2608.04077",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "金融AI",
+        "评测基准",
+        "Agent"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "FinProBench:金融AI Agent评测基准",
+      "summary_zh": "论文发布FinProBench基准,以真实金融从业交付物为依据,用角色化评分标准评估金融AI Agent的专业能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习基于真实交付物构建领域Agent评测基准的方法",
+      "impact": "树立金融Agent评测标准,推动垂直领域Agent发展",
+      "advice": "做金融AI可用该基准自测,关注领域评测趋势"
+    },
+    {
+      "id": "9861143e6a2f",
+      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+      "url": "https://arxiv.org/abs/2608.04095",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "个性化记忆",
+        "LLM Agent",
+        "评测基准"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "FinPerMA:LLM个性化记忆基准",
+      "summary_zh": "论文提出FinPerMA,一个基于事件与理论的个性化记忆评测基准,检验LLM Agent在金融场景下的长期记忆与个性化能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Agent记忆能力的评测维度与个性化记忆设计",
+      "impact": "推动记忆增强Agent研究,提升个性化服务水平",
+      "advice": "开发带记忆的Agent可参考其评测设计思路"
     }
   ]
 }
