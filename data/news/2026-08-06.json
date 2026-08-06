@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T11:07:21.042Z",
+  "generated_at": "2026-08-06T11:37:40.594Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -1201,6 +1201,26 @@
       "learn": "了解移动端系统设计新趋势:液态玻璃设计语言与双架构协同优化流畅度的实现思路。",
       "impact": "推动安卓阵营系统美学与流畅度竞争,或带动UI设计标准升级。",
       "advice": "关注液态玻璃设计技术细节,安卓开发者可研究其渲染架构。"
+    },
+    {
+      "id": "dcc157d77580",
+      "title": "TencentCloud/TencentDB-Agent-Memory/stargazers: TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "Agent记忆",
+        "腾讯云",
+        "开源工具"
+      ],
+      "published_at": "2026-08-06T11:37:19.639Z",
+      "title_zh": "腾讯云推出 Agent Memory:面向团队的智能体记忆中枢",
+      "summary_zh": "腾讯云开源 TencentDB Agent Memory,将对话、文档和代码转化为聊天记忆、技能、LLM-Wiki、代码图谱四类可复用记忆资产,供多智能体跨框架治理、共享和装配。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "团队级记忆架构设计:把 Agent 上下文资产化为四种类型,解决多智能体间记忆共享与治理问题。",
+      "impact": "推动 Agent 记忆从单机走向团队协作,或成企业级智能体基础设施新范式。",
+      "advice": "访问 GitHub 仓库读 README,了解四类记忆资产的设计并试用。"
     }
   ]
 }
