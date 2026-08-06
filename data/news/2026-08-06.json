@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T12:07:17.747Z",
+  "generated_at": "2026-08-06T12:38:00.821Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -1221,6 +1221,46 @@
       "learn": "团队级记忆架构设计:把 Agent 上下文资产化为四种类型,解决多智能体间记忆共享与治理问题。",
       "impact": "推动 Agent 记忆从单机走向团队协作,或成企业级智能体基础设施新范式。",
       "advice": "访问 GitHub 仓库读 README,了解四类记忆资产的设计并试用。"
+    },
+    {
+      "id": "c4ac702750d6",
+      "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+      "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "谷歌地图",
+        "AI智能体",
+        "本地生活"
+      ],
+      "published_at": "2026-08-06T12:30:00.000Z",
+      "title_zh": "谷歌地图上线智能体功能,可订餐订酒店",
+      "summary_zh": "谷歌地图新增智能体能力,用户可直接在地图内完成点餐、酒店预订等操作,体现谷歌将地图从导航工具升级为AI生活助理的战略。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "智能体正从对话走向真实交易闭环,地图成为AI落地的重要入口场景。",
+      "impact": "本地生活服务入口被重塑,地图类应用价值提升。",
+      "advice": "体验谷歌地图新功能,关注智能体交易类应用设计。"
+    },
+    {
+      "id": "1d90b0f92aef",
+      "title": "Omilia raises $67M to scale its customer support platform",
+      "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Omilia",
+        "融资",
+        "客服AI"
+      ],
+      "published_at": "2026-08-06T12:00:00.000Z",
+      "title_zh": "客服AI公司Omilia融资6700万美元",
+      "summary_zh": "客户支持AI平台Omilia完成6700万美元B轮融资,将用于扩大其自动化客服产品规模,这是该公司长期未融资后的新一轮募资。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "客服自动化仍是AI商业化最成熟赛道之一,资本持续加注B端语音与对话AI。",
+      "impact": "客服行业加速AI替代人工,企业级对话AI竞争加剧。",
+      "advice": "关注企业客服AI落地案例,评估对话式AI的工程实践。"
     }
   ]
 }
