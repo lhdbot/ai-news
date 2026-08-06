@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T00:07:23.145Z",
+  "generated_at": "2026-08-06T00:37:38.870Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -921,6 +921,26 @@
       "learn": "大厂正把 AI 编程助手升级为能驾驭大型代码库的自主智能体。",
       "impact": "大型项目的 AI 辅助开发能力升级,编码智能体竞争加剧。",
       "advice": "关注 Muse Code 实测表现,对比现有 Copilot/Cursor 评估是否试用。"
+    },
+    {
+      "id": "a830a68b12e1",
+      "title": "突发，Jeff Dean离职创业！谷歌股价应声蒸发1.34万亿",
+      "url": "https://www.qbitai.com/2026/08/467196.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "人才流动",
+        "DeepMind"
+      ],
+      "published_at": "2026-08-05T23:52:10.000Z",
+      "title_zh": "Jeff Dean离职创业，谷歌股价大跌",
+      "summary_zh": "谷歌传奇工程师Jeff Dean宣布离职创业，同时哈萨比斯卸任DeepMind CEO，消息引发谷歌股价应声下跌，市值大幅蒸发。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "核心人才动向可显著影响科技巨头估值，关注AI领军人物的流向有助判断行业格局变化。",
+      "impact": "或动摇谷歌AI团队稳定性，加剧大模型人才争夺战。",
+      "advice": "关注Jeff Dean创业项目动向，跟踪谷歌AI战略后续调整。"
     }
   ]
 }
