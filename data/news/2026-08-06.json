@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T15:07:30.328Z",
+  "generated_at": "2026-08-06T15:37:53.485Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -1381,6 +1381,66 @@
       "learn": "AI模型可从历史气象数据中学习大气演化规律,替代部分传统物理数值模拟。",
       "impact": "提升极端天气预警能力,推动AI在气象领域落地应用。",
       "advice": "关注AI气象模型进展,阅读DeepMind原文了解技术细节。"
+    },
+    {
+      "id": "abb6acf96aa9",
+      "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "苹果",
+        "商业机密诉讼"
+      ],
+      "published_at": "2026-08-06T15:10:32.000Z",
+      "title_zh": "OpenAI反击苹果商业机密诉讼",
+      "summary_zh": "OpenAI提交新法庭证据,指控苹果自身安全实践松懈,试图削弱苹果对其提起的商业机密诉讼。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "科技公司商业机密诉讼的攻防策略:通过证明原告保护不当来削弱案件。",
+      "impact": "影响AI人才流动相关诉讼走向,或重塑大厂竞业与保密边界。",
+      "advice": "关注该案进展,了解商业秘密与跳槽合规风险,可阅读原文。"
+    },
+    {
+      "id": "fe4b2e81cade",
+      "title": "SoftBank donated $50 million to Trump’s library months before federal data center deal",
+      "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "软银",
+        "数据中心",
+        "政治游说"
+      ],
+      "published_at": "2026-08-06T14:47:52.000Z",
+      "title_zh": "软银捐赠5000万美元获数据中心合作",
+      "summary_zh": "软银在获联邦数据中心交易数月前向特朗普总统图书馆捐赠5000万美元,引发利益输送质疑。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "",
+      "impact": "凸显AI基建政策与政治游说交织,或影响数据中心审批公平性。",
+      "advice": "关注AI基建背后的政策风险,评估产业链投资的政策敏感性。"
+    },
+    {
+      "id": "6d1fa470cd9d",
+      "title": "The left and right agree on one thing: no data centers",
+      "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
+      "source": "The Verge AI",
+      "category": "芯片算力",
+      "tags": [
+        "数据中心",
+        "能源消耗",
+        "AI基建"
+      ],
+      "published_at": "2026-08-06T14:18:27.000Z",
+      "title_zh": "美国两党共识:反对建数据中心",
+      "summary_zh": "The Verge报道,美国左右两派罕见达成一致,共同反对在本地建设AI数据中心,因能耗与水耗压力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI算力扩张引发的社区阻力与能源、水资源争议这一新趋势。",
+      "impact": "数据中心选址与审批趋严,可能推高算力成本并改变基建布局。",
+      "advice": "关注数据中心能源议题及选址政策变化,可阅读The Verge原文。"
     }
   ]
 }
