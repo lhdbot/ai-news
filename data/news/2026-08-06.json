@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T09:37:50.275Z",
+  "generated_at": "2026-08-06T10:08:15.534Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -1161,6 +1161,26 @@
       "learn": "了解Agent记忆能力的评测维度与个性化记忆设计",
       "impact": "推动记忆增强Agent研究,提升个性化服务水平",
       "advice": "开发带记忆的Agent可参考其评测设计思路"
+    },
+    {
+      "id": "cbf9137373ac",
+      "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+      "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "苹果",
+        "法律诉讼"
+      ],
+      "published_at": "2026-08-06T09:33:11.000Z",
+      "title_zh": "OpenAI反击苹果商业秘密诉讼",
+      "summary_zh": "OpenAI请求联邦法官驳回苹果提起的商业秘密诉讼，称该诉讼指控其挖角并窃取机密的做法'从根子上就是烂的'，双方围绕人才流动纠纷升级。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI人才争夺已进入法律战阶段，商业秘密与竞业问题成为巨头博弈新焦点。",
+      "impact": "或影响AI行业人才流动规则，巨头间法律摩擦加剧。",
+      "advice": "关注该案进展，了解AI人才流动中的法律合规边界。"
     }
   ]
 }
