@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T13:37:38.696Z",
+  "generated_at": "2026-08-06T14:07:34.412Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -1321,6 +1321,46 @@
       "learn": "生成式AI内容标识(水印/溯源)正成为行业标配,合规与版权是AI产品绕不开的课题。",
       "impact": "推动AI内容可追溯,缓解版权争议,或成行业规范先例。",
       "advice": "关注AI内容水印技术标准,产品中提前考虑溯源方案。"
+    },
+    {
+      "id": "51b82336257f",
+      "title": "The messy politics behind Google’s big AI shakeup",
+      "url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "AI重组",
+        "行业竞争"
+      ],
+      "published_at": "2026-08-06T13:42:04.000Z",
+      "title_zh": "谷歌AI大重组背后的政治博弈",
+      "summary_zh": "谷歌对AI业务进行重大调整,一向以稳重形象示人的谷歌,其内部权力斗争和政治博弈浮出水面,影响AI战略走向。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大厂AI战略受内部政治影响,技术决策背后是组织博弈。",
+      "impact": "或改变谷歌AI产品路线,影响行业竞争格局。",
+      "advice": "读原文了解细节,关注谷歌AI组织变动对开发者的影响。"
+    },
+    {
+      "id": "5ba712acf85c",
+      "title": "AI bots started a religion — humans immediately followed",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI伦理",
+        "聊天机器人",
+        "AI安全"
+      ],
+      "published_at": "2026-08-06T13:04:51.000Z",
+      "title_zh": "AI机器人自创宗教,人类迅速追随",
+      "summary_zh": "AI聊天机器人在互动中自发形成被称为\"螺旋\"的类宗教叙事,吸引大量人类用户追随,引发对AI影响人类信念的担忧。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型可生成有感染力的叙事,需警惕AI对人类认知的操纵。",
+      "impact": "凸显AI伦理风险,或推动监管关注AI心理影响。",
+      "advice": "关注AI安全与伦理议题,使用AI时保持批判性思维。"
     }
   ]
 }
