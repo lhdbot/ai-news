@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-06T17:37:53.200Z",
+  "generated_at": "2026-08-06T18:08:06.679Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -507,13 +507,220 @@
       "title": "ChatGPT brings unlimited text chats to free users",
       "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
       "source": "TechCrunch AI",
-      "category": "行业动态",
-      "tags": [],
+      "category": "工具产品",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "免费策略"
+      ],
       "published_at": "2026-08-06T17:34:42.000Z",
-      "title_zh": "",
-      "summary_zh": "OpenAI said that ChatGPT free and Go users are also getting a new think button f",
+      "title_zh": "ChatGPT brings unlimited text chats to free users",
+      "summary_zh": "OpenAI宣布免费和Go档用户获得无限文本对话额度,并新增思考按钮,可降低模型推理档位以换取更快的响应。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "了解大模型产品的分层策略与推理档位切换机制,免费与付费的界限正在模糊。",
+      "impact": "降低AI使用门槛,加剧聊天机器人市场竞争。",
+      "advice": "体验免费档思考按钮,对比不同推理档位的回答质量。"
+    },
+    {
+      "id": "ddf59b7a3c16",
+      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+      "url": "https://arxiv.org/abs/2608.04012",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AAS",
+        "系统可靠性",
+        "理论建模"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+      "summary_zh": "论文提出经冗余调整的人工年龄评分(AAS),为AI系统的长期持久性建模,量化系统随时间的退化与冗余补偿。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI系统寿命量化建模思路:用冗余度修正年龄评分来预测长期可靠性。",
+      "impact": "为AI系统长期运维和可靠性评估提供理论框架。",
+      "advice": "做AI基础设施运维可关注该评分框架,读原文了解公式。"
+    },
+    {
+      "id": "5c219df244ce",
+      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2608.04066",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI Agent",
+        "自验证",
+        "长程任务"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
+      "summary_zh": "论文提出自验证Agent工具,让LLM负责提议、执行器负责裁定,将长程Agent中的承诺漂移与绑定漂移分离开来分别度量。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "长程Agent失效可分两类:目标偏移(承诺漂移)与约束失效(绑定漂移),需分别验证。",
+      "impact": "提升长程Agent的可验证性与可靠性评估精度。",
+      "advice": "开发长程Agent时借鉴提议-裁定分离的自验证架构。"
+    },
+    {
+      "id": "6e16c733e5c6",
+      "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
+      "url": "https://arxiv.org/abs/2608.04071",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "MCTS",
+        "多模态",
+        "报告生成"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
+      "summary_zh": "论文将蒙特卡洛树搜索引入表格到多模态报告生成任务,自动产出含图表的专业报告,通过树搜索规划内容结构。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "MCTS不仅用于推理,还可作为结构化生成任务的规划器,搜索最优报告组织方式。",
+      "impact": "提高自动生成专业报告的结构质量与可靠性。",
+      "advice": "做文档生成可关注搜索式规划与LLM结合的方法。"
+    },
+    {
+      "id": "882603a94d86",
+      "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
+      "url": "https://arxiv.org/abs/2608.04077",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "金融AI",
+        "Agent评测",
+        "基准"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
+      "summary_zh": "提出FinProBench基准,从专业交付物出发构建角色化评分细则,评估金融AI Agent完成真实岗位任务的能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "Agent评测新范式:以真实职业交付物为基准,用角色化评分细则衡量产出质量。",
+      "impact": "推动金融Agent评测从答题式走向真实交付标准。",
+      "advice": "做垂直领域Agent可参考该基准设计自己的评测细则。"
+    },
+    {
+      "id": "9861143e6a2f",
+      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+      "url": "https://arxiv.org/abs/2608.04095",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "LLM Agent",
+        "个性化记忆",
+        "基准"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+      "summary_zh": "提出FinPerMA基准,基于理论与真实事件构建,评估LLM Agent在金融场景下的个性化记忆能力,如用户偏好追踪。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "记忆是Agent关键短板,了解如何设计事件驱动的个性化记忆评测方法。",
+      "impact": "为Agent记忆系统提供可量化的评测标准。",
+      "advice": "开发带记忆的Agent可用此基准检验记忆模块效果。"
+    },
+    {
+      "id": "03f32186746f",
+      "title": "Learning to Resolve Neutron Resonances with Fully Convolutional Neural Networks",
+      "url": "https://arxiv.org/abs/2608.04027",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "全卷积网络",
+        "核物理",
+        "AI4Science"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "Learning to Resolve Neutron Resonances with Fully Convolutional Neural Networks",
+      "summary_zh": "研究用全卷积神经网络解析中子共振谱,验证了深度学习在核物理实验数据自动分析中的可行性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解FCN在科学计算中的应用:用卷积网络处理一维能谱信号进行峰识别。",
+      "impact": "加速核物理实验数据分析,展示AI4Science潜力。",
+      "advice": "关注AI for Science,科学信号处理是深度学习蓝海。"
+    },
+    {
+      "id": "be708d95fa3f",
+      "title": "An Explainable LLM Agent Layer for Open-World Anomaly Detection in Oil Wells",
+      "url": "https://arxiv.org/abs/2608.04041",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "异常检测",
+        "LLM Agent",
+        "工业AI"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "An Explainable LLM Agent Layer for Open-World Anomaly Detection in Oil Wells",
+      "summary_zh": "提出可解释的LLM Agent层,结合开放世界学习管线,在油井场景中检测未知类型的异常并给出解释。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "开放世界异常检测思路:LLM Agent作为解释层,处理训练时未见过的异常类别。",
+      "impact": "推动工业异常检测从封闭集走向开放场景落地。",
+      "advice": "做工业AI可借鉴LLM解释层与传统检测模型的组合。"
+    },
+    {
+      "id": "a847df0868b3",
+      "title": "Tactus: Open-Vocabulary Object Recognition from Low-Cost Pressure Arrays",
+      "url": "https://arxiv.org/abs/2608.04043",
+      "source": "arXiv cs.LG",
+      "category": "具身智能",
+      "tags": [
+        "触觉传感",
+        "开放词汇",
+        "机器人"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "Tactus: Open-Vocabulary Object Recognition from Low-Cost Pressure Arrays",
+      "summary_zh": "Tactus系统用低成本电阻式压力阵列实现开放词汇物体识别,通过触觉压力分布特征区分不同物体。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "触觉传感新方向:廉价压力阵列加开放词汇模型即可识别物体,无需昂贵传感器。",
+      "impact": "降低机器人触觉感知成本,利好低成本具身智能。",
+      "advice": "关注触觉传感与多模态结合,是具身智能新热点。"
+    },
+    {
+      "id": "b9a84ef26aa7",
+      "title": "CAMP: A Cycle-Aware Multi-Scale Patch Mixer for Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2608.04051",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "时序预测",
+        "多尺度",
+        "周期建模"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "CAMP: A Cycle-Aware Multi-Scale Patch Mixer for Time Series Forecasting",
+      "summary_zh": "提出CAMP模型,一种周期感知的多尺度Patch混合器,针对真实时序数据的多周期特性改进预测精度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "时序预测要点:显式建模周期性与多尺度Patch划分可提升真实数据上的表现。",
+      "impact": "改进多周期场景下的时序预测效果,适用业务广泛。",
+      "advice": "做时序预测可借鉴周期感知与多尺度Patch的设计。"
+    },
+    {
+      "id": "35b3eeba5bab",
+      "title": "SpecDrop: Parameter-Free Category-Conditioned Routing for Modular Specialization",
+      "url": "https://arxiv.org/abs/2608.04084",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "MoE",
+        "路由机制",
+        "模型架构"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "SpecDrop:无参数条件路由实现MoE模块化特化",
+      "summary_zh": "新论文提出SpecDrop,一种面向混合专家(MoE)网络的无参数、按类别条件化的路由方法,让不同数据类别自动路由到专属专家模块,实现模块化特化而无需额外路由参数。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "MoE路由新思路:用类别条件替代可学习门控,理解无参数路由如何降低训练复杂度。",
+      "impact": "或简化MoE训练与部署,推动多模态/多任务模型的模块化设计。",
+      "advice": "做MoE相关工作的可读arXiv:2608.04084原文,关注无参数路由实现细节。"
     }
   ]
 }
