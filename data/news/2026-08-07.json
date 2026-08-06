@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-06T18:37:13.354Z",
+  "generated_at": "2026-08-06T19:07:27.668Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -721,6 +721,26 @@
       "learn": "MoE路由新思路:用类别条件替代可学习门控,理解无参数路由如何降低训练复杂度。",
       "impact": "或简化MoE训练与部署,推动多模态/多任务模型的模块化设计。",
       "advice": "做MoE相关工作的可读arXiv:2608.04084原文,关注无参数路由实现细节。"
+    },
+    {
+      "id": "4171057236fe",
+      "title": "Suno shares plans to combat spammy AI music",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Suno",
+        "AI音乐",
+        "内容水印"
+      ],
+      "published_at": "2026-08-06T17:39:43.000Z",
+      "title_zh": "Suno shares plans to combat spammy AI music",
+      "summary_zh": "AI音乐平台Suno宣布将引入新的水印技术和下载限制政策,以打击平台上泛滥的低质量、批量生成的垃圾AI音乐。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解生成式AI内容的水印溯源技术,以及内容平台如何治理AI生成垃圾内容。",
+      "impact": "有助于净化AI音乐生态,推动生成内容的可追溯与合规化。",
+      "advice": "关注Suno水印方案细节,思考AI生成内容的版权与溯源问题。"
     }
   ]
 }
