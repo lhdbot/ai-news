@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-06T16:37:17.798Z",
+  "generated_at": "2026-08-06T17:07:57.154Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -321,6 +321,186 @@
       "learn": "观察科技巨头业务整合趋势：AI正成为公司战略重心的牵引力。",
       "impact": "马斯克系资源向AI倾斜，或改变航天与AI行业竞争格局。",
       "advice": "关注xAI与SpaceX的资源协同，理解巨头的AI战略布局。"
+    },
+    {
+      "id": "0f0c1961f93e",
+      "title": "Improving GPT-5.6 Sol in ChatGPT—and expanding access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "source": "OpenAI",
+      "category": "模型发布",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "ChatGPT"
+      ],
+      "published_at": "2026-08-06T10:00:00.000Z",
+      "title_zh": "ChatGPT升级GPT-5.6 Sol并向免费用户开放",
+      "summary_zh": "OpenAI推出改进版GPT-5.6 Sol模型，提升回答的准确性与一致性，并将访问权限扩大至免费用户。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "旗舰模型正快速下放至免费层，模型迭代以稳定性和一致性为重点。",
+      "impact": "免费用户体验大幅提升，加剧AI助手市场竞争。",
+      "advice": "用免费账号实测新模型，对比旧版的回答质量差异。"
+    },
+    {
+      "id": "fea9ae47ebf2",
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "使用数据",
+        "AI应用"
+      ],
+      "published_at": "2026-08-06T00:00:00.000Z",
+      "title_zh": "OpenAI发布ChatGPT全球使用数据",
+      "summary_zh": "OpenAI发布Signals数据报告，展示全球用户如何将ChatGPT用于实际工作，含分国家/地区的使用模式分析。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI真实落地的使用场景分布，从问答工具向任务执行转变。",
+      "impact": "数据为AI产品定位和市场研究提供权威参考。",
+      "advice": "读原报告，参考高频场景优化自己的AI工作流。"
+    },
+    {
+      "id": "1037d70d951c",
+      "title": "TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering",
+      "url": "https://arxiv.org/abs/2608.02609",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "机器翻译",
+        "楔形文字",
+        "低资源语言"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "AI双向翻译阿卡德语并渲染楔形文字",
+      "summary_zh": "研究提出TabletCraft系统，实现阿卡德语与英语的双向神经机器翻译，并能将结果渲染为楔形文字图像，连接四千年文化鸿沟。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "低资源古语言翻译与文本渲染结合，是NMT应用的新方向。",
+      "impact": "助力考古与古文献研究，加速楔形文字数字化。",
+      "advice": "关注低资源语言NMT技术，可读arXiv原文了解方法。"
+    },
+    {
+      "id": "0b6789274281",
+      "title": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
+      "url": "https://arxiv.org/abs/2608.02612",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM评测",
+        "黑盒优化",
+        "基准测试"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "BBOWP-Bench评测大模型黑盒优化能力",
+      "summary_zh": "研究提出BBOWP-Bench基准，测试大语言模型将文字问题形式化为黑盒优化问题并求解的能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "LLM从解题到建模优化问题，是推理评测的新维度。",
+      "impact": "推动大模型在运筹优化与决策类任务的评测标准化。",
+      "advice": "关注该基准，用其测试所用模型的优化建模能力。"
+    },
+    {
+      "id": "1224fb4a577d",
+      "title": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
+      "url": "https://arxiv.org/abs/2608.02613",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "端侧AI",
+        "智能体",
+        "个人记忆"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "MemArena评测端侧个人记忆助手",
+      "summary_zh": "研究提出MemArena基准，以第一人称视角大规模评测部署在边缘设备上的个人记忆AI助手的记忆与检索能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "端侧AI与长期个人记忆是智能体落地的重要评测方向。",
+      "impact": "为端侧智能体的记忆系统设计提供评测标准。",
+      "advice": "关注端侧Agent与记忆机制，隐私敏感场景可借鉴。"
+    },
+    {
+      "id": "747ac3e9ff36",
+      "title": "OncoTriad-QA: A Patient-Level Radiology-Pathology-Genomics Benchmark for Pan-Cancer Reasoning",
+      "url": "https://arxiv.org/abs/2608.02615",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "多模态",
+        "癌症诊断"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "OncoTriad-QA多模态癌症推理基准",
+      "summary_zh": "研究发布OncoTriad-QA基准，整合患者级放射影像、病理与基因组学数据，评测模型对泛癌种的推理能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "医学AI正走向影像、病理、基因组多模态联合推理。",
+      "impact": "推动AI辅助癌症诊断向多模态综合决策演进。",
+      "advice": "做医疗AI可关注多模态基准，读原文了解数据构建。"
+    },
+    {
+      "id": "3218cd51afce",
+      "title": "Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks",
+      "url": "https://arxiv.org/abs/2608.02616",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "隐私保护",
+        "PII检测",
+        "OpenAI"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "42个基准实测OpenAI隐私过滤器",
+      "summary_zh": "研究首次独立评估OpenAI隐私过滤器，跨语言、跨领域测试其在42个基准上的PII个人身份信息检测效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "PII检测在多语言、多领域场景仍有短板，隐私过滤需独立验证。",
+      "impact": "为企业合规使用大模型提供隐私风险实证参考。",
+      "advice": "处理敏感数据前自行测试PII过滤，勿盲信厂商方案。"
+    },
+    {
+      "id": "6d747706c4ee",
+      "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
+      "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI创业",
+        "自动化",
+        "融资"
+      ],
+      "published_at": "2026-08-06T17:00:37.000Z",
+      "title_zh": "Naïve融资2850万美元自动化公司运营",
+      "summary_zh": "初创公司Naïve获2850万美元融资，称其基础设施可将搭建和运营公司的大量繁琐工作自动化，是vibe-coding的进一步延伸。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI自动化正从写代码扩展到公司注册运营等全流程事务。",
+      "impact": "降低创业门槛，AI驱动的一人公司模式加速成形。",
+      "advice": "关注vibe-coding向业务自动化延伸的创业工具动向。"
+    },
+    {
+      "id": "0b91ac9465cc",
+      "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "免费策略"
+      ],
+      "published_at": "2026-08-06T16:48:33.000Z",
+      "title_zh": "ChatGPT免费用户获无限文本对话",
+      "summary_zh": "OpenAI宣布免费版和Go档用户将可使用GPT-5.6进行不限量的文本对话，进一步降低使用门槛。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "头部AI厂商以免费无限量策略争夺用户，推理成本持续下降。",
+      "impact": "免费AI能力逼近付费层，推动AI助手全民普及。",
+      "advice": "日常问答可转用免费额度，付费预算留给高阶功能。"
     }
   ]
 }
