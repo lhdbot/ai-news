@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-06T22:37:20.077Z",
+  "generated_at": "2026-08-06T23:07:45.625Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -741,6 +741,46 @@
       "learn": "了解生成式AI内容的水印溯源技术,以及内容平台如何治理AI生成垃圾内容。",
       "impact": "有助于净化AI音乐生态,推动生成内容的可追溯与合规化。",
       "advice": "关注Suno水印方案细节,思考AI生成内容的版权与溯源问题。"
+    },
+    {
+      "id": "99b7e131ae48",
+      "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300-$400",
+      "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-400/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "智能硬件",
+        "智能音箱"
+      ],
+      "published_at": "2026-08-06T22:43:53.000Z",
+      "title_zh": "OpenAI智能音箱售价或300-400美元",
+      "summary_zh": "OpenAI传闻中的AI硬件设备更多细节曝光,这是一款智能音箱,预计售价在300至400美元之间,定位高端消费市场。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大模型公司向消费硬件延伸的商业模式与定价策略。",
+      "impact": "AI助手进入家庭场景,加剧智能音箱市场竞争。",
+      "advice": "关注OpenAI硬件发布动态,思考语音交互应用机会。"
+    },
+    {
+      "id": "ca643a578799",
+      "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "Jony Ive",
+        "AI硬件"
+      ],
+      "published_at": "2026-08-06T20:56:31.000Z",
+      "title_zh": "Jony Ive首款OpenAI设备曝光",
+      "summary_zh": "OpenAI与前苹果首席设计师Jony Ive合作开发的首款AI设备被曝是一块冰球大小的智能音箱,主打无屏语音交互体验。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察顶级工业设计如何与AI交互结合,探索无屏设备形态。",
+      "impact": "可能重塑人机交互范式,挑战手机中心地位。",
+      "advice": "关注无屏AI设备赛道,研究语音优先的交互设计。"
     }
   ]
 }
