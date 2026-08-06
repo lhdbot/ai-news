@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T07:37:18.258Z",
+  "generated_at": "2026-08-06T08:07:44.285Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -1021,6 +1021,46 @@
       "learn": "了解开源视频生成模型的最新进展与评测基准，认识国产模型的技术突破。",
       "impact": "提升国产开源视频模型地位，加剧视频生成赛道竞争，推动技术普及。",
       "advice": "前往开源社区试用H3，对比其与其他视频模型的生成效果。"
+    },
+    {
+      "id": "43a6a3f3360b",
+      "title": "没有人靠段子永载GitHub，除非谷歌姐夫",
+      "url": "https://www.qbitai.com/2026/08/467447.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Jeff Dean",
+        "谷歌",
+        "技术文化"
+      ],
+      "published_at": "2026-08-06T08:02:45.000Z",
+      "title_zh": "没有人靠段子永载GitHub，除非谷歌姐夫",
+      "summary_zh": "一篇调侃谷歌首席科学家Jeff Dean\"用大脑挖比特币\"的段子文在GitHub走红，以幽默方式致敬这位传奇工程师在业内的地位。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Jeff Dean对分布式系统和AI基础设施的开创性贡献，理解技术圈偶像文化。",
+      "impact": "娱乐性质内容，反映技术社区对领军人物的文化认同。",
+      "advice": "读读Jeff Dean的经典论文如MapReduce，比看段子更有收获。"
+    },
+    {
+      "id": "9f92c2533a8c",
+      "title": "Artificial Analysis榜单：阿里Qwen3.8Agentic能力得分全球第一",
+      "url": "https://www.qbitai.com/2026/08/467444.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "Qwen",
+        "阿里巴巴",
+        "AI Agent"
+      ],
+      "published_at": "2026-08-06T07:43:56.000Z",
+      "title_zh": "Artificial Analysis榜单：阿里Qwen3.8Agentic能力得分全球第一",
+      "summary_zh": "第三方评测机构Artificial Analysis最新榜单显示，阿里通义千问Qwen3.8在Agentic（智能体）能力评测中得分全球第一。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "Agentic能力已成模型竞争新焦点，第三方基准榜单是评估模型实力的重要参考。",
+      "impact": "国产模型在智能体赛道领先，加速AI Agent应用落地。",
+      "advice": "试用Qwen3.8构建Agent应用，关注Artificial Analysis榜单变化。"
     }
   ]
 }
