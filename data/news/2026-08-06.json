@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T00:37:38.870Z",
+  "generated_at": "2026-08-06T01:07:33.153Z",
   "items": [
     {
       "id": "977f60f7e5e3",
@@ -941,6 +941,26 @@
       "learn": "核心人才动向可显著影响科技巨头估值，关注AI领军人物的流向有助判断行业格局变化。",
       "impact": "或动摇谷歌AI团队稳定性，加剧大模型人才争夺战。",
       "advice": "关注Jeff Dean创业项目动向，跟踪谷歌AI战略后续调整。"
+    },
+    {
+      "id": "a165a3bad285",
+      "title": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "xAI",
+        "Grokipedia",
+        "AI生成内容"
+      ],
+      "published_at": "2026-08-06T00:25:10.000Z",
+      "title_zh": "马斯克AI维基百科已数月未更新",
+      "summary_zh": "xAI推出的AI生成内容百科Grokipedia上线后热度消退，已数月未更新，被质疑难以替代维基百科的人工编辑模式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI生成内容平台若缺乏持续维护与人工校验机制，很难长期保持可信度和活力。",
+      "impact": "纯AI生成百科路线受挫，凸显人机协作编辑的不可替代性。",
+      "advice": "使用AI生成资料时注意核查时效性，可关注人机协作知识库方向。"
     }
   ]
 }
