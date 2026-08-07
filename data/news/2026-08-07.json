@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T08:07:17.002Z",
+  "generated_at": "2026-08-07T08:37:33.502Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -1421,6 +1421,26 @@
       "learn": "AI自动化降低了漏洞挖掘门槛，但也暴露了众包安全审核体系在AI时代的脆弱性。",
       "impact": "安全众包审核机制承压，或倒逼厂商引入AI初审与人机协作流程。",
       "advice": "提交漏洞报告时注重质量与可复现性，关注AI辅助安全研究方向。"
+    },
+    {
+      "id": "794787b2c59f",
+      "title": "阿里推出国内首个AI语音平台CosyVoice Studio，将语义理解融入语音能力",
+      "url": "https://www.qbitai.com/2026/08/468324.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "CosyVoice",
+        "语音合成",
+        "阿里"
+      ],
+      "published_at": "2026-08-07T07:43:06.000Z",
+      "title_zh": "阿里推出国内首个AI语音平台CosyVoice Studio",
+      "summary_zh": "阿里发布CosyVoice Studio，将语义理解融入语音合成与识别，提供听、说、创一站式AI语音能力，属国内首个此类平台。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "语音技术正从单一TTS/ASR走向语义理解+生成一体化，可关注端到端语音大模型架构。",
+      "impact": "降低语音应用开发门槛，推动中文语音交互产品普及。",
+      "advice": "试用CosyVoice开源模型，体验语音克隆与情感合成效果。"
     }
   ]
 }
