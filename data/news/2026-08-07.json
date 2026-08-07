@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T03:37:34.161Z",
+  "generated_at": "2026-08-07T04:08:01.019Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -1221,6 +1221,106 @@
       "learn": "推理场景下存储与算力协同优化的趋势，Token级资源调度思路",
       "impact": "推动存储硬件针对AI推理重构，降低大模型部署成本",
       "advice": "关注存储与推理协同优化方向，评估部署中的I/O瓶颈"
+    },
+    {
+      "id": "520b0e8f5243",
+      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+      "url": "https://arxiv.org/abs/2608.05151",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "因果推理",
+        "工业应用"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "仿真加持LLM助力污水处理决策",
+      "summary_zh": "论文提出将仿真器与大语言模型结合,通过工具调用、结构化信息注入和跨厂区检索,为污水处理厂运营者提供因果推理决策支持。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习LLM工具调用与领域仿真结合的方法,了解工业场景下检索增强的落地思路。",
+      "impact": "推动LLM进入工业决策场景,提升流程工业智能化水平。",
+      "advice": "读原文了解仿真器与LLM结合的架构设计。"
+    },
+    {
+      "id": "ea25b404495d",
+      "title": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.05152",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "思维链",
+        "平均场理论",
+        "LLM"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "思维链推理的平均场动力学分析",
+      "summary_zh": "论文用平均场理论对LLM的思维链推理过程进行动力学建模,从理论上刻画多步推理中表征演化的规律。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解用物理学平均场方法分析CoT推理的理论视角。",
+      "impact": "为理解思维链机制提供理论框架,或指导推理优化。",
+      "advice": "关注推理可解释性方向,有兴趣可读原文推导。"
+    },
+    {
+      "id": "7d772ed51048",
+      "title": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
+      "url": "https://arxiv.org/abs/2608.05153",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "RAG",
+        "GraphRAG",
+        "多跳问答"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "GraphRAG多跳追溯的三重稳健性分析",
+      "summary_zh": "论文对RAG做多跳追溯任务的三重稳健性分析,发现GraphRAG在多跳场景反而不如向量RAG,揭示了其普遍性缺陷与条件性后果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解GraphRAG与向量RAG的适用边界及多跳问答的评估方法。",
+      "impact": "提醒业界理性看待GraphRAG,选型需按任务评估。",
+      "advice": "做RAG选型时先基准测试,别盲信GraphRAG。"
+    },
+    {
+      "id": "957bba621407",
+      "title": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
+      "url": "https://arxiv.org/abs/2608.05154",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "RoPE",
+        "位置编码",
+        "时序建模"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "RIG-RoPE:关系与实例门控旋转位置编码",
+      "summary_zh": "论文提出RIG-RoPE,在旋转位置编码基础上引入关系与实例门控机制,并加入时长感知的时间坐标,改进时序位置建模。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习RoPE的改进思路,了解门控机制与时间感知的编码设计。",
+      "impact": "提升模型对时序与关系结构的建模能力。",
+      "advice": "做位置编码研究可关注RoPE变体这条线。"
+    },
+    {
+      "id": "38c368d8f6f0",
+      "title": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
+      "url": "https://arxiv.org/abs/2608.05155",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "情感分析",
+        "政治新闻"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "超越情感:LLM与传统NLP的政治新闻分析对比",
+      "summary_zh": "论文对比传统情感分析与基于LLM的多维分析在政治新闻评估上的表现,展示LLM在立场、框架等多维度解读上的优势。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM相比传统NLP在文本多维评估上的能力与差异。",
+      "impact": "推动计算传播与舆情分析从情感分类走向多维理解。",
+      "advice": "做文本分析项目可尝试用LLM替代传统情感模型。"
     }
   ]
 }
