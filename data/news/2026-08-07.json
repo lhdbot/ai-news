@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T04:08:01.019Z",
+  "generated_at": "2026-08-07T04:37:41.899Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -1321,6 +1321,46 @@
       "learn": "了解LLM相比传统NLP在文本多维评估上的能力与差异。",
       "impact": "推动计算传播与舆情分析从情感分类走向多维理解。",
       "advice": "做文本分析项目可尝试用LLM替代传统情感模型。"
+    },
+    {
+      "id": "81028d25bc42",
+      "title": "阿里视频大模型Wan3.0开启公测：文档、ppt也能变视频",
+      "url": "https://www.qbitai.com/2026/08/467877.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "阿里",
+        "Wan3.0",
+        "视频生成"
+      ],
+      "published_at": "2026-08-07T03:23:54.000Z",
+      "title_zh": "阿里视频大模型Wan3.0开启公测：文档、ppt也能变视频",
+      "summary_zh": "阿里巴巴视频生成大模型Wan 3.0于8月6日开启公测，支持将文档、PPT等内容一键转化为视频，降低视频创作门槛。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "视频生成模型正从素材驱动走向文档结构化输入，多模态生产力应用加速落地。",
+      "impact": "推动内容生产自动化，降低营销、培训等视频制作成本。",
+      "advice": "去公测入口试用Wan 3.0，体验文档转视频工作流。"
+    },
+    {
+      "id": "94ac4f84c9b5",
+      "title": "刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了",
+      "url": "https://www.qbitai.com/2026/08/467879.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT-5.6"
+      ],
+      "published_at": "2026-08-07T03:23:01.000Z",
+      "title_zh": "刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了",
+      "summary_zh": "OpenAI对ChatGPT免费版进行重大升级，免费用户现在也能使用最新的GPT-5.6模型，且使用额度大幅放宽。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "头部模型能力正快速向免费层下沉，免费与付费体验差距缩小是行业趋势。",
+      "impact": "免费用户基数扩大，加剧AI助手市场竞争，挤压中小厂商空间。",
+      "advice": "打开ChatGPT免费版实测GPT-5.6，对比其与你现有模型的表现。"
     }
   ]
 }
