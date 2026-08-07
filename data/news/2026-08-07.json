@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T00:07:26.876Z",
+  "generated_at": "2026-08-07T00:37:56.946Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -801,6 +801,186 @@
       "learn": "大模型公司正从软件走向硬件终端，语音交互成为AI落地家庭场景的重要形态。",
       "impact": "或重塑智能音箱市场，加剧与苹果、亚马逊的硬件竞争。",
       "advice": "关注OpenAI硬件进展，思考语音AI应用开发机会。"
+    },
+    {
+      "id": "93c7015051f0",
+      "title": "C$^2$MOE: Consistency and Complementarity-guided Mixture of Experts for Incomplete Multimodal Emotion Learning",
+      "url": "https://arxiv.org/abs/2608.04013",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "MoE",
+        "多模态",
+        "情感识别"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "C²MOE：面向缺失模态的情感识别",
+      "summary_zh": "提出C²MOE混合专家模型，利用一致性与互补性约束，在部分模态缺失情况下提升多模态情感学习效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解MoE架构如何处理多模态缺失问题及一致性约束设计",
+      "impact": "提升现实场景下情感识别的鲁棒性与可用性",
+      "advice": "做多模态任务时可读原文，借鉴缺失模态应对思路"
+    },
+    {
+      "id": "6a091a723d0f",
+      "title": "On Hamming-Lipschitz Type Stability of the Subdominant (Minmax) Ultrametric: Theory and Simple Proofs",
+      "url": "https://arxiv.org/abs/2608.04014",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "超度量",
+        "层次聚类",
+        "理论"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "次优超度量稳定性理论获简证",
+      "summary_zh": "论文给出次优（minmax）超度量Hamming-Lipschitz型稳定性的新理论与简化证明，深化层次聚类稳定性分析。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解超度量与聚类稳定性的数学关系及简化证明技巧",
+      "impact": "为层次聚类算法的理论分析提供更简洁工具",
+      "advice": "做聚类理论研究可阅读原文，关注稳定性证明方法"
+    },
+    {
+      "id": "affcd43445a7",
+      "title": "A Trust-region Framework for Moment Estimation",
+      "url": "https://arxiv.org/abs/2608.04026",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "信赖域",
+        "矩估计",
+        "优化"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "矩估计的信赖域新框架",
+      "summary_zh": "研究者提出基于信赖域的矩估计框架，改进统计估计的收敛性与鲁棒性，适用于机器学习中的参数估计问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解信赖域方法在统计估计中的应用与优势",
+      "impact": "为统计学习理论提供更稳健的估计工具",
+      "advice": "关注优化理论在统计学习中的应用，可读原文"
+    },
+    {
+      "id": "5c83f77c7fa0",
+      "title": "Lindblad-Inspired Multi-Timescale Reservoir Computing with Separable Rotation and Dissipation",
+      "url": "https://arxiv.org/abs/2608.04028",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "储备池计算",
+        "量子启发",
+        "时序建模"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "量子启发的多尺度储备池计算",
+      "summary_zh": "受Lindblad方程启发，提出旋转与耗散可分离的多时间尺度储备池计算模型，改进回声状态网络的序列建模能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解储备池计算与量子动力学的跨学科结合思路",
+      "impact": "为轻量级时序建模提供新的物理启发方案",
+      "advice": "对储池计算或量子机器学习感兴趣可阅读原文"
+    },
+    {
+      "id": "2d6c8d87356f",
+      "title": "美学升维，流畅突破：荣耀MagicOS11双架构重塑体验",
+      "url": "https://www.qbitai.com/2026/08/467478.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "荣耀",
+        "MagicOS",
+        "系统UI"
+      ],
+      "published_at": "2026-08-06T09:58:21.000Z",
+      "title_zh": "荣耀MagicOS11双架构发布",
+      "summary_zh": "荣耀正式公开MagicOS 11完整技术底座，采用双架构设计实现安卓液态玻璃视效，主打美学与流畅度双重升级。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解系统级UI动效与渲染架构的设计思路",
+      "impact": "推动安卓阵营系统视觉体验与流畅度竞争",
+      "advice": "关注安卓液态玻璃设计对应用开发的适配影响"
+    },
+    {
+      "id": "43a6a3f3360b",
+      "title": "没有人靠段子永载GitHub，除非谷歌姐夫",
+      "url": "https://www.qbitai.com/2026/08/467447.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Jeff Dean",
+        "谷歌",
+        "工程师文化"
+      ],
+      "published_at": "2026-08-06T08:02:45.000Z",
+      "title_zh": "Jeff Dean比特币段子走红",
+      "summary_zh": "谷歌传奇工程师Jeff Dean的段子文化再度走红，如'用大脑挖比特币'等经典玩笑在GitHub等社区广泛流传。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Jeff Dean对分布式系统的开创性贡献",
+      "impact": "技术社区文化现象，激励工程师群体",
+      "advice": "可读Jeff Dean的MapReduce等经典论文学习系统思想"
+    },
+    {
+      "id": "9f92c2533a8c",
+      "title": "Artificial Analysis榜单：阿里Qwen3.8Agentic能力得分全球第一",
+      "url": "https://www.qbitai.com/2026/08/467444.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "Qwen",
+        "Agent",
+        "阿里"
+      ],
+      "published_at": "2026-08-06T07:43:56.000Z",
+      "title_zh": "Qwen3.8 Agent能力全球第一",
+      "summary_zh": "在Artificial Analysis最新榜单中，阿里通义Qwen3.8的Agentic能力得分位列全球第一，超越多家国际大模型。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "关注Agentic能力评测维度与国产模型进展",
+      "impact": "国产大模型在智能体赛道取得领先优势",
+      "advice": "可在Qwen开源渠道试用，测试其Agent任务表现"
+    },
+    {
+      "id": "30643983f79b",
+      "title": "这人谁啊？哈萨比斯都让位了",
+      "url": "https://www.qbitai.com/2026/08/467274.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "哈萨比斯",
+        "LeCun",
+        "人才动态"
+      ],
+      "published_at": "2026-08-06T06:17:43.000Z",
+      "title_zh": "AI界重量级人事变动",
+      "summary_zh": "一位重要人物的新动态让哈萨比斯相形见绌，事件还牵扯到LeCun，引发AI领域广泛关注与讨论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI领军人物动向对行业格局的潜在影响",
+      "impact": "顶级人才流动或重塑AI研究力量分布",
+      "advice": "读原文了解详情，关注顶级实验室人事变化"
+    },
+    {
+      "id": "b43d7cf698cd",
+      "title": "MiniMax H3登顶开源社区第一，定义视频模型领域“斩杀线”",
+      "url": "https://www.qbitai.com/2026/08/467270.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "MiniMax",
+        "视频生成",
+        "开源模型"
+      ],
+      "published_at": "2026-08-06T05:36:37.000Z",
+      "title_zh": "MiniMax H3登顶开源视频榜",
+      "summary_zh": "MiniMax发布H3视频生成模型，登顶开源社区榜单第一，在视频生成质量上为行业树立了新的竞争基准线。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解开源视频生成模型的最新技术水准",
+      "impact": "拉高开源视频模型竞争门槛，加速技术迭代",
+      "advice": "可试用H3体验生成效果，关注视频模型演进"
     }
   ]
 }
