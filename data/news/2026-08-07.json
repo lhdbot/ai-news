@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T11:37:35.420Z",
+  "generated_at": "2026-08-07T12:08:02.355Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -1581,6 +1581,26 @@
       "learn": "了解 RLM（递归语言模型）架构如何让智能体拆解长任务，以及自我改进循环的实现思路。",
       "impact": "推动编码智能体向长时程、自主化方向演进，降低复杂开发流程的人工干预成本。",
       "advice": "去 GitHub 阅读该仓库源码和文档，本地试跑其长任务工作流。"
+    },
+    {
+      "id": "5076eb13f195",
+      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+      "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Meta",
+        "儿童安全",
+        "监管罚款"
+      ],
+      "published_at": "2026-08-07T11:40:37.000Z",
+      "title_zh": "Meta儿童安全案再被罚5.67亿美元",
+      "summary_zh": "新墨西哥州法院裁定Meta在儿童安全案中追加支付5.67亿美元罚款,该案累计罚款已达9.42亿美元,因平台未能充分保护未成年用户。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解欧美对儿童在线安全的监管趋严,AI社交平台需内置未成年人保护合规设计。",
+      "impact": "高额罚款推动社交平台加强内容审核与儿童保护机制,合规成本上升。",
+      "advice": "做社交或内容产品时将未成年人保护纳入早期合规设计,关注此案后续。"
     }
   ]
 }
