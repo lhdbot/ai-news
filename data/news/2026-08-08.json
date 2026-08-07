@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generated_at": "2026-08-07T22:37:12.927Z",
+  "generated_at": "2026-08-07T23:07:29.741Z",
   "items": [
     {
       "id": "2ee94000fec4",
@@ -941,6 +941,26 @@
       "learn": "企业AI支出正在快速失控，用量可观测性与ROI衡量成为AI落地的关键一环。",
       "impact": "AI成本治理成为新赛道，企业采购决策更关注投资回报。",
       "advice": "试试追踪自己项目的API用量与成本，建立AI支出看板。"
+    },
+    {
+      "id": "6b3fca58dabf",
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "模型安全"
+      ],
+      "published_at": "2026-08-07T22:48:24.000Z",
+      "title_zh": "OpenAI因安全顾虑放缓Astra模型开发",
+      "summary_zh": "OpenAI表示,出于对安全性的担忧,已暂停其即将发布的新模型Astra部分功能的开发工作。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "前沿模型开发正把安全评估前置,能力越强发布节奏越谨慎,安全已成发布门槛。",
+      "impact": "反映头部厂商对模型安全的重视,可能拖慢新一代模型落地节奏。",
+      "advice": "关注OpenAI安全公告,读原文了解Astra定位与暂停范围。"
     }
   ]
 }
