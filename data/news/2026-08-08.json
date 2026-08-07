@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generated_at": "2026-08-07T21:07:19.245Z",
+  "generated_at": "2026-08-07T21:37:31.198Z",
   "items": [
     {
       "id": "2ee94000fec4",
@@ -921,6 +921,26 @@
       "learn": "了解FAST免费广告流媒体模式，以及AI批量生成内容在低成本分发渠道中的商业化尝试与质量困境。",
       "impact": "AI低质内容涌入主流平台，或拉低内容生态质量，加剧“AI泔水”争议。",
       "advice": "读原文了解AI内容商业化现状，思考质量与成本的平衡点。"
+    },
+    {
+      "id": "4c08905f6bd0",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "AI支出管理",
+        "ROI",
+        "Rippling"
+      ],
+      "published_at": "2026-08-07T21:30:11.000Z",
+      "title_zh": "Rippling自曝AI烧钱后推ROI工具",
+      "summary_zh": "HR软件公司Rippling内部AI支出数月失控烧掉数百万美元，随后推出AI支出管理工具AI Spend Console，帮企业追踪AI使用成本与回报。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "企业AI支出正在快速失控，用量可观测性与ROI衡量成为AI落地的关键一环。",
+      "impact": "AI成本治理成为新赛道，企业采购决策更关注投资回报。",
+      "advice": "试试追踪自己项目的API用量与成本，建立AI支出看板。"
     }
   ]
 }
