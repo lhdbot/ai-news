@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-06T23:37:19.638Z",
+  "generated_at": "2026-08-07T00:07:26.876Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -781,6 +781,26 @@
       "learn": "观察顶级工业设计如何与AI交互结合,探索无屏设备形态。",
       "impact": "可能重塑人机交互范式,挑战手机中心地位。",
       "advice": "关注无屏AI设备赛道,研究语音优先的交互设计。"
+    },
+    {
+      "id": "a64b97947ab5",
+      "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+      "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "智能音箱",
+        "AI硬件"
+      ],
+      "published_at": "2026-08-06T22:43:53.000Z",
+      "title_zh": "OpenAI智能音箱或售300至400美元",
+      "summary_zh": "据报道，OpenAI正在开发的AI硬件设备是一款智能音箱，售价预计在300到400美元之间，更多细节显示其定位为家庭AI入口。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型公司正从软件走向硬件终端，语音交互成为AI落地家庭场景的重要形态。",
+      "impact": "或重塑智能音箱市场，加剧与苹果、亚马逊的硬件竞争。",
+      "advice": "关注OpenAI硬件进展，思考语音AI应用开发机会。"
     }
   ]
 }
