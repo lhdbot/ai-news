@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T06:07:16.977Z",
+  "generated_at": "2026-08-07T06:37:41.254Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -1361,6 +1361,46 @@
       "learn": "头部模型能力正快速向免费层下沉，免费与付费体验差距缩小是行业趋势。",
       "impact": "免费用户基数扩大，加剧AI助手市场竞争，挤压中小厂商空间。",
       "advice": "打开ChatGPT免费版实测GPT-5.6，对比其与你现有模型的表现。"
+    },
+    {
+      "id": "ab058b3ce67f",
+      "title": "openJiuwen发布业界首个企业级分布式蜂群架构，联合邮储成功落地金融生产环境",
+      "url": "https://www.qbitai.com/2026/08/468305.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "多智能体",
+        "蜂群架构",
+        "金融AI"
+      ],
+      "published_at": "2026-08-07T06:18:51.000Z",
+      "title_zh": "openJiuwen发布业界首个企业级分布式蜂群架构，联合邮储成功落地金融生产环境",
+      "summary_zh": "openJiuwen发布业界首个企业级分布式蜂群架构,已与邮储银行合作,在金融生产环境中成功落地,实现规模化应用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "多智能体蜂群架构走向企业级生产落地,金融场景是重要试验田",
+      "impact": "推动多智能体系统从Demo走向金融级规模化生产应用",
+      "advice": "关注蜂群架构开源方案,研究多智能体协作在金融场景的实践"
+    },
+    {
+      "id": "8d5d5f1889ed",
+      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "url": "https://www.qbitai.com/2026/08/467878.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "AI商业化",
+        "Keep",
+        "运动健身"
+      ],
+      "published_at": "2026-08-07T05:30:08.000Z",
+      "title_zh": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "summary_zh": "AI功能普遍难变现的背景下,Keep在运动健身赛道探索新的AI商业化路径,试图跑通付费模式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI产品付费率是核心难题,垂直场景结合硬件或成变现突破口",
+      "impact": "为AI商业化探索提供参考,检验垂直场景付费可行性",
+      "advice": "观察Keep AI付费数据,思考自己产品的变现路径设计"
     }
   ]
 }
