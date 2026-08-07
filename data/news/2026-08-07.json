@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T08:37:33.502Z",
+  "generated_at": "2026-08-07T09:08:03.644Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -1441,6 +1441,126 @@
       "learn": "语音技术正从单一TTS/ASR走向语义理解+生成一体化，可关注端到端语音大模型架构。",
       "impact": "降低语音应用开发门槛，推动中文语音交互产品普及。",
       "advice": "试用CosyVoice开源模型，体验语音克隆与情感合成效果。"
+    },
+    {
+      "id": "2ee94000fec4",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "ChatGPT Enterprise",
+        "企业落地",
+        "税务咨询"
+      ],
+      "published_at": "2026-08-07T09:00:00.000Z",
+      "title_zh": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "summary_zh": "德国税务咨询公司HSP GRUPPE部署ChatGPT Enterprise，提升员工生产力与服务质量，改善内部知识检索和文书工作流程。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "传统企业落地AI的路径：从知识检索和文书自动化等高频场景切入。",
+      "impact": "展示企业级AI在专业服务行业的实际生产力价值。",
+      "advice": "参考其场景选择思路，评估自己工作流中可自动化的环节。"
+    },
+    {
+      "id": "6f1287ed2326",
+      "title": "MS-MLB: An Open Machine Learning Benchmark for Blood-Based MS Classification",
+      "url": "https://arxiv.org/abs/2608.05196",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "基准测试",
+        "生物标志物"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "MS-MLB: An Open Machine Learning Benchmark for Blood-Based MS Classification",
+      "summary_zh": "研究者发布MS-MLB开放基准，用机器学习基于血液生物标志物对多发性硬化症进行分类，推动该病的早期无创诊断研究。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解医疗ML基准的构建方式及血液标志物分类任务。",
+      "impact": "为多发性硬化早期诊断提供可复现的模型评测标准。",
+      "advice": "关注医疗AI方向，可用该基准练手生物标志物建模。"
+    },
+    {
+      "id": "8046f7dd50f6",
+      "title": "When Do Corrective Features Help? An Agent for Corrective Feature Discovery on Black-Box Forecasters",
+      "url": "https://arxiv.org/abs/2608.05207",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "时间序列",
+        "特征工程",
+        "Agent"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "When Do Corrective Features Help? An Agent for Corrective Feature Discovery on Black-Box Forecasters",
+      "summary_zh": "论文提出一个智能体，自动为冻结的预训练时序预测模型发现可纠正其误差的特征，在不重训模型的情况下提升预测精度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习冻结模型+特征纠偏的思路，避免昂贵重训练。",
+      "impact": "让现有预测模型低成本获得精度提升。",
+      "advice": "做时序预测的开发者可借鉴这种后处理纠偏方法。"
+    },
+    {
+      "id": "12001e5b93d0",
+      "title": "PPDL: LLM-Based Flows as Probabilistic Programs",
+      "url": "https://arxiv.org/abs/2608.05234",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "概率编程",
+        "可靠性"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "PPDL: LLM-Based Flows as Probabilistic Programs",
+      "summary_zh": "研究者提出PPDL框架，把基于大模型的应用流程表示为概率程序，提升LLM应用的可靠性、可组合性与可分析性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解用概率编程形式化LLM工作流的新范式。",
+      "impact": "为构建可验证、可靠的LLM应用提供理论基础。",
+      "advice": "做复杂LLM应用的开发者可读原文了解概率化建模。"
+    },
+    {
+      "id": "9314d6decf34",
+      "title": "Decoupling Perception from Description: Computation-Grounded Representation Alignment between Multivariate Time Series and Language",
+      "url": "https://arxiv.org/abs/2608.05238",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "多模态",
+        "时间序列",
+        "表示对齐"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "Decoupling Perception from Description: Computation-Grounded Representation Alignment between Multivariate Time Series and Language",
+      "summary_zh": "论文提出将多变量时间序列的感知与语言描述解耦，通过计算锚定的表示对齐方法，改进时序-文本多模态模型的训练效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习时序-语言多模态对齐中的表示设计新方法。",
+      "impact": "提升AI对时序数据的理解与文字描述能力。",
+      "advice": "从事时序多模态研究可关注该表示对齐思路。"
+    },
+    {
+      "id": "ada3de1be1c9",
+      "title": "Disentangling 3D Modeling from Spatial Reasoning",
+      "url": "https://arxiv.org/abs/2608.05242",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "3D建模",
+        "空间推理",
+        "计算机视觉"
+      ],
+      "published_at": "2026-08-07T04:00:00.000Z",
+      "title_zh": "Disentangling 3D Modeling from Spatial Reasoning",
+      "summary_zh": "该工作探索将3D建模与空间推理分离的替代方案，指出二者不必绑定，为更高效的3D理解与生成模型设计提供新视角。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解3D任务中建模能力与推理能力可分离设计。",
+      "impact": "可能影响下一代3D生成与理解模型架构设计。",
+      "advice": "关注3D视觉的开发者可阅读原文了解新范式。"
     }
   ]
 }
