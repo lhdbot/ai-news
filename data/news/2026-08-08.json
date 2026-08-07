@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generated_at": "2026-08-07T17:38:39.784Z",
+  "generated_at": "2026-08-07T18:07:28.483Z",
   "items": [
     {
       "id": "2ee94000fec4",
@@ -881,6 +881,26 @@
       "learn": "了解空间智能中建模与推理可解耦的观点，以及相应的实验分析方法。",
       "impact": "为3D生成与空间推理模型设计提供更清晰的职责划分思路。",
       "advice": "关注空间智能与3D方向的读者建议阅读原文。"
+    },
+    {
+      "id": "767e307c3d18",
+      "title": "What’s behind the Google AI shake-up",
+      "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "人事变动",
+        "AI竞争"
+      ],
+      "published_at": "2026-08-07T17:06:00.000Z",
+      "title_zh": "谷歌AI团队高层大换血背后",
+      "summary_zh": "谷歌AI团队本周多名核心人物职位变动，部分高管转岗或离职，反映出公司在激烈AI竞争下的组织架构与战略调整。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大厂AI人才流动如何折射战略方向，组织架构调整往往预示技术与产品重心转移。",
+      "impact": "或影响谷歌AI研发节奏与产品路线，加剧行业人才争夺战。",
+      "advice": "关注谷歌后续AI产品动向，读原文了解人事细节。"
     }
   ]
 }
