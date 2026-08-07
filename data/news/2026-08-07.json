@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T01:37:51.308Z",
+  "generated_at": "2026-08-07T02:07:59.423Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -1041,6 +1041,106 @@
       "learn": "观察大模型公司与机器人本体厂商资本与技术的垂直整合趋势。",
       "impact": "大模型与机器人硬件加速融合，具身智能赛道竞争升级。",
       "advice": "关注DeepSeek与宇树合作动态，留意具身智能岗位机会。"
+    },
+    {
+      "id": "5050820210d1",
+      "title": "Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting",
+      "url": "https://arxiv.org/abs/2608.04015",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "命名实体识别",
+        "低资源语言"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "LLM提示实现古典拉丁语命名实体识别",
+      "summary_zh": "研究通过大语言模型提示与迁移学习方法，对古典拉丁语文本进行命名实体识别，缓解低资源古语料标注稀缺问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "低资源语言NLP可借助LLM提示与迁移学习降低标注成本。",
+      "impact": "推动数字人文研究，为小语种和历史文本分析提供新范式。",
+      "advice": "做低资源NLP时可先尝试提示工程再考虑微调。"
+    },
+    {
+      "id": "2768355af362",
+      "title": "When More Becomes Less: Position-Dependent Repetition Effects in Language Models",
+      "url": "https://arxiv.org/abs/2608.04021",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "语言模型",
+        "上下文学习",
+        "评测"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "语言模型中位置依赖的重复效应研究",
+      "summary_zh": "通过改变位置的完形填空探针实验，发现语言模型中重复信息的效果随位置变化，更多重复反而可能降低表现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "重复信息在上下文中的位置会影响模型记忆与输出，并非越多越好。",
+      "impact": "提示prompt设计需考虑信息位置，改进评测与提示策略。",
+      "advice": "写prompt时避免无意义重复，关键信息注意摆放位置。"
+    },
+    {
+      "id": "a1ddc882c377",
+      "title": "Reconstructing Persistent Worlds from Narratives for Narrative-Grounded Interactive Experiences",
+      "url": "https://arxiv.org/abs/2608.04037",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "世界模型",
+        "交互叙事",
+        "LLM"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "从叙事文本重建持久世界用于交互体验",
+      "summary_zh": "提出从叙事文本中重建持久世界模型的方法，用于构建叙事驱动的交互式体验，让故事世界保持一致性和连续性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "叙事 grounding 需要持久状态的世界建模，而非单轮生成。",
+      "impact": "推动AI互动叙事与游戏生成，提升虚拟世界一致性。",
+      "advice": "做AI剧情/游戏项目可关注世界状态持久化方法。"
+    },
+    {
+      "id": "07e13167fd43",
+      "title": "Learning Sexism Detection Using Multi-Agent Perspectivist Preference Optimization",
+      "url": "https://arxiv.org/abs/2608.04056",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "多智能体",
+        "偏好优化",
+        "内容审核"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "多智能体视角偏好优化检测性别歧视",
+      "summary_zh": "针对性别歧视标注的主观分歧，提出多智能体视角主义偏好优化方法，让模型学习不同标注者视角而非单一标签。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "主观性任务可用多智能体模拟多元视角处理标注分歧。",
+      "impact": "改进内容审核公平性，为主观NLP任务提供新训练范式。",
+      "advice": "处理主观分类任务时，考虑保留标注分歧而非强行统一。"
+    },
+    {
+      "id": "7564fc667a06",
+      "title": "Mind the Cap: Output-Budget Regimes Change the Measured Multilingual Reasoning Gap",
+      "url": "https://arxiv.org/abs/2608.04160",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "多语言",
+        "推理评测",
+        "LLM"
+      ],
+      "published_at": "2026-08-06T04:00:00.000Z",
+      "title_zh": "输出预算影响多语言推理差距测量",
+      "summary_zh": "研究发现多语言评测报告的推理差距受输出长度预算影响，限制输出token会改变测得的语言间差异，质疑既有结论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "评测结论依赖输出预算设置，跨语言比较需控制生成长度。",
+      "impact": "推动多语言评测方法修正，影响模型能力排名的可信度。",
+      "advice": "读评测论文时留意输出限制设置，警惕结论被高估。"
     }
   ]
 }
