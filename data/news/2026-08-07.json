@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T14:07:19.908Z",
+  "generated_at": "2026-08-07T14:37:32.367Z",
   "items": [
     {
       "id": "f5f908b6ffe4",
@@ -1601,6 +1601,26 @@
       "learn": "了解欧美对儿童在线安全的监管趋严,AI社交平台需内置未成年人保护合规设计。",
       "impact": "高额罚款推动社交平台加强内容审核与儿童保护机制,合规成本上升。",
       "advice": "做社交或内容产品时将未成年人保护纳入早期合规设计,关注此案后续。"
+    },
+    {
+      "id": "35a4da0ba450",
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Airbnb",
+        "AI搜索",
+        "研发提效"
+      ],
+      "published_at": "2026-08-07T14:22:49.000Z",
+      "title_zh": "Airbnb借AI加速开发并测试新搜索功能",
+      "summary_zh": "Airbnb表示AI正在帮助其更快交付产品功能,同时即将推出带开关切换的AI驱动搜索体验,用户可自主选择使用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI辅助编码已能实质提升大厂交付速度,产品端AI功能宜采用渐进式灰度发布。",
+      "impact": "大厂用AI提效研发成常态,搜索体验加速向AI原生演进。",
+      "advice": "关注Airbnb新搜索上线体验,思考AI搜索交互设计。"
     }
   ]
 }
