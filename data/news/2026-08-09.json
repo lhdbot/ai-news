@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-08T21:07:13.502Z",
+  "generated_at": "2026-08-08T21:37:23.891Z",
   "items": [
     {
       "id": "833934ee3b25",
@@ -441,6 +441,26 @@
       "learn": "大模型厂商正通过收购垂直应用团队，补齐办公内容生成等具体场景能力。",
       "impact": "ChatGPT办公场景能力增强，AI演示工具赛道竞争加剧。",
       "advice": "关注ChatGPT后续的幻灯片生成功能，试用对比现有AI演示工具。"
+    },
+    {
+      "id": "c36c8de8383e",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "数据中心",
+        "碳排放",
+        "AI算力"
+      ],
+      "published_at": "2026-08-08T21:24:02.000Z",
+      "title_zh": "亚马逊数据中心或成美国最大污染源",
+      "summary_zh": "亚马逊计划在德州建设的数据中心将自建现场发电设施,排放量可能使其成为美国最大的气候污染源,引发环保担忧。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI算力扩张带来巨大能源需求,数据中心自建电厂成为趋势,能耗与碳排放成为AI基础设施核心议题。",
+      "impact": "凸显AI算力增长与碳排放的矛盾,或推动监管与绿色能源方案发展。",
+      "advice": "关注AI能耗与绿色算力方向,读原文了解数据中心能源方案。"
     }
   ]
 }
