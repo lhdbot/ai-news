@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generated_at": "2026-08-08T08:07:13.494Z",
+  "generated_at": "2026-08-08T08:37:45.040Z",
   "items": [
     {
       "id": "2ee94000fec4",
@@ -1081,6 +1081,66 @@
       "learn": "前沿实验室会因安全或竞争考量暂缓发布最强模型，内部能力与公开产品存在代差。",
       "impact": "加剧对AI能力不透明和安全审查的讨论，用户对公开模型与内部水平的差距更关注。",
       "advice": "关注OpenAI官方发布动态，读原文了解封锁原因与背景。"
+    },
+    {
+      "id": "c04d05ba9a92",
+      "title": "奥特曼的ChatGPT育儿大法，捅了马蜂窝",
+      "url": "https://www.qbitai.com/2026/08/468631.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "AI伦理"
+      ],
+      "published_at": "2026-08-08T07:57:35.000Z",
+      "title_zh": "奥特曼ChatGPT育儿法引争议",
+      "summary_zh": "OpenAI CEO奥特曼公开分享用ChatGPT辅助育儿的做法，引发舆论热议与质疑，涉及AI介入儿童成长的边界问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI进入家庭育儿场景的应用方式及其引发的伦理争议。",
+      "impact": "引发公众对AI日常使用边界的讨论，影响AI产品形象。",
+      "advice": "读原文了解争议焦点，思考AI在家庭教育中的合理使用边界。"
+    },
+    {
+      "id": "359bc31518c0",
+      "title": "中国NeoLab时刻：EverMind用3篇论文，交出全栈自进化首份答卷",
+      "url": "https://www.qbitai.com/2026/08/468555.html",
+      "source": "量子位",
+      "category": "论文研究",
+      "tags": [
+        "自进化",
+        "EverMind",
+        "Agent"
+      ],
+      "published_at": "2026-08-08T07:56:09.000Z",
+      "title_zh": "EverMind发布全栈自进化技术答卷",
+      "summary_zh": "中国团队EverMind以3篇论文展示全栈自进化技术体系，对标海外NeoLab浪潮，成为该方向国内首个系统性成果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解自进化AI系统（Self-evolving）的技术路线与全栈实现思路。",
+      "impact": "标志中国团队进入自进化AI前沿赛道，加剧国际竞争。",
+      "advice": "找3篇论文精读，关注自进化与Agent自我改进方向。"
+    },
+    {
+      "id": "151e289ee5e6",
+      "title": "Jeff Dean创业BP曝光，杨植麟也在上面！硅谷VC抢破头送钱",
+      "url": "https://www.qbitai.com/2026/08/468498.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Jeff Dean",
+        "杨植麟",
+        "AI创业"
+      ],
+      "published_at": "2026-08-08T07:51:53.000Z",
+      "title_zh": "Jeff Dean创业BP曝光引VC疯抢",
+      "summary_zh": "谷歌传奇工程师Jeff Dean的创业计划书流出，Moonshot创始人杨植麟也出现在其中，硅谷风投争相投资。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察顶级AI人才创业潮与资本对明星团队的追捧逻辑。",
+      "impact": "顶尖人才出走创业或重塑AI竞争格局，资本加速集中。",
+      "advice": "关注Jeff Dean新公司动向，留意其技术方向选择。"
     }
   ]
 }
