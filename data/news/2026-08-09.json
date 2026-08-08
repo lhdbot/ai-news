@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-08T19:37:13.483Z",
+  "generated_at": "2026-08-08T20:07:38.568Z",
   "items": [
     {
       "id": "833934ee3b25",
@@ -421,6 +421,26 @@
       "learn": "AI 算力扩张推高电力需求，科技巨头开始自建化石能源电厂，数据中心能耗与环境矛盾加剧。",
       "impact": "凸显 AI 基础设施的能源与碳排放压力，或引发更严环保监管。",
       "advice": "关注数据中心能耗与绿色算力议题，评估 AI 项目的能源成本。"
+    },
+    {
+      "id": "8bf73f3956e4",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "收购",
+        "AI办公"
+      ],
+      "published_at": "2026-08-08T19:41:13.000Z",
+      "title_zh": "OpenAI收购演示文稿初创公司NextSlide",
+      "summary_zh": "OpenAI收购演示文稿制作初创公司NextSlide，其团队成员已加入ChatGPT相关研发工作，或将强化ChatGPT的文档与幻灯片生成能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型厂商正通过收购垂直应用团队，补齐办公内容生成等具体场景能力。",
+      "impact": "ChatGPT办公场景能力增强，AI演示工具赛道竞争加剧。",
+      "advice": "关注ChatGPT后续的幻灯片生成功能，试用对比现有AI演示工具。"
     }
   ]
 }
