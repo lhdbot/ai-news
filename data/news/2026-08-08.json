@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generated_at": "2026-08-08T03:37:39.627Z",
+  "generated_at": "2026-08-08T04:07:23.918Z",
   "items": [
     {
       "id": "2ee94000fec4",
@@ -1041,6 +1041,26 @@
       "learn": "前沿模型能力逼近安全红线，发布前风险评估成为必要流程。",
       "impact": "或延缓强模型发布节奏，树立审慎先例。",
       "advice": "跟踪该模型后续评估结果，了解AI安全治理实践。"
+    },
+    {
+      "id": "68ac6cb57e2b",
+      "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+      "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "硅谷文化",
+        "科技批评",
+        "AI叙事"
+      ],
+      "published_at": "2026-08-07T14:00:00.000Z",
+      "title_zh": "历史学家批硅谷领袖误读科幻",
+      "summary_zh": "历史学家Jill Lepore提出“人工国家”概念,认为科技公司常用宏大叙事包装愿景,源于其领导者对科幻小说的片面误读。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解科技叙事背后的思想渊源,学会批判性看待硅谷的乌托邦话语。",
+      "impact": "引发对科技巨头话语权与社会治理边界的公共讨论。",
+      "advice": "阅读Lepore原文,反思技术愿景叙事的盲区。"
     }
   ]
 }
