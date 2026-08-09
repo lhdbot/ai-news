@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-09T19:07:27.315Z",
+  "generated_at": "2026-08-09T19:38:14.933Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -361,6 +361,26 @@
       "learn": "模型能力评估触发内部熔断机制，安全治理流程首次公开实战。",
       "impact": "为行业设立能力阈值管控范本，或影响监管政策制定。",
       "advice": "跟踪该事件后续，研究大模型风险评估与熔断机制设计。"
+    },
+    {
+      "id": "53f6c1811ec1",
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "Anthropic",
+        "Claude Code",
+        "AI编程"
+      ],
+      "published_at": "2026-08-09T19:20:32.000Z",
+      "title_zh": "Claude Code 默认开启自动模式",
+      "summary_zh": "Anthropic 将把 Claude Code 的自动模式设为默认，用户无需逐条确认操作，编程过程所需的人工监督进一步减少。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 编程工具正从交互确认转向自主执行，了解权限与自动模式的安全边界很重要。",
+      "impact": "提升开发效率，但也加大误操作风险，推动行业重新设计安全机制。",
+      "advice": "升级后检查权限设置，先在测试项目中试用自动模式。"
     }
   ]
 }
