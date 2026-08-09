@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-09T03:37:19.079Z",
+  "generated_at": "2026-08-09T04:07:26.856Z",
   "items": [
     {
       "id": "833934ee3b25",
@@ -461,6 +461,46 @@
       "learn": "AI算力扩张带来巨大能源需求,数据中心自建电厂成为趋势,能耗与碳排放成为AI基础设施核心议题。",
       "impact": "凸显AI算力增长与碳排放的矛盾,或推动监管与绿色能源方案发展。",
       "advice": "关注AI能耗与绿色算力方向,读原文了解数据中心能源方案。"
+    },
+    {
+      "id": "8ac71a912ac3",
+      "title": "Opus 5狂烧6.9亿token做游戏，GPT-5.6用5美元复刻了",
+      "url": "https://www.qbitai.com/2026/08/468766.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "GPT-5.6",
+        "Opus 5",
+        "代码生成"
+      ],
+      "published_at": "2026-08-09T03:25:00.000Z",
+      "title_zh": "GPT-5.6以5美元复刻Opus 5游戏开发",
+      "summary_zh": "有测试显示Opus 5耗费6.9亿token开发游戏，而GPT-5.6仅用约5美元成本就完成了同等复刻，编程性价比差异巨大。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "不同模型在代码生成任务上的token效率差异显著，选模型要看单位成本产出。",
+      "impact": "高性价比模型拉低AI辅助开发门槛，加剧代码模型价格战。",
+      "advice": "用同一编程任务实测不同模型，对比成本与效果再选型。"
+    },
+    {
+      "id": "fb675eb3a717",
+      "title": "爆料：哈萨比斯原本要和Jeff Dean一起走！",
+      "url": "https://www.qbitai.com/2026/08/468715.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "DeepMind",
+        "哈萨比斯",
+        "谷歌"
+      ],
+      "published_at": "2026-08-09T03:17:18.000Z",
+      "title_zh": "曝哈萨比斯曾计划随Jeff Dean离职",
+      "summary_zh": "爆料称DeepMind掌门人哈萨比斯原本打算与Jeff Dean一同离开谷歌，谷歌通过挽留措施最终将其留下。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "顶尖AI人才是巨头竞争核心，领军人物去留直接影响公司技术路线。",
+      "impact": "若核心人物离职或动摇谷歌AI布局，留任稳定了DeepMind方向。",
+      "advice": "关注谷歌DeepMind后续组织与人事动向，判断其研究走向。"
     }
   ]
 }
