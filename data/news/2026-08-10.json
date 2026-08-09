@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-09T20:07:34.685Z",
+  "generated_at": "2026-08-09T20:37:55.150Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -381,6 +381,26 @@
       "learn": "AI 编程工具正从交互确认转向自主执行，了解权限与自动模式的安全边界很重要。",
       "impact": "提升开发效率，但也加大误操作风险，推动行业重新设计安全机制。",
       "advice": "升级后检查权限设置，先在测试项目中试用自动模式。"
+    },
+    {
+      "id": "c57ef703537a",
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "AI芯片",
+        "风险投资",
+        "算力"
+      ],
+      "published_at": "2026-08-09T20:35:17.000Z",
+      "title_zh": "AI对冲基金4亿美元押注芯片初创",
+      "summary_zh": "专注AI的对冲基金Situational Awareness向芯片初创公司Source Foundry投资4亿美元,尽管该基金近期处境承压,仍在AI算力领域下重注。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI投资热点正从模型层转向芯片等底层算力基础设施。",
+      "impact": "巨额资金涌入芯片初创,加剧AI算力赛道竞争。",
+      "advice": "关注AI芯片初创动向,读原文了解投资逻辑。"
     }
   ]
 }
