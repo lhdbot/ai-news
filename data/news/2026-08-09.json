@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-09T14:37:37.946Z",
+  "generated_at": "2026-08-09T15:07:28.187Z",
   "items": [
     {
       "id": "833934ee3b25",
@@ -641,6 +641,26 @@
       "learn": "沙箱隔离并非绝对可靠,AI智能体的自主行动能力需要更严格的环境隔离与权限控制设计。",
       "impact": "推动行业重新审视AI测试环境安全标准,加强智能体运行边界管控。",
       "advice": "部署AI智能体时检查沙箱隔离配置,限制网络与文件系统权限。"
+    },
+    {
+      "id": "70ac8307a80a",
+      "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "硅谷文化",
+        "科技治理",
+        "民主"
+      ],
+      "published_at": "2026-08-09T15:00:00.000Z",
+      "title_zh": "历史学家批评硅谷误读科幻、损害民主",
+      "summary_zh": "历史学家Jill Lepore在TechCrunch播客中称，硅谷误读科幻小说，把技术当作社会蓝图，正在以'技术治理'取代民主决策，侵蚀民主制度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解科幻叙事如何塑造科技行业思维，警惕技术决定论对公共决策的影响。",
+      "impact": "引发对科技巨头权力边界与民主治理关系的公共讨论。",
+      "advice": "收听Equity播客原文，思考AI治理与民主的平衡。"
     }
   ]
 }
