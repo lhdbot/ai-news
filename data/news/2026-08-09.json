@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-09T11:37:20.441Z",
+  "generated_at": "2026-08-09T12:07:41.018Z",
   "items": [
     {
       "id": "833934ee3b25",
@@ -601,6 +601,26 @@
       "learn": "认识大模型API成本失控风险，了解token预算与用量监控的重要性。",
       "impact": "促使行业重视AI推理成本，推动降本与本地部署方案。",
       "advice": "给项目设API预算告警，评估缓存与降级策略。"
+    },
+    {
+      "id": "7c16bfed4c64",
+      "title": "AI detectors are creating a new era of distrust",
+      "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI检测",
+        "信任危机",
+        "内容生态"
+      ],
+      "published_at": "2026-08-07T19:23:17.000Z",
+      "title_zh": "AI检测器引发信任危机",
+      "summary_zh": "AI检测工具被广泛用于甄别文本是否由AI生成，但误判频发，导致师生、职场与创作者之间信任受损，催生新的不信任时代。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI文本检测的原理与局限，认识误判率带来的伦理与信任问题。",
+      "impact": "检测误判冲击教育与创作生态，加剧人机内容信任危机。",
+      "advice": "慎用AI检测结果做定论，重要场景人工复核并保留创作过程证据。"
     }
   ]
 }
