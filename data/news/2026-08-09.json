@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "generated_at": "2026-08-09T10:37:19.577Z",
+  "generated_at": "2026-08-09T11:07:32.023Z",
   "items": [
     {
       "id": "833934ee3b25",
@@ -541,6 +541,66 @@
       "learn": "大模型已能辅助攻克长期未解的数学问题，AI+数学研究成为新范式。",
       "impact": "展示AI在前沿数学研究的突破能力，加速科学发现进程。",
       "advice": "关注AI辅助科研趋势，可尝试用GPT类模型验证自己的研究猜想。"
+    },
+    {
+      "id": "f265e06f905c",
+      "title": "diegosouzapw/OmniRoute/stargazers: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [
+        "AI网关",
+        "开源工具",
+        "多模型聚合"
+      ],
+      "published_at": "2026-08-09T11:07:04.203Z",
+      "title_zh": "diegosouzapw/OmniRoute/stargazers: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "summary_zh": "开源MIT协议AI网关，一个端点接入290多家供应商、500多个模型，含90多家免费渠道，支持配额感知自动降级与token压缩，适配Claude Code、Cursor等工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI网关聚合模式与自动降级、token压缩等降本技巧。",
+      "impact": "降低多模型调用门槛，帮开发者省下大量API费用。",
+      "advice": "试试用OmniRoute接管本地编码工具的模型路由。"
+    },
+    {
+      "id": "244c175167b7",
+      "title": "firecrawl/pdf-inspector/stargazers: Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "url": "https://github.com/firecrawl/pdf-inspector/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "Rust",
+        "PDF解析",
+        "RAG"
+      ],
+      "published_at": "2026-08-09T11:07:04.053Z",
+      "title_zh": "firecrawl/pdf-inspector/stargazers: Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "summary_zh": "Firecrawl发布Rust编写的PDF检查库pdf-inspector，可快速分类PDF、提取文本，并智能区分扫描件与文本型PDF以做路由决策。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习PDF文本型与扫描型识别方法，以及Rust在文档处理中的应用。",
+      "impact": "提升RAG与文档管线的预处理效率，减少无效OCR开销。",
+      "advice": "做RAG文档入库前用它做PDF类型预检与路由。"
+    },
+    {
+      "id": "c924a91ad24c",
+      "title": "180万刀，连亚马逊都烧不起Claude了",
+      "url": "https://www.qbitai.com/2026/08/469010.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Claude",
+        "API成本",
+        "token"
+      ],
+      "published_at": "2026-08-09T09:25:10.000Z",
+      "title_zh": "180万刀，连亚马逊都烧不起Claude了",
+      "summary_zh": "量子位报道某团队使用Claude产生高达180万美元的API账单，连亚马逊这样的巨头都感叹成本失控，引发对大模型token消耗与成本管理的讨论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识大模型API成本失控风险，了解token预算与用量监控的重要性。",
+      "impact": "促使行业重视AI推理成本，推动降本与本地部署方案。",
+      "advice": "给项目设API预算告警，评估缓存与降级策略。"
     }
   ]
 }
