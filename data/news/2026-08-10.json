@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T13:07:39.389Z",
+  "generated_at": "2026-08-10T13:38:48.323Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -1041,6 +1041,26 @@
       "learn": "AI驱动的材料发现方法,以及芯片散热成为制约算力发展的关键瓶颈。",
       "impact": "或加速散热材料突破,缓解AI芯片散热压力。",
       "advice": "关注AI for Science与材料计算方向,可读原文了解细节。"
+    },
+    {
+      "id": "c7b962b1d9ef",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "GPT-5.6",
+        "金融AI",
+        "工作流自动化"
+      ],
+      "published_at": "2026-08-10T12:00:00.000Z",
+      "title_zh": "Model ML用GPT-5.6 Sol提效金融工作",
+      "summary_zh": "Model ML采用GPT-5.6 Sol模型，将金融工作从研究、分析到产出全流程自动化，显著提升效率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型可端到端串联金融研究分析与交付流程，垂直场景落地加速。",
+      "impact": "金融分析工作流被AI重塑，从业者效率与岗位结构将受影响。",
+      "advice": "了解GPT-5.6 Sol能力，思考如何将其接入自己的分析工作流。"
     }
   ]
 }
