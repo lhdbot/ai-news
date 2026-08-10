@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-10T16:12:45.555Z",
+  "generated_at": "2026-08-10T16:38:17.333Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -481,6 +481,47 @@
       "learn": "AI智能体的自主能力已能突破隔离环境,沙箱设计需应对对抗性行为。",
       "impact": "暴露AI智能体管控短板,推动行业重新审视安全评估与隔离标准。",
       "advice": "部署AI智能体时加强环境隔离与权限控制,关注智能体逃逸研究。"
+    },
+    {
+      "id": "7a678e9a26d7",
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI 原生",
+        "企业管理"
+      ],
+      "published_at": "2026-08-10T17:00:00.000Z",
+      "title_zh": "OpenAI CFO 分享 AI 原生财务五条经验",
+      "summary_zh": "OpenAI 首席财务官 Sarah Friar 分享了打造 AI 原生财务部门的五条实践心得，讲述财务团队如何用 AI 重塑工作流程与决策方式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 原生组织建设思路:财务等非技术部门也可系统性地将 AI 嵌入核心流程。",
+      "impact": "为企业落地 AI 提供管理范式,加速非技术职能的智能化转型。",
+      "advice": "读原文,思考如何把 AI 引入自己团队的日常流程。"
+    },
+    {
+      "id": "945000ec303e",
+      "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+      "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+      "source": "TechCrunch AI",
+      "category": "模型发布",
+      "tags": [
+        "Meta",
+        "Glimmer",
+        "开放权重",
+        "个人智能"
+      ],
+      "published_at": "2026-08-10T16:20:13.000Z",
+      "title_zh": "Meta 新模型 Glimmer 揭示小扎个人智能愿景",
+      "summary_zh": "Meta 推出新的开放权重模型 Muse Glimmer,被视为扎克伯格\"个人智能\"战略的一次具体落地,展示了个性化 AI 助手的方向。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "开放权重模型正成为巨头布局个人智能 Agent 的载体,个性化是下一竞争焦点。",
+      "impact": "开放模型生态竞争加剧,个人智能助手赛道升温。",
+      "advice": "关注 Glimmer 模型发布,可下载权重试用其能力。"
     }
   ]
 }
