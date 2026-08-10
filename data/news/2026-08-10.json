@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T09:07:32.678Z",
+  "generated_at": "2026-08-10T09:38:04.706Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -741,6 +741,46 @@
       "learn": "具身智能赛道正加速分化，物理AGI需要技术积累而非资本堆砌。",
       "impact": "行业进入头部集中阶段，资本狂热与技术现实的分歧显现。",
       "advice": "关注具身智能头部公司动向，阅读完整对话判断赛道趋势。"
+    },
+    {
+      "id": "9f4ff92be723",
+      "title": "AI for science needs reasoning, not just data",
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "AI for Science",
+        "推理能力",
+        "MIT"
+      ],
+      "published_at": "2026-08-10T09:00:00.000Z",
+      "title_zh": "AI 科学需要推理能力",
+      "summary_zh": "MIT Tech Review 文章指出,科学发现不能仅靠数据驱动,AI for Science 要取得突破,模型必须具备真正的推理能力而非只做模式拟合。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI for Science 的瓶颈在于推理,数据密集型方法不足以产生科学发现。",
+      "impact": "推动科研 AI 从数据拟合转向推理型模型,影响学术工具方向。",
+      "advice": "阅读 MIT Tech Review 原文,关注推理模型在科研中的应用。"
+    },
+    {
+      "id": "50ad4d5e485e",
+      "title": "These startups are chasing the next big thing in LLMs",
+      "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "LLM",
+        "创业公司",
+        "MIT"
+      ],
+      "published_at": "2026-08-10T09:00:00.000Z",
+      "title_zh": "创业公司押注 LLM 下一个方向",
+      "summary_zh": "MIT Tech Review 的 What's Next 系列盘点了一批创业公司,它们正在探索大语言模型的下一个突破口,押注模型架构和能力的新范式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "LLM 创新重心正从规模扩张转向新范式,创业公司在探索差异化方向。",
+      "impact": "创业公司探索 LLM 新路径,可能重塑大模型竞争格局。",
+      "advice": "关注 MIT What's Next 系列,跟踪 LLM 新范式创业动向。"
     }
   ]
 }
