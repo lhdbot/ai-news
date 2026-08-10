@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T13:38:48.323Z",
+  "generated_at": "2026-08-10T14:08:06.320Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -1061,6 +1061,26 @@
       "learn": "大模型可端到端串联金融研究分析与交付流程，垂直场景落地加速。",
       "impact": "金融分析工作流被AI重塑，从业者效率与岗位结构将受影响。",
       "advice": "了解GPT-5.6 Sol能力，思考如何将其接入自己的分析工作流。"
+    },
+    {
+      "id": "61282b7420ed",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI基础设施",
+        "得州"
+      ],
+      "published_at": "2026-08-10T14:00:00.000Z",
+      "title_zh": "OpenAI致信得州州长谈AI基建",
+      "summary_zh": "OpenAI致信得州州长Abbott,承诺以负责任方式在该州建设AI基础设施,涵盖能源、就业与社区协作等内容。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型竞争已延伸至算力基建层面,选址、能源与政策成为AI扩张的关键变量。",
+      "impact": "AI基建向得州等区域集中,或加剧算力与能源资源竞争。",
+      "advice": "关注AI基建选址动态,了解数据中心对能源与区域格局的影响。"
     }
   ]
 }
