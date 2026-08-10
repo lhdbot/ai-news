@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-10T20:07:31.289Z",
+  "generated_at": "2026-08-10T20:38:15.813Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -862,6 +862,26 @@
       "learn": "了解大模型垂直化趋势:通用模型之外,针对安全场景的专用模型正成为新方向。",
       "impact": "推动AI在安全防御领域落地,网络攻防对抗进一步AI化。",
       "advice": "关注Daybreak项目动态,评估其在安全检测场景的接入价值。"
+    },
+    {
+      "id": "1753f5490b10",
+      "title": "AI professors are negotiating the new realities of academic research",
+      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "学术界",
+        "MIT科技评论",
+        "AI研究"
+      ],
+      "published_at": "2026-08-10T20:00:00.000Z",
+      "title_zh": "AI教授如何应对学术研究新格局",
+      "summary_zh": "MIT科技评论报道,AI领域的大学教授们正与产业界就人才流失、算力差距和科研经费等问题展开博弈,重新定义学术界在AI研究中的角色与合作模式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解学术界与工业界在AI研究中的资源差异,及高校科研模式正在发生的转变。",
+      "impact": "学术AI研究影响力下降,人才培养与基础研究模式面临重构。",
+      "advice": "关注高校与企业联合实验室动态,读原文了解学界最新处境。"
     }
   ]
 }
