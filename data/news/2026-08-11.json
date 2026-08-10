@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-10T17:08:43.185Z",
+  "generated_at": "2026-08-10T17:38:35.772Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -722,6 +722,126 @@
       "learn": "了解AI硬件浪潮下传统消费电子公司的战略应对思路。",
       "impact": "AI功能正重塑耳机品类，倒逼传统音频厂商转型。",
       "advice": "关注AI硬件趋势，可读原文访谈了解Bose策略。"
+    },
+    {
+      "id": "7f776d7829d0",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "网络安全",
+        "模型访问"
+      ],
+      "published_at": "2026-08-10T10:00:00.000Z",
+      "title_zh": "OpenAI 向可信伙伴开放前沿网络安全模型",
+      "summary_zh": "OpenAI 推出 Daybreak 伙伴计划，获准的可信合作伙伴可调用其前沿网络安全模型，用于漏洞分析、安全评估等防御性安全工作。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解前沿模型按可信度分级开放的趋势，以及 AI 在攻防安全中的应用边界。",
+      "impact": "增强防御方的安全能力，同时为高能力模型的可控分发树立先例。",
+      "advice": "关注 OpenAI Daybreak 计划细节，评估其安全模型是否可用于自家防护体系。"
+    },
+    {
+      "id": "5d9450407c2c",
+      "title": "Sharding Prevents LLM Oversight Failures and Adversarial Exploitation",
+      "url": "https://arxiv.org/abs/2608.06422",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "AI 对齐",
+        "LLM 评审",
+        "对抗攻击"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "分片监督防 LLM 评审失效与被攻击",
+      "summary_zh": "论文提出用分片（sharding）方式给 LLM 评审器增加算力，避免单一评审器被对抗性输入欺骗，提升对生成内容的监督可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握分片式多评审器思路，了解算力扩展下 AI 监督失效的新解法。",
+      "impact": "提升 LLM-as-judge 的鲁棒性，强化模型对齐与安全评估环节。",
+      "advice": "使用 LLM 评审时可引入多路分片校验，并阅读论文了解具体实现。"
+    },
+    {
+      "id": "acc4988c5fbd",
+      "title": "Adversarial Causal Intervention Falsification",
+      "url": "https://arxiv.org/abs/2608.06427",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "因果推断",
+        "生成模型",
+        "arXiv"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "对抗性因果干预证伪方法",
+      "summary_zh": "论文研究生成模型虽能复现数据分布，但可通过对抗性因果干预证伪来检验其是否真正学到因果机制而非表面关联。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识因果推断与生成模型评估的结合点，理解干预检验的思想。",
+      "impact": "为评估生成模型的可靠性提供新工具，推动因果 AI 研究。",
+      "advice": "做生成模型评估的读者可精读论文，关注因果验证方向。"
+    },
+    {
+      "id": "8f89868e633f",
+      "title": "Fixed and Adaptive Topological DeepONets: Functional Measurements on Hausdorff Locally Convex Spaces",
+      "url": "https://arxiv.org/abs/2608.06428",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "DeepONet",
+        "神经算子",
+        "科学计算"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "面向函数测量的拓扑 DeepONet",
+      "summary_zh": "论文提出固定与自适应拓扑的 DeepONet 变体，将深度算子网络扩展到豪斯多夫局部凸空间上的函数测量任务。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解神经算子网络的理论拓展，函数空间上的算子学习方法。",
+      "impact": "深化科学计算与物理建模中算子学习的理论基础。",
+      "advice": "做科学机器学习（SciML）的读者可关注 DeepONet 相关进展。"
+    },
+    {
+      "id": "e39045a0c2b7",
+      "title": "MiGHT-EHR: A Multi-task Graph Transformer for Heterogeneous Temporal Electronic Health Records",
+      "url": "https://arxiv.org/abs/2608.06430",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "医疗 AI",
+        "图 Transformer",
+        "电子病历"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "MiGHT-EHR:面向电子病历的图 Transformer",
+      "summary_zh": "论文提出 MiGHT-EHR，一种多任务图 Transformer，用于建模异构、时序的电子健康记录数据，提升临床预测效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习图神经网络与 Transformer 结合处理异构时序医疗数据的方法。",
+      "impact": "推动医疗 AI 在疾病预测等临床任务上的准确性提升。",
+      "advice": "医疗 AI 方向开发者可参考其图建模思路并阅读论文。"
+    },
+    {
+      "id": "8e93996d723a",
+      "title": "SNI-GNN: SmartNIC-Assisted Full-Graph GNN Training with In-Network Embedding Prediction",
+      "url": "https://arxiv.org/abs/2608.06441",
+      "source": "arXiv cs.LG",
+      "category": "芯片算力",
+      "tags": [
+        "SmartNIC",
+        "GNN",
+        "训练加速"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "SNI-GNN:智能网卡加速全图训练",
+      "summary_zh": "论文提出 SNI-GNN，利用 SmartNIC 智能网卡在网内完成嵌入预测，加速全图 GNN 训练，缓解内存与通信瓶颈。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解软硬件协同思路：用智能网卡卸载计算加速 GNN 大规模训练。",
+      "impact": "降低大规模图训练成本，拓展 GNN 在工业场景的可行性。",
+      "advice": "做大规模图训练的团队可关注 SmartNIC 卸载这一硬件方向。"
     }
   ]
 }
