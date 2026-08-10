@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T10:08:22.764Z",
+  "generated_at": "2026-08-10T10:38:13.332Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -961,6 +961,26 @@
       "learn": "了解近数据计算：用SmartNIC卸载GNN训练通信开销。",
       "impact": "降低大规模图训练成本，推动软硬件协同设计。",
       "advice": "做大规模图训练可关注SmartNIC等网内计算加速方案。"
+    },
+    {
+      "id": "99250e9f84b0",
+      "title": "模型路线趋同之后，Physical AI的胜负手变了",
+      "url": "https://www.qbitai.com/2026/08/469544.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "Physical AI",
+        "行业趋势"
+      ],
+      "published_at": "2026-08-10T09:20:50.000Z",
+      "title_zh": "模型路线趋同后，Physical AI胜负手变了",
+      "summary_zh": "量子位分析指出，各家模型技术路线逐渐趋同后，Physical AI（具身智能）的竞争焦点正从模型本身转向数据、硬件与场景落地等新瓶颈。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解具身智能竞争从模型能力转向数据、本体与真实场景验证的趋势。",
+      "impact": "具身智能赛道竞争逻辑转变，硬件与数据闭环成为关键壁垒。",
+      "advice": "关注具身智能数据闭环与本体厂商动态，精读量子位原文。"
     }
   ]
 }
