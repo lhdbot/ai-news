@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T11:38:54.090Z",
+  "generated_at": "2026-08-10T12:38:10.903Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -1021,6 +1021,26 @@
       "learn": "图原生上下文表示与可问责 AI:用图结构实现可追溯的智能体记忆。",
       "impact": "为企业级可信 AI 与上下文工程提供新的图结构基础设施方向。",
       "advice": "关注图结构上下文方案,试用其 Python 库构建可审计 Agent。"
+    },
+    {
+      "id": "f813d0c6a6d3",
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "材料发现",
+        "AI for Science",
+        "芯片散热"
+      ],
+      "published_at": "2026-08-10T12:00:00.000Z",
+      "title_zh": "Discovered Materials用AI加速寻找散热新材料",
+      "summary_zh": "材料发现公司Discovered Materials融资900万美元,用AI方法大规模筛选新材料,以应对芯片散热瓶颈,但过程如同打地鼠般需反复试错。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI驱动的材料发现方法,以及芯片散热成为制约算力发展的关键瓶颈。",
+      "impact": "或加速散热材料突破,缓解AI芯片散热压力。",
+      "advice": "关注AI for Science与材料计算方向,可读原文了解细节。"
     }
   ]
 }
