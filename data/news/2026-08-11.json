@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-10T16:38:17.333Z",
+  "generated_at": "2026-08-10T17:08:43.185Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -522,6 +522,206 @@
       "learn": "开放权重模型正成为巨头布局个人智能 Agent 的载体,个性化是下一竞争焦点。",
       "impact": "开放模型生态竞争加剧,个人智能助手赛道升温。",
       "advice": "关注 Glimmer 模型发布,可下载权重试用其能力。"
+    },
+    {
+      "id": "ee449db47d8d",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "source": "OpenAI",
+      "category": "工具产品",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "企业服务"
+      ],
+      "published_at": "2026-08-10T00:00:00.000Z",
+      "title_zh": "ChatGPT Business推出Premium席位",
+      "summary_zh": "OpenAI为ChatGPT Business推出Premium高级席位，8月20日前注册可获100美元额度优惠。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解OpenAI企业订阅分层策略与团队AI工具的定价模式。",
+      "impact": "企业版ChatGPT功能分层，推动团队级AI付费市场细分。",
+      "advice": "团队有需求可在8月20日前注册锁定优惠。"
+    },
+    {
+      "id": "75a6acedad45",
+      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+      "url": "https://arxiv.org/abs/2608.06394",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "图神经网络",
+        "基础模型",
+        "多标签分类"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "多标签图基础模型研究",
+      "summary_zh": "论文提出多标签图基础模型新范式，用多语义基学习替代单向量表示，改进多标签节点分类效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解图基础模型从单向量表示到多语义基学习的演进思路。",
+      "impact": "推动图神经网络向通用基础模型方向发展的探索。",
+      "advice": "做图学习的开发者可读原文，关注图基础模型方向。"
+    },
+    {
+      "id": "9779db9a17b8",
+      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+      "url": "https://arxiv.org/abs/2608.06398",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "MoE",
+        "无分词器",
+        "LLM"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "EntropyMoE：无分词器LLM的熵感知专家路由",
+      "summary_zh": "论文提出EntropyMoE，针对字节级无分词器大模型设计熵感知稀疏专家路由机制，提升性能。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解MoE路由机制与无分词器（字节级）LLM的结合方法。",
+      "impact": "为无分词器大模型的效率优化提供新思路。",
+      "advice": "关注MoE和字节级模型的同学可研读该论文。"
+    },
+    {
+      "id": "092b1aae6531",
+      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+      "url": "https://arxiv.org/abs/2608.06400",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "奖励模型",
+        "MoE",
+        "可解释性"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "MoE奖励模型的响应级可解释方法",
+      "summary_zh": "论文提出通过贡献对比方法，在响应级别忠实解释MoE奖励模型各专家的实际作用，超越路由权重分析。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解奖励模型可解释性及MoE专家贡献的分析方法。",
+      "impact": "提升RLHF中奖励模型透明度，助力对齐研究。",
+      "advice": "做RLHF或对齐研究可关注该解释方法。"
+    },
+    {
+      "id": "913d075955d9",
+      "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
+      "url": "https://arxiv.org/abs/2608.06402",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "社区检测",
+        "LLM",
+        "可解释性"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "LLM符号化的可解释社区检测",
+      "summary_zh": "论文将LLM与符号化结构化过程结合，实现可解释的无监督图社区检测，无需人工标注。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM与传统图算法结合实现可解释无监督学习的思路。",
+      "impact": "为图挖掘任务提供可解释的新范式。",
+      "advice": "从事图挖掘或社交网络分析可阅读原文了解方法。"
+    },
+    {
+      "id": "69904756c6cb",
+      "title": "ADIAS: Automated Design of Interactive Agentic Systems",
+      "url": "https://arxiv.org/abs/2608.06410",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "Agent",
+        "自动设计",
+        "智能体"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "ADIAS：自动化设计交互式智能体系统",
+      "summary_zh": "论文提出ADIAS框架，自动化设计交互式Agent系统，减少人工设计成本并提升Agent能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Agent系统自动设计（类似AutoML之于Agent）的新方向。",
+      "impact": "降低Agent开发门槛，推动智能体工程自动化。",
+      "advice": "做Agent开发可关注自动设计框架的思路。"
+    },
+    {
+      "id": "4f587e42b811",
+      "title": "ConstructCIE: A Dataset for Extracting Causal Information from Construction Accident Narratives",
+      "url": "https://arxiv.org/abs/2608.06495",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "信息抽取",
+        "因果关系",
+        "数据集"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "ConstructCIE：建筑事故因果信息抽取数据集",
+      "summary_zh": "论文发布ConstructCIE数据集，用于从建筑事故叙述文本中抽取因果信息，支持安全事故分析研究。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解因果信息抽取任务及垂直领域数据集构建方法。",
+      "impact": "助力建筑安全领域的NLP应用与事故预防分析。",
+      "advice": "做信息抽取可参考其数据集构建与标注方案。"
+    },
+    {
+      "id": "51fcd5bf3a57",
+      "title": "Measuring the Cross-Lingual Comprehension Gap: How the language of the evidence shapes what language models understand",
+      "url": "https://arxiv.org/abs/2608.06506",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "多语言",
+        "LLM评估",
+        "跨语言理解"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "语言模型的跨语言理解差距研究",
+      "summary_zh": "论文测量证据语言对模型理解的影响，揭示LLM在跨语言场景下的理解差距问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解多语言LLM评估中证据语言影响理解能力的现象。",
+      "impact": "提醒多语言应用开发者注意模型跨语言能力不均。",
+      "advice": "开发多语言应用时测试不同语言下的实际表现。"
+    },
+    {
+      "id": "da85c7fce8a1",
+      "title": "GRASP: Reinforcing Language Model Anonymizers with Group Relative Policy Optimization",
+      "url": "https://arxiv.org/abs/2608.06526",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "隐私保护",
+        "GRPO",
+        "强化学习"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "GRASP：强化学习优化的文本匿名化",
+      "summary_zh": "论文提出GRASP，用GRPO强化学习训练语言模型匿名化器，防止LLM从文本推断个人隐私属性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解GRPO在隐私保护任务中的应用及文本匿名化方法。",
+      "impact": "提升用户文本隐私保护能力，应对LLM隐私推断风险。",
+      "advice": "关注隐私合规的开发者可了解该匿名化方案。"
+    },
+    {
+      "id": "4427e8e8b939",
+      "title": "What happens to Bose when headphones become AI?",
+      "url": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Bose",
+        "AI硬件",
+        "智能耳机"
+      ],
+      "published_at": "2026-08-10T16:27:33.000Z",
+      "title_zh": "耳机AI化，Bose何去何从？",
+      "summary_zh": "The Verge专访Bose CEO Lila Snyder，探讨AI耳机兴起背景下传统音频厂商的转型与定位。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI硬件浪潮下传统消费电子公司的战略应对思路。",
+      "impact": "AI功能正重塑耳机品类，倒逼传统音频厂商转型。",
+      "advice": "关注AI硬件趋势，可读原文访谈了解Bose策略。"
     }
   ]
 }
