@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T06:07:32.652Z",
+  "generated_at": "2026-08-10T06:38:09.639Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -601,6 +601,26 @@
       "learn": "了解AI创作工具从个人向团队协作场景扩展的产品路径及国产大模型接入方式。",
       "impact": "推动AI创作工具进入企业协作市场，扩大国产大模型落地场景。",
       "advice": "有团队AI创作需求可试用订阅，关注其协作功能设计。"
+    },
+    {
+      "id": "36c5f9b6b62e",
+      "title": "Claude Code倒计时5天默认自动模式，多花的钱A社自己掏",
+      "url": "https://www.qbitai.com/2026/08/469500.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "AI编程"
+      ],
+      "published_at": "2026-08-10T05:37:51.000Z",
+      "title_zh": "Claude Code倒计时5天默认自动模式",
+      "summary_zh": "Anthropic宣布Claude Code将在5天后默认开启自动模式，由此产生的额外费用由公司承担；同时指出会话越长，用户表现越差。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Claude Code自动模式机制，以及长会话中人类监督质量下降的协作规律。",
+      "impact": "降低AI编程助手使用门槛，推动自动化编码普及。",
+      "advice": "试用Claude Code自动模式，注意控制会话长度。"
     }
   ]
 }
