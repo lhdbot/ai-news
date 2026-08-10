@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T03:38:05.174Z",
+  "generated_at": "2026-08-10T04:08:21.860Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -481,6 +481,106 @@
       "learn": "稀疏计算可降低AI推理算力成本，产学研联盟是技术产业化路径。",
       "impact": "推动稀疏计算生态建设，或降低大模型推理成本。",
       "advice": "了解稀疏化推理技术，关注墨芯等国产AI芯片动态。"
+    },
+    {
+      "id": "6dbb64d0ecdf",
+      "title": "TEXAS: Task-Expert-Aware Supervision for Downstream Mixture-of-Experts LLM Adaptation",
+      "url": "https://arxiv.org/abs/2608.06396",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "MoE",
+        "参数高效微调",
+        "LLM"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "TEXAS: Task-Expert-Aware Supervision for Downstream Mixture-of-Experts LLM Adaptation",
+      "summary_zh": "提出TEXAS方法，在MoE大模型下游适配时引入任务-专家感知监督，让不同专家针对任务目标分工，提升微调效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解MoE架构的下游适配思路：用监督信号引导专家分工而非全参数微调。",
+      "impact": "降低MoE模型垂直领域定制成本，推动高效微调方法落地。",
+      "advice": "读原论文，做MoE微调时可借鉴其专家路由监督思路。"
+    },
+    {
+      "id": "a67efcd13c7c",
+      "title": "Separating Decision-Rule Misalignment from Readout-Coverage Limitations in Speech Language Models",
+      "url": "https://arxiv.org/abs/2608.06409",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "语音模型",
+        "模型对齐",
+        "可解释性"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "Separating Decision-Rule Misalignment from Readout-Coverage Limitations in Speech Language Models",
+      "summary_zh": "论文为语音语言模型的错误归因建立分析框架，将决策规则与人类不对齐的问题和声学信息读出覆盖不足的问题区分开来。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习如何对语音模型做错误归因分析，区分对齐问题与表征瓶颈。",
+      "impact": "帮助研究者精准定位语音模型短板，指导针对性改进。",
+      "advice": "做语音模型评测时可参考其错误分类框架，读原文方法部分。"
+    },
+    {
+      "id": "d0e15c071e4b",
+      "title": "NTDH: Complex Reasoning for Comprehensive Affective Analysis",
+      "url": "https://arxiv.org/abs/2608.06425",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "情感分析",
+        "复杂推理",
+        "NLP"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "NTDH: Complex Reasoning for Comprehensive Affective Analysis",
+      "summary_zh": "提出NTDH方法，通过引入复杂推理流程完成综合情感分析任务，提升模型对多层次情感要素的识别与推断能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解推理增强在细粒度情感分析中的应用，多步推理替代单步分类。",
+      "impact": "提升评论分析、舆情监控等场景的情感理解精度。",
+      "advice": "关注情感分析+推理链的结合方向，读原文看任务设定。"
+    },
+    {
+      "id": "f07393969cb5",
+      "title": "Recovering Lesion Parameters from Aphasic Picture Naming Error Profiles in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.06429",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "可解释性",
+        "认知科学",
+        "LLM"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "Recovering Lesion Parameters from Aphasic Picture Naming Error Profiles in Large Language Models",
+      "summary_zh": "借鉴神经科学思路，通过模拟失语症患者的图片命名错误模式，反推大语言模型内部对应的损伤参数，提供新的可解释性视角。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用认知神经科学范式做模型可解释性：以损伤实验定位功能模块。",
+      "impact": "为LLM可解释性开辟脑科学交叉研究路径。",
+      "advice": "对可解释性感兴趣可读原文，借鉴神经心理学的研究方法。"
+    },
+    {
+      "id": "82fe29a83b00",
+      "title": "Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events",
+      "url": "https://arxiv.org/abs/2608.06485",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM智能体",
+        "AI人格",
+        "基准评测"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events",
+      "summary_zh": "论文分析并建立基准，评测人格化LLM智能体在经历模拟生活事件后人格特质是否及如何演变，揭示其稳定性与漂移规律。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM人格稳定性的评测方法，长时记忆与人格一致性的关系。",
+      "impact": "影响角色扮演、陪伴类AI产品的长期一致性设计。",
+      "advice": "做Agent产品可关注其人格漂移基准，评估自家智能体稳定性。"
     }
   ]
 }
