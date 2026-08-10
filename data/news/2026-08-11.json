@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-10T18:07:31.419Z",
+  "generated_at": "2026-08-10T18:38:20.081Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -842,6 +842,26 @@
       "learn": "了解软硬件协同思路：用智能网卡卸载计算加速 GNN 大规模训练。",
       "impact": "降低大规模图训练成本，拓展 GNN 在工业场景的可行性。",
       "advice": "做大规模图训练的团队可关注 SmartNIC 卸载这一硬件方向。"
+    },
+    {
+      "id": "3a8585570cab",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI",
+      "category": "模型发布",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6-Cyber",
+        "网络安全"
+      ],
+      "published_at": "2026-08-10T10:00:00.000Z",
+      "title_zh": "OpenAI发布GPT-5.6-Cyber网络安全专用模型",
+      "summary_zh": "OpenAI通过Daybreak项目推出面向网络安全的专用模型GPT-5.6-Cyber,强调在攻防窗口收窄的背景下用AI强化防御能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大模型垂直化趋势:通用模型之外,针对安全场景的专用模型正成为新方向。",
+      "impact": "推动AI在安全防御领域落地,网络攻防对抗进一步AI化。",
+      "advice": "关注Daybreak项目动态,评估其在安全检测场景的接入价值。"
     }
   ]
 }
