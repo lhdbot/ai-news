@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T07:07:34.448Z",
+  "generated_at": "2026-08-10T07:39:18.441Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -621,6 +621,106 @@
       "learn": "了解Claude Code自动模式机制，以及长会话中人类监督质量下降的协作规律。",
       "impact": "降低AI编程助手使用门槛，推动自动化编码普及。",
       "advice": "试用Claude Code自动模式，注意控制会话长度。"
+    },
+    {
+      "id": "b61c1e7d806a",
+      "title": "Risk-Aware Decision Policies for Agents Under Noisy Perception",
+      "url": "https://arxiv.org/abs/2608.06420",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "强化学习",
+        "智能体",
+        "鲁棒决策"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "噪声感知下智能体的风险感知决策策略",
+      "summary_zh": "论文研究感知存在噪声时智能体如何决策,借鉴生物系统感知机制,提出风险感知的决策策略以提升鲁棒性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解风险敏感决策框架,以及如何在感知不确定下设计鲁棒的智能体策略。",
+      "impact": "提升具身与自主智能体在真实噪声环境中的可靠性。",
+      "advice": "做Agent或机器人决策的读者可读原文,借鉴风险建模思路。"
+    },
+    {
+      "id": "5d9450407c2c",
+      "title": "Sharding Prevents LLM Oversight Failures and Adversarial Exploitation",
+      "url": "https://arxiv.org/abs/2608.06422",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "AI安全",
+        "LLM评审",
+        "可扩展监督"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "分片机制防止LLM监督失效与对抗利用",
+      "summary_zh": "研究发现给LLM评审更多算力反而易被对抗利用,提出分片(Sharding)方法防止监督失效,提升评估安全性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM-as-Judge的安全缺陷,以及用分片降低对抗攻击风险的可扩展监督思路。",
+      "impact": "推动更安全的AI监督与自动评估机制设计。",
+      "advice": "使用LLM做自动评审的开发者应关注其对抗脆弱性并阅读此文。"
+    },
+    {
+      "id": "acc4988c5fbd",
+      "title": "Adversarial Causal Intervention Falsification",
+      "url": "https://arxiv.org/abs/2608.06427",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "因果推断",
+        "生成模型",
+        "对抗测试"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "对抗性因果干预证伪方法",
+      "summary_zh": "论文指出生成模型能复现数据却可能学错因果关系,提出用对抗性因果干预来证伪模型所学因果机制的方法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识生成模型的因果幻觉问题,学习用干预实验检验因果正确性的思路。",
+      "impact": "为评估生成模型可信度与因果推理能力提供新工具。",
+      "advice": "关注因果推理的研究者可读原文,尝试用干预测试自己的模型。"
+    },
+    {
+      "id": "8f89868e633f",
+      "title": "Fixed and Adaptive Topological DeepONets: Functional Measurements on Hausdorff Locally Convex Spaces",
+      "url": "https://arxiv.org/abs/2608.06428",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "DeepONet",
+        "算子学习",
+        "科学计算"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "固定与自适应拓扑的DeepONet",
+      "summary_zh": "论文将DeepONet算子网络扩展到Hausdorff局部凸空间上的泛函测量,提出固定与自适应两种拓扑结构。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解算子学习的最新理论扩展,以及拓扑选择对DeepONet表达能力的影响。",
+      "impact": "推进科学计算中算子学习的理论基础与适用范围。",
+      "advice": "做科学机器学习/PDE求解的读者可关注该算子学习新框架。"
+    },
+    {
+      "id": "e39045a0c2b7",
+      "title": "MiGHT-EHR: A Multi-task Graph Transformer for Heterogeneous Temporal Electronic Health Records",
+      "url": "https://arxiv.org/abs/2608.06430",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "图Transformer",
+        "电子病历",
+        "医疗AI"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "MiGHT-EHR:多任务图Transformer处理电子病历",
+      "summary_zh": "提出MiGHT-EHR模型,用多任务图Transformer处理异构时序电子健康记录,提升多种临床预测任务表现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习如何用图结构建模病历异构关系,以及多任务学习在医疗时序数据上的应用。",
+      "impact": "有助于提升临床预测与医疗AI应用的准确性。",
+      "advice": "医疗AI从业者可关注该模型架构,参考其图建模方法。"
     }
   ]
 }
