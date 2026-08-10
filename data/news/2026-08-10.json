@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T10:38:13.332Z",
+  "generated_at": "2026-08-10T11:08:20.414Z",
   "items": [
     {
       "id": "f265e06f905c",
@@ -981,6 +981,46 @@
       "learn": "了解具身智能竞争从模型能力转向数据、本体与真实场景验证的趋势。",
       "impact": "具身智能赛道竞争逻辑转变，硬件与数据闭环成为关键壁垒。",
       "advice": "关注具身智能数据闭环与本体厂商动态，精读量子位原文。"
+    },
+    {
+      "id": "35bc58c78399",
+      "title": "huangruiteng/loopx/stargazers: Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "url": "https://github.com/huangruiteng/loopx/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "AI 智能体",
+        "状态管理",
+        "GitHub"
+      ],
+      "published_at": "2026-08-10T11:07:33.077Z",
+      "title_zh": "Loopx:长跑 AI 智能体的状态内核",
+      "summary_zh": "GitHub 周榜项目 Loopx,为长时间运行的 AI 编程智能体团队提供轻量状态内核,兼容 Codex、Claude Code 等,支持持久目标、配额感知唤醒、可执行待办、证据日志与可验证交接。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "循环工程:用持久状态与证据日志管理长时运行的智能体协作。",
+      "impact": "推动多智能体编程从单次会话走向可持续、可审计的长期任务。",
+      "advice": "Star 该仓库并读其状态内核设计,借鉴到自己的 Agent 工作流。"
+    },
+    {
+      "id": "f7d47092ed92",
+      "title": "semantica-agi/semantica/stargazers: Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "url": "https://github.com/semantica-agi/semantica/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "知识图谱",
+        "上下文工程",
+        "可问责AI"
+      ],
+      "published_at": "2026-08-10T11:07:32.973Z",
+      "title_zh": "Semantica:图原生 AI 上下文基础设施",
+      "summary_zh": "GitHub 日榜 Python 项目 Semantica,提供图原生的上下文与可问责 AI 系统基础设施,用图结构组织上下文信息,让 AI 决策过程可追溯、可审计。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "图原生上下文表示与可问责 AI:用图结构实现可追溯的智能体记忆。",
+      "impact": "为企业级可信 AI 与上下文工程提供新的图结构基础设施方向。",
+      "advice": "关注图结构上下文方案,试用其 Python 库构建可审计 Agent。"
     }
   ]
 }
