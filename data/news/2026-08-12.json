@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-11T16:37:42.825Z",
+  "generated_at": "2026-08-11T17:07:41.011Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -581,6 +581,26 @@
       "learn": "了解大模型用于辅助数学证明与科研的趋势，AI 正成为基础研究工具。",
       "impact": "显示 AI 已能参与顶尖数学研究，或加速基础科学突破。",
       "advice": "读原文了解细节，关注 AI for Science 方向的进展。"
+    },
+    {
+      "id": "4427e8e8b939",
+      "title": "What happens to Bose when headphones become AI?",
+      "url": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Bose",
+        "AI耳机",
+        "硬件转型"
+      ],
+      "published_at": "2026-08-11T02:26:34.000Z",
+      "title_zh": "耳机变AI之后Bose何去何从",
+      "summary_zh": "The Verge专访Bose CEO Lila Snyder，探讨在AI功能重塑耳机行业的背景下，Bose这家音频老牌公司的定位与转型方向。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI如何从功能层重塑消费电子品类，硬件厂商需重新思考核心价值。",
+      "impact": "AI交互成为耳机新竞争点，传统音频厂商面临转型压力。",
+      "advice": "读原文访谈，关注AI耳机交互形态的演进。"
     }
   ]
 }
