@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-11T10:37:18.330Z",
+  "generated_at": "2026-08-11T11:07:42.714Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -1142,6 +1142,66 @@
       "learn": "算力正从生产资料演变为抵押资产,理解算力金融化模式。",
       "impact": "降低AI算力采购门槛,也累积算力泡沫金融风险。",
       "advice": "关注算力租赁与GPU抵押融资模式,警惕泡沫风险。"
+    },
+    {
+      "id": "33d263f5d5b6",
+      "title": "msitarzewski/agency-agents/stargazers: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "url": "https://github.com/msitarzewski/agency-agents/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "AI Agent",
+        "开源项目",
+        "GitHub"
+      ],
+      "published_at": "2026-08-11T11:07:05.428Z",
+      "title_zh": "agency-agents:开箱即用的AI特工团队",
+      "summary_zh": "GitHub热门开源项目,提供一整套预置AI智能体,覆盖前端开发、社区运营等角色,每个Agent都有专属人设、流程和交付物。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解多智能体分工与角色化Prompt设计,学习如何构建专业化Agent工作流。",
+      "impact": "降低搭建AI协作团队门槛,推动Agent产品化落地。",
+      "advice": "Star并试用该项目,研究其Agent人设Prompt写法。"
+    },
+    {
+      "id": "8ad7f7c1b6cf",
+      "title": "cloudflare/computer/stargazers: Give your agent a computer 👾",
+      "url": "https://github.com/cloudflare/computer/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "Cloudflare",
+        "AI Agent",
+        "Computer Use"
+      ],
+      "published_at": "2026-08-11T11:07:05.260Z",
+      "title_zh": "Cloudflare开源Computer:给AI配台电脑",
+      "summary_zh": "Cloudflare开源TypeScript项目computer,让AI智能体拥有自己的计算环境,可执行操作,一周获6800余星。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习为Agent提供沙箱化计算环境的架构思路,理解Computer Use趋势。",
+      "impact": "加速Agent自主操作能力普及,云厂商加码Agent基础设施。",
+      "advice": "阅读项目源码,尝试让Agent在受控环境中执行任务。"
+    },
+    {
+      "id": "93dae741a551",
+      "title": "谷歌创始人布林紧急接管Gemini团队，但“3.5 Pro已被取消”",
+      "url": "https://www.qbitai.com/2026/08/470576.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "Gemini",
+        "算力"
+      ],
+      "published_at": "2026-08-11T09:24:44.000Z",
+      "title_zh": "布林接管Gemini团队,3.5 Pro被曝取消",
+      "summary_zh": "传谷歌创始人布林紧急接管Gemini团队,Gemini 3.5 Pro已被取消,内部算力分配内耗严重,引发对谷歌AI战略的担忧。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "关注大厂AI研发中算力资源竞争与组织管理对模型迭代的影响。",
+      "impact": "谷歌模型路线或生变,大模型竞争格局不确定性增加。",
+      "advice": "关注Gemini后续发布动态,读原文核实消息来源。"
     }
   ]
 }
