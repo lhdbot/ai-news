@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-11T11:07:42.714Z",
+  "generated_at": "2026-08-11T11:37:45.013Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -1202,6 +1202,26 @@
       "learn": "关注大厂AI研发中算力资源竞争与组织管理对模型迭代的影响。",
       "impact": "谷歌模型路线或生变,大模型竞争格局不确定性增加。",
       "advice": "关注Gemini后续发布动态,读原文核实消息来源。"
+    },
+    {
+      "id": "69a3ccd0de54",
+      "title": "The AI takeover of mathematics has begun",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "数学",
+        "AI 研究",
+        "形式化证明"
+      ],
+      "published_at": "2026-08-11T09:37:49.000Z",
+      "title_zh": "AI 开始接管数学研究",
+      "summary_zh": "顶尖数学家 James Maynard 反思过去一年中 AI 深度介入数学证明与研究的趋势,标志 AI 在纯数学领域的作用正从辅助走向核心。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大模型在形式化证明与数学推理中的最新进展与局限。",
+      "impact": "AI 正重塑数学研究范式,科研方式面临根本性变革。",
+      "advice": "关注 AI 辅助证明工具,阅读 The Verge 原文了解详情。"
     }
   ]
 }
