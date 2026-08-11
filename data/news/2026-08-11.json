@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-11T02:37:46.271Z",
+  "generated_at": "2026-08-11T03:07:34.802Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -1002,6 +1002,26 @@
       "learn": "智能体自主性带来新型安全风险,需权限约束与行为审计。",
       "impact": "敲响AI智能体失控警钟,或推动Agent安全规范。",
       "advice": "部署Agent时限制权限范围,关注Agent安全最佳实践。"
+    },
+    {
+      "id": "b61c1e7d806a",
+      "title": "Risk-Aware Decision Policies for Agents Under Noisy Perception",
+      "url": "https://arxiv.org/abs/2608.06420",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "强化学习",
+        "智能体",
+        "鲁棒决策"
+      ],
+      "published_at": "2026-08-10T04:00:00.000Z",
+      "title_zh": "噪声感知下的风险感知智能体决策策略",
+      "summary_zh": "论文提出面向噪声感知环境的智能体决策策略，借鉴生物感知系统，在观测不可靠时权衡风险，提升决策的鲁棒性与安全性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解感知噪声下的风险敏感决策方法，及其对智能体鲁棒性的意义。",
+      "impact": "推动智能体在真实噪声环境中更安全可靠地部署。",
+      "advice": "做 Agent 决策的读者可阅读 arXiv:2608.06420 原文。"
     }
   ]
 }
