@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-11T21:37:22.665Z",
+  "generated_at": "2026-08-11T22:07:22.677Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1061,6 +1061,26 @@
       "learn": "多代理分工与角色设定方法，了解如何为不同任务构建专业化AI代理。",
       "impact": "降低个人和小团队构建多代理协作系统的门槛。",
       "advice": "去GitHub读README并试跑示例，借鉴其代理角色设计。"
+    },
+    {
+      "id": "b274e00978a8",
+      "title": "Daybreak models are now available on AWS",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "source": "OpenAI",
+      "category": "模型发布",
+      "tags": [
+        "OpenAI",
+        "AWS",
+        "网络安全"
+      ],
+      "published_at": "2026-08-11T10:00:00.000Z",
+      "title_zh": "Daybreak 网络安全模型上线 AWS",
+      "summary_zh": "OpenAI 与 AWS 合作,将其 Daybreak 网络安全模型能力通过 AWS 平台开放,用户可在云端直接调用相关安全功能。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型正深入垂直安全领域,云上 API 成为模型能力分发的主要渠道。",
+      "impact": "企业可低成本获得 AI 驱动的网络安全能力,加速安全防御智能化。",
+      "advice": "关注 AWS 上的 Daybreak API 文档,评估其在安全场景中的应用。"
     }
   ]
 }
