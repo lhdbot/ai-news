@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-11T12:37:43.102Z",
+  "generated_at": "2026-08-11T13:07:51.983Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -1242,6 +1242,66 @@
       "learn": "了解文本水印技术原理及其在AI内容溯源和防止滥用中的作用。",
       "impact": "推动AI内容可追溯性标准建设，助力识别虚假信息和治理AI滥用。",
       "advice": "关注AI内容检测工具的发展，在产品中考虑集成水印方案。"
+    },
+    {
+      "id": "afe9e755656e",
+      "title": "一家新能源大厂，如何撑起全球最大AI算力超级单体？",
+      "url": "https://www.qbitai.com/2026/08/470621.html",
+      "source": "量子位",
+      "category": "芯片算力",
+      "tags": [
+        "算力",
+        "能源",
+        "数据中心"
+      ],
+      "published_at": "2026-08-11T11:36:42.000Z",
+      "title_zh": "新能源大厂撑起全球最大AI算力单体",
+      "summary_zh": "一家新能源巨头依托电力优势建成全球最大AI算力超级单体,显示算力竞争的瓶颈正从芯片转向能源与电力供应。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解算力基础设施趋势:电力与能源正成为AI竞争的核心资源",
+      "impact": "能源企业入局重塑算力格局,电力成AI扩张关键制约",
+      "advice": "关注算力与能源结合趋势,评估AI应用的成本结构"
+    },
+    {
+      "id": "5753088d6849",
+      "title": "Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations",
+      "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Spotify",
+        "AI音乐",
+        "内容治理"
+      ],
+      "published_at": "2026-08-11T13:00:00.000Z",
+      "title_zh": "Spotify将标记AI音乐人并移出推荐",
+      "summary_zh": "Spotify推出'AI Persona'标签标识AI生成的音乐人账号,其作品将被排除在算法推荐之外,以保护真人创作者的曝光。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "内容平台开始用标签和推荐隔离机制应对AI生成内容泛滥",
+      "impact": "AI音乐分发受限,平台治理AI内容成行业先例",
+      "advice": "关注各平台AI内容政策,创作者需主动披露AI使用"
+    },
+    {
+      "id": "fe459dc13f2f",
+      "title": "Claude will apply invisible watermarks to AI text and images",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "水印",
+        "内容溯源"
+      ],
+      "published_at": "2026-08-11T12:22:20.000Z",
+      "title_zh": "Claude将为AI文本图片加水印",
+      "summary_zh": "Anthropic承诺为Claude生成的文本和图像添加不可见水印,以便机器识别AI内容,提升内容溯源与可信度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解隐形水印技术及其在AI内容溯源中的应用",
+      "impact": "推动AI内容可追溯标准化,助力打击虚假信息",
+      "advice": "关注水印标准进展,产品中可集成AI内容检测能力"
     }
   ]
 }
