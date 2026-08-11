@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-11T14:07:20.398Z",
+  "generated_at": "2026-08-11T14:37:42.894Z",
   "items": [
     {
       "id": "61282b7420ed",
@@ -1302,6 +1302,46 @@
       "learn": "了解隐形水印技术及其在AI内容溯源中的应用",
       "impact": "推动AI内容可追溯标准化,助力打击虚假信息",
       "advice": "关注水印标准进展,产品中可集成AI内容检测能力"
+    },
+    {
+      "id": "a3faa36ed318",
+      "title": "Why your Amazon order confirmation emails have become so unhelpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "亚马逊",
+        "用户体验",
+        "平台策略"
+      ],
+      "published_at": "2026-08-11T13:27:20.000Z",
+      "title_zh": "亚马逊订单确认邮件变简洁",
+      "summary_zh": "亚马逊订单确认邮件删除了商品明细等关键信息，仅留模糊提示，用户需打开App才能查看，被疑为App引流手段。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大平台会通过削减信息引导用户回流App，设计取舍背后常是商业动机。",
+      "impact": "邮件可用性下降，用户被进一步锁定在平台App生态内。",
+      "advice": "开发邮件功能时保留关键信息；用户可用网页订单页替代邮件查询。"
+    },
+    {
+      "id": "5f3f98dab4f3",
+      "title": "Spotify says it won’t recommend music from ‘AI Personas’",
+      "url": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Spotify",
+        "AI音乐",
+        "内容治理"
+      ],
+      "published_at": "2026-08-11T13:19:55.000Z",
+      "title_zh": "Spotify将标记AI音乐人",
+      "summary_zh": "Spotify宣布将为AI生成的音乐人添加标签，并把其作品从个性化推荐中移除，用户可选择屏蔽此类内容。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "流媒体平台开始建立AI内容标识与过滤机制，是内容治理新趋势。",
+      "impact": "AI音乐生存空间受挤压，用户获得对AI内容的知情与选择权。",
+      "advice": "关注平台AI内容标注政策，内容创作者应明确披露AI使用。"
     }
   ]
 }
