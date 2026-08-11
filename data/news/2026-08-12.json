@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-11T17:07:41.011Z",
+  "generated_at": "2026-08-11T17:38:13.251Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -601,6 +601,146 @@
       "learn": "了解AI如何从功能层重塑消费电子品类，硬件厂商需重新思考核心价值。",
       "impact": "AI交互成为耳机新竞争点，传统音频厂商面临转型压力。",
       "advice": "读原文访谈，关注AI耳机交互形态的演进。"
+    },
+    {
+      "id": "5f775c8f79b6",
+      "title": "Unified Hallucination Fuzzing for Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2608.07525",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "幻觉",
+        "多模态",
+        "模糊测试"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "多模态大模型统一幻觉模糊测试",
+      "summary_zh": "论文提出面向多模态大模型的统一幻觉模糊测试框架，系统性生成对抗输入，探测模型在图像、文本等多模态场景下产生幻觉的边界。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解用模糊测试方法自动化发现多模态模型幻觉的思路与评估指标。",
+      "impact": "有助于量化多模态模型可靠性，推动幻觉检测工具标准化。",
+      "advice": "做多模态应用时可借鉴其测试用例设计，读原文了解方法细节。"
+    },
+    {
+      "id": "e635634b1049",
+      "title": "DocAtlas: Long-Document Understanding as Mutable-State Interaction",
+      "url": "https://arxiv.org/abs/2608.07527",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "长文档",
+        "状态交互",
+        "RAG"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "DocAtlas：可变状态交互式长文档理解",
+      "summary_zh": "论文将长文档理解建模为可变状态交互过程，让模型像操作数据库一样逐步读写和更新状态，而非一次性处理全文。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用状态机/交互式方法替代长上下文硬塞的长文档处理新范式。",
+      "impact": "或降低长文档场景对超长上下文窗口的依赖，节省推理成本。",
+      "advice": "处理长文档的开发者可关注该思路，对比现有RAG方案。"
+    },
+    {
+      "id": "b1e8995d8907",
+      "title": "WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management",
+      "url": "https://arxiv.org/abs/2608.07529",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "评测基准",
+        "垂直领域",
+        "固废管理"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "WuYuEval：固废管理大模型评测基准",
+      "summary_zh": "论文发布面向固体废物管理领域的多层次大模型评测基准WuYuEval，从知识理解到实际决策多层级考察模型专业能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解垂直领域评测基准的多层次设计方法，覆盖知识到决策。",
+      "impact": "推动大模型在环保、市政等垂直行业的落地评估规范化。",
+      "advice": "做行业模型落地时可参考其分层评测设计思路。"
+    },
+    {
+      "id": "1c51fd6f8f0e",
+      "title": "Search-G1: Grounded Search Agents via Representation-Based Intrinsic Rewards",
+      "url": "https://arxiv.org/abs/2608.07531",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "可解释性",
+        "模型架构",
+        "Scaling"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "Scaling天生可解释的语言模型",
+      "summary_zh": "论文探索将可解释性内建于模型架构而非事后分析，并研究这类天生可解释语言模型随规模扩大时的表现与权衡。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解内生可解释架构与事后可解释工具的区别及规模化挑战。",
+      "impact": "若可行将提升模型透明度，利于高风险场景的模型审计。",
+      "advice": "关注AI安全与可解释性的读者可跟踪该方向的规模化进展。"
+    },
+    {
+      "id": "13aebf81217c",
+      "title": "Scaling Inherently Interpretable Language Models",
+      "url": "https://arxiv.org/abs/2608.07594",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "搜索智能体",
+        "强化学习",
+        "内在奖励"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "Search-G1：内在奖励驱动的搜索智能体",
+      "summary_zh": "论文提出Search-G1，用基于表示的内在奖励训练搜索增强智能体，让模型无需外部标注即可学会更接地气的高质量搜索策略。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用内在奖励机制训练搜索Agent、减少对外部奖励模型依赖的方法。",
+      "impact": "可降低搜索增强系统的训练成本，提升回答的事实可靠性。",
+      "advice": "做RAG或搜索Agent的开发者值得读原文了解奖励设计。"
+    },
+    {
+      "id": "816ed2f1a2f2",
+      "title": "Made by Google 2026: all the Pixel news and announcements",
+      "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "Pixel",
+        "端侧AI"
+      ],
+      "published_at": "2026-08-11T16:48:59.000Z",
+      "title_zh": "谷歌发布会2026：Pixel新品汇总",
+      "summary_zh": "谷歌将于8月12日举行Made by Google发布会，预计发布新款Pixel手机及一系列硬件，AI功能将是本次新品的核心卖点。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解端侧AI功能如何成为手机厂商新品竞争的核心差异点。",
+      "impact": "端侧AI竞赛加剧，推动手机AI功能向系统级体验渗透。",
+      "advice": "关注发布会中新AI功能，评估端侧AI应用开发机会。"
+    },
+    {
+      "id": "95bd5da674d9",
+      "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+      "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "苹果",
+        "深度伪造",
+        "内容验证"
+      ],
+      "published_at": "2026-08-11T16:19:15.000Z",
+      "title_zh": "苹果或推照片防伪验证功能",
+      "summary_zh": "苹果疑似在开发一项iOS功能，可验证照片的拍摄真实性，帮助用户证明iPhone拍摄的照片不是AI生成的深度伪造。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解内容来源验证（如C2PA）在消费级设备上的落地方式。",
+      "impact": "有助于对抗深度伪造泛滥，推动内容真实性标准普及。",
+      "advice": "关注C2PA等内容凭证标准，做影像应用可考虑接入验证。"
     }
   ]
 }
