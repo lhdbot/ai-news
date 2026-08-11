@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-11T17:38:13.251Z",
+  "generated_at": "2026-08-11T18:09:07.055Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -741,6 +741,306 @@
       "learn": "了解内容来源验证（如C2PA）在消费级设备上的落地方式。",
       "impact": "有助于对抗深度伪造泛滥，推动内容真实性标准普及。",
       "advice": "关注C2PA等内容凭证标准，做影像应用可考虑接入验证。"
+    },
+    {
+      "id": "ec657c99cc7a",
+      "title": "Towards an Argumentative Foundation for Evaluative AI",
+      "url": "https://arxiv.org/abs/2608.07473",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "可解释AI",
+        "评估",
+        "论证理论"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "为评估式AI建立论证化理论基础",
+      "summary_zh": "论文提出以论证理论为基础重构评估式AI(EAI)框架,让AI的评估过程可论证、可反驳,从而提升评估决策的透明度与可解释性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解评估式AI概念及如何用论证框架增强AI评估的可解释性。",
+      "impact": "为高可信度AI评估系统设计提供新的理论路径。",
+      "advice": "做AI评估或对齐方向研究者可读原文了解论证化方法。"
+    },
+    {
+      "id": "4bc435408c90",
+      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
+      "url": "https://arxiv.org/abs/2608.07474",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI安全",
+        "人类在环",
+        "内容治理"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "高损失领域的AI输出治理新方法",
+      "summary_zh": "研究提出Flow-by-Flow的内容判断绕过机制,改进传统人类在环审核方式,用于医疗、金融等高损失场景下对AI输出进行分步治理与管控。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识高风险场景中人类在环审核的局限及分步治理思路。",
+      "impact": "提升高风险行业AI部署的安全性与可控性。",
+      "advice": "做AI安全或合规落地的开发者可借鉴其流程设计。"
+    },
+    {
+      "id": "d21d88844b87",
+      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
+      "url": "https://arxiv.org/abs/2608.07476",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "形式化方法",
+        "逻辑",
+        "理论基础"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "结构理论确定化的统一框架",
+      "summary_zh": "论文通过闭包、可比性与联合可容许性三个概念,为结构理论中的确定化问题建立统一的形式化框架,属理论计算机科学与逻辑基础研究。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解形式化方法中确定化问题的统一抽象思路。",
+      "impact": "推进AI推理与逻辑基础理论的统一化研究。",
+      "advice": "对形式逻辑感兴趣者可选读,工程实践者略过即可。"
+    },
+    {
+      "id": "2c8f0176715e",
+      "title": "Emotion in an active inference model of human driving",
+      "url": "https://arxiv.org/abs/2608.07480",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "主动推理",
+        "情绪建模",
+        "自动驾驶"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "驾驶主动推理模型中引入情绪",
+      "summary_zh": "研究将情绪因素引入基于主动推理的人类驾驶行为模型,使模型能模拟情绪对驾驶决策的影响,更贴近真实人类驾驶行为。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解主动推理框架及情绪建模在行为模拟中的作用。",
+      "impact": "助力自动驾驶系统更好预测和应对人类驾驶员行为。",
+      "advice": "关注自动驾驶或认知建模方向可读原文了解建模方法。"
+    },
+    {
+      "id": "8d8ba763f5f5",
+      "title": "Training Variable Long Sequences with Data-Centric Parallel",
+      "url": "https://arxiv.org/abs/2608.07524",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "长序列训练",
+        "分布式并行",
+        "训练效率"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "数据中心并行训练变长序列",
+      "summary_zh": "论文提出面向变长序列训练的数据中心并行(Data-Centric Parallel)方法,解决长序列深度学习训练中的负载不均与效率问题,提升训练吞吐。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习变长序列训练的效率瓶颈及数据中心并行新思路。",
+      "impact": "降低大模型长上下文训练成本,提升算力利用率。",
+      "advice": "做大模型训练的工程师可关注该并行策略并读原文。"
+    },
+    {
+      "id": "a5e1c878efac",
+      "title": "Embedding Initialization for Unseen Low-resource Languages in Multilingual NMT: A Case Study on Limbum-English Translation",
+      "url": "https://arxiv.org/abs/2608.07629",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "机器翻译",
+        "低资源语言",
+        "NLP"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "低资源语言的嵌入初始化方法",
+      "summary_zh": "以Limbum语-英语翻译为案例,研究多语言神经机器翻译中未见过低资源语言的嵌入初始化策略,改善新语言接入时的翻译质量。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解多语言NMT中新语言嵌入初始化的技巧与思路。",
+      "impact": "有助于机器翻译覆盖更多低资源小语种。",
+      "advice": "做NLP或多语言模型者可参考其初始化方法。"
+    },
+    {
+      "id": "c25e2c7dbed7",
+      "title": "SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators",
+      "url": "https://arxiv.org/abs/2608.07641",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM评估",
+        "基准测试",
+        "自动综述"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "综述质量评估的新基准SurveyReview",
+      "summary_zh": "针对大模型自动生成综述的评估难题,论文提出与人类审稿人对齐的基准SurveyReview,用于系统衡量LLM综述评估器的可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解LLM生成内容评估基准的设计方法及对齐思路。",
+      "impact": "推动LLM自动综述写作与评估走向标准化。",
+      "advice": "关注LLM评估体系者可读原文看基准构建方式。"
+    },
+    {
+      "id": "f6952067ab31",
+      "title": "Evaluating Dedicated Monolingual and Joint Multilingual Causal Models for Dravidian Languages",
+      "url": "https://arxiv.org/abs/2608.07727",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "多语言模型",
+        "低资源NLP",
+        "模型评估"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "达罗毗荼语系语言模型对比评估",
+      "summary_zh": "研究对比评估专用单语模型与联合多语因果语言模型在泰米尔语等达罗毗荼语系上的表现,分析两条技术路线在低资源语系上的优劣。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识单语与多语模型在低资源语系上的取舍规律。",
+      "impact": "为低资源语系建模路线选择提供实证依据。",
+      "advice": "做小语种LLM者可参考其评估结论选择技术路线。"
+    },
+    {
+      "id": "9551e5708b90",
+      "title": "The No-Meaning Falsity: The Structural Impossibility of the Arbitrary Sign in Classical Arabic",
+      "url": "https://arxiv.org/abs/2608.07737",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "语言学",
+        "符号学",
+        "阿拉伯语"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "古典阿拉伯语任意符号问题研究",
+      "summary_zh": "论文从语言学角度探讨古典阿拉伯语中任意符号在结构上的不可能性,属于语言哲学与符号学基础研究,与计算语言学理论相关。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解符号任意性这一语言学基础议题及其争论。",
+      "impact": "属基础语言学探讨,对NLP工程影响有限。",
+      "advice": "对语言哲学感兴趣者可选读,其余可跳过。"
+    },
+    {
+      "id": "0bf18c623bf2",
+      "title": "Jako Tako or Fluent? Presenting PoVisLE: A Polish Vision-Language Evaluation",
+      "url": "https://arxiv.org/abs/2608.07763",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "多模态",
+        "VLM评估",
+        "多语言"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "波兰语视觉语言评估基准PoVisLE",
+      "summary_zh": "研究指出现有视觉语言模型多以英语为中心,提出波兰语视觉语言评估集PoVisLE,用于检验VLM在非英语语言下的真实理解能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解多语言VLM评估的必要性及基准构建方法。",
+      "impact": "推动视觉语言模型走出英语中心,重视多语言能力。",
+      "advice": "做多模态模型者可参考其思路构建中文VLM评测。"
+    },
+    {
+      "id": "017b21b4919f",
+      "title": "Data-Driven Fire-Zone Segmentation for Improved Short-Term Wildfire Prediction",
+      "url": "https://arxiv.org/abs/2608.07472",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "野火预测",
+        "时空建模",
+        "arXiv"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "Data-Driven Fire-Zone Segmentation for Improved Short-Term Wildfire Prediction",
+      "summary_zh": "论文提出数据驱动的火区分割方法,将区域按火情特征划分后分别建模,提升短期野火蔓延预测的准确性与细粒度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解时空预测中区域分割与分区建模的思路,以及数据驱动方法在灾害预测中的应用。",
+      "impact": "有助于提升野火预警精度,辅助消防决策与防灾资源调度。",
+      "advice": "从事时空预测的可读原文,借鉴分区建模思路。"
+    },
+    {
+      "id": "1a8cf90a2278",
+      "title": "Tracing sources of epistemic uncertainty in deep learning predictions: homo- and hetero-scedastic linearized estimators",
+      "url": "https://arxiv.org/abs/2608.07630",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "不确定性量化",
+        "深度学习",
+        "统计方法"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "Tracing sources of epistemic uncertainty in deep learning predictions: homo- and hetero-scedastic linearized estimators",
+      "summary_zh": "论文将经典统计学中的同方差与异方差线性化估计器引入深度学习,用于分解并追溯模型预测中认知不确定性的来源。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习不确定性量化的基本分类,以及用线性化统计工具分析深度模型不确定性的方法。",
+      "impact": "提升模型在高风险场景的可信度与可解释性。",
+      "advice": "关注不确定性量化方向,可在自己模型上尝试相关估计器。"
+    },
+    {
+      "id": "ab3ed432755e",
+      "title": "PhysAttNet: Enhancing Predictive Performance in Industrial and Astrophysical Time Series via Physics-Informed Attention",
+      "url": "https://arxiv.org/abs/2608.07681",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "物理信息神经网络",
+        "时间序列",
+        "注意力机制"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "PhysAttNet: Enhancing Predictive Performance in Industrial and Astrophysical Time Series via Physics-Informed Attention",
+      "summary_zh": "提出PhysAttNet,将物理先验融入注意力机制,在工业与天体物理时间序列预测任务上提升了准确性与鲁棒性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解物理信息神经网络(PINN)与注意力机制结合做时序预测的设计思路。",
+      "impact": "为工业监测与科学计算提供更可靠的时序建模方案。",
+      "advice": "做时序预测的可关注物理先验融合方法并读原文。"
+    },
+    {
+      "id": "69e55930bed4",
+      "title": "CODS: Iterative Bellman-Residual Data Selection for Reusable Offline Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.07719",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "强化学习",
+        "离线RL",
+        "数据筛选"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "CODS: Iterative Bellman-Residual Data Selection for Reusable Offline Reinforcement Learning",
+      "summary_zh": "提出CODS方法,通过迭代计算贝尔曼残差筛选高质量数据,提升离线强化学习的可复用性与策略训练效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解离线RL中数据质量对策略学习的影响及基于贝尔曼残差的数据筛选方法。",
+      "impact": "降低离线RL对数据集的依赖,提升机器人等场景训练效率。",
+      "advice": "做离线RL或决策模型的可读原文并复现数据筛选流程。"
+    },
+    {
+      "id": "152b89e9b947",
+      "title": "Neural Operators for Immersed-Boundary Soft Swimmers Locomotion",
+      "url": "https://arxiv.org/abs/2608.07722",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "神经算子",
+        "软体机器人",
+        "AI4Science"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "Neural Operators for Immersed-Boundary Soft Swimmers Locomotion",
+      "summary_zh": "论文用神经算子替代高保真浸没边界法仿真,高效建模软体游泳器的流体耦合运动,大幅降低计算成本。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解神经算子加速偏微分方程仿真的思路,及其在软体机器人流固耦合中的应用。",
+      "impact": "加速软体机器人设计迭代,推动AI for Science落地。",
+      "advice": "关注Fourier Neural Operator等神经算子在仿真加速中的用法。"
     }
   ]
 }
