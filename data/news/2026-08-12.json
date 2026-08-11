@@ -1,0 +1,546 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-11T16:09:32.369Z",
+  "items": [
+    {
+      "id": "7a678e9a26d7",
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "AI落地",
+        "企业财务"
+      ],
+      "published_at": "2026-08-10T17:00:00.000Z",
+      "title_zh": "OpenAI CFO谈AI原生财务",
+      "summary_zh": "OpenAI首席财务官Sarah Friar分享构建AI原生财务职能的五条经验,涵盖组织、流程与工具的落地实践。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI深度融入职能部门的方法论,从流程重构到人机协作的实际经验。",
+      "impact": "为企业财务等职能部门的AI化提供标杆案例,加速企业AI落地。",
+      "advice": "读原文五课,思考如何把AI接入自己的工作流程。"
+    },
+    {
+      "id": "61282b7420ed",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "source": "OpenAI",
+      "category": "芯片算力",
+      "tags": [
+        "OpenAI",
+        "AI基建",
+        "政策"
+      ],
+      "published_at": "2026-08-10T14:00:00.000Z",
+      "title_zh": "OpenAI致信德州州长谈AI基建",
+      "summary_zh": "OpenAI致信德州州长Abbott,承诺在德州以负责任方式建设AI基础设施,涉及能源、用水与社区影响。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI基建扩张背后的政策博弈:算力落地需兼顾能源与社区责任。",
+      "impact": "标志AI巨头与地方政府深度绑定,基建扩张进入政策协商阶段。",
+      "advice": "关注AI基建选址与能源政策趋势。"
+    },
+    {
+      "id": "c7b962b1d9ef",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "GPT-5.6",
+        "金融AI",
+        "案例"
+      ],
+      "published_at": "2026-08-10T12:00:00.000Z",
+      "title_zh": "Model ML用GPT-5.6做金融",
+      "summary_zh": "Model ML使用GPT-5.6 Sol完成从研究分析到交付的完整金融工作流,效率显著提升。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型端到端承接专业工作流的案例,提示词与流程设计值得参考。",
+      "impact": "验证大模型在高价值金融场景的生产力,推动行业采购决策。",
+      "advice": "参考其工作流设计,评估自己业务能否用模型端到端处理。"
+    },
+    {
+      "id": "3a8585570cab",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI",
+      "category": "模型发布",
+      "tags": [
+        "OpenAI",
+        "网络安全",
+        "专用模型"
+      ],
+      "published_at": "2026-08-10T10:00:00.000Z",
+      "title_zh": "GPT-5.6-Cyber网络安全模型",
+      "summary_zh": "OpenAI发布网络安全专用模型GPT-5.6-Cyber,通过Daybreak项目提供,应对网络防御窗口收窄的挑战。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "专用领域模型趋势:前沿实验室开始为安全等高风险场景定制模型。",
+      "impact": "攻防双方均获更强AI工具,网络防御进入AI对抗新阶段。",
+      "advice": "关注Daybreak项目动向,评估安全场景的模型接入。"
+    },
+    {
+      "id": "7f776d7829d0",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "Daybreak",
+        "模型治理"
+      ],
+      "published_at": "2026-08-10T10:00:00.000Z",
+      "title_zh": "前沿网安模型开放可信伙伴",
+      "summary_zh": "OpenAI向获批的Daybreak合作伙伴开放前沿网络安全模型,用于自动化防御能力的交付。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "高风险模型的受控分发模式:审批制合作伙伴与分级访问。",
+      "impact": "AI安全能力分层释放,头部厂商建立可信生态准入门槛。",
+      "advice": "了解模型分级访问机制,关注安全自动化产品。"
+    },
+    {
+      "id": "296b95d62f19",
+      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+      "source": "Microsoft Research",
+      "category": "论文研究",
+      "tags": [
+        "微软研究院",
+        "多模态",
+        "医疗AI"
+      ],
+      "published_at": "2026-08-11T16:00:00.000Z",
+      "title_zh": "CARE-X:临床可用放射VLM",
+      "summary_zh": "微软研究院提出CARE-X,通过辅助监督、奖励对齐学习与工具增强测量,构建超越报告生成的临床放射视觉语言模型。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "辅助监督+奖励对齐+工具调用三合一提升医学VLM的临床可靠性。",
+      "impact": "放射AI从生成报告走向临床决策辅助,医疗多模态更进一步。",
+      "advice": "做医学AI或多模态的读者可读论文,借鉴其训练框架。"
+    },
+    {
+      "id": "08b333e13f34",
+      "title": "cathrynlavery/diagram-design/stargazers: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "Claude Code",
+        "SVG图表",
+        "开源"
+      ],
+      "published_at": "2026-08-11T16:07:06.095Z",
+      "title_zh": "Claude Code编辑风图表库",
+      "summary_zh": "为Claude Code提供的29种编辑风格图表类型,自包含HTML+SVG实现,无阴影、不用Mermaid。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "用提示词驱动的自包含SVG图表生成,可作为文档可视化最佳实践。",
+      "impact": "让AI编程工具产出更专业的图文文档,提升技术沟通质量。",
+      "advice": "用Claude Code的读者直接试,替换Mermaid图表方案。"
+    },
+    {
+      "id": "f265e06f905c",
+      "title": "diegosouzapw/OmniRoute/stargazers: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [
+        "AI网关",
+        "开源",
+        "多模型"
+      ],
+      "published_at": "2026-08-11T16:07:05.432Z",
+      "title_zh": "OmniRoute:免费AI网关",
+      "summary_zh": "MIT协议免费AI网关OmniRoute,统一端点聚合290+供应商与500+模型,支持配额感知自动回退与Token压缩,适配Claude Code等工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI网关架构:统一端点、自动回退、Token压缩(省15-95%)。",
+      "impact": "降低多模型接入成本,中小开发者可免费使用多厂商模型。",
+      "advice": "有多模型需求的读者部署试用,替代单一API直连。"
+    },
+    {
+      "id": "8ad7f7c1b6cf",
+      "title": "cloudflare/computer/stargazers: Give your agent a computer 👾",
+      "url": "https://github.com/cloudflare/computer/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "Cloudflare",
+        "Agent",
+        "开源"
+      ],
+      "published_at": "2026-08-11T16:07:05.269Z",
+      "title_zh": "Cloudflare给Agent一台电脑",
+      "summary_zh": "Cloudflare开源computer项目(TypeScript),让AI Agent拥有可操作的完整计算机环境,一周获6800星。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "Agent基础设施趋势:为Agent提供沙箱化电脑环境成为标配。",
+      "impact": "降低Computer Use类Agent的搭建门槛,推动Agent生态普及。",
+      "advice": "做Agent开发的读者可star并试跑,替代自建沙箱。"
+    },
+    {
+      "id": "d5da42953214",
+      "title": "蚂蚁首次投向机器人“指尖”！数亿元押注，全球首个物理交互脑发布",
+      "url": "https://www.qbitai.com/2026/08/470674.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "蚂蚁集团",
+        "触觉",
+        "具身智能"
+      ],
+      "published_at": "2026-08-11T13:57:46.000Z",
+      "title_zh": "蚂蚁数亿押注机器人触觉",
+      "summary_zh": "蚂蚁集团首次投资机器人触觉领域,数亿元押注全球首个物理交互脑发布,资本从具身本体涌向触觉感知。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "具身智能投资风向转移:触觉感知成为本体之外的新焦点。",
+      "impact": "触觉传感与交互脑成资本新赛道,具身智能产业链补全。",
+      "advice": "关注触觉传感器与具身数据方向的创业和论文。"
+    },
+    {
+      "id": "afe9e755656e",
+      "title": "一家新能源大厂，如何撑起全球最大AI算力超级单体？",
+      "url": "https://www.qbitai.com/2026/08/470621.html",
+      "source": "量子位",
+      "category": "芯片算力",
+      "tags": [
+        "算力",
+        "电力",
+        "AI基建"
+      ],
+      "published_at": "2026-08-11T11:36:42.000Z",
+      "title_zh": "新能源大厂撑起全球最大AI算力单体",
+      "summary_zh": "一家新能源巨头跨界布局AI算力，凭借电力优势建成全球最大AI算力超级单体，揭示算力竞争正演变为电力竞争。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "算力瓶颈转向电力供给，能源与AI基础设施深度绑定。",
+      "impact": "能源企业入局算力，重塑AI基建竞争格局。",
+      "advice": "关注电力与算力结合的基建投资方向，阅读全文。"
+    },
+    {
+      "id": "93dae741a551",
+      "title": "谷歌创始人布林紧急接管Gemini团队，但“3.5 Pro已被取消”",
+      "url": "https://www.qbitai.com/2026/08/470576.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "Gemini",
+        "布林"
+      ],
+      "published_at": "2026-08-11T09:24:44.000Z",
+      "title_zh": "布林接管Gemini团队",
+      "summary_zh": "谷歌联合创始人布林紧急接管Gemini团队，传闻Gemini 3.5 Pro已被取消，内部算力分配内耗问题被曝光。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大厂AI团队也面临算力分配与项目管理的内耗困境。",
+      "impact": "谷歌AI路线或调整，Gemini发布节奏存变数。",
+      "advice": "关注谷歌后续模型发布动态及内部调整。"
+    },
+    {
+      "id": "64bf77fd574a",
+      "title": "百年黎曼猜想被Claude破了新纪录！是个未公开新模型",
+      "url": "https://www.qbitai.com/2026/08/470485.html",
+      "source": "量子位",
+      "category": "论文研究",
+      "tags": [
+        "Claude",
+        "黎曼猜想",
+        "AI数学"
+      ],
+      "published_at": "2026-08-11T05:12:20.000Z",
+      "title_zh": "Claude刷新黎曼猜想纪录",
+      "summary_zh": "Anthropic一个未公开的新Claude模型在黎曼猜想研究上突破新纪录，将相关数学下界大幅推高。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI在纯数学前沿问题上可辅助人类取得实质突破。",
+      "impact": "AI for Math提速，数学研究范式或被改写。",
+      "advice": "关注AI辅助数学证明工具，留意新模型发布。"
+    },
+    {
+      "id": "fb88a3981245",
+      "title": "宇树会破发吗？王兴兴回应了",
+      "url": "https://www.qbitai.com/2026/08/470307.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "宇树科技",
+        "王兴兴",
+        "IPO"
+      ],
+      "published_at": "2026-08-11T04:42:50.000Z",
+      "title_zh": "王兴兴回应宇树IPO质疑",
+      "summary_zh": "宇树科技创始人王兴兴用200个问题回应市场对公司上市估值及破发风险的质疑，解释业务与前景。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "机器人公司IPO定价逻辑与商业化路径的争议焦点。",
+      "impact": "具身智能赛道资本化加速，估值受市场检验。",
+      "advice": "关注宇树上市表现，研判机器人板块估值。"
+    },
+    {
+      "id": "1753f5490b10",
+      "title": "AI professors are negotiating the new realities of academic research",
+      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "学术界",
+        "AI研究",
+        "MIT TR"
+      ],
+      "published_at": "2026-08-10T20:00:00.000Z",
+      "title_zh": "AI教授们如何应对学术新现实",
+      "summary_zh": "AI热潮下高校教授们面临人才被业界挖角、算力短缺和科研模式转变，正重新谈判学术研究的方式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI时代学术界与工业界的资源与人才再分配趋势。",
+      "impact": "学术AI研究生态承压，校企合作关系重构。",
+      "advice": "关注校企合作新模式与学术界人才流向。"
+    },
+    {
+      "id": "9f4ff92be723",
+      "title": "AI for science needs reasoning, not just data",
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "source": "MIT Tech Review AI",
+      "category": "论文研究",
+      "tags": [
+        "AI4Science",
+        "推理",
+        "观点"
+      ],
+      "published_at": "2026-08-10T09:00:00.000Z",
+      "title_zh": "AI for Science需要推理而非数据",
+      "summary_zh": "评论文章指出科学AI不能仅靠堆数据，真正推动科学发现需要模型具备推理能力，否则只是模式匹配。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "数据驱动与推理驱动是AI科学发现的两种路线。",
+      "impact": "推动AI4Science从拟合走向真正科学推理。",
+      "advice": "读原文思考推理模型在科研中的应用方向。"
+    },
+    {
+      "id": "50ad4d5e485e",
+      "title": "These startups are chasing the next big thing in LLMs",
+      "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "LLM",
+        "创业公司",
+        "技术趋势"
+      ],
+      "published_at": "2026-08-10T09:00:00.000Z",
+      "title_zh": "创业公司追逐LLM下一个风口",
+      "summary_zh": "MIT科技评论盘点一批探索LLM之后方向的创业公司，涵盖新架构、新范式等被看好的技术趋势。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "LLM之外的候选技术方向与创业公司布局图谱。",
+      "impact": "资本与人才开始寻找大模型后的下一范式。",
+      "advice": "通读原文了解后LLM技术趋势与代表公司。"
+    },
+    {
+      "id": "493648df61c5",
+      "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "Zoom",
+        "安全漏洞",
+        "AI黑客"
+      ],
+      "published_at": "2026-08-11T14:45:44.000Z",
+      "title_zh": "AI不到20条提示词发现Zoom漏洞",
+      "summary_zh": "研究人员仅用不到20条AI提示词就发现了Zoom的严重安全漏洞\"Zoomsday\"，Zoom已发布补丁修复。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI大幅降低了漏洞挖掘的门槛与成本。",
+      "impact": "攻防天平变化，软件安全审计需同步升级。",
+      "advice": "及时更新Zoom，尝试用AI做代码安全审计。"
+    },
+    {
+      "id": "a3faa36ed318",
+      "title": "Why your Amazon order confirmation emails have become so unhelpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "亚马逊",
+        "AI生成",
+        "用户体验"
+      ],
+      "published_at": "2026-08-11T13:27:20.000Z",
+      "title_zh": "亚马逊订单邮件为何越来越敷衍",
+      "summary_zh": "亚马逊订单确认邮件信息量明显减少，用户发现物流详情等关键内容缺失，背后或与AI自动化生成有关。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI自动化内容生成可能牺牲用户体验的细节。",
+      "impact": "自动化降本引发用户体验倒退的争议。",
+      "advice": "自查产品自动化文案，别让AI省掉关键信息。"
+    },
+    {
+      "id": "5f3f98dab4f3",
+      "title": "Spotify says it won’t recommend music from ‘AI Personas’",
+      "url": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Spotify",
+        "AI音乐",
+        "AIGC"
+      ],
+      "published_at": "2026-08-11T13:19:55.000Z",
+      "title_zh": "Spotify将屏蔽AI虚拟音乐人推荐",
+      "summary_zh": "Spotify宣布将给AI生成的音乐人打标签，并把他们的作品从算法推荐中移除，以保护真实创作者。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "平台开始对AI生成内容采取标识与限流策略。",
+      "impact": "AI音乐版权与推荐生态迎来平台级规则。",
+      "advice": "关注各平台AIGC标识政策，评估内容创作策略。"
+    },
+    {
+      "id": "fe459dc13f2f",
+      "title": "Claude will apply invisible watermarks to AI text and images",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "内容水印",
+        "AI治理"
+      ],
+      "published_at": "2026-08-11T13:09:55.000Z",
+      "title_zh": "Claude will apply invisible watermarks to AI text and images",
+      "summary_zh": "Anthropic承诺为Claude生成的文本和图片添加隐形水印,以标识内容来源,提升AI内容可追溯性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI内容水印技术及其在内容溯源、防滥用中的作用。",
+      "impact": "推动AI内容标识标准化,助于识别机器生成内容。",
+      "advice": "关注水印技术实现方式,思考如何在自己项目中做内容溯源。"
+    },
+    {
+      "id": "5753088d6849",
+      "title": "Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations",
+      "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Spotify",
+        "AI音乐",
+        "内容治理"
+      ],
+      "published_at": "2026-08-11T13:00:00.000Z",
+      "title_zh": "Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations",
+      "summary_zh": "Spotify推出\"AI Persona\"标签,标记由AI生成的艺人账号,并将其音乐排除在推荐算法之外。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解平台如何用标签和推荐策略治理AI生成内容泛滥。",
+      "impact": "保护真人音乐人曝光,为内容平台AI治理提供范本。",
+      "advice": "关注内容平台的AI标注机制,做AI产品时参考其治理思路。"
+    },
+    {
+      "id": "53c498c7722b",
+      "title": "Anthropic says it will watermark text generated by its AI models",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "文本水印",
+        "AI检测"
+      ],
+      "published_at": "2026-08-11T12:13:47.000Z",
+      "title_zh": "Anthropic says it will watermark text generated by its AI models",
+      "summary_zh": "Anthropic宣布为AI模型生成的文本添加水印,并将该支持扩展到旧版本模型,覆盖更多历史输出。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习文本水印的落地方案,以及如何对存量模型能力做回溯升级。",
+      "impact": "提升AI文本可检测性,影响学术诚信和内容审核领域。",
+      "advice": "对比两条水印报道细节,研究文本水印与图像水印的技术差异。"
+    },
+    {
+      "id": "69a3ccd0de54",
+      "title": "The AI takeover of mathematics has begun",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+      "source": "The Verge AI",
+      "category": "论文研究",
+      "tags": [
+        "AI数学",
+        "定理证明",
+        "科研范式"
+      ],
+      "published_at": "2026-08-11T09:37:49.000Z",
+      "title_zh": "The AI takeover of mathematics has begun",
+      "summary_zh": "数学家James Maynard等顶尖学者开始借助AI辅助证明和研究,AI正深度进入数学这一基础科学领域。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI在形式化证明、定理发现中的最新应用与局限。",
+      "impact": "加速数学研究范式转变,基础科学研究方式或被重塑。",
+      "advice": "关注Lean等定理证明工具,尝试用AI辅助学习数学。"
+    },
+    {
+      "id": "5f44fe3808ae",
+      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "股权回购",
+        "AI投资"
+      ],
+      "published_at": "2026-08-11T00:03:18.000Z",
+      "title_zh": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "summary_zh": "OpenAI据报道完成约70亿美元的员工股权要约收购,大量员工套现,旧金山楼市或再受冲击。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解tender offer机制及AI公司高估值下的员工激励与套现方式。",
+      "impact": "反映AI巨头估值高企,造富效应外溢至本地经济。",
+      "advice": "关注AI公司股权结构,求职时将股权流动性纳入考量。"
+    },
+    {
+      "id": "166724c6c84d",
+      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "source": "TechCrunch AI",
+      "category": "模型发布",
+      "tags": [
+        "OpenAI",
+        "网络安全",
+        "Daybreak"
+      ],
+      "published_at": "2026-08-10T23:56:15.000Z",
+      "title_zh": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "summary_zh": "面对AI驱动的网络攻击激增,OpenAI扩展其网络安全防御计划Daybreak,并推出专门的安全模型。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大模型在威胁检测、攻防对抗中的应用趋势与专用化方向。",
+      "impact": "AI攻防竞赛升级,安全专用模型或成新赛道。",
+      "advice": "关注Daybreak计划详情,评估AI安全工具在自身项目中的应用。"
+    },
+    {
+      "id": "19c9a264700a",
+      "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+      "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Meta",
+        "扎克伯格",
+        "超级智能"
+      ],
+      "published_at": "2026-08-10T20:53:02.000Z",
+      "title_zh": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+      "summary_zh": "扎克伯格发表6500字个人AI宣言,描绘个人超级智能愿景,却因忽视公众担忧而遭到广泛批评。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解超级智能叙事与公众AI焦虑之间的认知鸿沟。",
+      "impact": "加剧公众对科技巨头AI路线的不信任与监管呼声。",
+      "advice": "读宣言原文,批判性思考AI叙事背后的商业动机。"
+    }
+  ]
+}
