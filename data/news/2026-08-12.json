@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T01:07:20.899Z",
+  "generated_at": "2026-08-12T01:37:30.600Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1281,6 +1281,26 @@
       "learn": "明星创始人背书下，AI 初创融资节奏极快，资本押注团队胜过产品成熟度。",
       "impact": "巨额早期融资加剧 AI 人才与资本竞争，推高科技创业估值预期。",
       "advice": "跟踪 River AI 的技术方向，研究其融资逻辑判断 AI 资本热点。"
+    },
+    {
+      "id": "1b1c36bc0450",
+      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "ChatGPT",
+        "游戏行业",
+        "AI替代"
+      ],
+      "published_at": "2026-08-12T00:40:27.000Z",
+      "title_zh": "Saber否认用ChatGPT取代编剧",
+      "summary_zh": "《Rideshare Stimulator》前首席编剧称被Saber用ChatGPT取代，CEO Matthew出面否认，引发游戏行业对AI替代创意岗位的争议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解生成式AI对游戏编剧等创意岗位的冲击及劳资争议现状。",
+      "impact": "加剧游戏行业对AI替代人工写作的焦虑与讨论。",
+      "advice": "读原文了解争议细节，关注AI写作在游戏叙事中的应用边界。"
     }
   ]
 }
