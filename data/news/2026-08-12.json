@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T14:07:46.110Z",
+  "generated_at": "2026-08-12T14:37:38.671Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1641,6 +1641,26 @@
       "learn": "观察可穿戴设备以AI健康服务为核心的产品演进趋势",
       "impact": "推动AI健康监测普及，加剧智能手表市场竞争",
       "advice": "关注其AI健康功能评测，思考端侧AI应用机会"
+    },
+    {
+      "id": "77da1d8caea4",
+      "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "谷歌",
+        "Pixel",
+        "Gemini"
+      ],
+      "published_at": "2026-08-12T14:20:33.000Z",
+      "title_zh": "谷歌Made by Google '26发布Pixel 11等新品",
+      "summary_zh": "谷歌在Made by Google '26大会上发布Pixel 11系列手机、Pixel Watch 5手表、对标苹果AirTag的Pixel Tag追踪器,并推出大量Gemini AI新功能。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解谷歌硬件+Gemini深度整合策略,端侧AI正成为旗舰手机核心卖点。",
+      "impact": "加剧与苹果的生态竞争,推动AI功能向消费硬件全面渗透。",
+      "advice": "关注Gemini新功能的API开放情况,评估端侧AI开发机会。"
     }
   ]
 }
