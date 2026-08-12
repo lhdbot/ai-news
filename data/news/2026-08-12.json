@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-11T23:37:13.729Z",
+  "generated_at": "2026-08-12T00:07:48.644Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1081,6 +1081,106 @@
       "learn": "大模型正深入垂直安全领域,云上 API 成为模型能力分发的主要渠道。",
       "impact": "企业可低成本获得 AI 驱动的网络安全能力,加速安全防御智能化。",
       "advice": "关注 AWS 上的 Daybreak API 文档,评估其在安全场景中的应用。"
+    },
+    {
+      "id": "96fc50465f71",
+      "title": "Application of Artificial Intelligence for Fraudulent Banking Operations Recognition",
+      "url": "https://arxiv.org/abs/2608.07471",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "欺诈检测",
+        "机器学习",
+        "金融风控"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "用 AI 识别银行欺诈操作",
+      "summary_zh": "论文研究将机器学习应用于识别银行欺诈操作,探索在交易数据中检测异常与欺诈行为的建模方法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解金融欺诈检测的常见建模范式与特征工程思路。",
+      "impact": "提升金融机构风控效率,降低欺诈损失。",
+      "advice": "有风控需求可阅读原文,关注异常检测算法。"
+    },
+    {
+      "id": "948ab6e8cb71",
+      "title": "Evolving Safety Landscape of Multi-modal Large Language Models: A Survey of Emerging Threats and Safeguards",
+      "url": "https://arxiv.org/abs/2608.07535",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "多模态",
+        "AI 安全",
+        "综述"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "多模态大模型安全威胁与防御综述",
+      "summary_zh": "一篇综述系统梳理了多模态大语言模型面临的新型攻击面(如跨模态注入)及现有安全防御机制。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握多模态模型的主要安全风险类型与防护思路。",
+      "impact": "为多模态应用安全设计提供系统性参考框架。",
+      "advice": "做 AI 应用上线的读者建议读这篇综述补安全知识。"
+    },
+    {
+      "id": "6b232f406460",
+      "title": "SkillConsist: Detecting Inconsistencies in Agent Skills via Bidirectional Graph Alignment",
+      "url": "https://arxiv.org/abs/2608.07639",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "AI Agent",
+        "图对齐",
+        "SkillConsist"
+      ],
+      "published_at": "2026-08-11T04:00:00.000Z",
+      "title_zh": "用双向图对齐检测 Agent 技能不一致",
+      "summary_zh": "论文提出 SkillConsist,通过双向图对齐方法检测 AI Agent 可复用技能中的不一致问题,提升可靠性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 Agent 技能复用机制及其一致性校验新方法。",
+      "impact": "有助于构建更可靠的 Agent 技能生态。",
+      "advice": "开发 Agent 的读者可关注该思路用于技能校验。"
+    },
+    {
+      "id": "7b040f1e2d69",
+      "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
+      "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "风险投资",
+        "Accel",
+        "印度市场"
+      ],
+      "published_at": "2026-08-11T21:39:11.000Z",
+      "title_zh": "Accel 数周内募完 5.5 亿美元印度基金",
+      "summary_zh": "Accel 在数周内超额完成 5.5 亿美元印度基金募集,距上期 6.5 亿美元基金仅 19 个月,显示资本对印度市场热情高涨。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解全球 VC 对印度科技及 AI 创业市场的加码趋势。",
+      "impact": "印度 AI 与科技创业融资环境持续升温。",
+      "advice": "关注新兴市场机会的开发者可留意印度 AI 生态。"
+    },
+    {
+      "id": "72f52ad1b938",
+      "title": "ChatGPT and Gemini both just passed 1 billion users",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "ChatGPT",
+        "Gemini",
+        "用户规模"
+      ],
+      "published_at": "2026-08-11T19:41:42.000Z",
+      "title_zh": "ChatGPT 与 Gemini 用户双双破 10 亿",
+      "summary_zh": "ChatGPT 和 Gemini 用户数均突破 10 亿,Gemini 成为谷歌第 14 个破 10 亿用户的产品,AI 应用进入全民级规模。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识 AI 应用已跨越早期采用阶段进入大众市场。",
+      "impact": "AI 助手成为主流入口,平台竞争格局加速分化。",
+      "advice": "开发者可评估基于两大平台生态做应用的机会。"
     }
   ]
 }
