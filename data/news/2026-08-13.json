@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-12T17:08:01.995Z",
+  "generated_at": "2026-08-12T17:37:51.363Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -781,6 +781,146 @@
       "learn": "语音优先的交互范式正成为AI硬件的重要趋势。",
       "impact": "推动语音AI硬件赛道，挑战屏幕为中心的设备形态。",
       "advice": "关注语音AI可穿戴赛道，观察Stream戒指等产品进展。"
+    },
+    {
+      "id": "ec657c99cc7a",
+      "title": "Towards an Argumentative Foundation for Evaluative AI",
+      "url": "https://arxiv.org/abs/2608.07473",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "可解释AI",
+        "论辩理论",
+        "评估式AI"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "为评估式AI构建论辩基础",
+      "summary_zh": "论文提出用论辩理论为评估式AI(EAI)建立形式化基础,让AI的评估与建议过程可表达、可质疑、可推理。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解论证框架(argumentation)如何用于提升AI评估的透明度与可解释性。",
+      "impact": "推动可解释评估AI的理论建设,利于高风险决策场景落地。",
+      "advice": "做AI评估/可解释方向的可读原文,关注论证框架方法。"
+    },
+    {
+      "id": "4bc435408c90",
+      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
+      "url": "https://arxiv.org/abs/2608.07474",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "AI治理",
+        "人机协同",
+        "高风险场景"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "高风险领域AI输出的内容判断绕过治理",
+      "summary_zh": "论文研究在高损失领域中,人工审核流程被'内容判断绕过'削弱的问题,提出逐流(Flow-by-Flow)的AI输出治理方案。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识人机协同审核的失效模式,学习面向高风险场景的AI输出治理设计。",
+      "impact": "为医疗、法律等高风险领域的AI合规治理提供新框架。",
+      "advice": "做AI治理或合规产品的可读原文,审视自家审核流程。"
+    },
+    {
+      "id": "d21d88844b87",
+      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
+      "url": "https://arxiv.org/abs/2608.07476",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "形式化方法",
+        "逻辑",
+        "基础理论"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "结构理论中的确定化统一框架",
+      "summary_zh": "论文通过闭包、可比性与联合可容许性,为结构理论中的确定化问题建立统一形式化框架。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解逻辑与结构理论中确定化问题的抽象建模思路。",
+      "impact": "偏基础理论,为AI推理与形式化方法提供数学工具。",
+      "advice": "偏理论研究,逻辑/形式化方向研究者可读原文。"
+    },
+    {
+      "id": "2c8f0176715e",
+      "title": "Emotion in an active inference model of human driving",
+      "url": "https://arxiv.org/abs/2608.07480",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "主动推理",
+        "情绪建模",
+        "自动驾驶"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "主动推理驾驶模型中的情绪建模",
+      "summary_zh": "论文将情绪引入主动推理(active inference)的人类驾驶模型,模拟情绪如何影响驾驶行为与决策。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解主动推理框架及其在认知建模中整合情绪的方式。",
+      "impact": "有助于更拟人化的驾驶行为建模,利好自动驾驶与人因研究。",
+      "advice": "关注主动推理与认知建模,自动驾驶从业者可读原文。"
+    },
+    {
+      "id": "8d8ba763f5f5",
+      "title": "Training Variable Long Sequences with Data-Centric Parallel",
+      "url": "https://arxiv.org/abs/2608.07524",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "长序列训练",
+        "分布式并行",
+        "训练优化"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "数据中心并行训练变长序列",
+      "summary_zh": "论文提出以数据为中心的并行策略,高效训练长度可变的超长序列,缓解变长带来的负载不均与显存浪费。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习长序列训练中并行切分与负载均衡的工程方法。",
+      "impact": "降低长上下文大模型训练成本,提升训练吞吐。",
+      "advice": "做大规模训练的可借鉴其并行策略,关注长上下文训练优化。"
+    },
+    {
+      "id": "5f685b3883b9",
+      "title": "macro-inc/macro/stargazers: Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "url": "https://github.com/macro-inc/macro/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "开源",
+        "AI办公",
+        "协作工具"
+      ],
+      "published_at": "2026-08-12T17:37:05.582Z",
+      "title_zh": "Macro:带共享AI记忆的一体化团队工作区",
+      "summary_zh": "开源项目Macro登上GitHub日榜,把邮件、聊天、文档、任务、Agent、通话和CRM整合到一个工作区,并以@链接共享AI记忆。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察AI原生协作工具的设计趋势:统一入口加共享记忆。",
+      "impact": "代表AI办公套件的开源新形态,或冲击传统协作软件。",
+      "advice": "去GitHub试用Macro,借鉴其共享AI记忆的产品设计。"
+    },
+    {
+      "id": "109e5b269968",
+      "title": "Scaling AI agents with trustworthy data",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "AI Agent",
+        "数据治理",
+        "企业落地"
+      ],
+      "published_at": "2026-08-12T16:51:57.000Z",
+      "title_zh": "用可信数据规模化AI智能体",
+      "summary_zh": "MIT科技评论指出,Agentic AI时代已来,企业规模化部署AI智能体的关键瓶颈在于数据的可信度与治理。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解Agent落地的核心约束:数据质量、血缘与可信治理。",
+      "impact": "推动企业从试点转向重视数据基建,加速Agent规模化。",
+      "advice": "企业落地Agent前先盘点数据可信度,读原文了解治理框架。"
     }
   ]
 }
