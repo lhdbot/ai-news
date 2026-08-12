@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T12:37:20.987Z",
+  "generated_at": "2026-08-12T13:07:39.101Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1501,6 +1501,66 @@
       "learn": "了解Token剪枝与核心集选择思路：无需微调即可大幅压缩多模态推理成本。",
       "impact": "显著降低多模态模型推理开销，利于端侧与大规模部署。",
       "advice": "读原文学剪枝方法，在自有多模态项目上尝试复现。"
+    },
+    {
+      "id": "fb21820d806b",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "智能体",
+        "企业AI"
+      ],
+      "published_at": "2026-08-12T06:00:00.000Z",
+      "title_zh": "OpenAI报告:企业落地AI智能体",
+      "summary_zh": "OpenAI发布研究,展示企业如何利用ChatGPT和智能体AI从辅助工具转向任务执行,提升工作自动化水平。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "企业AI正从对话辅助转向智能体自主执行,可了解落地路径与最佳实践。",
+      "impact": "推动企业AI应用深化,智能体成为生产力新范式。",
+      "advice": "阅读OpenAI报告,思考如何在工作流中引入智能体。"
+    },
+    {
+      "id": "2484f165f26a",
+      "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "ChatGPT",
+        "生物技术",
+        "创业"
+      ],
+      "published_at": "2026-08-12T12:09:34.000Z",
+      "title_zh": "ChatGPT设计犬癌疫苗催生创业公司",
+      "summary_zh": "一位澳大利亚企业家曾借助ChatGPT设计犬类癌症疫苗引发热议,如今该想法已孵化成一家真正的初创公司。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI正进入生物医药设计场景,了解其在蛋白设计中的应用边界与争议。",
+      "impact": "AI辅助药物设计走向创业实践,医疗AI商业化加速。",
+      "advice": "关注AI+生物技术赛道,保持审慎态度跟踪进展。"
+    },
+    {
+      "id": "4312292f9917",
+      "title": "Grok is now an AI ‘teammate’ you can assign work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "xAI",
+        "Grok",
+        "AI智能体"
+      ],
+      "published_at": "2026-08-12T11:58:54.000Z",
+      "title_zh": "Grok变身可指派工作的AI队友",
+      "summary_zh": "xAI推出Grok Bot,一款常驻在线的AI智能体服务,可像队友一样接受任务分配并持续执行工作。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI智能体向常驻型数字同事演进,了解任务委托与异步协作模式。",
+      "impact": "AI助手竞争升级,常驻智能体或重塑团队协作方式。",
+      "advice": "试用Grok Bot,体验给AI指派任务的协作模式。"
     }
   ]
 }
