@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T14:37:38.671Z",
+  "generated_at": "2026-08-12T15:07:36.084Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1661,6 +1661,26 @@
       "learn": "了解谷歌硬件+Gemini深度整合策略,端侧AI正成为旗舰手机核心卖点。",
       "impact": "加剧与苹果的生态竞争,推动AI功能向消费硬件全面渗透。",
       "advice": "关注Gemini新功能的API开放情况,评估端侧AI开发机会。"
+    },
+    {
+      "id": "0eb46d3bbe75",
+      "title": "《置身谷内》！Jeff Dean上顶会自曝离职现场：被1500人围堵",
+      "url": "https://www.qbitai.com/2026/08/471254.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Jeff Dean",
+        "Google",
+        "顶会"
+      ],
+      "published_at": "2026-08-12T13:46:12.000Z",
+      "title_zh": "Jeff Dean顶会演讲被1500人围堵",
+      "summary_zh": "Google首席科学家Jeff Dean现身顶会分享,现场人气爆棚被约1500人围堵交流,他自曝回消息到凌晨2点半,展现其在AI社区的号召力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解顶级AI科学家的工作方式与社区影响力,关注其分享的技术观点",
+      "impact": "显示AI学术社区热度高涨,领军人物思想引领行业方向",
+      "advice": "找来Jeff Dean的演讲内容读一读,关注其技术判断"
     }
   ]
 }
