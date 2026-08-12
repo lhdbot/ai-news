@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T00:07:48.644Z",
+  "generated_at": "2026-08-12T00:37:58.997Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1181,6 +1181,106 @@
       "learn": "认识 AI 应用已跨越早期采用阶段进入大众市场。",
       "impact": "AI 助手成为主流入口,平台竞争格局加速分化。",
       "advice": "开发者可评估基于两大平台生态做应用的机会。"
+    },
+    {
+      "id": "2f7f031cc515",
+      "title": "OpenAI launches ChatGPT desktop app for Linux",
+      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Linux"
+      ],
+      "published_at": "2026-08-11T19:15:35.000Z",
+      "title_zh": "ChatGPT 桌面版登陆 Linux",
+      "summary_zh": "OpenAI 推出 Linux 平台专用 ChatGPT 桌面应用，补齐了此前仅有 Windows 和 macOS 版本的桌面端覆盖空白。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "主流 AI 产品开始重视 Linux 开发者用户，桌面客户端成为新的交互入口。",
+      "impact": "Linux 开发者可在原生环境中便捷使用 ChatGPT，降低使用门槛。",
+      "advice": "Linux 用户可下载试用桌面版，体验快捷键与系统集成能力。"
+    },
+    {
+      "id": "a49e2df2d449",
+      "title": "Google’s Gemini app surges to 1 billion users",
+      "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Google",
+        "Gemini",
+        "用户规模"
+      ],
+      "published_at": "2026-08-11T18:49:12.000Z",
+      "title_zh": "Gemini 应用用户突破10亿",
+      "summary_zh": "Google 宣布 Gemini 应用用户规模达 10 亿，并公布真实使用数据，其中 63% 的用法展示了聊天机器人在日常场景中的渗透程度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "消费级 AI 助手已进入十亿用户时代，使用数据分析可洞察真实用户需求。",
+      "impact": "AI 助手成为大众级应用，行业竞争进入用户规模与留存比拼阶段。",
+      "advice": "关注 Gemini 公布的使用数据，分析高频场景寻找产品机会。"
+    },
+    {
+      "id": "4b76f34b9372",
+      "title": "Another OpenAI executive takes off",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "高管离职",
+        "管理层"
+      ],
+      "published_at": "2026-08-11T17:50:01.000Z",
+      "title_zh": "OpenAI 又一高管离职",
+      "summary_zh": "OpenAI 特别项目负责人、前 COO Brad Lightcap 宣布离职，成为近期又一位离开公司的核心高管。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "头部 AI 公司高管流动频繁，反映组织扩张期的管理与方向调整。",
+      "impact": "OpenAI 管理层持续变动，可能影响公司战略执行与外部合作稳定性。",
+      "advice": "关注 OpenAI 管理层变动对 API 政策与产品路线图的潜在影响。"
+    },
+    {
+      "id": "e476216d8f62",
+      "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
+      "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "Brad Lightcap",
+        "创业"
+      ],
+      "published_at": "2026-08-11T17:41:34.000Z",
+      "title_zh": "OpenAI 前 COO Lightcap 离职创业",
+      "summary_zh": "OpenAI 任职时间最长的高管之一、前 COO Brad Lightcap 将离开公司去「开创一番新事业」，具体去向尚未完全披露。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 行业核心人才正从大厂流向创业，前高管创业项目值得早期关注。",
+      "impact": "OpenAI 流失资深运营高管，其新项目或成为 AI 赛道新变量。",
+      "advice": "留意 Lightcap 后续创业项目，可能代表新的 AI 商业化方向。"
+    },
+    {
+      "id": "f66a8ff91a41",
+      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "River AI",
+        "融资",
+        "xAI"
+      ],
+      "published_at": "2026-08-11T17:41:22.000Z",
+      "title_zh": "River AI 获11亿美元融资",
+      "summary_zh": "由 xAI 联合创始人 Igor Babuschkin 创立仅两个月的 River AI，获得 General Catalyst 领投的 11 亿美元融资，引起市场关注。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "明星创始人背书下，AI 初创融资节奏极快，资本押注团队胜过产品成熟度。",
+      "impact": "巨额早期融资加剧 AI 人才与资本竞争，推高科技创业估值预期。",
+      "advice": "跟踪 River AI 的技术方向，研究其融资逻辑判断 AI 资本热点。"
     }
   ]
 }
