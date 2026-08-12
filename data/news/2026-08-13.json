@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-12T16:10:09.518Z",
+  "generated_at": "2026-08-12T16:37:48.313Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -601,6 +601,46 @@
       "learn": "AI 替代创意岗位的劳资矛盾值得持续关注。",
       "impact": "游戏行业 AI 用工争议发酵,工会化倾向增强。",
       "advice": "关注游戏业编剧罢工与 AI 使用规范动向。"
+    },
+    {
+      "id": "617b8a3f0682",
+      "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "AI音乐",
+        "内容生成",
+        "版权争议"
+      ],
+      "published_at": "2026-08-12T15:52:07.000Z",
+      "title_zh": "Guitar company D’Addario admits that AI music was used in a promotional video",
+      "summary_zh": "经历数周争议与猜测后，乐器公司D'Addario承认其一段宣传视频中使用了AI生成的音乐，引发音乐社区对AI替代创作者的讨论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI生成内容进入商业营销场景，企业披露与版权合规成为新议题。",
+      "impact": "加剧创作者对AI替代的忧虑，推动AI内容披露规范形成。",
+      "advice": "关注AI内容标识与版权政策，商用生成内容需谨慎合规。"
+    },
+    {
+      "id": "ed15c3fb5382",
+      "title": "Why Sandbar thinks it’s voice-enabled ring can avoid the AI hardware graveyard",
+      "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "AI硬件",
+        "可穿戴设备",
+        "语音交互"
+      ],
+      "published_at": "2026-08-12T14:22:00.000Z",
+      "title_zh": "Why Sandbar thinks it’s voice-enabled ring can avoid the AI hardware graveyard",
+      "summary_zh": "在多款AI硬件相继失败的背景下，Sandbar推出语音交互戒指，主打便捷的AI语音笔记功能，试图避开AI硬件的'墓地'命运。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI硬件成败关键在于形态与场景匹配，语音笔记是热门落地方向。",
+      "impact": "检验可穿戴AI硬件的市场需求，影响后续产品形态选择。",
+      "advice": "关注AI语音笔记类产品的交互设计与实际体验评测。"
     }
   ]
 }
