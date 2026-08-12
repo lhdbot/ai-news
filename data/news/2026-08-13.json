@@ -1,0 +1,606 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-12T16:10:09.518Z",
+  "items": [
+    {
+      "id": "9c2d2be8f210",
+      "title": "Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source": "Google DeepMind",
+      "category": "模型发布",
+      "tags": [
+        "多模态",
+        "手语识别",
+        "无障碍"
+      ],
+      "published_at": "2026-08-12T14:01:59.000Z",
+      "title_zh": "谷歌发布手语转文字模型SL2T",
+      "summary_zh": "Google DeepMind推出手语转文字模型SL2T,可实时将手语视频识别为文字,驱动新一代手语无障碍应用落地。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解多模态视频识别在无障碍场景的落地路径与评测方法。",
+      "impact": "降低听障沟通门槛,推动无障碍AI应用发展。",
+      "advice": "关注多模态无障碍应用,试用相关Demo了解能力边界。"
+    },
+    {
+      "id": "fb21820d806b",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "智能体",
+        "企业AI",
+        "ChatGPT"
+      ],
+      "published_at": "2026-08-12T06:00:00.000Z",
+      "title_zh": "企业如何从AI辅助走向智能体执行",
+      "summary_zh": "OpenAI研究揭示企业采用智能体AI的现状:从ChatGPT辅助任务逐步转向让AI自主执行工作流,分享落地模式与经验。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习企业级Agent落地路径:从辅助问答到任务执行的演进方法。",
+      "impact": "标志企业AI应用从问答助手转向自动化执行新阶段。",
+      "advice": "参考其模式,在业务中识别可交给Agent执行的重复流程。"
+    },
+    {
+      "id": "de2ca3d7578d",
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "商业化",
+        "广告"
+      ],
+      "published_at": "2026-08-11T10:00:00.000Z",
+      "title_zh": "ChatGPT开始测试广告",
+      "summary_zh": "OpenAI在ChatGPT中测试投放广告,以支撑免费版服务,广告将明确标注,与AI回答内容区分展示。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解AI产品的商业化困境与广告模式对中立性的潜在影响。",
+      "impact": "AI商业化加速,广告或影响回答可信度与用户体验。",
+      "advice": "关注广告对回答中立性的影响,评估是否升级付费版本。"
+    },
+    {
+      "id": "b274e00978a8",
+      "title": "Daybreak models are now available on AWS",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "source": "OpenAI",
+      "category": "工具产品",
+      "tags": [
+        "网络安全",
+        "AWS",
+        "云服务"
+      ],
+      "published_at": "2026-08-11T10:00:00.000Z",
+      "title_zh": "OpenAI Daybreak网络安全能力登陆AWS",
+      "summary_zh": "OpenAI与AWS合作,将Daybreak网络安全模型能力通过AWS渠道开放,企业可在云上调用AI进行安全分析与防御。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI在网络安全领域的应用形态及云上模型服务的接入方式。",
+      "impact": "AI安全能力云服务化,降低企业部署安全AI的门槛。",
+      "advice": "做安全的开发者可在AWS上试用评估其检测能力。"
+    },
+    {
+      "id": "7a678e9a26d7",
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "AI原生",
+        "企业管理",
+        "OpenAI"
+      ],
+      "published_at": "2026-08-10T17:00:00.000Z",
+      "title_zh": "OpenAI CFO谈打造AI原生财务团队",
+      "summary_zh": "OpenAI CFO Sarah Friar分享建设AI原生财务职能的五条经验,涵盖流程重构、团队技能与工具选型的实战心得。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习AI原生团队建设思路:哪些流程先改造、如何定义人机分工。",
+      "impact": "为非技术部门AI改造提供范本,推动AI原生组织实践。",
+      "advice": "读原文五课,挑一个自己团队的流程尝试AI化改造。"
+    },
+    {
+      "id": "e8e7671fcde2",
+      "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
+      "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+      "source": "Microsoft Research",
+      "category": "论文研究",
+      "tags": [
+        "VLM",
+        "空间推理",
+        "评测基准"
+      ],
+      "published_at": "2026-08-12T16:00:00.000Z",
+      "title_zh": "MindTopo基准测试VLM空间推理",
+      "summary_zh": "微软研究院发布MindTopo基准,通过路径、围栏、绳结等任务系统评测视觉语言模型对空间拓扑关系的理解能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识VLM空间推理评测维度,了解当前模型在拓扑理解上的短板。",
+      "impact": "为VLM空间能力提供标尺,暴露现有模型推理缺陷。",
+      "advice": "做VLM评测的开发者可用MindTopo测试自己的模型。"
+    },
+    {
+      "id": "296b95d62f19",
+      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+      "source": "Microsoft Research",
+      "category": "论文研究",
+      "tags": [
+        "医疗AI",
+        "放射影像",
+        "VLM"
+      ],
+      "published_at": "2026-08-11T16:00:00.000Z",
+      "title_zh": "CARE-X:迈向临床可用的放射VLM",
+      "summary_zh": "微软提出CARE-X,结合辅助监督、奖励对齐学习与工具增强测量,让放射影像模型超越报告生成,向临床实用迈进。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解医疗VLM的训练组合拳:辅助监督、奖励对齐与工具增强。",
+      "impact": "推动放射AI从生成报告走向临床实用辅助诊断。",
+      "advice": "医疗AI从业者可读原文,借鉴其奖励对齐训练方法。"
+    },
+    {
+      "id": "5043ea65de03",
+      "title": "Transformer Geometry Observatory TGO-IV: Developmental Topology Observatory",
+      "url": "https://arxiv.org/abs/2608.09997",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "Transformer",
+        "可解释性",
+        "拓扑学"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "TGO-IV:用拓扑学观察Transformer内部",
+      "summary_zh": "arXiv新论文提出Transformer几何观测台TGO-IV,从发育拓扑视角分析Transformer内部表征的形成与演变过程。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "接触用拓扑/几何工具做机制可解释性研究的新思路。",
+      "impact": "为理解Transformer内部机制提供新的拓扑分析视角。",
+      "advice": "对可解释性感兴趣可浏览论文,了解拓扑数据分析方法。"
+    },
+    {
+      "id": "2671ba8fd5ca",
+      "title": "Uncertainty-Aware Ensemble Deep Randomized Neural Networks for Classification",
+      "url": "https://arxiv.org/abs/2608.10007",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "集成学习",
+        "不确定性量化",
+        "分类"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "不确定性感知的集成随机神经网络",
+      "summary_zh": "arXiv论文提出不确定性感知的集成深度随机化神经网络,针对分类任务,兼具训练效率与不确定性量化能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习随机化神经网络集成与不确定性量化的结合方法。",
+      "impact": "提升分类模型在风险敏感场景的可靠性评估能力。",
+      "advice": "需要模型置信度输出的场景可参考其集成策略。"
+    },
+    {
+      "id": "721423efca82",
+      "title": "CurveFP: Rational-Radix Logarithmic Datatypes with Closed Products for Language Models",
+      "url": "https://arxiv.org/abs/2608.10010",
+      "source": "arXiv cs.LG",
+      "category": "芯片算力",
+      "tags": [
+        "低精度计算",
+        "数据类型",
+        "推理优化"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "CurveFP:面向LM的新型低精度数制",
+      "summary_zh": "arXiv论文提出CurveFP,一种有理基数对数数据类型,乘积封闭,旨在为语言模型提供更高效的低精度计算方案。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解低精度数制设计如何影响模型训练推理的效率与精度。",
+      "impact": "有望降低大模型计算成本,推动推理硬件效率提升。",
+      "advice": "关注低精度推理的开发者可跟踪该数制的硬件支持进展。"
+    },
+    {
+      "id": "9080f51919b5",
+      "title": "Sheaf-Based Federated Representation Learning",
+      "url": "https://arxiv.org/abs/2608.10016",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "联邦学习",
+        "表示学习",
+        "arXiv"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "Sheaf-Based Federated Representation Learning",
+      "summary_zh": "论文提出用层论(Sheaf Theory)框架处理异构联邦学习系统中的表示学习问题,改善客户端数据分布不一致下的模型协作效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解层论如何建模联邦学习中的异构性,拓展分布式训练的理论工具箱。",
+      "impact": "为异构联邦学习提供新的数学框架,有望提升跨设备训练效果。",
+      "advice": "做联邦学习方向可读arXiv原文,关注层论方法。"
+    },
+    {
+      "id": "80234a7ca7c0",
+      "title": "DOCSCHISEL: Adaptive Tool Documentation Optimization Framework for LLM Agents",
+      "url": "https://arxiv.org/abs/2608.10037",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "LLM Agent",
+        "工具调用",
+        "上下文优化"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "DOCSCHISEL: Adaptive Tool Documentation Optimization Framework for LLM Agents",
+      "summary_zh": "论文提出DOCSCHISEL框架,自适应地精简和优化LLM Agent使用的工具文档,降低上下文开销并提升工具调用的准确性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "工具文档的质量与长度直接影响Agent表现,可自适应裁剪优化。",
+      "impact": "减少Agent上下文浪费,提升工具调用准确率,降低推理成本。",
+      "advice": "开发Agent时可借鉴其文档压缩思路,读原文了解细节。"
+    },
+    {
+      "id": "f265e06f905c",
+      "title": "diegosouzapw/OmniRoute/stargazers: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [
+        "AI网关",
+        "开源",
+        "多模型"
+      ],
+      "published_at": "2026-08-12T16:07:20.625Z",
+      "title_zh": "diegosouzapw/OmniRoute/stargazers: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "summary_zh": "MIT协议开源AI网关OmniRoute登GitHub月榜,单一端点接入290+供应商、500+模型,支持配额感知自动降级与Token压缩,兼容Claude Code、Cursor等工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI网关可统一多模型接口,自动fallback和压缩能显著省Token。",
+      "impact": "降低开发者接入多模型的门槛与成本,推动AI工具链标准化。",
+      "advice": "多模型开发者可试用OmniRoute统一管理API调用。"
+    },
+    {
+      "id": "08b333e13f34",
+      "title": "cathrynlavery/diagram-design/stargazers: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "Claude Code",
+        "图表生成",
+        "开源"
+      ],
+      "published_at": "2026-08-12T16:07:20.586Z",
+      "title_zh": "cathrynlavery/diagram-design/stargazers: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "summary_zh": "开源项目diagram-design为Claude Code提供29种编辑级图表类型,采用自包含HTML+SVG实现,无阴影、不依赖Mermaid,登GitHub日榜。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI生成图表可用HTML+SVG直接产出,风格可控且免外部依赖。",
+      "impact": "提升AI辅助文档与技术博客的图表质量和一致性。",
+      "advice": "用Claude Code写文档时可引入该项目生成专业图表。"
+    },
+    {
+      "id": "8ad7f7c1b6cf",
+      "title": "cloudflare/computer/stargazers: Give your agent a computer 👾",
+      "url": "https://github.com/cloudflare/computer/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "Cloudflare",
+        "Agent",
+        "Computer Use"
+      ],
+      "published_at": "2026-08-12T16:07:04.957Z",
+      "title_zh": "cloudflare/computer/stargazers: Give your agent a computer 👾",
+      "summary_zh": "Cloudflare开源项目computer,为AI Agent提供完整的计算机操作环境,TypeScript编写,一周获6775星,登GitHub周榜。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "给Agent配沙箱化电脑环境是Computer Use落地的关键基础设施。",
+      "impact": "降低构建能操作电脑的Agent的门槛,加速Agent应用落地。",
+      "advice": "关注Cloudflare该项目,尝试搭建自己的Computer Use Agent。"
+    },
+    {
+      "id": "0eb46d3bbe75",
+      "title": "《置身谷内》！Jeff Dean上顶会自曝离职现场：被1500人围堵",
+      "url": "https://www.qbitai.com/2026/08/471254.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Jeff Dean",
+        "Google",
+        "AI社区"
+      ],
+      "published_at": "2026-08-12T13:46:12.000Z",
+      "title_zh": "《置身谷内》！Jeff Dean上顶会自曝离职现场：被1500人围堵",
+      "summary_zh": "Jeff Dean在顶会上自曝当年离职经历,被1500人围堵签名合影,回消息到凌晨两点半,展现其在AI社区的超高人气。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "顶级AI研究者的职业路径与社区影响力,理解学术工业界互动。",
+      "impact": "反映AI领军人物对社区的巨大号召力与人才示范效应。",
+      "advice": "可读原文了解Jeff Dean经历,关注其技术演讲。"
+    },
+    {
+      "id": "3f5613fefc7d",
+      "title": "Anthropic CEO整天神神叨叨，投资人受不了了",
+      "url": "https://www.qbitai.com/2026/08/471162.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "AI安全",
+        "投资"
+      ],
+      "published_at": "2026-08-12T13:38:09.000Z",
+      "title_zh": "Anthropic CEO整天神神叨叨，投资人受不了了",
+      "summary_zh": "Anthropic CEO Dario Amodei频繁发表AI风险言论,部分投资人表示不满,认为其过度渲染威胁,引发行业对AI安全叙事边界的讨论。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI安全叙事与商业利益存在张力,需理性辨别风险言论动机。",
+      "impact": "凸显AI安全议题的行业分歧,影响公众与资本对AI风险的认知。",
+      "advice": "关注AI安全辩论,阅读多方观点形成独立判断。"
+    },
+    {
+      "id": "80cbbe311334",
+      "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+      "url": "https://www.qbitai.com/2026/08/471049.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "机器人",
+        "物流分拣"
+      ],
+      "published_at": "2026-08-12T13:10:55.000Z",
+      "title_zh": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+      "summary_zh": "国产具身智能系统以30%的成本实现比Figure AI高45%的效率,一小时分拣1816件异形包裹创全球纪录,智能具身大脑是关键突破点。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "具身智能竞争中算法大脑比硬件更关键,成本效率可双重领先。",
+      "impact": "标志中国具身智能在物流场景实现全球领先,加速商业化落地。",
+      "advice": "关注具身智能赛道,研究其具身大脑技术路线。"
+    },
+    {
+      "id": "ed54d77578b1",
+      "title": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+      "url": "https://www.qbitai.com/2026/08/471030.html",
+      "source": "量子位",
+      "category": "论文研究",
+      "tags": [
+        "紫东太初",
+        "多模态",
+        "Token剪枝"
+      ],
+      "published_at": "2026-08-12T10:54:29.000Z",
+      "title_zh": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+      "summary_zh": "紫东太初推出GMC核心集剪枝方法,免训练、开箱即用,减少80%Token的同时保持多模态能力不损失,显著降低推理成本。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "核心集剪枝可在不训练的情况下大幅压缩多模态输入Token。",
+      "impact": "大幅降低多模态模型推理成本,有利于端侧和规模化部署。",
+      "advice": "做多模态应用可关注GMC方法,尝试用于Token压缩。"
+    },
+    {
+      "id": "c000f0356662",
+      "title": "2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕",
+      "url": "https://www.qbitai.com/2026/08/470901.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "科创投资",
+        "产业生态",
+        "陕西"
+      ],
+      "published_at": "2026-08-12T07:31:19.000Z",
+      "title_zh": "2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕",
+      "summary_zh": "由融中财经与秦创原科创投资集团主办的2026中国科创投资夏季峰会暨陕西科创产业生态大会于7月29-30日举办并圆满落幕。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解国内科创投资热点与区域科技产业生态布局动向。",
+      "impact": "促进资本与科创产业对接,推动区域硬科技生态发展。",
+      "advice": "关注科创投资趋势的读者可查看峰会发布内容。"
+    },
+    {
+      "id": "1753f5490b10",
+      "title": "AI professors are negotiating the new realities of academic research",
+      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "学术科研",
+        "AI 教育",
+        "MIT"
+      ],
+      "published_at": "2026-08-10T20:00:00.000Z",
+      "title_zh": "AI 教授协商科研新常态",
+      "summary_zh": "AI 领域教授们正在讨论和适应学术研究的新现实,包括算力、人才流向工业界带来的冲击,学界与业界的边界正在重塑。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解学界与工业界在 AI 研究资源上的竞争格局。",
+      "impact": "学术科研模式或被重新定义,人才加速流向企业。",
+      "advice": "关注学术界对算力与开源生态的讨论。"
+    },
+    {
+      "id": "b1e003665ffe",
+      "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "融资",
+        "AI 编程",
+        "Lovable"
+      ],
+      "published_at": "2026-08-12T16:04:27.000Z",
+      "title_zh": "Lovable 融资4亿估值133亿美元",
+      "summary_zh": "AI 编程工具 Lovable 年化收入达5亿美元后,再获4亿美元融资,估值升至133亿美元,成为增长最快的 AI 应用之一。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 应用商业化跑通,vibe coding 模式获资本认可。",
+      "impact": "AI 应用层融资火热,编程工具赛道竞争加剧。",
+      "advice": "试用 Lovable 体验自然语言开发流程。"
+    },
+    {
+      "id": "806059b3fc9f",
+      "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "收购",
+        "欺诈",
+        "投资"
+      ],
+      "published_at": "2026-08-12T15:44:56.000Z",
+      "title_zh": "2.5亿美元收购沦为欺诈指控",
+      "summary_zh": "一起2.5亿美元的收购案崩塌,演变为欺诈与伪造签名的指控,投资人至今未拿到应得款项,暴露创业圈尽调漏洞。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解收购尽调与数据造假风险的反面案例。",
+      "impact": "加剧投资人对创业公司数据真实性的审查。",
+      "advice": "读原文,看尽调中哪些环节失效。"
+    },
+    {
+      "id": "77da1d8caea4",
+      "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Pixel"
+      ],
+      "published_at": "2026-08-12T14:20:33.000Z",
+      "title_zh": "谷歌发布会:Pixel 11与Gemini",
+      "summary_zh": "Made by Google 2026 发布 Pixel 11 系列、Pixel Watch 5、Pixel Tag 追踪器及大量 Gemini AI 新功能,全面押注端侧 AI。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 Gemini 端侧能力与硬件融合的产品思路。",
+      "impact": "AI 手机竞争升级,端侧智能成旗舰标配。",
+      "advice": "对比 Gemini 与苹果 AI 的功能差异。"
+    },
+    {
+      "id": "816ed2f1a2f2",
+      "title": "Made by Google 2026: all the Pixel news and announcements",
+      "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "Google",
+        "Pixel",
+        "Gemini"
+      ],
+      "published_at": "2026-08-12T14:09:52.000Z",
+      "title_zh": "谷歌公布Pixel全线新品",
+      "summary_zh": "谷歌在 Made by Google 活动前集中公布新一代 Pixel 设备,涵盖手机、手表与配件,主打 Gemini AI 深度集成体验。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察大厂如何用 AI 重构硬件发布节奏。",
+      "impact": "加剧与苹果的生态竞争,利好安卓 AI 生态。",
+      "advice": "关注 Pixel 上 Gemini 新功能的实际表现。"
+    },
+    {
+      "id": "1b0e93cced6d",
+      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "Pixel Watch",
+        "可穿戴",
+        "AI 健康"
+      ],
+      "published_at": "2026-08-12T13:23:13.000Z",
+      "title_zh": "Pixel Watch 5 深耕AI健康",
+      "summary_zh": "售价399美元的 Pixel Watch 5 重点不在硬件,而是以 AI 健康功能为核心,支持卫星连接等特性,用 Gemini 重构可穿戴体验。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 健康功能成为可穿戴设备差异化核心。",
+      "impact": "可穿戴设备进入 AI 驱动竞争阶段。",
+      "advice": "关注智能手表的 AI 健康应用场景。"
+    },
+    {
+      "id": "2484f165f26a",
+      "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "ChatGPT",
+        "AI 医疗",
+        "创业"
+      ],
+      "published_at": "2026-08-12T12:09:34.000Z",
+      "title_zh": "ChatGPT狗疫苗催生出创业公司",
+      "summary_zh": "此前热传的澳大利亚创业者用 ChatGPT 设计犬用癌症疫苗一事,如今已孵化出一家创业公司,从故事走向真实商业尝试。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "LLM 辅助生物设计的边界与炒作并存。",
+      "impact": "AI 辅助药物设计概念受关注,但需警惕夸大。",
+      "advice": "关注 AI for Bio 进展,理性看待个案。"
+    },
+    {
+      "id": "4312292f9917",
+      "title": "Grok is now an AI ‘teammate’ you can assign work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "Grok",
+        "AI 智能体",
+        "xAI"
+      ],
+      "published_at": "2026-08-12T11:58:54.000Z",
+      "title_zh": "Grok 变身可派活的AI队友",
+      "summary_zh": "SpaceXAI 推出 Grok Bot,一款常驻在线的 AI 智能体服务,可作为「AI 队友」接受任务分配并自主执行工作。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 智能体从对话工具转向任务执行角色。",
+      "impact": "AI 智能体竞争升温,工作流或将重构。",
+      "advice": "试用 Grok Bot,评估其任务执行可靠性。"
+    },
+    {
+      "id": "75010ca35d79",
+      "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
+      "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "开发者工具",
+        "代码测试",
+        "融资"
+      ],
+      "published_at": "2026-08-12T11:00:00.000Z",
+      "title_zh": "代码测试商Blacksmith估值涨10倍",
+      "summary_zh": "AI 代码测试初创公司 Blacksmith 一年内收入增长超十倍,估值随之上涨近10倍,反映开发者工具市场的强劲需求。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "CI 与代码测试环节是 AI 工具的刚需场景。",
+      "impact": "开发者工具赛道估值走高,DevOps 被重估。",
+      "advice": "关注 AI 测试工具,评估能否接入现有 CI。"
+    },
+    {
+      "id": "1b1c36bc0450",
+      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "游戏行业",
+        "AI 替代",
+        "ChatGPT"
+      ],
+      "published_at": "2026-08-12T00:40:27.000Z",
+      "title_zh": "Saber否认用ChatGPT取代编剧",
+      "summary_zh": "游戏《Rideshare Stimulator》前主编剧自称被 ChatGPT 取代,Saber CEO 出面否认,再度引发游戏行业 AI 替代争议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI 替代创意岗位的劳资矛盾值得持续关注。",
+      "impact": "游戏行业 AI 用工争议发酵,工会化倾向增强。",
+      "advice": "关注游戏业编剧罢工与 AI 使用规范动向。"
+    }
+  ]
+}
