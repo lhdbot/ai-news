@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-12T16:37:48.313Z",
+  "generated_at": "2026-08-12T17:08:01.995Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -641,6 +641,146 @@
       "learn": "AI硬件成败关键在于形态与场景匹配，语音笔记是热门落地方向。",
       "impact": "检验可穿戴AI硬件的市场需求，影响后续产品形态选择。",
       "advice": "关注AI语音笔记类产品的交互设计与实际体验评测。"
+    },
+    {
+      "id": "2b64c58a5174",
+      "title": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents",
+      "url": "https://arxiv.org/abs/2608.09934",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM Agent",
+        "检索",
+        "领域适配"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "LLM Agent工厂：检索领域专用智能体",
+      "summary_zh": "论文提出LLM Agents Factory，通过检索机制按需获取或组装针对特定领域的LLM智能体，降低为每个领域单独构建Agent的成本。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "用检索代替从头训练，是复用和组合领域Agent的一种新范式。",
+      "impact": "降低垂直领域Agent构建门槛，推动Agent规模化落地。",
+      "advice": "关注Agent检索与复用方向，可在RAG思路上延伸思考。"
+    },
+    {
+      "id": "eba6abb566bf",
+      "title": "Conflict or Strategy? Asymmetric Role Framing of La France insoumise and Rassemblement National in French News Headlines, 2022-2025",
+      "url": "https://arxiv.org/abs/2608.09936",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "媒体偏见",
+        "NLP",
+        "政治话语"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "法国新闻标题对两大政党的非对称框架分析",
+      "summary_zh": "研究分析2022-2025年法国新闻标题，发现媒体对不屈法国和国民联盟两个政党采用了不对称的角色框架，呈现不同叙事倾向。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "NLP可用于媒体偏见与政治话语分析，了解框架理论的应用。",
+      "impact": "为计算社会科学提供案例，凸显新闻语料研究价值。",
+      "advice": "对文本立场分析感兴趣可精读原文方法部分。"
+    },
+    {
+      "id": "ea218e44ac1e",
+      "title": "Carefully Considering Culture: Analyzing LLM Alignment in Single- and Multi-Cultural Settings using Cultural Consensus Theory",
+      "url": "https://arxiv.org/abs/2608.09937",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "文化对齐",
+        "LLM评估",
+        "多元文化"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "用文化共识理论分析LLM文化对齐",
+      "summary_zh": "论文引入文化共识理论，分别在单一文化和多元文化设定下评估LLM的对齐表现，考察模型能否稳定反映不同文化群体的共识。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "文化共识理论为衡量LLM文化对齐提供了可量化的新工具。",
+      "impact": "推动多文化对齐评估方法，暴露模型文化偏差。",
+      "advice": "做全球化产品的开发者应关注模型的文化偏差问题。"
+    },
+    {
+      "id": "ef06d1782a99",
+      "title": "The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs",
+      "url": "https://arxiv.org/abs/2608.09941",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "量化",
+        "小语言模型",
+        "多语言"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "多语言量化税：边缘小模型的脆弱性",
+      "summary_zh": "研究发现4-bit权重量化对边缘小语言模型造成“量化税”：某些语言类型结构会严重退化，多语言能力受损程度因语言而异。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "量化对不同语言影响不均，部署小模型需按语言分别评估。",
+      "impact": "提示边缘部署多语言模型的隐性成本，影响产品选型。",
+      "advice": "部署端侧多语言模型前，务必逐语言测试量化后的表现。"
+    },
+    {
+      "id": "5c7f4bb90efe",
+      "title": "When Chain-of-Thought Helps and When It Hurts: An Empirical Investigation of the Serial-Depth Bottleneck in LLM Reasoning",
+      "url": "https://arxiv.org/abs/2608.09942",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "思维链",
+        "推理",
+        "提示工程"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "思维链何时有用何时有害",
+      "summary_zh": "论文实证研究思维链对LLM推理的影响，提出“串行深度瓶颈”：需要深度串行推理的任务中CoT有效，否则可能反而降低准确率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "CoT并非万能，适用与否取决于任务的串行推理深度。",
+      "impact": "修正对思维链的普遍假设，指导更合理的提示设计。",
+      "advice": "按任务类型决定是否启用CoT，避免无脑套用思维链。"
+    },
+    {
+      "id": "40176bc88ca1",
+      "title": "Mesh, Automattic’s CRM for everyone, comes to Android",
+      "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "AI CRM",
+        "Automattic",
+        "Android"
+      ],
+      "published_at": "2026-08-12T16:57:58.000Z",
+      "title_zh": "Automattic的AI人脉应用Mesh登陆安卓",
+      "summary_zh": "Automattic推出的AI驱动联系人管理应用Mesh发布Android版本，主打智能人脉关系管理，面向所有用户开放。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI与CRM结合是个人效率工具的一个落地方向。",
+      "impact": "AI个人CRM竞争加剧，扩展至更大安卓用户群。",
+      "advice": "有安卓机可下载Mesh试用，体验AI人脉管理。"
+    },
+    {
+      "id": "d496da02476b",
+      "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
+      "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI可穿戴",
+        "语音交互",
+        "Sandbar"
+      ],
+      "published_at": "2026-08-12T16:46:02.000Z",
+      "title_zh": "Sandbar称AI可穿戴的未来是语音",
+      "summary_zh": "AI笔记戒指Stream的制造商Sandbar认为，语音交互才是AI可穿戴设备的未来，语音记录硬件近两年正快速兴起。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "语音优先的交互范式正成为AI硬件的重要趋势。",
+      "impact": "推动语音AI硬件赛道，挑战屏幕为中心的设备形态。",
+      "advice": "关注语音AI可穿戴赛道，观察Stream戒指等产品进展。"
     }
   ]
 }
