@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T13:37:18.110Z",
+  "generated_at": "2026-08-12T14:07:46.110Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1561,6 +1561,86 @@
       "learn": "AI智能体向常驻型数字同事演进,了解任务委托与异步协作模式。",
       "impact": "AI助手竞争升级,常驻智能体或重塑团队协作方式。",
       "advice": "试用Grok Bot,体验给AI指派任务的协作模式。"
+    },
+    {
+      "id": "9c2d2be8f210",
+      "title": "Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source": "Google DeepMind",
+      "category": "模型发布",
+      "tags": [
+        "手语识别",
+        "DeepMind",
+        "无障碍AI"
+      ],
+      "published_at": "2026-08-12T14:01:59.000Z",
+      "title_zh": "谷歌手语AI模型SL2T落地",
+      "summary_zh": "Google DeepMind发布手语转文本模型SL2T，将驱动新的手语翻译应用，让听障用户实时交流更便捷。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解多模态模型在手语识别上的突破与无障碍AI应用方向",
+      "impact": "提升听障群体沟通便利性，拓展AI无障碍应用场景",
+      "advice": "关注SL2T后续开源或API，探索无障碍AI产品开发"
+    },
+    {
+      "id": "3f5613fefc7d",
+      "title": "Anthropic CEO整天神神叨叨，投资人受不了了",
+      "url": "https://www.qbitai.com/2026/08/471162.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "AI安全",
+        "行业舆论"
+      ],
+      "published_at": "2026-08-12T13:38:09.000Z",
+      "title_zh": "Anthropic CEO言论引投资人不满",
+      "summary_zh": "Anthropic CEO Dario Amodei频繁发表AI风险警示言论，部分投资人认为其过度渲染恐慌，表达不满。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解AI安全叙事与商业利益之间的张力和舆论影响",
+      "impact": "反映AI行业对风险言论的分歧，或影响公司融资形象",
+      "advice": "读原文了解争议焦点，理性看待AI风险言论"
+    },
+    {
+      "id": "80cbbe311334",
+      "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+      "url": "https://www.qbitai.com/2026/08/471049.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "物流机器人",
+        "Figure AI"
+      ],
+      "published_at": "2026-08-12T13:10:55.000Z",
+      "title_zh": "国产具身智能拣货创全球纪录",
+      "summary_zh": "国产具身智能机器人一小时分拣1816件异形包裹，以30%成本实现比Figure AI高45%的效率，核心在于自研具身大脑模型。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识具身大脑模型在物流分拣等真实场景的落地价值",
+      "impact": "加速具身智能商业化，国产方案展现成本与效率优势",
+      "advice": "关注国产具身智能公司动向，跟踪物流机器人落地进展"
+    },
+    {
+      "id": "1b0e93cced6d",
+      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "Pixel Watch",
+        "AI健康",
+        "可穿戴设备"
+      ],
+      "published_at": "2026-08-12T13:23:13.000Z",
+      "title_zh": "Pixel Watch 5加码AI健康",
+      "summary_zh": "谷歌发布399美元Pixel Watch 5，硬件升级有限，重点在AI健康功能，如更智能的健康监测与卫星通信。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察可穿戴设备以AI健康服务为核心的产品演进趋势",
+      "impact": "推动AI健康监测普及，加剧智能手表市场竞争",
+      "advice": "关注其AI健康功能评测，思考端侧AI应用机会"
     }
   ]
 }
