@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T11:07:18.010Z",
+  "generated_at": "2026-08-12T11:37:46.535Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1461,6 +1461,26 @@
       "learn": "了解科创资本流向与区域创新生态布局，把握AI等硬科技赛道投融资趋势。",
       "impact": "推动资本与区域科创产业对接，加速硬科技项目落地。",
       "advice": "关注峰会披露的投资热点方向，跟踪AI赛道融资动态。"
+    },
+    {
+      "id": "75010ca35d79",
+      "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
+      "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI测试",
+        "融资估值",
+        "开发者工具"
+      ],
+      "published_at": "2026-08-12T11:00:00.000Z",
+      "title_zh": "AI代码测试公司Blacksmith估值一年暴涨近10倍",
+      "summary_zh": "AI代码测试初创公司Blacksmith营收同比增长超10倍，估值在不到一年内上涨近10倍，显示AI辅助测试工具需求强劲。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI在软件测试环节的商业化落地正在加速，开发者可关注AI驱动的CI/CD与自动化测试趋势。",
+      "impact": "验证AI测试工具赛道高增长，或吸引更多资本投入开发者工具领域。",
+      "advice": "试用AI测试工具改进自己的CI流程，关注该赛道竞品动态。"
     }
   ]
 }
