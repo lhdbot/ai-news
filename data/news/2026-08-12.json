@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T03:37:18.396Z",
+  "generated_at": "2026-08-12T04:07:45.115Z",
   "items": [
     {
       "id": "7a678e9a26d7",
@@ -1301,6 +1301,126 @@
       "learn": "了解生成式AI对游戏编剧等创意岗位的冲击及劳资争议现状。",
       "impact": "加剧游戏行业对AI替代人工写作的焦虑与讨论。",
       "advice": "读原文了解争议细节，关注AI写作在游戏叙事中的应用边界。"
+    },
+    {
+      "id": "2b64c58a5174",
+      "title": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents",
+      "url": "https://arxiv.org/abs/2608.09934",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "LLM Agent",
+        "检索增强",
+        "arXiv"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "LLM智能体工厂：检索领域专用智能体",
+      "summary_zh": "论文提出LLM Agents Factory，通过检索方式快速生成或匹配领域专用的LLM智能体，避免从零构建的高成本。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解智能体复用与检索式生成思路，是降低Agent开发成本的新方向。",
+      "impact": "有望加速垂直领域Agent落地，降低开发门槛。",
+      "advice": "做Agent开发的读者可读原文，借鉴检索式组装方法。"
+    },
+    {
+      "id": "eba6abb566bf",
+      "title": "Conflict or Strategy? Asymmetric Role Framing of La France insoumise and Rassemblement National in French News Headlines, 2022-2025",
+      "url": "https://arxiv.org/abs/2608.09936",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "媒体偏见",
+        "NLP",
+        "计算传播学"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "法国新闻标题对左右翼政党的不对称框架研究",
+      "summary_zh": "论文分析2022-2025年法国新闻标题，发现媒体对不屈法国与国民联盟两大政党采用不对称的角色框架。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解用NLP方法量化媒体政治框架与偏见的研究范式。",
+      "impact": "为媒体偏见计算分析提供案例，助于理解AI舆论研究。",
+      "advice": "对计算传播学感兴趣可读原文，了解框架分析方法。"
+    },
+    {
+      "id": "ea218e44ac1e",
+      "title": "Carefully Considering Culture: Analyzing LLM Alignment in Single- and Multi-Cultural Settings using Cultural Consensus Theory",
+      "url": "https://arxiv.org/abs/2608.09937",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "文化对齐",
+        "LLM评估",
+        "文化共识理论"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "用文化共识理论分析LLM跨文化对齐",
+      "summary_zh": "论文借用人类学的文化共识理论，系统分析LLM在单一与多元文化设定下的对齐表现，揭示模型文化倾向。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解文化共识理论这一评估LLM文化对齐的新工具。",
+      "impact": "推动LLM文化对齐评估方法论，影响多文化产品设计。",
+      "advice": "做国际化产品的读者可关注该评估框架并读原文。"
+    },
+    {
+      "id": "ef06d1782a99",
+      "title": "The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs",
+      "url": "https://arxiv.org/abs/2608.09941",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "量化",
+        "小语言模型",
+        "多语言"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "多语言量化税：边缘小模型的结构崩塌",
+      "summary_zh": "论文发现4-bit权重量化对多语言边缘小语言模型造成不均衡损伤，某些语言类型上性能出现结构性崩塌。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识量化对非英语语言的隐性代价，选型时需分语言测试。",
+      "impact": "提醒边缘部署慎用激进量化，多语言场景受影响最大。",
+      "advice": "部署端侧模型前，按目标语言逐一验证量化后效果。"
+    },
+    {
+      "id": "5c7f4bb90efe",
+      "title": "When Chain-of-Thought Helps and When It Hurts: An Empirical Investigation of the Serial-Depth Bottleneck in LLM Reasoning",
+      "url": "https://arxiv.org/abs/2608.09942",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "思维链",
+        "LLM推理",
+        "arXiv"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "思维链何时有用何时有害：串行深度瓶颈",
+      "summary_zh": "论文实证研究思维链推理的边界，提出串行深度瓶颈概念，解释CoT在哪些任务上反而损害模型表现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解CoT并非万能，存在串行深度瓶颈这一失效机制。",
+      "impact": "修正对思维链的盲目依赖，指导推理策略按需选择。",
+      "advice": "使用CoT前先判断任务类型，低深度任务可省略推理链。"
+    },
+    {
+      "id": "71fb1bd57514",
+      "title": "刚刚，Manus恢复独立运营",
+      "url": "https://www.qbitai.com/2026/08/470805.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "Manus",
+        "AI Agent",
+        "行业动态"
+      ],
+      "published_at": "2026-08-12T02:51:44.000Z",
+      "title_zh": "Manus恢复独立运营",
+      "summary_zh": "此前并入Meta体系传闻不断的AI智能体产品Manus宣布恢复独立运营，重新以独立公司身份继续发展。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察AI Agent创业公司在巨头竞争下的生存路径与取舍。",
+      "impact": "国内Agent赛道格局生变，独立阵营保留重要玩家。",
+      "advice": "关注Manus后续产品迭代，对比体验其Agent能力。"
     }
   ]
 }
