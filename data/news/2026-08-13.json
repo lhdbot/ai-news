@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T03:37:14.651Z",
+  "generated_at": "2026-08-13T04:09:24.824Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1182,6 +1182,346 @@
       "learn": "认识AI训练数据的opt-out授权模式及其争议，了解平台数据政策变化。",
       "impact": "加剧创作者与平台的数据权益矛盾，或引发更多版权诉讼。",
       "advice": "内容创作者应检查平台隐私设置，关注训练数据授权政策。"
+    },
+    {
+      "id": "c6693bb7de7b",
+      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "url": "https://arxiv.org/abs/2608.11207",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "多智能体",
+        "LLM",
+        "协作对话"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "多LLM智能体协作对话的动态治理",
+      "summary_zh": "论文提出一种动态治理框架,协调多个结构不同的LLM智能体在协作对话中的分工与交互,以提升整体对话效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "多智能体系统中需要动态治理机制,而非静态分工,才能稳定协作产出。",
+      "impact": "为构建多智能体协作应用提供治理参考,推动复杂任务编排落地。",
+      "advice": "做多Agent开发的读者可读原文,了解治理机制设计思路。"
+    },
+    {
+      "id": "1465369cd462",
+      "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
+      "url": "https://arxiv.org/abs/2608.11210",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "贝叶斯校准",
+        "先验分布",
+        "Distribird"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "Distribird:文献引导的贝叶斯校准先验设计",
+      "summary_zh": "论文提出Distribird方法,利用已有文献知识设计先验分布,改进过程模型的贝叶斯校准效果与效率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "将文献中的领域知识编码为先验分布,可显著提升贝叶斯校准质量。",
+      "impact": "降低科学计算中模型校准的试错成本,加速参数估计。",
+      "advice": "做贝叶斯建模或科学计算的读者可关注该先验设计方法。"
+    },
+    {
+      "id": "6e2366612b68",
+      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
+      "url": "https://arxiv.org/abs/2608.11211",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "图论",
+        "Conway 99图",
+        "数学证明"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "Conway 99图问题的结构化约简与可验证界",
+      "summary_zh": "论文对著名的Conway 99图猜想给出强制结构约简方法和可验证的界,推进了这一图论开放问题的研究。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "结构化约简加可验证界是攻克组合数学开放问题的有效路径。",
+      "impact": "推动图论经典难题研究,展示AI辅助数学证明的潜力。",
+      "advice": ""
+    },
+    {
+      "id": "b0cc76aea7c7",
+      "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2608.11212",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "MoE",
+        "模型量化",
+        "路由"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "量化MoE中因果路由损伤的检测与修复难题",
+      "summary_zh": "论文研究Top-k MoE模型量化后的路由翻转现象,指出检测路由变化容易,但判断是否需要修复及其因果损伤更难。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "MoE量化会改变专家路由,评估损伤需因果分析而非简单对比。",
+      "impact": "为MoE模型量化部署提供损伤评估依据,降低压缩风险。",
+      "advice": "做MoE量化部署的读者应关注路由一致性,读原文了解评估方法。"
+    },
+    {
+      "id": "894259dbee4c",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "url": "https://arxiv.org/abs/2608.11215",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "多智能体",
+        "社会模拟",
+        "低成本"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "穷人的智能体建模:笔记本上模拟LLM社会",
+      "summary_zh": "论文提出低成本方法,在普通笔记本上模拟由大量LLM智能体组成的社会,降低多智能体社会仿真的算力门槛。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "通过建模与近似技巧,小规模算力也能跑大规模智能体社会模拟。",
+      "impact": "让个人开发者也能研究智能体社会行为,降低研究门槛。",
+      "advice": "对多智能体仿真感兴趣的读者可读原文,尝试本地复现。"
+    },
+    {
+      "id": "cbd60f2db174",
+      "title": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
+      "url": "https://arxiv.org/abs/2608.11332",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "手语识别",
+        "表示学习",
+        "自监督"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "无标注表示学习助力跨数据集手语识别",
+      "summary_zh": "论文提出无需gloss标注的表示学习方法,实现跨数据集的手语词汇定位,改善资源匮乏手语的研究条件。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "摆脱人工标注依赖的自监督表示学习,是低资源视觉任务的方向。",
+      "impact": "降低手语识别数据成本,推动无障碍AI技术普惠。",
+      "advice": "关注自监督学习或无障碍技术的读者可读原文。"
+    },
+    {
+      "id": "875fa8ee514f",
+      "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+      "url": "https://arxiv.org/abs/2608.11338",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "AI Agent",
+        "技能学习",
+        "成本优化"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "程序化技能学习最能降低智能体成本",
+      "summary_zh": "论文比较多种增强智能体的方法,发现将经验沉淀为可复用程序化技能,能最大程度降低智能体运行成本并提升表现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "把重复经验固化为程序化技能库,是降低Agent token成本的关键。",
+      "impact": "为Agent降本增效提供实证依据,影响Agent产品设计。",
+      "advice": "做Agent开发的读者可尝试构建技能库机制,读原文看对比实验。"
+    },
+    {
+      "id": "5b7a820402aa",
+      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "url": "https://arxiv.org/abs/2608.11350",
+      "source": "arXiv cs.CL",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "自我进化",
+        "技能学习"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "通过技能工具进化实现自我进化的具身智能体",
+      "summary_zh": "论文提出Skill-Harness Evolution方法,让具身智能体在使用工具的过程中持续积累与进化技能,实现自我提升。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "具身智能体可通过技能与工具协同进化实现持续自我改进。",
+      "impact": "推动具身智能从静态训练走向持续自我进化范式。",
+      "advice": "关注具身智能的读者可读原文,了解技能进化框架设计。"
+    },
+    {
+      "id": "b08f304ffc8d",
+      "title": "ODE-Based Transformer Decoders for Iterative Sign Language Translation",
+      "url": "https://arxiv.org/abs/2608.11352",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "手语翻译",
+        "ODE",
+        "Transformer"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "基于ODE的Transformer解码器迭代手语翻译",
+      "summary_zh": "论文将常微分方程引入Transformer解码器,通过迭代细化机制提升手语视频到文本的翻译质量。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "ODE式迭代解码可作为Transformer生成质量改进的新思路。",
+      "impact": "改进手语翻译精度,迭代解码思路或推广到其他生成任务。",
+      "advice": "做序列生成的读者可关注ODE解码器这一迭代细化思路。"
+    },
+    {
+      "id": "bf78d40059be",
+      "title": "Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning",
+      "url": "https://arxiv.org/abs/2608.11408",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "机器遗忘",
+        "LLM安全",
+        "隐私合规"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "LLM遗忘学习中恢复风险的测量方法",
+      "summary_zh": "论文指出LLM遗忘学习后被抹除的知识可能恢复,主张先测量恢复风险再做优化,并提出相应的预测方法。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "机器遗忘并非一劳永逸,需量化评估知识恢复风险再干预。",
+      "impact": "影响数据合规与隐私删除实践,提高遗忘审计标准。",
+      "advice": "关注模型合规与隐私的读者可读原文,了解遗忘评估方法。"
+    },
+    {
+      "id": "1ec3e272d385",
+      "title": "FarSky: Task-Aware Latent-Space Coupling for Generative Intra-Hour Solar Forecasting",
+      "url": "https://arxiv.org/abs/2608.11254",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "时间序列预测",
+        "生成模型",
+        "能源AI"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "FarSky:生成式小时内太阳能预测",
+      "summary_zh": "提出任务感知的潜空间耦合方法,将卫星图像生成与辐照度预测结合,实现小时内太阳能发电量的生成式精准预报。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解潜空间耦合如何把生成模型用于短时能源预测任务",
+      "impact": "提升光伏并网调度精度,助力电网消纳波动能源",
+      "advice": "读原文,关注生成式预测在能源领域的落地思路"
+    },
+    {
+      "id": "88d5c798575d",
+      "title": "Why AI Detection Fails for Academic Integrity",
+      "url": "https://arxiv.org/abs/2608.11256",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "AI检测",
+        "学术诚信",
+        "文本分类"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "AI检测为何难守学术诚信",
+      "summary_zh": "分析商用AI文本检测工具在学术场景中的失败原因,指出其误判率高、易被绕过,难以作为诚信判定的可靠依据。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识AI检测器的统计局限与对抗性绕过问题",
+      "impact": "促使高校重新审视AI检测政策,减少误判伤害",
+      "advice": "了解检测工具原理,勿过度依赖其判定结果"
+    },
+    {
+      "id": "8a6ff7f1af14",
+      "title": "Basin: Efficient and Extensible Numerical Optimization in Rust",
+      "url": "https://arxiv.org/abs/2608.11279",
+      "source": "arXiv cs.LG",
+      "category": "工具产品",
+      "tags": [
+        "Rust",
+        "数值优化",
+        "开源库"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "Basin:Rust高效数值优化库",
+      "summary_zh": "发布Rust编写的数值优化框架Basin,兼顾高性能与可扩展性,支持多种优化算法,面向科研与工程计算场景。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解Rust在数值计算领域的优势与优化框架设计",
+      "impact": "为Rust科学计算生态补强优化能力",
+      "advice": "有数值优化需求可试用Basin替代Python方案"
+    },
+    {
+      "id": "6e9b1964150c",
+      "title": "Long-Horizon Forecasting of Complete Financial Statements with Forma",
+      "url": "https://arxiv.org/abs/2608.11327",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "金融AI",
+        "财务预测",
+        "领域模型"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "Forma:长周期财务报表预测",
+      "summary_zh": "提出Forma模型,对完整财务报表进行长期预测,实验证明针对会计领域专门训练的模型优于通用大模型。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习领域专门训练在金融预测中胜过通用模型的思路",
+      "impact": "提升企业财务规划自动化与预测可信度",
+      "advice": "关注垂直领域小模型对通用LLM的替代趋势"
+    },
+    {
+      "id": "29b69d0ac149",
+      "title": "Market-Information-Aware Gated-LoRA of Foundation Models for Transferable Day-Ahead Electricity Price Forecasting",
+      "url": "https://arxiv.org/abs/2608.11359",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "LoRA",
+        "电价预测",
+        "迁移学习"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "门控LoRA预测日前电价",
+      "summary_zh": "将市场信息感知与门控LoRA结合微调基础模型,实现可迁移的日前电价预测,适应不同电力市场环境。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "掌握LoRA微调在时序预测迁移中的应用方法",
+      "impact": "降低电力交易预测成本,提升跨市场泛化能力",
+      "advice": "借鉴门控LoRA思路做领域自适应微调实验"
+    },
+    {
+      "id": "89e681e09915",
+      "title": "360纳米大片流水线携手《知识就是力量》发布“知力·纳米”科普科幻AI大片创作平台",
+      "url": "https://www.qbitai.com/2026/08/471624.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "AIGC",
+        "AI视频",
+        "360"
+      ],
+      "published_at": "2026-08-13T03:11:48.000Z",
+      "title_zh": "360发布“知力·纳米”AI大片创作平台",
+      "summary_zh": "360携手《知识就是力量》杂志推出“知力·纳米”平台,基于纳米大片流水线降低科普科幻AI视频创作门槛,并举办创作交流活动。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI视频生成流水线在科普内容生产的落地模式",
+      "impact": "降低科普视频制作门槛,推动AIGC内容大众化",
+      "advice": "体验该平台,尝试用AI生成科普短视频"
+    },
+    {
+      "id": "0c4fd945f2f9",
+      "title": "引领智能手机迈入具身交互时代 全球首款机器人手机荣耀Robot Phone发布",
+      "url": "https://www.qbitai.com/2026/08/471451.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "荣耀",
+        "机器人手机",
+        "具身交互"
+      ],
+      "published_at": "2026-08-13T03:00:41.000Z",
+      "title_zh": "荣耀发布全球首款机器人手机",
+      "summary_zh": "荣耀发布Robot Phone,号称全球首款机器人手机,通过可动机械结构与AI交互能力,将智能手机带入具身交互时代。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识具身智能与消费终端融合的新形态",
+      "impact": "开创具身交互手机品类,拓展AI硬件形态边界",
+      "advice": "关注其交互设计,思考具身智能的产品化路径"
     }
   ]
 }
