@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-13T16:37:44.528Z",
+  "generated_at": "2026-08-13T17:07:38.063Z",
   "items": [
     {
       "id": "9e022b7caa78",
@@ -621,6 +621,66 @@
       "learn": "数据授权正从opt-in转向opt-out模式，了解AI训练数据的版权与隐私争议。",
       "impact": "引发创作者内容权益争议，或推动AI训练数据授权规则重构。",
       "advice": "关注自己的内容平台数据条款，必要时及时选择退出。"
+    },
+    {
+      "id": "e83d70611f6b",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source": "Google DeepMind",
+      "category": "模型发布",
+      "tags": [
+        "Gemini",
+        "Google DeepMind",
+        "轻量模型"
+      ],
+      "published_at": "2026-08-13T17:04:18.000Z",
+      "title_zh": "谷歌发布 Gemini 3.7 Flash",
+      "summary_zh": "Google DeepMind 推出新一代轻量级模型 Gemini 3.7 Flash，主打更快的响应速度与更低的推理成本，面向高频调用场景。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解轻量级模型在速度与成本间的权衡设计，关注 Flash 系列的能力边界。",
+      "impact": "压低高频推理场景成本，加剧轻量模型市场竞争。",
+      "advice": "试用 API 对比延迟与价格，评估替换现有轻量模型。"
+    },
+    {
+      "id": "6357d7795d21",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "source": "OpenAI",
+      "category": "工具产品",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "推理加速"
+      ],
+      "published_at": "2026-08-13T10:00:00.000Z",
+      "title_zh": "OpenAI 预览 Ultrafast：GPT-5.6 Sol 提速 14 倍",
+      "summary_zh": "OpenAI 推出新的 API 服务档位 Ultrafast，可使 GPT-5.6 Sol 的运行速度最高提升至原来的 14 倍，目前处于预览阶段。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识推理加速服务分层模式，了解速度与成本、质量之间的取舍。",
+      "impact": "实时应用场景门槛大降，推动低延迟 AI 应用普及。",
+      "advice": "申请预览资格，测试实时交互类应用在该档位下的表现。"
+    },
+    {
+      "id": "c5e04e3a5679",
+      "title": "深度体验DeepSeek Harness，我原谅它涨价了",
+      "url": "https://www.qbitai.com/2026/08/472208.html",
+      "source": "量子位",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "评测"
+      ],
+      "published_at": "2026-08-13T16:03:19.000Z",
+      "title_zh": "深度体验 DeepSeek Harness：原谅涨价了",
+      "summary_zh": "量子位作者深度实测 DeepSeek Harness，认为其体验与能力提升足以抵消此前 API 涨价带来的不满，并分享了使用心得。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 DeepSeek Harness 的实际能力与使用技巧，以及其定价策略变化。",
+      "impact": "国产模型工具链体验提升，用户对涨价的接受度增强。",
+      "advice": "阅读原评测，亲自试用 Harness 再决定是否续用。"
     }
   ]
 }
