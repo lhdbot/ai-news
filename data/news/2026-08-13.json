@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T14:37:46.770Z",
+  "generated_at": "2026-08-13T15:07:31.772Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -2041,6 +2041,26 @@
       "learn": "了解AI助手获取实时信息的内容授权模式,以及科技巨头与出版商的利益博弈。",
       "impact": "或重塑新闻业与AI公司的合作模式,推动内容付费授权成为常态。",
       "advice": "关注AI内容授权趋势,思考其对独立开发者和内容生态的影响。"
+    },
+    {
+      "id": "a1ebe27fc26a",
+      "title": "Does Google even want to win at AI?",
+      "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "AI战略",
+        "The Verge"
+      ],
+      "published_at": "2026-08-13T14:10:46.000Z",
+      "title_zh": "谷歌真的想赢得AI竞赛吗",
+      "summary_zh": "The Verge《Decoder》节目对话资深AI记者Hayden Field，探讨谷歌在AI竞争中的战略意图、产品节奏与内部矛盾。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "可从媒体视角了解大厂AI战略背后的组织与商业博弈，看清发布节奏不等于技术实力。",
+      "impact": "折射头部厂商AI战略摇摆，影响行业对谷歌竞争力的预期。",
+      "advice": "收听Decoder本期节目，关注谷歌Gemini战略走向。"
     }
   ]
 }
