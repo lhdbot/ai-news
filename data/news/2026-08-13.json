@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T04:09:24.824Z",
+  "generated_at": "2026-08-13T04:37:57.869Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1522,6 +1522,146 @@
       "learn": "认识具身智能与消费终端融合的新形态",
       "impact": "开创具身交互手机品类,拓展AI硬件形态边界",
       "advice": "关注其交互设计,思考具身智能的产品化路径"
+    },
+    {
+      "id": "252c2f9c2308",
+      "title": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
+      "url": "https://arxiv.org/abs/2608.11232",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "Agent评测",
+        "算法交易",
+        "LLM"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "Backtrader-Bench:用自生成选择题评测交易编程Agent",
+      "summary_zh": "提出Backtrader-Bench基准,让LLM编程Agent在算法交易回测框架上完成任务,并用模型自生成的多项选择题进行自动化评测。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解如何用自生成MCQ低成本自动评测Agent的代码能力。",
+      "impact": "为金融编程Agent提供可复现的量化评测标准。",
+      "advice": "做Agent评测的读者可读原文借鉴MCQ评测方法。"
+    },
+    {
+      "id": "08dae9a3dad8",
+      "title": "Retrofitting Recurrent Depth into a Pretrained Language Model: Installation, Extrapolation, Transfer, and Retention at Two Parameter Budgets",
+      "url": "https://arxiv.org/abs/2608.11233",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "模型架构",
+        "循环深度",
+        "预训练"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "为预训练语言模型改造循环深度结构",
+      "summary_zh": "研究在已预训练的稠密语言模型上加装循环深度模块,并在两种参数预算下验证其外推、迁移与知识保留能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习如何在不重训的情况下为模型增加循环推理深度。",
+      "impact": "降低提升模型推理能力的训练成本。",
+      "advice": "关注循环深度(recurrent depth)这一模型架构方向。"
+    },
+    {
+      "id": "e8a7c8cfbba2",
+      "title": "TRACE Bench: Task-driven Roleplay Agentic Checklist Evaluation",
+      "url": "https://arxiv.org/abs/2608.11236",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "角色扮演",
+        "Agent评测",
+        "基准测试"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "TRACE Bench:任务驱动的角色扮演Agent评测",
+      "summary_zh": "提出TRACE Bench,用任务驱动的清单式检查评估角色扮演Agent,超越传统的对话质量主观打分。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "角色扮演评测应关注任务完成度而非仅看拟人程度。",
+      "impact": "推动角色扮演AI从娱乐走向可衡量的实用场景。",
+      "advice": "做陪伴/角色类产品的团队可参考该评测框架。"
+    },
+    {
+      "id": "c36c2f41b178",
+      "title": "Lost in Compaction: Evaluating Side-Constraint Loss under Context Compaction",
+      "url": "https://arxiv.org/abs/2608.11242",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "上下文压缩",
+        "指令遵循",
+        "长上下文"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "上下文压缩中丢失的约束条件研究",
+      "summary_zh": "研究上下文窗口压缩(compaction)时模型对附带约束条件的遗忘问题,评测压缩后约束遵守率的下降。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解长上下文压缩会导致指令约束丢失这一隐患。",
+      "impact": "提醒长对话Agent产品重视压缩后的指令遵循。",
+      "advice": "开发长会话Agent时,压缩后应重新注入关键约束。"
+    },
+    {
+      "id": "72e029af21cb",
+      "title": "Diffuse to Compress: Leveraging Diffusion LMs for Lossless Compression",
+      "url": "https://arxiv.org/abs/2608.11249",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "扩散模型",
+        "无损压缩",
+        "信息论"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "用扩散语言模型实现无损压缩",
+      "summary_zh": "探索利用扩散语言模型的概率建模能力进行无损数据压缩,将扩散模型用作压缩器的算术编码后端。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "语言模型与数据压缩本质相通,扩散模型亦可编码。",
+      "impact": "开辟扩散模型在生成之外的新应用方向。",
+      "advice": "对信息论感兴趣可读原文了解LM即压缩器思路。"
+    },
+    {
+      "id": "56beb9acfaf8",
+      "title": "Federated Learning for Distributed CNC Tool Wear Prediction",
+      "url": "https://arxiv.org/abs/2608.11281",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "联邦学习",
+        "工业AI",
+        "预测性维护"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "联邦学习用于分布式CNC刀具磨损预测",
+      "summary_zh": "将联邦学习应用于数控机床刀具磨损预测,各工厂数据不出本地即可联合训练模型,兼顾隐私与精度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解联邦学习在工业预测性维护中的落地方式。",
+      "impact": "助力制造业在保护数据隐私下共享AI能力。",
+      "advice": "做工业AI的开发者可关注联邦学习框架实践。"
+    },
+    {
+      "id": "81224d849cc5",
+      "title": "Terminal Symmetry as a Decision Resource: Statewise Refinement for Anytime Verified Construction",
+      "url": "https://arxiv.org/abs/2608.11318",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "自动推理",
+        "对称性",
+        "Agent"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "终端对称性作为决策资源:随时可验证的构造",
+      "summary_zh": "针对序列构造类任务,提出利用终端状态对称性逐步细化决策的方法,实现可随时中断且已验证的构造过程。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习利用问题对称性让Agent决策可验证、可中断。",
+      "impact": "提升自动推理与构造任务中Agent的可靠性。",
+      "advice": "研究推理Agent的读者可了解anytime验证思路。"
     }
   ]
 }
