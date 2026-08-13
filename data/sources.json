@@ -48,6 +48,30 @@
     "site": "https://www.microsoft.com/en-us/research/"
   },
   {
+    "name": "DeepSeek-V3 官方发布",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+    "type": "rss",
+    "weight": 12,
+    "category": "模型发布",
+    "site": "https://www.deepseek.com"
+  },
+  {
+    "name": "DeepSeek-R1 官方发布",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1/releases.atom",
+    "type": "rss",
+    "weight": 12,
+    "category": "模型发布",
+    "site": "https://www.deepseek.com"
+  },
+  {
+    "name": "DeepSeek Harness",
+    "url": "https://github.com/deepseek-ai/deepseek-harness/commits/master.atom",
+    "type": "rss",
+    "weight": 12,
+    "category": "工具产品",
+    "site": "https://github.com/deepseek-ai/deepseek-harness"
+  },
+  {
     "name": "量子位",
     "url": "https://www.qbitai.com/feed",
     "type": "rss",
