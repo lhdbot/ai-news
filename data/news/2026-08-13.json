@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T06:07:45.621Z",
+  "generated_at": "2026-08-13T06:37:52.800Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1722,6 +1722,66 @@
       "learn": "关注大会议程可了解具身智能、人形机器人的最新研究方向与产业进展。",
       "impact": "释放机器人行业风向信号，反映具身智能产业化加速趋势。",
       "advice": "关注大会直播或回放，留意具身智能相关演讲与新发布。"
+    },
+    {
+      "id": "5e396f86f43f",
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI安全",
+        "开放研究",
+        "Geoffrey Hinton"
+      ],
+      "published_at": "2026-08-12T17:51:00.000Z",
+      "title_zh": "AI三巨头为开放研究辩护",
+      "summary_zh": "在Ai4大会上,Hinton、李飞飞等三位顶级AI专家回应日益增长的安全担忧,主张AI研究应保持开放而非走向封闭。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI开放与封闭路线之争,及安全担忧下顶尖学者的立场与论据。",
+      "impact": "影响AI研究开放生态走向,关乎学术共享与行业竞争格局。",
+      "advice": "读原文了解三位专家的具体论点,关注开源模型社区动态。"
+    },
+    {
+      "id": "6585ea3c34af",
+      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+      "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "融资",
+        "企业AI"
+      ],
+      "published_at": "2026-08-12T17:41:29.000Z",
+      "title_zh": "Thrive融资20亿美元押注企业AI",
+      "summary_zh": "OpenAI支持的Thrive Holdings完成20亿美元融资,估值达120亿美元,计划将AI能力规模化引入传统企业。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "资本正从模型层转向AI应用落地,企业级AI改造成为新投资热点。",
+      "impact": "加速传统企业AI化进程,企业服务和集成岗位需求上升。",
+      "advice": "关注企业AI落地场景,尝试用OpenAI API改造实际业务流程。"
+    },
+    {
+      "id": "70c73a35f66a",
+      "title": "Twitch streamers can now opt out from training Amazon’s AI",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "source": "The Verge AI",
+      "category": "行业动态",
+      "tags": [
+        "亚马逊",
+        "数据版权",
+        "Twitch"
+      ],
+      "published_at": "2026-08-12T17:29:10.000Z",
+      "title_zh": "Twitch主播可拒绝内容用于AI训练",
+      "summary_zh": "Twitch推出新选项,主播可以选择退出,不允许自己的直播内容被用于训练亚马逊的AI模型。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "平台开始提供AI训练数据退出机制,数据版权与创作者权益受重视。",
+      "impact": "树立内容授权先例,推动AI训练数据合规化进程。",
+      "advice": "检查各平台数据授权设置,关注AI训练数据合规政策变化。"
     }
   ]
 }
