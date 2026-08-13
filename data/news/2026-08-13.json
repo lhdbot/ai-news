@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T14:07:40.516Z",
+  "generated_at": "2026-08-13T14:37:46.770Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -2001,6 +2001,46 @@
       "learn": "AI助手正从功能分散走向平台化整合,统一入口成为大厂竞争焦点。",
       "impact": "简化用户选择,加剧AI助手入口之争。",
       "advice": "关注Copilot整合进展,评估其作为统一AI入口的开发潜力。"
+    },
+    {
+      "id": "e3b43b2d45c3",
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "AI监控",
+        "隐私",
+        "Flock"
+      ],
+      "published_at": "2026-08-13T13:41:10.000Z",
+      "title_zh": "Flock因监控争议收紧警方使用规则",
+      "summary_zh": "面对日益强烈的监控反对声浪,警用科技巨头Flock宣布将修改警员访问其车牌识别与监控系统的规则,限制数据使用方式。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI监控系统引发的隐私争议,以及企业通过政策调整应对公众压力的治理模式。",
+      "impact": "警用AI监管趋严,或推动行业建立更透明的数据使用规范。",
+      "advice": "关注AI伦理与隐私政策动向,读原文了解具体规则变化。"
+    },
+    {
+      "id": "e149f6dcb3a5",
+      "title": "Apple in talks to pay publishers to provide Siri with current news: report",
+      "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "苹果",
+        "Siri",
+        "内容授权"
+      ],
+      "published_at": "2026-08-13T14:34:43.000Z",
+      "title_zh": "苹果拟付费让Siri获取实时新闻",
+      "summary_zh": "据报道,苹果正与出版商谈判,拟投入上亿美元预算购买新闻内容授权,为Siri提供最新资讯回答能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI助手获取实时信息的内容授权模式,以及科技巨头与出版商的利益博弈。",
+      "impact": "或重塑新闻业与AI公司的合作模式,推动内容付费授权成为常态。",
+      "advice": "关注AI内容授权趋势,思考其对独立开发者和内容生态的影响。"
     }
   ]
 }
