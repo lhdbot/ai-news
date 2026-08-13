@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T08:37:19.481Z",
+  "generated_at": "2026-08-13T09:07:40.203Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1802,6 +1802,46 @@
       "learn": "AI算力需求正从训练向推理侧扩散，服务器硬件厂商成为这波浪潮的直接受益者。",
       "impact": "印证AI基础设施投资持续加码，硬件供应链景气度上行。",
       "advice": "关注AI算力产业链动向，评估推理侧基础设施相关机会。"
+    },
+    {
+      "id": "011522d5826f",
+      "title": "How kids feel about AI, in their own words",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "source": "MIT Tech Review AI",
+      "category": "行业动态",
+      "tags": [
+        "AI教育",
+        "青少年",
+        "用户研究"
+      ],
+      "published_at": "2026-08-13T09:00:00.000Z",
+      "title_zh": "孩子们亲口述说对AI的真实感受",
+      "summary_zh": "MIT科技评论采访多名儿童,让他们用自己的话描述对AI的看法,呈现出与成人预期不同的天真而直接的认知与担忧。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解年轻一代如何理解和使用AI,有助于设计更适合青少年的AI产品。",
+      "impact": "为AI教育内容和儿童产品的设计提供一手用户视角参考。",
+      "advice": "读原文,思考AI产品的适龄设计与教育场景应用。"
+    },
+    {
+      "id": "d698210918fb",
+      "title": "刚刚！Ilya首个模型曝光了",
+      "url": "https://www.qbitai.com/2026/08/471701.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "SSI",
+        "Ilya",
+        "持续学习"
+      ],
+      "published_at": "2026-08-13T08:36:53.000Z",
+      "title_zh": "Ilya首个模型曝光",
+      "summary_zh": "Ilya Sutskever创立的SSI公司首个模型曝光,主攻持续学习方向,旨在让模型能在部署后不断吸收新知识。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "持续学习是突破大模型静态权重局限的关键方向,值得跟踪其技术路线。",
+      "impact": "若成功,将改变大模型训练与部署范式,引发行业跟进。",
+      "advice": "关注SSI官方动态与持续学习相关论文,读原文了解细节。"
     }
   ]
 }
