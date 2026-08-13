@@ -48,6 +48,14 @@
     "site": "https://www.microsoft.com/en-us/research/"
   },
   {
+    "name": "DeepSeek 官网",
+    "url": "https://www.deepseek.com/news/",
+    "type": "deepseek-news",
+    "weight": 12,
+    "category": "模型发布",
+    "site": "https://www.deepseek.com/"
+  },
+  {
     "name": "DeepSeek-V3 官方发布",
     "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
     "type": "rss",
