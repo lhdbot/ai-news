@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-13T18:07:13.572Z",
+  "generated_at": "2026-08-13T18:37:26.874Z",
   "items": [
     {
       "id": "9e022b7caa78",
@@ -980,6 +980,26 @@
       "learn": "门控LoRA可实现基础模型在多市场间的参数高效迁移。",
       "impact": "提升电力市场电价预测精度,降低微调成本。",
       "advice": "学习Gated-LoRA设计,可迁移到自己的时序任务。"
+    },
+    {
+      "id": "855fa77e93e1",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "OpenAI",
+      "category": "模型发布",
+      "tags": [
+        "GPT-5.6",
+        "AI Agent",
+        "OpenAI"
+      ],
+      "published_at": "2026-08-13T11:00:00.000Z",
+      "title_zh": "GPT-5.6 开发者实战指南",
+      "summary_zh": "OpenAI发布GPT-5.6构建指南,介绍初创公司如何用它打造更快、更省成本的AI智能体,涵盖实践方法与优化策略。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解用GPT-5.6构建AI Agent的成本优化方法与工程实践",
+      "impact": "降低智能体开发门槛,加速AI应用落地",
+      "advice": "阅读原文指南,评估GPT-5.6是否适合你的Agent项目"
     }
   ]
 }
