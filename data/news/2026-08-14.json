@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-13T16:09:45.473Z",
+  "generated_at": "2026-08-13T16:37:44.528Z",
   "items": [
     {
       "id": "9e022b7caa78",
@@ -601,6 +601,26 @@
       "learn": "AI文本水印检测技术正走向实用，使用痕迹可追溯。",
       "impact": "推动AI使用透明化，影响学术与职场AI使用规范。",
       "advice": "了解AI水印原理，工作中合规使用AI工具。"
+    },
+    {
+      "id": "2f233deb4aaf",
+      "title": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
+      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "亚马逊",
+        "Twitch",
+        "训练数据"
+      ],
+      "published_at": "2026-08-12T20:10:40.000Z",
+      "title_zh": "亚马逊默认用Twitch直播内容训练AI",
+      "summary_zh": "亚马逊宣布默认使用Twitch主播内容训练AI模型，除非主播主动退出。Twitch产品负责人承认若为选择加入机制，几乎没人会同意。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "数据授权正从opt-in转向opt-out模式，了解AI训练数据的版权与隐私争议。",
+      "impact": "引发创作者内容权益争议，或推动AI训练数据授权规则重构。",
+      "advice": "关注自己的内容平台数据条款，必要时及时选择退出。"
     }
   ]
 }
