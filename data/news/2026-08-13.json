@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-12T18:07:21.029Z",
+  "generated_at": "2026-08-13T00:37:25.065Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -921,6 +921,26 @@
       "learn": "理解Agent落地的核心约束:数据质量、血缘与可信治理。",
       "impact": "推动企业从试点转向重视数据基建,加速Agent规模化。",
       "advice": "企业落地Agent前先盘点数据可信度,读原文了解治理框架。"
+    },
+    {
+      "id": "cad35e6294fe",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "url": "https://openai.com/index/ringcentral",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "RingCentral",
+        "ChatGPT",
+        "AI编码"
+      ],
+      "published_at": "2026-08-12T00:00:00.000Z",
+      "title_zh": "How RingCentral builds AI-native work from engineering to ops",
+      "summary_zh": "RingCentral分享了其从工程到运维全面采用ChatGPT Work和Codex的实践，用AI加速产品开发并重构内部工作流程。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解企业如何将AI编码工具深度集成到研发与运维全流程，实现AI原生协作模式。",
+      "impact": "展示AI原生工作方式在企业落地的可行路径，推动行业研发模式变革。",
+      "advice": "读原文了解落地细节，评估在团队引入Codex等AI编码工具。"
     }
   ]
 }
