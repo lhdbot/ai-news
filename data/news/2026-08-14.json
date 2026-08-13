@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-13T22:07:19.937Z",
+  "generated_at": "2026-08-13T22:37:46.529Z",
   "items": [
     {
       "id": "9e022b7caa78",
@@ -1000,6 +1000,105 @@
       "learn": "了解用GPT-5.6构建AI Agent的成本优化方法与工程实践",
       "impact": "降低智能体开发门槛,加速AI应用落地",
       "advice": "阅读原文指南,评估GPT-5.6是否适合你的Agent项目"
+    },
+    {
+      "id": "cfb240ecffa8",
+      "title": "Merge pull request #2519 from deepseek-harness/feat/npm-public",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/47f943859bef60e4160492346772ded9b24f765a",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "npm发布",
+        "CLI工具"
+      ],
+      "published_at": "2026-08-13T11:38:46.000Z",
+      "title_zh": "dsh 合并公开发布 PR",
+      "summary_zh": "DeepSeek Harness 合并 PR #2519,将 dsh 工具链打包并发布至 npm 公共仓库,版本为 0.1.0 预发布版。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 CLI 工具通过 npm 公开发布的标准流程与分支管理惯例。",
+      "impact": "降低开发者获取和试用该工具的门槛。",
+      "advice": "关注该仓库,待正式版发布后尝试安装体验。"
+    },
+    {
+      "id": "6f3bb389c957",
+      "title": "release(dsh): 0.1.0-rc.5",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/abe560f81edebe5f6a5b62706ff502daa0dccd40",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "版本发布"
+      ],
+      "published_at": "2026-08-13T10:49:33.000Z",
+      "title_zh": "dsh 发布 0.1.0-rc.5",
+      "summary_zh": "DeepSeek Harness 发布 dsh 的 0.1.0-rc.5 候选版本,迭代多个 rc 版本,正式版临近。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识 rc(候选发布)版本语义及预发布阶段的迭代节奏。",
+      "impact": "工具趋于稳定,正式版发布在即。",
+      "advice": "可用 npm 安装 rc 版提前试用并反馈问题。"
+    },
+    {
+      "id": "72e1b0a7918b",
+      "title": "build(release): publish the dsh family publicly",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/8c1e8d989070f795c0208794b9498defb4a390a8",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "monorepo",
+        "开源发布"
+      ],
+      "published_at": "2026-08-13T10:49:32.000Z",
+      "title_zh": "dsh 全家桶公开发布",
+      "summary_zh": "DeepSeek Harness 将 dsh 系列所有发布成员统一公开,各包均声明公共访问权限并推送至 npm。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习 monorepo 多包统一公开发布的发布配置方法。",
+      "impact": "完善开源生态,方便社区安装依赖。",
+      "advice": "查看其 package.json 的 publishConfig 写法作参考。"
+    },
+    {
+      "id": "e274f0fa8d92",
+      "title": "Merge pull request #2520 from deepseek-harness/docs/paper",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/f26a6f6cfff956dce3af00bad32f1bbed8c6e92a",
+      "source": "DeepSeek Harness",
+      "category": "论文研究",
+      "tags": [
+        "DeepSeek",
+        "技术文档",
+        "论文"
+      ],
+      "published_at": "2026-08-13T10:47:36.000Z",
+      "title_zh": "文档补充论文链接",
+      "summary_zh": "DeepSeek Harness 合并文档 PR,在项目中添加此前发布论文的链接,方便用户查阅技术细节。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "好项目应让论文与代码互相可达,便于理论与实践对照。",
+      "impact": "提升文档完整性,降低理解门槛。",
+      "advice": "顺链接读原论文,理解该工具的设计动机。"
+    },
+    {
+      "id": "9bc246c8852d",
+      "title": "Merge pull request #2521 from deepseek-harness/release/dsh-0.1.0-rc.3",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/124aa5f01aad6f4f626806e3c3465266ec5e5c62",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "版本发布",
+        "Git流程"
+      ],
+      "published_at": "2026-08-13T10:40:08.000Z",
+      "title_zh": "dsh 发布 0.1.0-rc.3",
+      "summary_zh": "DeepSeek Harness 合并发布分支,推出 dsh 0.1.0-rc.3 候选版本,持续修复问题推进正式版。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察通过发布分支管理版本提交流程的 Git 实践。",
+      "impact": "迭代频繁,项目处于活跃开发期。",
+      "advice": "关注其 changelog,了解 rc 间的修复内容。"
     }
   ]
 }
