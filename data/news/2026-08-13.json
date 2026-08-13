@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T02:07:53.061Z",
+  "generated_at": "2026-08-13T02:37:44.876Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1141,6 +1141,47 @@
       "learn": "观察数据下的策略排序与因果推断方法",
       "impact": "帮助中小企业获得低成本智能财务建议",
       "advice": "关注因果推断在商业决策中的应用"
+    },
+    {
+      "id": "3daa30d9847f",
+      "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
+      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "Anthropic",
+        "AI水印",
+        "内容检测"
+      ],
+      "published_at": "2026-08-12T22:26:37.000Z",
+      "title_zh": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
+      "summary_zh": "Anthropic为Claude生成内容加入水印检测机制，可识别AI文本，导致部分员工和学生担心在工作、作业中使用AI被发现，在社交媒体表达不满。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI内容水印技术的原理与检测能力，认识生成内容可追溯化的行业趋势。",
+      "impact": "推动AI生成内容可追溯，职场和学术场景的AI使用将更透明。",
+      "advice": "使用AI辅助时注意场合合规，关注AI检测技术发展。"
+    },
+    {
+      "id": "2f233deb4aaf",
+      "title": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
+      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "亚马逊",
+        "Twitch",
+        "训练数据",
+        "版权"
+      ],
+      "published_at": "2026-08-12T20:10:40.000Z",
+      "title_zh": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
+      "summary_zh": "亚马逊将默认使用Twitch主播的内容训练AI模型，主播需手动选择退出才能排除，Twitch高管坦言若改为选择加入则没人会加入，引发争议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识AI训练数据的opt-out授权模式及其争议，了解平台数据政策变化。",
+      "impact": "加剧创作者与平台的数据权益矛盾，或引发更多版权诉讼。",
+      "advice": "内容创作者应检查平台隐私设置，关注训练数据授权政策。"
     }
   ]
 }
