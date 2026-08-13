@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T05:07:38.667Z",
+  "generated_at": "2026-08-13T05:37:29.008Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1682,6 +1682,26 @@
       "learn": "关注国产大模型最新进展，了解与国际旗舰模型的能力对标情况。",
       "impact": "国产模型竞争力增强，推动大模型价格与性能竞争。",
       "advice": "调用API体验V4 Pro，对比测试实际效果。"
+    },
+    {
+      "id": "8a66cb32dff8",
+      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "source": "TechCrunch AI",
+      "category": "行业动态",
+      "tags": [
+        "AI编程",
+        "融资",
+        "Cognition"
+      ],
+      "published_at": "2026-08-12T18:19:12.000Z",
+      "title_zh": "AI编程公司Cognition拟以400亿美元估值融资",
+      "summary_zh": "AI编程初创公司Cognition（Devin开发商）在完成上一轮巨额融资仅数月后，据报道正洽谈新一轮融资，估值或达400亿美元。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI编程赛道资本热度，头部公司估值快速攀升，反映市场对编程Agent商业化的信心。",
+      "impact": "AI编程工具赛道竞争加剧，资本加速向头部集中。",
+      "advice": "试用Devin等AI编程Agent，关注编程自动化对开发流程的重塑。"
     }
   ]
 }
