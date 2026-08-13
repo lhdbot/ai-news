@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-13T23:07:13.319Z",
+  "generated_at": "2026-08-13T23:10:50.078Z",
   "items": [
     {
       "id": "9e022b7caa78",
@@ -1099,6 +1099,19 @@
       "learn": "观察通过发布分支管理版本提交流程的 Git 实践。",
       "impact": "迭代频繁,项目处于活跃开发期。",
       "advice": "关注其 changelog,了解 rc 间的修复内容。"
+    },
+    {
+      "id": "eeb314dbf170",
+      "title": "DeepSeek 官网新公告: DeepSeek R1",
+      "url": "https://www.deepseek.com/news/r1-0528/",
+      "source": "DeepSeek 官网",
+      "category": "模型发布",
+      "tags": [],
+      "published_at": "2026-08-13T23:10:40.167Z",
+      "title_zh": "",
+      "summary_zh": "DeepSeek 官网发布新公告（r1-0528），详见 https://www.deepseek.com/news/r1-0528/",
+      "why_it_matters": "",
+      "summarized": false
     }
   ]
 }
