@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T15:07:31.772Z",
+  "generated_at": "2026-08-13T15:37:47.089Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -2061,6 +2061,46 @@
       "learn": "可从媒体视角了解大厂AI战略背后的组织与商业博弈，看清发布节奏不等于技术实力。",
       "impact": "折射头部厂商AI战略摇摆，影响行业对谷歌竞争力的预期。",
       "advice": "收听Decoder本期节目，关注谷歌Gemini战略走向。"
+    },
+    {
+      "id": "7e04a9e0c364",
+      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "source": "TechCrunch AI",
+      "category": "工具产品",
+      "tags": [
+        "微软",
+        "Copilot",
+        "产品整合"
+      ],
+      "published_at": "2026-08-13T15:30:52.000Z",
+      "title_zh": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "summary_zh": "微软将消费版与企业版Copilot合并为单一应用,同时砍掉表现不佳的AI功能,以简化产品线、统一用户体验。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI产品需聚焦核心价值,功能堆砌不如精简整合,用户体验优先。",
+      "impact": "微软AI产品战略收缩整合,影响数千万Copilot用户使用方式。",
+      "advice": "关注新版Copilot变化,评估整合后功能是否影响工作流。"
+    },
+    {
+      "id": "d410f7210702",
+      "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
+      "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+      "source": "TechCrunch AI",
+      "category": "芯片算力",
+      "tags": [
+        "英伟达",
+        "GPU",
+        "算力投资"
+      ],
+      "published_at": "2026-08-13T15:08:00.000Z",
+      "title_zh": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
+      "summary_zh": "英伟达推出约5000亿美元规模计划,试图说服客户旧款GPU仍有价值,防止硬件快速贬值,被认为冒险但高明。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "算力资产的保值与折旧管理成新课题,硬件厂商开始经营全生命周期价值。",
+      "impact": "或改变GPU采购与折旧模式,缓解企业算力投资的贬值焦虑。",
+      "advice": "关注英伟达旧卡保值政策,评估算力采购的长期成本。"
     }
   ]
 }
