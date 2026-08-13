@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T12:37:17.916Z",
+  "generated_at": "2026-08-13T13:07:42.325Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1921,6 +1921,66 @@
       "learn": "大模型可辅助构造性数学证明,人机协作成为攻克组合数学难题的新范式。",
       "impact": "AI加速数学发现进程,或改变基础研究的工作方式。",
       "advice": "关注AI for Math方向,尝试用LLM辅助自己的研究或编码难题。"
+    },
+    {
+      "id": "20b627328db2",
+      "title": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
+      "url": "https://www.qbitai.com/2026/08/472059.html",
+      "source": "量子位",
+      "category": "芯片算力",
+      "tags": [
+        "AI芯片",
+        "端侧算力",
+        "Agent"
+      ],
+      "published_at": "2026-08-13T12:34:42.000Z",
+      "title_zh": "4.8亿美元融资，Agent芯片新贵突围",
+      "summary_zh": "一家端侧AI芯片初创获4.8亿美元融资，主打面向Agent场景的端侧算力，首颗AI芯片已进入量产阶段。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "端侧算力成为Agent落地关键，芯片设计与AI负载协同优化是趋势。",
+      "impact": "推动Agent从云端走向终端，端侧芯片赛道竞争加剧。",
+      "advice": "关注端侧推理芯片动态，评估本地部署Agent的可行性。"
+    },
+    {
+      "id": "1b17596297db",
+      "title": "马斯克Grok 4.6重回一梯队！更低价格反超Fable 5，这Cursor是真没白收购",
+      "url": "https://www.qbitai.com/2026/08/472067.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "Grok",
+        "xAI",
+        "编程助手"
+      ],
+      "published_at": "2026-08-13T12:04:29.000Z",
+      "title_zh": "Grok 4.6发布，低价反超Fable 5",
+      "summary_zh": "马斯克旗下xAI发布Grok 4.6，以更低价格重回大模型第一梯队并反超Fable 5，还推出了类Workbuddy的办公助手，收购Cursor效应显现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大模型竞争转向性价比与编程工具生态整合，收购协同可加速产品迭代。",
+      "impact": "加剧头部模型价格战，编程助手与办公Agent融合加速。",
+      "advice": "试用Grok 4.6对比现有模型，关注模型与IDE的深度整合。"
+    },
+    {
+      "id": "ba5f64364882",
+      "title": "具身数据来了实战派！40天2轮融资数千万，瞄准物理AI基础设施",
+      "url": "https://www.qbitai.com/2026/08/472060.html",
+      "source": "量子位",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "物理AI",
+        "数据基础设施"
+      ],
+      "published_at": "2026-08-13T11:53:02.000Z",
+      "title_zh": "具身数据公司40天两轮融资",
+      "summary_zh": "一家聚焦具身智能数据基础设施的创业公司40天内完成两轮数千万元融资，瞄准物理AI数据采集与标准化基础设施建设。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "具身智能瓶颈在数据，高质量物理交互数据成为核心资产。",
+      "impact": "具身数据基础设施受资本追捧，加速机器人产业落地。",
+      "advice": "关注具身智能数据链机会，了解机器人数据采集与标注方法。"
     }
   ]
 }
