@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T10:37:19.739Z",
+  "generated_at": "2026-08-13T11:07:46.092Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1842,6 +1842,65 @@
       "learn": "持续学习是突破大模型静态权重局限的关键方向,值得跟踪其技术路线。",
       "impact": "若成功,将改变大模型训练与部署范式,引发行业跟进。",
       "advice": "关注SSI官方动态与持续学习相关论文,读原文了解细节。"
+    },
+    {
+      "id": "c12bf213cda3",
+      "title": "PrimeIntellect-ai/prime-agent/stargazers: A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "AI智能体",
+        "编程",
+        "开源"
+      ],
+      "published_at": "2026-08-13T11:07:19.636Z",
+      "title_zh": "PrimeIntellect-ai/prime-agent/stargazers: A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "summary_zh": "PrimeIntellect开源RLM智能体prime-agent,面向编程工作流与长时自主任务,具备自我改进能力,登上GitHub周榜。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解自我改进智能体架构与RLM在编程和长任务中的应用思路。",
+      "impact": "推动编程智能体向自主化、长时任务方向发展。",
+      "advice": "克隆该仓库,试用其处理真实编程任务。"
+    },
+    {
+      "id": "b8c833cd5e48",
+      "title": "中国人能飞！杭州发布全球首款站姿载人飞行器",
+      "url": "https://www.qbitai.com/2026/08/471893.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "低空经济",
+        "飞行器"
+      ],
+      "published_at": "2026-08-13T10:20:32.000Z",
+      "title_zh": "中国人能飞！杭州发布全球首款站姿载人飞行器",
+      "summary_zh": "杭州企业发布全球首款站姿载人飞行器,以站立姿态操控飞行,主打轻量化个人低空出行。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解低空经济落地进展与个人飞行器的形态创新。",
+      "impact": "为低空出行开辟新品类,加速低空经济商业化。",
+      "advice": "关注低空经济政策与相关产业链动向。"
+    },
+    {
+      "id": "c6059138e097",
+      "title": "科大讯飞发布企业服务全系列产品 覆盖七大核心场景",
+      "url": "https://www.qbitai.com/2026/08/471884.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "科大讯飞",
+        "企业服务",
+        "大模型"
+      ],
+      "published_at": "2026-08-13T10:01:47.000Z",
+      "title_zh": "科大讯飞发布企业服务全系列产品 覆盖七大核心场景",
+      "summary_zh": "科大讯飞推出企业服务全系列AI产品,覆盖办公、客服、营销等七大核心场景,加码大模型行业落地。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察大模型企业级产品的场景化落地路径与打法。",
+      "impact": "加速大模型在企业服务场景的规模化渗透。",
+      "advice": "评估讯飞企业AI产品在自身业务中的适配性。"
     }
   ]
 }
