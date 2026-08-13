@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T13:37:17.991Z",
+  "generated_at": "2026-08-13T14:07:40.516Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -1981,6 +1981,26 @@
       "learn": "具身智能瓶颈在数据，高质量物理交互数据成为核心资产。",
       "impact": "具身数据基础设施受资本追捧，加速机器人产业落地。",
       "advice": "关注具身智能数据链机会，了解机器人数据采集与标注方法。"
+    },
+    {
+      "id": "6e6b6506dea2",
+      "title": "Microsoft is combining its Copilot apps ahead of a ‘super app’",
+      "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
+      "source": "The Verge AI",
+      "category": "工具产品",
+      "tags": [
+        "微软",
+        "Copilot",
+        "AI助手"
+      ],
+      "published_at": "2026-08-13T13:42:58.000Z",
+      "title_zh": "微软合并Copilot应用打造超级应用",
+      "summary_zh": "微软开始整合面向消费者和企业用户的Copilot AI应用,计划将分散的Copilot产品线统一为一个全能型“超级应用”。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "AI助手正从功能分散走向平台化整合,统一入口成为大厂竞争焦点。",
+      "impact": "简化用户选择,加剧AI助手入口之争。",
+      "advice": "关注Copilot整合进展,评估其作为统一AI入口的开发潜力。"
     }
   ]
 }
