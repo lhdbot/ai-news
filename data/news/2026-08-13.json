@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T01:37:13.241Z",
+  "generated_at": "2026-08-13T02:07:53.061Z",
   "items": [
     {
       "id": "9c2d2be8f210",
@@ -941,6 +941,206 @@
       "learn": "了解企业如何将AI编码工具深度集成到研发与运维全流程，实现AI原生协作模式。",
       "impact": "展示AI原生工作方式在企业落地的可行路径，推动行业研发模式变革。",
       "advice": "读原文了解落地细节，评估在团队引入Codex等AI编码工具。"
+    },
+    {
+      "id": "caa00c3a541c",
+      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
+      "url": "https://arxiv.org/abs/2608.09949",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "LLM",
+        "数字农业",
+        "智能决策"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "闭环LLM副驾助力数字农业",
+      "summary_zh": "该研究评估LLM作为闭环智能副驾在数字农业中的应用，通过感知-决策-反馈循环辅助农事决策，验证其实际可行性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "LLM作为垂直领域闭环决策副驾的应用模式",
+      "impact": "推动AI在农业等传统行业落地",
+      "advice": "关注LLM在垂直行业闭环决策的应用案例"
+    },
+    {
+      "id": "e062f962099c",
+      "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.09967",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "强化学习",
+        "可解释AI",
+        "DRL"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "SPOT：深度强化学习的前瞻性解释",
+      "summary_zh": "提出SPOT方法为深度强化学习提供前瞻性解释，提前展示智能体未来行为预期，提升DRL系统可解释性与可信度。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "强化学习可解释性中前瞻解释的思路",
+      "impact": "增强DRL在关键场景的信任基础",
+      "advice": "做RL项目时可借鉴该解释方法思路"
+    },
+    {
+      "id": "94d54e916591",
+      "title": "MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomplete Multimodal Sentiment Analysis",
+      "url": "https://arxiv.org/abs/2608.09986",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "多模态",
+        "情感分析",
+        "不确定性"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "MIDAS：不完整多模态情感分析",
+      "summary_zh": "提出MIDAS框架，通过互信息解耦与不确定性感知融合，解决模态缺失情况下的多模态情感分析性能下降问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "模态缺失下的多模态融合与不确定性建模",
+      "impact": "提升多模态系统在真实噪声数据的鲁棒性",
+      "advice": "做多模态任务时考虑模态缺失的鲁棒方案"
+    },
+    {
+      "id": "7dad068980d8",
+      "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
+      "url": "https://arxiv.org/abs/2608.09998",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "可持续AI",
+        "碳足迹",
+        "绿色计算"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "深度学习模型碳足迹综述",
+      "summary_zh": "全面综述并对比分析各类深度学习模型的碳足迹，评估AI训练与推理的能耗环境影响，探讨可持续AI的路径。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "评估模型碳足迹的方法与可持续AI方向",
+      "impact": "推动行业重视AI能耗与绿色计算",
+      "advice": "选型模型时可纳入能耗与碳排放考量"
+    },
+    {
+      "id": "b88643003812",
+      "title": "ReCBM: Uncertainty-Gated Relational Reasoning for Concept Bottleneck Models",
+      "url": "https://arxiv.org/abs/2608.10004",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "可解释AI",
+        "概念瓶颈模型",
+        "不确定性"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "ReCBM：不确定门控概念瓶颈模型",
+      "summary_zh": "提出ReCBM，在概念瓶颈模型中引入不确定性门控的关系推理，改进概念间的交互建模，提升可解释性与准确率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "概念瓶颈模型与不确定性门控推理机制",
+      "impact": "增强可解释模型在高风险领域的可用性",
+      "advice": "需要可解释性时可研究CBM系列方法"
+    },
+    {
+      "id": "99c14c5516ba",
+      "title": "Position Encoding in Transformers: From Absolute and Relative Methods to Rotary Position Embeddings and Long-Context Scaling",
+      "url": "https://arxiv.org/abs/2608.10021",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "Transformer",
+        "位置编码",
+        "RoPE"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "Transformer位置编码全综述",
+      "summary_zh": "系统梳理Transformer位置编码演进：从绝对、相对位置方法到RoPE旋转位置嵌入，以及长上下文扩展技术。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "位置编码技术脉络与RoPE长上下文扩展",
+      "impact": "为长上下文模型设计提供技术参考",
+      "advice": "阅读原文系统掌握位置编码技术演进"
+    },
+    {
+      "id": "d36a3a21f34c",
+      "title": "PERCEPT: A Corpus for POS Tagging and Analysis of Persian-English Code-Mixing",
+      "url": "https://arxiv.org/abs/2608.10109",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "NLP",
+        "语料库",
+        "代码混用"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "PERCEPT：波斯英语混用语料库",
+      "summary_zh": "发布PERCEPT语料库，用于波斯语-英语代码混用文本的词性标注与分析，填补社交媒体混合语言资源空白。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "代码混用语言的标注方法与小语种NLP",
+      "impact": "促进多语言混合场景的NLP研究",
+      "advice": "做小语种或多语言NLP可关注该数据集"
+    },
+    {
+      "id": "819e2e27bfb2",
+      "title": "FlowScout: From Execution Feedback to Reliable Tool-Using Agent Workflows",
+      "url": "https://arxiv.org/abs/2608.10039",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "Agent",
+        "工具调用",
+        "工作流"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "FlowScout：可靠工具调用Agent流程",
+      "summary_zh": "提出FlowScout框架，利用执行反馈优化工具调用型Agent工作流，提升智能体任务执行的可靠性与成功率。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "基于执行反馈优化Agent工作流的方法",
+      "impact": "提升AI Agent在真实任务的可靠性",
+      "advice": "开发Agent时借鉴执行反馈驱动的设计"
+    },
+    {
+      "id": "e8f8f3e34f3c",
+      "title": "Detecting Soft Skills in ML Engineering Roles CVs",
+      "url": "https://arxiv.org/abs/2608.10046",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "NLP",
+        "简历分析",
+        "软技能"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "用ML检测工程师简历软技能",
+      "summary_zh": "研究用机器学习方法从ML工程师岗位简历中自动检测软技能，分析沟通协作等非技术能力对招聘的影响。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "NLP用于简历分析与软技能识别的思路",
+      "impact": "辅助招聘方更全面评估技术人才",
+      "advice": "求职时在简历中明确体现软技能"
+    },
+    {
+      "id": "d68cb6372995",
+      "title": "Observational Policy Ranking for SMB Financial Guidance from Multi-Action Accounting Logs",
+      "url": "https://arxiv.org/abs/2608.10050",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "因果推断",
+        "策略排序",
+        "金融科技"
+      ],
+      "published_at": "2026-08-12T04:00:00.000Z",
+      "title_zh": "基于会计日志的中小企业策略排序",
+      "summary_zh": "提出观察性策略排序方法，从中小企业多动作会计日志中学习，为企业提供数据驱动的财务指导建议。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察数据下的策略排序与因果推断方法",
+      "impact": "帮助中小企业获得低成本智能财务建议",
+      "advice": "关注因果推断在商业决策中的应用"
     }
   ]
 }
