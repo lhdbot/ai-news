@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-14T03:37:13.040Z",
+  "generated_at": "2026-08-14T04:07:57.058Z",
   "items": [
     {
       "id": "9e022b7caa78",
@@ -1119,6 +1119,106 @@
       "learn": "了解开源推理模型的迭代节奏,关注 R1-0528 在推理能力与训练方法上的改进。",
       "impact": "开源推理模型竞争加剧,推动行业降低高性能模型的使用门槛。",
       "advice": "前往 DeepSeek 官网读公告,并本地部署 R1-0528 实测推理效果。"
+    },
+    {
+      "id": "6ab13c83abb2",
+      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
+      "url": "https://arxiv.org/abs/2608.12419",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "注意力机制",
+        "LLM预训练",
+        "高效架构"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "LoKiFormer:解耦知识记忆的高效预训练注意力",
+      "summary_zh": "提出LoKiFormer,将局部感知注意力与解耦知识记忆结合,用于降低大语言模型预训练的计算与显存开销。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "注意力可拆为局部交互与知识记忆两部分,是长序列高效训练的新思路。",
+      "impact": "有望降低LLM预训练成本,推动高效架构研究。",
+      "advice": "关注高效注意力架构,读arXiv原文了解实现细节。"
+    },
+    {
+      "id": "9cadba2e3958",
+      "title": "Which Site, and When: A Free-Satellite-Data Test of Himalayan Glacial Lake Bursts, Landslides, and Ice Floods",
+      "url": "https://arxiv.org/abs/2608.12422",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "遥感",
+        "灾害预测",
+        "卫星数据"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "免费卫星数据预测喜马拉雅冰湖溃决灾害",
+      "summary_zh": "利用两种免费卫星信号,研究预测喜马拉雅冰湖溃决、滑坡与冰洪的时机与地点,验证低成本监测可行性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "免费卫星遥感数据结合ML可用于自然灾害预测,低成本方案值得借鉴。",
+      "impact": "提升冰川灾害预警能力,助力高海拔地区防灾减灾。",
+      "advice": "关注AI+遥感防灾方向,了解开源卫星数据源如Sentinel。"
+    },
+    {
+      "id": "e12bdbf2958e",
+      "title": "MARCH: Scaling Recurrent Memory with Content-Routed State Anchors",
+      "url": "https://arxiv.org/abs/2608.12435",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "循环记忆",
+        "长上下文",
+        "Transformer"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "MARCH:内容路由状态锚点扩展循环记忆",
+      "summary_zh": "提出MARCH方法,通过内容路由的状态锚点扩展循环记忆容量,改进Transformer在长上下文场景下的记忆能力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "循环记忆+内容路由是突破上下文长度限制的路径之一,可对比RNN与线性注意力。",
+      "impact": "推动长上下文架构演进,或降低长文本推理成本。",
+      "advice": "跟踪长上下文架构路线,对比MAMBA、线性注意力等方案。"
+    },
+    {
+      "id": "d5cdce0e0f08",
+      "title": "Multi-AUV Ad-hoc network-based Target Tracking: A Value Gradient Guidance Multi-Agent Diffusion Reinforcement Learning Approach",
+      "url": "https://arxiv.org/abs/2608.12436",
+      "source": "arXiv cs.LG",
+      "category": "具身智能",
+      "tags": [
+        "多智能体",
+        "强化学习",
+        "水下机器人"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "多AUV自组网目标跟踪的扩散强化学习方法",
+      "summary_zh": "针对多水下机器人自组网目标跟踪问题,提出基于价值梯度引导的多智能体扩散强化学习方法,提升跟踪性能。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "扩散模型可作为多智能体强化学习的策略生成器,适用于复杂协同控制。",
+      "impact": "推进水下机器人协同作业与海洋探测自动化。",
+      "advice": "关注扩散策略在机器人控制中的应用,了解Diffusion Policy方向。"
+    },
+    {
+      "id": "bb2a4411e811",
+      "title": "Unifying Generative Models with Path Integrals",
+      "url": "https://arxiv.org/abs/2608.12438",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "生成模型",
+        "路径积分",
+        "扩散模型"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "用路径积分统一生成模型",
+      "summary_zh": "以路径积分形式统一表述生成模型,从理论上将扩散、流匹配等生成范式纳入同一数学框架。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "路径积分为理解扩散、流匹配等生成模型提供统一理论视角。",
+      "impact": "深化生成模型理论基础,可能催生新训练范式。",
+      "advice": "有数学基础可读原文,理解生成模型统一理论趋势。"
     }
   ]
 }
