@@ -1,0 +1,606 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-14T16:09:36.957Z",
+  "items": [
+    {
+      "id": "e83d70611f6b",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source": "Google DeepMind",
+      "category": "模型发布",
+      "tags": [
+        "Google",
+        "Gemini",
+        "轻量模型"
+      ],
+      "published_at": "2026-08-13T17:04:18.000Z",
+      "title_zh": "Introducing Gemini 3.7 Flash",
+      "summary_zh": "Google DeepMind 推出 Gemini 3.7 Flash 轻量模型，主打低延迟与低成本，面向高频推理和移动端等场景。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解大模型家族中 Flash 级轻量模型的定位与适用场景。",
+      "impact": "轻量模型竞争加剧，低成本推理选择更多。",
+      "advice": "阅读官方发布说明，对比现有模型评估是否迁移。"
+    },
+    {
+      "id": "cfb240ecffa8",
+      "title": "Merge pull request #2519 from deepseek-harness/feat/npm-public",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/47f943859bef60e4160492346772ded9b24f765a",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "评测框架",
+        "npm"
+      ],
+      "published_at": "2026-08-13T11:38:46.000Z",
+      "title_zh": "Merge pull request #2519 from deepseek-harness/feat/npm-public",
+      "summary_zh": "DeepSeek Harness 合并 PR 将 dsh@0.1.0 发布到公共 npm，评估框架正式对外开放安装使用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "模型评估工具可通过 npm 快速集成进开发流程。",
+      "impact": "降低开发者复现与评测模型的门槛。",
+      "advice": "试试 npm 安装 dsh 跑一遍模型评测。"
+    },
+    {
+      "id": "855fa77e93e1",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "AI Agent"
+      ],
+      "published_at": "2026-08-13T11:00:00.000Z",
+      "title_zh": "The builder’s guide to GPT‑5.6",
+      "summary_zh": "OpenAI 发布 GPT-5.6 构建者指南，介绍初创公司如何用它更快、更省钱地搭建 AI 智能体。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用新模型构建低成本高效能 Agent 的实践方法。",
+      "impact": "为创业团队落地 AI 应用提供官方参考路径。",
+      "advice": "读原文指南，对照优化自己的 Agent 架构。"
+    },
+    {
+      "id": "6f3bb389c957",
+      "title": "release(dsh): 0.1.0-rc.5",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/abe560f81edebe5f6a5b62706ff502daa0dccd40",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "版本发布",
+        "评测工具"
+      ],
+      "published_at": "2026-08-13T10:49:33.000Z",
+      "title_zh": "release(dsh): 0.1.0-rc.5",
+      "summary_zh": "DeepSeek Harness 发布 dsh 0.1.0-rc.5 候选版本，持续迭代修复，为正式版做最后准备。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解开源项目 RC 版本的发布节奏与稳定性管理。",
+      "impact": "评测工具趋于稳定，正式版临近。",
+      "advice": "关注 dsh 正式版发布，再决定是否引入。"
+    },
+    {
+      "id": "72e1b0a7918b",
+      "title": "build(release): publish the dsh family publicly",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/8c1e8d989070f795c0208794b9498defb4a390a8",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "开源",
+        "npm"
+      ],
+      "published_at": "2026-08-13T10:49:32.000Z",
+      "title_zh": "build(release): publish the dsh family publicly",
+      "summary_zh": "DeepSeek Harness 将 dsh 家族全部成员包公开发布，每个组件都声明公开可见，方便按需取用。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解工具链拆分为多个公开包模块化发布的做法。",
+      "impact": "评测生态更开放，第三方集成更容易。",
+      "advice": "查看发布的包列表，按需选用组件。"
+    },
+    {
+      "id": "e274f0fa8d92",
+      "title": "Merge pull request #2520 from deepseek-harness/docs/paper",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/f26a6f6cfff956dce3af00bad32f1bbed8c6e92a",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "文档",
+        "论文"
+      ],
+      "published_at": "2026-08-13T10:47:36.000Z",
+      "title_zh": "Merge pull request #2520 from deepseek-harness/docs/paper",
+      "summary_zh": "DeepSeek Harness 合并文档更新，在项目中补充相关论文链接，方便用户理解评测方法原理。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "评测工具背后有论文支撑，可读原文深入原理。",
+      "impact": "提升工具可信度与学术可追溯性。",
+      "advice": "顺着文档链接读相关论文了解评测方法。"
+    },
+    {
+      "id": "9bc246c8852d",
+      "title": "Merge pull request #2521 from deepseek-harness/release/dsh-0.1.0-rc.3",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/commit/124aa5f01aad6f4f626806e3c3465266ec5e5c62",
+      "source": "DeepSeek Harness",
+      "category": "工具产品",
+      "tags": [
+        "DeepSeek",
+        "版本发布",
+        "开源"
+      ],
+      "published_at": "2026-08-13T10:40:08.000Z",
+      "title_zh": "Merge pull request #2521 from deepseek-harness/release/dsh-0.1.0-rc.3",
+      "summary_zh": "DeepSeek Harness 合并发布 dsh 0.1.0-rc.3 候选版本，属于正式版前的系列迭代之一。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察候选版本迭代可判断项目成熟度与活跃度。",
+      "impact": "工具迭代频繁，社区活跃度较高。",
+      "advice": "关注该项目，等正式版后再投入生产使用。"
+    },
+    {
+      "id": "6357d7795d21",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "source": "OpenAI",
+      "category": "模型发布",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "推理加速"
+      ],
+      "published_at": "2026-08-13T10:00:00.000Z",
+      "title_zh": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "summary_zh": "OpenAI 预览 Ultrafast 新 API 服务层级，GPT-5.6 Sol 推理速度最高提升 14 倍，面向低延迟场景。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解 API 分层定价与极速推理服务的取舍逻辑。",
+      "impact": "实时 AI 应用延迟大幅降低，交互体验升级。",
+      "advice": "若有实时场景，申请试用 Ultrafast 层级测试效果。"
+    },
+    {
+      "id": "9e022b7caa78",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "source": "OpenAI",
+      "category": "行业动态",
+      "tags": [
+        "OpenAI",
+        "人事任命",
+        "商业化"
+      ],
+      "published_at": "2026-08-13T09:00:00.000Z",
+      "title_zh": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "summary_zh": "OpenAI 任命 Dali Rajic 为首席营收官，负责全球营收业务，显示公司加速商业化进程。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "头部 AI 公司从技术驱动转向规模化营收阶段。",
+      "impact": "OpenAI 商业化提速，产品定价策略或调整。",
+      "advice": "关注 OpenAI 后续定价与产品策略变化。"
+    },
+    {
+      "id": "c6693bb7de7b",
+      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "url": "https://arxiv.org/abs/2608.11207",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "多智能体",
+        "LLM",
+        "arXiv"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "summary_zh": "arXiv 新论文研究多 LLM 智能体协作对话系统的动态治理机制，解决结构各异智能体协作时的协调问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "多智能体系统需要动态治理机制保障协作质量。",
+      "impact": "为多 Agent 协作系统设计提供理论框架。",
+      "advice": "做 Agent 系统的开发者可读这篇 arXiv 论文。"
+    },
+    {
+      "id": "1465369cd462",
+      "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
+      "url": "https://arxiv.org/abs/2608.11210",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "贝叶斯校准",
+        "先验分布",
+        "arXiv"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "Distribird：用文献先验校准贝叶斯模型",
+      "summary_zh": "论文提出Distribird方法，从已有文献中提取信息设计先验分布，用于过程模型的贝叶斯校准，减少对人工设定先验的依赖。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解如何利用文献知识构建贝叶斯先验，改进模型校准质量。",
+      "impact": "提升科学建模中参数校准的自动化与可靠性。",
+      "advice": "做贝叶斯建模的读者可阅读原文了解先验设计思路。"
+    },
+    {
+      "id": "6e2366612b68",
+      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
+      "url": "https://arxiv.org/abs/2608.11211",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "图论",
+        "Conway猜想",
+        "可验证证明"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "Conway 99图问题的可验证新界",
+      "summary_zh": "论文通过强制结构归约方法，对著名的Conway 99图猜想给出可验证的界限，推动这一长期未解图论问题的研究进展。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解AI辅助数学证明中结构归约与可验证边界的思路。",
+      "impact": "展示计算方法在攻克数学难题上的潜力。",
+      "advice": "对数学与计算交叉感兴趣者可关注该证明方法。"
+    },
+    {
+      "id": "b0cc76aea7c7",
+      "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2608.11212",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "MoE",
+        "模型量化",
+        "因果分析"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "量化MoE模型的路由翻转损伤分析",
+      "summary_zh": "研究指出在量化的Top-k MoE模型中，检测专家路由翻转容易，但判断是否需要修复更难，提出因果路由中介损伤的分析框架。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "理解MoE量化中路由变化对模型性能的因果影响机制。",
+      "impact": "为MoE模型量化部署提供更精细的损伤评估依据。",
+      "advice": "做MoE量化的工程师可读原文借鉴其因果分析方法。"
+    },
+    {
+      "id": "894259dbee4c",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "url": "https://arxiv.org/abs/2608.11215",
+      "source": "arXiv cs.AI",
+      "category": "论文研究",
+      "tags": [
+        "多智能体",
+        "社会模拟",
+        "LLM"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "笔记本上模拟大规模智能体社会",
+      "summary_zh": "论文提出轻量级“穷人版”智能体建模方法，让研究者在普通笔记本上即可模拟由大量LLM智能体组成的社会系统。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习低成本模拟多智能体社会的近似建模技巧。",
+      "impact": "大幅降低多智能体社会模拟研究的算力门槛。",
+      "advice": "关注多智能体研究的读者可尝试复现该模拟框架。"
+    },
+    {
+      "id": "6ab13c83abb2",
+      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
+      "url": "https://arxiv.org/abs/2608.12419",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "Transformer",
+        "注意力机制",
+        "高效预训练"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "LoKiFormer：局部注意力加知识记忆",
+      "summary_zh": "提出LoKiFormer架构，结合局部感知注意力与解耦的知识记忆模块，提升大语言模型预训练的效率与效果。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解局部注意力与外部记忆解耦的高效预训练设计。",
+      "impact": "为降低LLM预训练成本提供新的架构选择。",
+      "advice": "关注高效架构的读者可阅读原文对比其注意力设计。"
+    },
+    {
+      "id": "9cadba2e3958",
+      "title": "Which Site, and When: A Free-Satellite-Data Test of Himalayan Glacial Lake Bursts, Landslides, and Ice Floods",
+      "url": "https://arxiv.org/abs/2608.12422",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "遥感",
+        "灾害预警",
+        "机器学习"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "卫星数据预测喜马拉雅冰川灾害",
+      "summary_zh": "研究利用免费卫星信号数据，测试预测喜马拉雅地区冰湖溃决、滑坡与冰洪水的发生地点和时间，验证低成本监测方案可行性。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解免费卫星数据在地质灾害预警中的应用方法。",
+      "impact": "为偏远地区灾害预警提供低成本技术路径。",
+      "advice": "从事遥感或灾害预测的读者可关注其数据用法。"
+    },
+    {
+      "id": "e12bdbf2958e",
+      "title": "MARCH: Scaling Recurrent Memory with Content-Routed State Anchors",
+      "url": "https://arxiv.org/abs/2608.12435",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "循环记忆",
+        "长上下文",
+        "模型架构"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "MARCH：内容路由的循环记忆扩展",
+      "summary_zh": "提出MARCH方法，通过内容路由的状态锚点扩展循环记忆机制，为Transformer之外的长上下文建模提供新思路。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习循环记忆与内容路由结合的长序列建模方法。",
+      "impact": "推动超越注意力机制的高效长上下文架构探索。",
+      "advice": "关注长上下文架构的读者可阅读原文了解锚点设计。"
+    },
+    {
+      "id": "d5cdce0e0f08",
+      "title": "Multi-AUV Ad-hoc network-based Target Tracking: A Value Gradient Guidance Multi-Agent Diffusion Reinforcement Learning Approach",
+      "url": "https://arxiv.org/abs/2608.12436",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "强化学习",
+        "多智能体",
+        "水下机器人"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "多AUV组网目标跟踪强化学习",
+      "summary_zh": "针对水下多AUV自组网目标跟踪问题，提出基于价值梯度引导的多智能体扩散强化学习方法，提升协同跟踪性能。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解扩散模型与多智能体强化学习结合的新范式。",
+      "impact": "提升水下无人集群协同感知与跟踪能力。",
+      "advice": "做多智能体RL的读者可关注扩散策略这一方向。"
+    },
+    {
+      "id": "bb2a4411e811",
+      "title": "Unifying Generative Models with Path Integrals",
+      "url": "https://arxiv.org/abs/2608.12438",
+      "source": "arXiv cs.LG",
+      "category": "论文研究",
+      "tags": [
+        "生成模型",
+        "路径积分",
+        "扩散模型"
+      ],
+      "published_at": "2026-08-14T04:00:00.000Z",
+      "title_zh": "用路径积分统一生成模型",
+      "summary_zh": "论文以路径积分的理论框架统一表述生成模型，将扩散模型等多种生成方法纳入同一数学视角下分析。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "从路径积分视角理解各类生成模型的内在统一性。",
+      "impact": "为生成模型提供统一理论基础，启发新方法设计。",
+      "advice": "理论向读者可阅读原文，梳理生成模型统一框架。"
+    },
+    {
+      "id": "cbd60f2db174",
+      "title": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
+      "url": "https://arxiv.org/abs/2608.11332",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "手语识别",
+        "自监督学习",
+        "低资源"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "无标注跨数据集手语识别",
+      "summary_zh": "提出不依赖词汇标注（gloss-free）的表征学习方法，实现跨数据集的手语 spotting，缓解低资源手语研究的数据瓶颈。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习无监督表征学习在低资源手语识别中的应用。",
+      "impact": "降低手语识别对标注数据的依赖，惠及听障群体。",
+      "advice": "做视频表征或无障碍技术的读者可借鉴其思路。"
+    },
+    {
+      "id": "875fa8ee514f",
+      "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+      "url": "https://arxiv.org/abs/2608.11338",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "智能体",
+        "技能学习",
+        "成本优化"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+      "summary_zh": "论文提出通过编程化的技能学习增强智能体，让其在任务中沉淀可复用技能，从而以更低成本获得更好更快的性能表现。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解将经验固化为可复用技能库以降低Agent推理成本的方法与思路。",
+      "impact": "为降低Agent运行成本提供新范式，推动智能体规模化落地。",
+      "advice": "做Agent开发可阅读原文，借鉴技能沉淀机制优化成本。"
+    },
+    {
+      "id": "5b7a820402aa",
+      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "url": "https://arxiv.org/abs/2608.11350",
+      "source": "arXiv cs.CL",
+      "category": "具身智能",
+      "tags": [
+        "具身智能",
+        "自我进化",
+        "技能学习"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "summary_zh": "论文提出Skill-Harness Evolution框架，让具身智能体在与环境交互中不断积累和进化技能，实现无需人工干预的自我提升。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识具身智能体自我进化的技能进化机制与训练范式。",
+      "impact": "推动具身智能向自主持续学习方向发展。",
+      "advice": "关注具身智能方向，可读原文了解自进化框架设计。"
+    },
+    {
+      "id": "b08f304ffc8d",
+      "title": "ODE-Based Transformer Decoders for Iterative Sign Language Translation",
+      "url": "https://arxiv.org/abs/2608.11352",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "Transformer",
+        "ODE",
+        "手语翻译"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "ODE-Based Transformer Decoders for Iterative Sign Language Translation",
+      "summary_zh": "论文将常微分方程引入Transformer解码器，通过迭代式生成改进手语翻译质量，为连续信号建模提供新思路。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解ODE与Transformer结合进行迭代式序列生成的建模方法。",
+      "impact": "提升手语翻译等辅助技术效果，拓展连续建模应用。",
+      "advice": "对神经ODE感兴趣可读原文，关注迭代解码思路。"
+    },
+    {
+      "id": "bf78d40059be",
+      "title": "Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning",
+      "url": "https://arxiv.org/abs/2608.11408",
+      "source": "arXiv cs.CL",
+      "category": "论文研究",
+      "tags": [
+        "机器遗忘",
+        "LLM安全",
+        "模型评估"
+      ],
+      "published_at": "2026-08-13T04:00:00.000Z",
+      "title_zh": "Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning",
+      "summary_zh": "论文研究大模型机器遗忘后的知识恢复现象，主张先建立测量与预测方法而非急于优化，揭示遗忘并不彻底的问题。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "认识机器遗忘的局限：被\"遗忘\"的知识可能被恢复，需先测量再优化。",
+      "impact": "警示LLM数据删除与隐私合规中遗忘技术的可靠性风险。",
+      "advice": "涉及模型合规与数据删除的团队应关注遗忘评估方法。"
+    },
+    {
+      "id": "f265e06f905c",
+      "title": "diegosouzapw/OmniRoute/stargazers: Never stop coding. Free MIT AI gateway: one endpoint, 330+ providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 320+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute/stargazers",
+      "source": "GitHub Trending 月榜",
+      "category": "工具产品",
+      "tags": [
+        "AI网关",
+        "开源",
+        "多模型"
+      ],
+      "published_at": "2026-08-14T16:07:05.411Z",
+      "title_zh": "diegosouzapw/OmniRoute/stargazers: Never stop coding. Free MIT AI gateway: one endpoint, 330+ providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 320+ contributors",
+      "summary_zh": "开源AI网关OmniRoute登GitHub月榜，单一端点接入330+服务商和1200+模型，支持配额感知自动降级与token压缩，兼容Claude Code、Cursor等主流工具。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解用统一AI网关管理多模型调用、自动降级与token节省的实践。",
+      "impact": "降低多模型接入与切换成本，利好个人开发者与中小团队。",
+      "advice": "可试用OmniRoute统一接入各家模型，节省API成本。"
+    },
+    {
+      "id": "c12bf213cda3",
+      "title": "PrimeIntellect-ai/prime-agent/stargazers: A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent/stargazers",
+      "source": "GitHub Trending 周榜",
+      "category": "工具产品",
+      "tags": [
+        "编程Agent",
+        "自我改进",
+        "开源"
+      ],
+      "published_at": "2026-08-14T16:07:05.325Z",
+      "title_zh": "PrimeIntellect-ai/prime-agent/stargazers: A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "summary_zh": "PrimeIntellect开源prime-agent，一个面向编程工作流和长时自主任务、能自我改进的RLM智能体，登上GitHub周榜。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解自我改进Agent在编程与长任务场景的设计思路。",
+      "impact": "推动自主编程智能体向长时任务与自我迭代演进。",
+      "advice": "可克隆仓库试用，观察其自我改进机制如何落地。"
+    },
+    {
+      "id": "08b333e13f34",
+      "title": "cathrynlavery/diagram-design/stargazers: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design/stargazers",
+      "source": "GitHub Trending 日榜",
+      "category": "工具产品",
+      "tags": [
+        "Claude Code",
+        "图表",
+        "开源"
+      ],
+      "published_at": "2026-08-14T16:07:04.997Z",
+      "title_zh": "cathrynlavery/diagram-design/stargazers: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "summary_zh": "开源项目diagram-design为Claude Code提供29种编辑级图表类型，生成自包含HTML+SVG，无阴影无Mermaid风格，登GitHub日榜。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "学习用技能包扩展Claude Code，产出高质量可编辑图表。",
+      "impact": "提升AI辅助文档与演示的图表质量和工作效率。",
+      "advice": "用Claude Code写文档可安装该技能包生成专业图表。"
+    },
+    {
+      "id": "95272d38400a",
+      "title": "谷歌开始肢解DeepMind，数个团队被划归总部",
+      "url": "https://www.qbitai.com/2026/08/473153.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "DeepMind",
+        "组织调整"
+      ],
+      "published_at": "2026-08-14T14:51:48.000Z",
+      "title_zh": "谷歌开始肢解DeepMind，数个团队被划归总部",
+      "summary_zh": "谷歌对DeepMind进行组织调整，多个团队被划归总部，联合创始人布林亲自下场督战，显示谷歌正加强AI研发的集中管控。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "观察大厂通过组织重组集中资源应对AI竞争的策略。",
+      "impact": "或改变谷歌AI研发格局，加剧头部AI人才与资源争夺。",
+      "advice": "关注谷歌AI组织动向，留意其对Gemini路线的影响。"
+    },
+    {
+      "id": "0fb927bf42cf",
+      "title": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
+      "url": "https://www.qbitai.com/2026/08/473149.html",
+      "source": "量子位",
+      "category": "芯片算力",
+      "tags": [
+        "国产算力",
+        "AI教育",
+        "模型适配"
+      ],
+      "published_at": "2026-08-14T10:25:36.000Z",
+      "title_zh": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
+      "summary_zh": "国家级“AI+教育”大赛开设“AI+加速卡模型适配赛道”，由太初元碁支持，面向开发者招募模型在国产加速卡上的适配方案。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "了解国产AI加速卡生态及模型迁移适配的实践机会。",
+      "impact": "促进国产算力生态建设和AI教育人才培养。",
+      "advice": "有模型适配经验的开发者可报名参赛积累国产算力经验。"
+    },
+    {
+      "id": "03b9ed46a530",
+      "title": "刚刚，GLM-5.3发布：Coding更接近Fable 5！潜伏40年的bug都被揪出来了",
+      "url": "https://www.qbitai.com/2026/08/473038.html",
+      "source": "量子位",
+      "category": "模型发布",
+      "tags": [
+        "GLM-5.3",
+        "智谱",
+        "代码能力"
+      ],
+      "published_at": "2026-08-14T08:47:51.000Z",
+      "title_zh": "刚刚，GLM-5.3发布：Coding更接近Fable 5！潜伏40年的bug都被揪出来了",
+      "summary_zh": "智谱发布GLM-5.3，编程能力更接近Fable 5水平，能揪出潜伏40年的老bug，同时拿下最强开源安全模型成绩。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "关注国产模型在编程与安全任务上的最新进展与能力边界。",
+      "impact": "加剧开源模型编程能力竞争，给开发者更多国产选择。",
+      "advice": "可在实际编程任务中试用GLM-5.3并与现有模型对比。"
+    }
+  ]
+}
