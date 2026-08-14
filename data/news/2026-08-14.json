@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-14T14:37:18.680Z",
+  "generated_at": "2026-08-14T15:07:30.304Z",
   "items": [
     {
       "id": "9e022b7caa78",
@@ -1299,6 +1299,26 @@
       "learn": "了解国产加速卡的模型适配流程,以及AI竞赛如何推动软硬件生态落地。",
       "impact": "推动国产AI芯片生态与教育场景结合,扩大开发者参与度。",
       "advice": "有兴趣可报名参赛,实操国产加速卡模型适配。"
+    },
+    {
+      "id": "95272d38400a",
+      "title": "谷歌开始肢解DeepMind，数个团队被划归总部",
+      "url": "https://www.qbitai.com/2026/08/473153.html",
+      "source": "量子位",
+      "category": "行业动态",
+      "tags": [
+        "谷歌",
+        "DeepMind",
+        "组织架构"
+      ],
+      "published_at": "2026-08-14T14:51:48.000Z",
+      "title_zh": "谷歌拆分DeepMind：多团队划归总部",
+      "summary_zh": "谷歌调整组织架构，将DeepMind数个团队划归总部直接管理，联合创始人布林亲自介入督战，意在强化AI研发协同与执行力。",
+      "why_it_matters": "",
+      "summarized": true,
+      "learn": "大厂AI竞争已从技术比拼转向组织效率比拼，研发架构整合成关键变量。",
+      "impact": "DeepMind独立性削弱，谷歌AI研发或提速，加剧与OpenAI竞争。",
+      "advice": "关注DeepMind后续论文与产品发布节奏变化，读原文了解细节。"
     }
   ]
 }
