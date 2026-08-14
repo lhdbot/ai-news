@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-14T00:07:21.931Z",
+  "generated_at": "2026-08-14T00:37:45.013Z",
   "items": [
     {
       "id": "9e022b7caa78",
@@ -1106,12 +1106,19 @@
       "url": "https://www.deepseek.com/news/r1-0528/",
       "source": "DeepSeek 官网",
       "category": "模型发布",
-      "tags": [],
+      "tags": [
+        "DeepSeek",
+        "R1-0528",
+        "推理模型"
+      ],
       "published_at": "2026-08-13T23:10:40.167Z",
-      "title_zh": "",
-      "summary_zh": "DeepSeek 官网发布新公告（r1-0528），详见 https://www.deepseek.com/news/r1-0528/",
+      "title_zh": "DeepSeek 发布 R1-0528 新版模型",
+      "summary_zh": "DeepSeek 官网发布 R1 模型的更新版本 R1-0528,为开源推理模型带来新一轮升级,公告详情见官网新闻页。",
       "why_it_matters": "",
-      "summarized": false
+      "summarized": true,
+      "learn": "了解开源推理模型的迭代节奏,关注 R1-0528 在推理能力与训练方法上的改进。",
+      "impact": "开源推理模型竞争加剧,推动行业降低高性能模型的使用门槛。",
+      "advice": "前往 DeepSeek 官网读公告,并本地部署 R1-0528 实测推理效果。"
     }
   ]
 }
