@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { jaccard, mergeStorylines, titleTokens } from "./fetch-news.mjs";
+import { jaccard, mergeStorylines, pickTop, titleTokens } from "./fetch-news.mjs";
 
 test("英文标题：词级 token，同事件跨源报道可合并", () => {
   const a = titleTokens("OpenAI releases GPT-5");
@@ -40,4 +40,40 @@ test("mergeStorylines：合并跨源同事件、保留高权重、计算 heat", 
   assert.ok(main, "高权重条目应保留为主条目");
   assert.equal(main.relatedSources?.length, 1);
   assert.equal(main.heat, 12); // 10 + 2 × 1
+});
+
+test("pickTop：论文研究分类配额（≤40%），其余位置留给其他分类", () => {
+  const iso = (i) => new Date(2026, 7, 15, 0, i).toISOString();
+  // 论文：3 个 arXiv 源 × 10 条（每源 cap 5，无分类配额时最多 15 条）
+  const papers = [];
+  for (let i = 0; i < 30; i++) {
+    const src = ["arXiv cs.AI", "arXiv cs.CL", "arXiv cs.LG"][i % 3];
+    papers.push({
+      id: `p${i}`,
+      url: `https://arxiv.org/abs/2608.${10000 + i}`,
+      source: src,
+      category: "论文研究",
+      _weight: 10,
+      published_at: iso(i),
+    });
+  }
+  // 媒体：6 个源 × 5 条
+  const media = [];
+  for (let i = 0; i < 30; i++) {
+    media.push({
+      id: `m${i}`,
+      url: `https://media.example.com/${i}`,
+      source: `媒体源${i % 6}`,
+      category: "行业动态",
+      _weight: 8,
+      published_at: iso(i),
+    });
+  }
+  const picked = pickTop([...papers, ...media]);
+  assert.equal(picked.length, 30);
+  assert.equal(
+    picked.filter((p) => p.category === "论文研究").length,
+    Math.ceil(30 * 0.4), // 12
+    "论文研究应被限制在 40% 配额内",
+  );
 });
