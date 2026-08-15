@@ -50,7 +50,8 @@ ${entries}
   return new Response(xml, {
     headers: {
       "Content-Type": "application/rss+xml; charset=utf-8",
-      "Cache-Control": "public, max-age=3600",
+      // 巡检 30 分钟一轮，缓存对齐到 30 分钟
+      "Cache-Control": "public, max-age=1800",
     },
   });
 }

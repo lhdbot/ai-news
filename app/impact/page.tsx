@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { marked } from "marked";
+import { renderMarkdown } from "@/lib/markdown";
 import {
   getAllImpacts,
   getImpactByDate,
@@ -112,7 +112,7 @@ async function ImpactSection({
         <article
           className="forecast-body rounded-xl border border-border bg-surface p-6 md:p-8"
           dangerouslySetInnerHTML={{
-            __html: await marked.parse(impact.markdown, { async: true }),
+            __html: await renderMarkdown(impact.markdown),
           }}
         />
       )}

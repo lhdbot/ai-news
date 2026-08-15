@@ -67,16 +67,29 @@ export type DailyNews = z.infer<typeof DailyNewsSchema>;
 
 const NEWS_DIR = path.join(process.cwd(), "data", "news");
 
+// mtime 键控的解析缓存：构建期 getAllTags/getItemsByTag/搜索页会反复读取同一批文件，
+// 数据文件只在巡检后变化，mtime 不变即可安全复用解析结果。
+const dailyCache = new Map<string, { mtimeMs: number; data: DailyNews | null }>();
+
 function readDaily(date: string): DailyNews | null {
   const file = path.join(NEWS_DIR, `${date}.json`);
-  if (!fs.existsSync(file)) return null;
+  let mtimeMs: number;
+  try {
+    mtimeMs = fs.statSync(file).mtimeMs;
+  } catch {
+    return null; // 文件不存在（不缓存，之后创建了也能读到）
+  }
+  const hit = dailyCache.get(file);
+  if (hit && hit.mtimeMs === mtimeMs) return hit.data;
+  let data: DailyNews | null = null;
   try {
     const raw = JSON.parse(fs.readFileSync(file, "utf-8"));
-    return DailyNewsSchema.parse(raw);
+    data = DailyNewsSchema.parse(raw);
   } catch (err) {
     console.error(`Failed to parse ${file}:`, err);
-    return null;
   }
+  dailyCache.set(file, { mtimeMs, data });
+  return data;
 }
 
 /** 全部日期，倒序（最新在前） */
