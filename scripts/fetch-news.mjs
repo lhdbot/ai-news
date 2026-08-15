@@ -718,7 +718,8 @@ function loadExisting(date) {
   const file = path.join(NEWS_DIR, `${date}.json`);
   if (!fs.existsSync(file)) return null;
   try {
-    return JSON.parse(fs.readFileSync(file, "utf-8"));
+    // 容忍 UTF-8 BOM（部分编辑器/脚本会写入），JSON.parse 不接受 BOM
+    return JSON.parse(fs.readFileSync(file, "utf-8").replace(/^\uFEFF/, ""));
   } catch {
     return null;
   }
