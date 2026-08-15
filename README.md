@@ -10,7 +10,8 @@ Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流
     → node scripts/fetch-news.mjs   抓取 24 个内容源（RSS / JSON API / GitHub Trending）
     → node scripts/summarize-local.mjs  只对"新条目"调用本机 Kimi CLI 摘要（无更新时零 LLM 消耗）
     → node scripts/daily-impact.mjs --days=3  三日市场影响分析（当天已生成则跳过；每条结论标注依据出处）
-    → 有变化才: npm run build → 重启 3000 端口服务 → git commit + push
+    → 有变化才: npm run build → 重启 3000 端口服务
+    （变化检测用 scripts/data-changed.mjs 数据指纹；数据只保存在本地，不再 git 提交，代码提交手动进行）
 另有 ai-news-daily（每天 07:10 全量刷新）、ai-news-daily-forecast（每天 10:00 三日滚动预测）、
      ai-news-weekly-forecast（每周一 08:00 七天周报预测 + 七天影响分析）
 任务互斥: 所有任务经 scripts/wait-lock.mjs 共用 logs/job.lock —— 撞车时串行排队，
@@ -154,8 +155,8 @@ scripts/weekly-forecast.bat  # 每周一七天预测（计划任务调用）
 scripts/start-site.bat       # 登录后启动网站服务（启动文件夹调用）
 data/sources.json        # 信息源配置（抓取脚本 + 页脚展示共用，加源只改这里）
 data/state/              # 运行状态：source-health.json（源健康）、last-success.json（心跳）、deepseek-news.json 等
-data/news/YYYY-MM-DD.json  # 每日新闻数据（由脚本生成并提交）
-data/forecasts/{daily,weekly}/YYYY-MM-DD.md  # 三日/每周预测报告（由脚本生成并提交）
-data/impact/{daily,weekly}/YYYY-MM-DD.md     # 三日/七天影响分析（由脚本生成并提交）
-.github/workflows/         # daily-update.yml（云端兜底，每天 UTC 23:00 定时 + 手动触发）、ci.yml（构建验证）
+data/news/YYYY-MM-DD.json  # 每日新闻数据（脚本生成，仅本地保存，不入库）
+data/forecasts/{daily,weekly}/YYYY-MM-DD.md  # 三日/每周预测报告（仅本地保存，不入库）
+data/impact/{daily,weekly}/YYYY-MM-DD.md     # 三日/七天影响分析（仅本地保存，不入库）
+.github/workflows/         # daily-update.yml（云端兜底已停用定时，仅手动触发）、ci.yml（构建验证）
 ```
