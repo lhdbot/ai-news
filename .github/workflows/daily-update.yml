@@ -1,12 +1,9 @@
 name: Daily Update
 
-# 本机模式为主(scripts/local-update.bat + Windows 计划任务);
-# 云端作为兜底: 每天 UTC 23:00(北京时间 07:00)定时抓取, 同时保留手动触发。
+# 本机模式(scripts/*.bat + Windows 计划任务)运行为主，数据只保存在本地、不再提交到仓库。
+# 因此云端定时兜底已停用（它会产生 data 提交，与"数据不入库"策略冲突），仅保留手动触发。
 on:
   workflow_dispatch:
-  schedule:
-    # 每天 UTC 23:00 = 北京时间 07:00
-    - cron: "0 23 * * *"
 
 permissions:
   contents: write

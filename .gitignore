@@ -40,3 +40,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 logs/
+
+# 运行时数据只保存在本地，不入库（配置类 data/*.json 仍跟踪）
+data/news/
+data/impact/
+data/forecasts/
+data/state/
+data/trends/radar.json
+data/index.json
