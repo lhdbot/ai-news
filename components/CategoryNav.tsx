@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CATEGORIES, CATEGORY_SLUGS } from "@/lib/news";
+import { CATEGORIES, CATEGORY_COLORS, CATEGORY_SLUGS } from "@/lib/news";
 
 /** 左侧/顶部 分类快速导航；active 高亮当前板块 */
 export default function CategoryNav({
@@ -34,7 +34,13 @@ export default function CategoryNav({
               : "border border-border/60 text-muted hover:border-accent/50 hover:text-accent lg:border-0"
           }`}
         >
-          <span>{category}</span>
+          <span className="flex items-center gap-1.5">
+            <span
+              className="inline-block h-1.5 w-1.5 rounded-full"
+              style={{ background: CATEGORY_COLORS[category] }}
+            />
+            {category}
+          </span>
           <span className="text-xs text-muted/70">{counts[category] ?? 0}</span>
         </Link>
       ))}

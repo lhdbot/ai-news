@@ -1,10 +1,61 @@
+import Link from "next/link";
 import type { Category, NewsItem } from "@/lib/news";
-import { CATEGORY_SLUGS } from "@/lib/news";
-import NewsCard from "./NewsCard";
+import { CATEGORY_COLORS, CATEGORY_SLUGS } from "@/lib/news";
+import { scoreItem } from "@/lib/relevance";
+import { Stars, formatHM } from "./bits";
 
 const PREVIEW_COUNT = 6;
 
-/** 首页板块预览：横向滑动条 + 「查看全部」进独立板块页 */
+/** 板块内的紧凑卡片：分类色左边条 + 徽标行 + 标题/摘要 + 论文三行 */
+function RailCard({ item, isNew }: { item: NewsItem; isNew: boolean }) {
+  const showPaperMeta =
+    item.category === "论文研究" &&
+    Boolean(item.method || item.result || item.limitation);
+  return (
+    <a
+      href={item.url}
+      target="_blank"
+      rel="noreferrer"
+      className="n-card"
+    >
+      <div className="n-top">
+        <span className="n-cat">{item.category}</span>
+        {isNew && <span className="n-new">今日新增</span>}
+        <Stars score={scoreItem(item)} />
+      </div>
+      <h3>{item.title_zh || item.title}</h3>
+      {item.summary_zh && <p className="sum">{item.summary_zh}</p>}
+      {showPaperMeta && (
+        <div className="paper-meta">
+          {item.method && (
+            <div className="pm-m">
+              <b>方法</b>
+              {item.method}
+            </div>
+          )}
+          {item.result && (
+            <div className="pm-r">
+              <b>结果</b>
+              {item.result}
+            </div>
+          )}
+          {item.limitation && (
+            <div className="pm-l">
+              <b>局限</b>
+              {item.limitation}
+            </div>
+          )}
+        </div>
+      )}
+      <div className="src-line">
+        {item.source}
+        {formatHM(item.published_at) && ` · ${formatHM(item.published_at)}`}
+      </div>
+    </a>
+  );
+}
+
+/** 首页板块预览：横向滑动卡片 + 「查看全部」进独立板块页 */
 export default function CategorySection({
   category,
   items,
@@ -16,39 +67,34 @@ export default function CategorySection({
   newIds?: Set<string>;
 }) {
   const preview = items.slice(0, PREVIEW_COUNT);
+  const color = CATEGORY_COLORS[category];
   return (
-    <section className="mt-10">
-      <div className="mb-4 flex items-baseline justify-between gap-3">
-        <div className="flex items-baseline gap-3">
-          <h2 className="text-lg font-bold">
-            <span className="mr-2 text-accent">#</span>
-            {category}
-          </h2>
-          <span className="text-sm text-muted">{items.length} 条</span>
-        </div>
-        <a
-          href={`/category/${CATEGORY_SLUGS[category]}`}
-          className="shrink-0 text-sm text-muted transition-colors hover:text-accent"
-        >
+    <section
+      className="mt-11"
+      style={{ "--cc": color } as React.CSSProperties}
+      aria-label={category}
+    >
+      <div className="cat-head">
+        <span className="cmark" />
+        <h2>{category}</h2>
+        <span className="count">今日 {items.length} 条</span>
+        <Link className="more" href={`/category/${CATEGORY_SLUGS[category]}`}>
           查看全部 →
-        </a>
+        </Link>
       </div>
       {items.length === 0 ? (
         <p className="rounded-xl border border-dashed border-border/60 px-4 py-6 text-center text-sm text-muted">
           今日暂无该板块内容
         </p>
       ) : (
-        <div className="-mx-4 overflow-x-auto px-4 pb-2 [scrollbar-width:thin]">
-          <div className="flex snap-x snap-mandatory gap-3">
-            {preview.map((item) => (
-              <div
-                key={item.id}
-                className="w-72 shrink-0 snap-start md:w-80"
-              >
-                <NewsCard item={item} isNew={newIds?.has(item.id) ?? false} />
-              </div>
-            ))}
-          </div>
+        <div className="rail">
+          {preview.map((item) => (
+            <RailCard
+              key={item.id}
+              item={item}
+              isNew={newIds?.has(item.id) ?? false}
+            />
+          ))}
         </div>
       )}
     </section>
