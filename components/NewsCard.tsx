@@ -3,12 +3,12 @@ import { scoreItem, starsOf } from "@/lib/relevance";
 import TagBadge from "./TagBadge";
 
 const CATEGORY_STYLES: Record<string, string> = {
-  模型发布: "text-cyan-300 border-cyan-400/40 bg-cyan-400/10",
-  论文研究: "text-indigo-300 border-indigo-400/40 bg-indigo-400/10",
-  行业动态: "text-emerald-300 border-emerald-400/40 bg-emerald-400/10",
-  工具产品: "text-amber-300 border-amber-400/40 bg-amber-400/10",
-  芯片算力: "text-rose-300 border-rose-400/40 bg-rose-400/10",
-  具身智能: "text-violet-300 border-violet-400/40 bg-violet-400/10",
+  模型发布: "text-c-model border-c-model/40 bg-c-model/10",
+  论文研究: "text-c-paper border-c-paper/40 bg-c-paper/10",
+  行业动态: "text-c-industry border-c-industry/40 bg-c-industry/10",
+  工具产品: "text-c-tool border-c-tool/40 bg-c-tool/10",
+  芯片算力: "text-c-chip border-c-chip/40 bg-c-chip/10",
+  具身智能: "text-c-robot border-c-robot/40 bg-c-robot/10",
 };
 
 export function CategoryBadge({ category }: { category: string }) {
@@ -66,7 +66,7 @@ export default function NewsCard({
         <CategoryBadge category={item.category} />
         {isNew && (
           <span
-            className="rounded border border-green-400/50 bg-green-400/15 px-1.5 py-0.5 text-xs font-medium text-green-300"
+            className="rounded border border-accent/50 bg-accent/15 px-1.5 py-0.5 text-xs font-medium text-accent"
             title={item.added_at ? `收录于 ${formatTime(item.added_at)}` : "今日新增"}
           >
             今日新增
@@ -75,7 +75,7 @@ export default function NewsCard({
         <span className="font-medium text-fg/70">{item.source}</span>
         <span>{formatTime(item.published_at)}</span>
         <span
-          className="text-amber-300"
+          className="text-gold"
           title={`相关度 ${relevanceScore} 分`}
         >
           {"★".repeat(relevanceStars)}
@@ -152,7 +152,7 @@ export default function NewsCard({
 
       {showPaperMeta && (
         <div
-          className={`space-y-1 rounded-md border border-indigo-400/30 bg-indigo-400/5 ${
+          className={`space-y-1 rounded-md border border-c-paper/30 bg-c-paper/5 ${
             featured ? "mt-3 px-3 py-2" : "mt-2 px-2.5 py-1.5"
           }`}
         >
@@ -173,7 +173,7 @@ export default function NewsCard({
                       : "text-xs leading-normal"
                   }`}
                 >
-                  <span className="mr-1 font-semibold text-indigo-300">
+                  <span className="mr-1 font-semibold text-c-paper">
                     {label}
                   </span>
                   {value}
@@ -187,12 +187,12 @@ export default function NewsCard({
         <div className={featured ? "mt-3 space-y-2" : "mt-2 space-y-1.5"}>
           {item.learn && (
             <div
-              className={`rounded-md border-l-2 border-emerald-400 bg-emerald-400/5 ${
+              className={`rounded-md border-l-2 border-c-paper bg-c-paper/5 ${
                 featured ? "px-3 py-2" : "px-2.5 py-1.5"
               }`}
             >
               <p
-                className={`font-semibold text-emerald-300 ${
+                className={`font-semibold text-c-paper ${
                   featured ? "text-xs" : "text-[11px]"
                 }`}
               >
@@ -211,12 +211,12 @@ export default function NewsCard({
           )}
           {(item.impact || item.why_it_matters) && (
             <div
-              className={`rounded-md border-l-2 border-accent bg-accent/5 ${
+              className={`rounded-md border-l-2 border-gold bg-gold/5 ${
                 featured ? "px-3 py-2" : "px-2.5 py-1.5"
               }`}
             >
               <p
-                className={`font-semibold text-accent ${
+                className={`font-semibold text-gold ${
                   featured ? "text-xs" : "text-[11px]"
                 }`}
               >
@@ -235,12 +235,12 @@ export default function NewsCard({
           )}
           {item.advice && (
             <div
-              className={`rounded-md border-l-2 border-amber-400 bg-amber-400/5 ${
+              className={`rounded-md border-l-2 border-accent bg-accent/5 ${
                 featured ? "px-3 py-2" : "px-2.5 py-1.5"
               }`}
             >
               <p
-                className={`font-semibold text-amber-300 ${
+                className={`font-semibold text-accent ${
                   featured ? "text-xs" : "text-[11px]"
                 }`}
               >

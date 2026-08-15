@@ -28,6 +28,16 @@ export function categoryFromSlug(slug: string): Category | undefined {
   return CATEGORIES.find((c) => CATEGORY_SLUGS[c] === slug);
 }
 
+/** 六分类主题色（情报面板/板块卡片/徽标共用，对齐 designs/ai-news-home-v1.html） */
+export const CATEGORY_COLORS: Record<Category, string> = {
+  模型发布: "#8b6cff",
+  论文研究: "#4d9fff",
+  行业动态: "#ffb03a",
+  工具产品: "#2fd4e8",
+  芯片算力: "#ff6b6b",
+  具身智能: "#c084fc",
+};
+
 export const NewsItemSchema = z.object({
   id: z.string(),
   title: z.string(),
@@ -83,8 +93,9 @@ function readDaily(date: string): DailyNews | null {
   if (hit && hit.mtimeMs === mtimeMs) return hit.data;
   let data: DailyNews | null = null;
   try {
-    const raw = JSON.parse(fs.readFileSync(file, "utf-8"));
-    data = DailyNewsSchema.parse(raw);
+    // 容忍 UTF-8 BOM（部分编辑器/脚本会写入），JSON.parse 不接受 BOM
+    const raw = fs.readFileSync(file, "utf-8").replace(/^\uFEFF/, "");
+    data = DailyNewsSchema.parse(JSON.parse(raw));
   } catch (err) {
     console.error(`Failed to parse ${file}:`, err);
   }
