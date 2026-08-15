@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-08-15T00:37:37.300Z",
+  "nodes": [
+    {
+      "id": "agent",
+      "name": "智能体",
+      "parent": null,
+      "stage": "爆发",
+      "focus": "high",
+      "heat": 3,
+      "count14d": 3,
+      "last3d": 3,
+      "prev3d": 0,
+      "growth": 3,
+      "topItems": [
+        {
+          "title_zh": "Strands+LeRobot一站式机器人训练",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "多 LLM 智能体系统动态治理研究",
+          "url": "https://arxiv.org/abs/2608.11207",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "OpenAI 发布 GPT-5.6 构建者指南",
+          "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "name": "编程智能体",
+      "parent": "agent",
+      "stage": "爆发",
+      "focus": "high",
+      "heat": 0,
+      "count14d": 0,
+      "last3d": 0,
+      "prev3d": 0,
+      "growth": 0,
+      "topItems": []
+    },
+    {
+      "id": "multi-agent",
+      "name": "多智能体系统",
+      "parent": "agent",
+      "stage": "增长",
+      "focus": "medium",
+      "heat": 2,
+      "count14d": 1,
+      "last3d": 1,
+      "prev3d": 0,
+      "growth": 1,
+      "topItems": [
+        {
+          "title_zh": "多 LLM 智能体系统动态治理研究",
+          "url": "https://arxiv.org/abs/2608.11207",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "name": "MCP 协议生态",
+      "parent": "agent",
+      "stage": "增长",
+      "focus": "high",
+      "heat": 0,
+      "count14d": 0,
+      "last3d": 0,
+      "prev3d": 0,
+      "growth": 0,
+      "topItems": []
+    },
+    {
+      "id": "agent-runtime",
+      "name": "Agent 运行时与框架",
+      "parent": "agent",
+      "stage": "早期",
+      "focus": "high",
+      "heat": 4,
+      "count14d": 6,
+      "last3d": 6,
+      "prev3d": 0,
+      "growth": 6,
+      "topItems": [
+        {
+          "title_zh": "Strands+LeRobot一站式机器人训练",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "dsh 合并 0.1.0-rc.3 候选版",
+          "url": "https://github.com/deepseek-ai/deepseek-harness/commit/124aa5f01aad6f4f626806e3c3465266ec5e5c62",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "dsh 文档补充论文链接",
+          "url": "https://github.com/deepseek-ai/deepseek-harness/commit/f26a6f6cfff956dce3af00bad32f1bbed8c6e92a",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "slm",
+      "name": "小语言模型",
+      "parent": null,
+      "stage": "增长",
+      "focus": "high",
+      "heat": 2,
+      "count14d": 1,
+      "last3d": 1,
+      "prev3d": 0,
+      "growth": 1,
+      "topItems": [
+        {
+          "title_zh": "谷歌发布 Gemini 3.7 Flash",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "open-source-model",
+      "name": "开源大模型",
+      "parent": null,
+      "stage": "爆发",
+      "focus": "high",
+      "heat": 3,
+      "count14d": 3,
+      "last3d": 3,
+      "prev3d": 0,
+      "growth": 3,
+      "topItems": [
+        {
+          "title_zh": "2026夏季开源模型观察报告",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "阿里开源2.4T参数Qwen3.8-Max",
+          "url": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "DeepSeek 评估框架开源上架 npm",
+          "url": "https://github.com/deepseek-ai/deepseek-harness/commit/47f943859bef60e4160492346772ded9b24f765a",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "model-release",
+      "name": "模型发布",
+      "parent": null,
+      "stage": "成熟",
+      "focus": "medium",
+      "heat": 3,
+      "count14d": 3,
+      "last3d": 3,
+      "prev3d": 0,
+      "growth": 3,
+      "topItems": [
+        {
+          "title_zh": "阿里开源2.4T参数Qwen3.8-Max",
+          "url": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "OpenAI 预览 Ultrafast 推理层级",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "谷歌发布 Gemini 3.7 Flash",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "multimodal",
+      "name": "多模态",
+      "parent": null,
+      "stage": "增长",
+      "focus": "medium",
+      "heat": 0,
+      "count14d": 0,
+      "last3d": 0,
+      "prev3d": 0,
+      "growth": 0,
+      "topItems": []
+    },
+    {
+      "id": "inference-infra",
+      "name": "推理基础设施",
+      "parent": null,
+      "stage": "增长",
+      "focus": "high",
+      "heat": 3,
+      "count14d": 3,
+      "last3d": 3,
+      "prev3d": 0,
+      "growth": 3,
+      "topItems": [
+        {
+          "title_zh": "阿里开源2.4T参数Qwen3.8-Max",
+          "url": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "OpenAI 预览 Ultrafast 推理层级",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "谷歌发布 Gemini 3.7 Flash",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "ai-hardware",
+      "name": "AI 芯片与硬件",
+      "parent": null,
+      "stage": "增长",
+      "focus": "low",
+      "heat": 0,
+      "count14d": 0,
+      "last3d": 0,
+      "prev3d": 0,
+      "growth": 0,
+      "topItems": []
+    },
+    {
+      "id": "robotics",
+      "name": "具身智能与机器人",
+      "parent": null,
+      "stage": "增长",
+      "focus": "medium",
+      "heat": 2,
+      "count14d": 1,
+      "last3d": 1,
+      "prev3d": 0,
+      "growth": 1,
+      "topItems": [
+        {
+          "title_zh": "Strands+LeRobot一站式机器人训练",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "vla",
+      "name": "VLA 模型",
+      "parent": "robotics",
+      "stage": "早期",
+      "focus": "low",
+      "heat": 0,
+      "count14d": 0,
+      "last3d": 0,
+      "prev3d": 0,
+      "growth": 0,
+      "topItems": []
+    },
+    {
+      "id": "ai-governance",
+      "name": "AI 治理与安全",
+      "parent": null,
+      "stage": "增长",
+      "focus": "low",
+      "heat": 2,
+      "count14d": 1,
+      "last3d": 1,
+      "prev3d": 0,
+      "growth": 1,
+      "topItems": [
+        {
+          "title_zh": "多 LLM 智能体系统动态治理研究",
+          "url": "https://arxiv.org/abs/2608.11207",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "ai-business",
+      "name": "AI 商业与行业",
+      "parent": null,
+      "stage": "成熟",
+      "focus": "medium",
+      "heat": 3,
+      "count14d": 3,
+      "last3d": 3,
+      "prev3d": 0,
+      "growth": 3,
+      "topItems": [
+        {
+          "title_zh": "2026夏季开源模型观察报告",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "OpenAI 任命首席营收官",
+          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "date": "2026-08-15"
+        },
+        {
+          "title_zh": "OpenAI 发布 GPT-5.6 构建者指南",
+          "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+          "date": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "id": "ai-search",
+      "name": "AI 搜索",
+      "parent": null,
+      "stage": "增长",
+      "focus": "low",
+      "heat": 0,
+      "count14d": 0,
+      "last3d": 0,
+      "prev3d": 0,
+      "growth": 0,
+      "topItems": []
+    }
+  ]
+}

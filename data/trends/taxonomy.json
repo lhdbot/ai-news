@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "agent",
+      "name": "智能体",
+      "parent": null,
+      "stage": "爆发",
+      "focus": "high",
+      "keywords": ["agent", "智能体", "autonomous agent", "ai agent", "agentic"]
+    },
+    {
+      "id": "coding-agent",
+      "name": "编程智能体",
+      "parent": "agent",
+      "stage": "爆发",
+      "focus": "high",
+      "keywords": ["coding agent", "claude code", "cursor", "copilot", "ai 编程", "code agent", "devin", "codex"]
+    },
+    {
+      "id": "multi-agent",
+      "name": "多智能体系统",
+      "parent": "agent",
+      "stage": "增长",
+      "focus": "medium",
+      "keywords": ["multi-agent", "多智能体", "agent orchestration", "swarm", "langgraph"]
+    },
+    {
+      "id": "mcp",
+      "name": "MCP 协议生态",
+      "parent": "agent",
+      "stage": "增长",
+      "focus": "high",
+      "keywords": ["mcp", "model context protocol", "mcp server", "工具调用协议"]
+    },
+    {
+      "id": "agent-runtime",
+      "name": "Agent 运行时与框架",
+      "parent": "agent",
+      "stage": "早期",
+      "focus": "high",
+      "keywords": ["agent runtime", "agent framework", "langgraph", "autogen", "crewai", "sandbox", "agent 框架"]
+    },
+    {
+      "id": "slm",
+      "name": "小语言模型",
+      "parent": null,
+      "stage": "增长",
+      "focus": "high",
+      "keywords": ["slm", "小模型", "small language model", "端侧模型", "phi", "minicpm", "轻量模型"]
+    },
+    {
+      "id": "open-source-model",
+      "name": "开源大模型",
+      "parent": null,
+      "stage": "爆发",
+      "focus": "high",
+      "keywords": ["开源模型", "open source model", "deepseek", "qwen", "llama", "开源权重"]
+    },
+    {
+      "id": "model-release",
+      "name": "模型发布",
+      "parent": null,
+      "stage": "成熟",
+      "focus": "medium",
+      "keywords": ["模型发布", "gpt", "claude", "gemini", "新一代模型", "benchmark"]
+    },
+    {
+      "id": "multimodal",
+      "name": "多模态",
+      "parent": null,
+      "stage": "增长",
+      "focus": "medium",
+      "keywords": ["多模态", "multimodal", "视频生成", "图像生成", "sora", "语音模型", "vision"]
+    },
+    {
+      "id": "inference-infra",
+      "name": "推理基础设施",
+      "parent": null,
+      "stage": "增长",
+      "focus": "high",
+      "keywords": ["推理优化", "inference", "vllm", "量化", "推理成本", "kv cache", "推理引擎", "吞吐"]
+    },
+    {
+      "id": "ai-hardware",
+      "name": "AI 芯片与硬件",
+      "parent": null,
+      "stage": "增长",
+      "focus": "low",
+      "keywords": ["芯片", "gpu", "nvidia", "算力", "h100", "tpu", "ai 硬件"]
+    },
+    {
+      "id": "robotics",
+      "name": "具身智能与机器人",
+      "parent": null,
+      "stage": "增长",
+      "focus": "medium",
+      "keywords": ["具身智能", "机器人", "robotics", "humanoid", "人形机器人"]
+    },
+    {
+      "id": "vla",
+      "name": "VLA 模型",
+      "parent": "robotics",
+      "stage": "早期",
+      "focus": "low",
+      "keywords": ["vla", "vision-language-action", "pi0", "机器人基础模型"]
+    },
+    {
+      "id": "ai-governance",
+      "name": "AI 治理与安全",
+      "parent": null,
+      "stage": "增长",
+      "focus": "low",
+      "keywords": ["ai 监管", "ai 安全", "alignment", "治理", "ai 法案", "合规"]
+    },
+    {
+      "id": "ai-business",
+      "name": "AI 商业与行业",
+      "parent": null,
+      "stage": "成熟",
+      "focus": "medium",
+      "keywords": ["融资", "ai 创业", "商业化", "行业应用", "ai 落地", "裁员", "岗位"]
+    },
+    {
+      "id": "ai-search",
+      "name": "AI 搜索",
+      "parent": null,
+      "stage": "增长",
+      "focus": "low",
+      "keywords": ["ai 搜索", "perplexity", "搜索引擎", "deep research", "rag 搜索"]
+    }
+  ]
+}

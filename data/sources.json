@@ -142,5 +142,53 @@
     "weight": 9,
     "category": "工具产品",
     "site": "https://github.com/trending?since=monthly"
+  },
+  {
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "type": "rss",
+    "weight": 9,
+    "category": "工具产品",
+    "site": "https://huggingface.co/blog"
+  },
+  {
+    "name": "NVIDIA Developer Blog",
+    "url": "https://developer.nvidia.com/blog/feed",
+    "type": "rss",
+    "weight": 9,
+    "category": "芯片算力",
+    "site": "https://developer.nvidia.com/blog"
+  },
+  {
+    "name": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/rss.xml",
+    "type": "rss",
+    "weight": 8,
+    "category": "芯片算力",
+    "site": "https://nvidianews.nvidia.com"
+  },
+  {
+    "name": "Anthropic News（镜像）",
+    "url": "https://rsshub.bestblogs.dev/anthropic/news",
+    "type": "rss",
+    "weight": 12,
+    "category": "模型发布",
+    "site": "https://www.anthropic.com/news"
+  },
+  {
+    "name": "宇树 Unitree SDK",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2/commits/main.atom",
+    "type": "rss",
+    "weight": 8,
+    "category": "具身智能",
+    "site": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  {
+    "name": "智元机器人 AgibotTech",
+    "url": "https://github.com/AgibotTech/Agibot_D1_Max/commits/main.atom",
+    "type": "rss",
+    "weight": 8,
+    "category": "具身智能",
+    "site": "https://github.com/AgibotTech/Agibot_D1_Max"
   }
 ]

@@ -1,0 +1,6 @@
+{
+  "stack": ["LangGraph", "RAG", "FAISS", "BM25", "GraphRAG", "Neo4j", "LoRA", "QLoRA", "SFT", "DPO", "vLLM", "Ollama", "Python", "TypeScript", "Next.js"],
+  "keywords": ["agent", "multi-agent", "langgraph", "rag", "graphrag", "lora", "qlora", "vllm", "deepseek", "qwen", "mcp", "coding agent", "开源模型", "小模型", "推理优化"],
+  "goals": ["AI Agent 工程师", "垂直场景端到端方案", "个人产品闭环"],
+  "focusTrends": ["agent", "coding-agent", "multi-agent", "mcp", "agent-runtime", "slm", "open-source-model", "inference-infra"]
+}
