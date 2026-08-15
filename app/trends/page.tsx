@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     "AI 技术趋势雷达：按主题树追踪各趋势的阶段、热度、近 14 天报道量与近 3 天增速。",
 };
 
+// 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，无需重建/重启
+export const dynamic = "force-dynamic";
+
 function flames(heat: number): string {
   if (heat <= 0) return "—";
   return "🔥".repeat(Math.min(5, Math.round(heat)));

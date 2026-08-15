@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description: "检索全部历史日报：按标题、中文标题、摘要、标签即时过滤。",
 };
 
+// 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，无需重建/重启
+export const dynamic = "force-dynamic";
+
 export default function SearchPage() {
   // 构建期读全部日报，生成索引数组传给客户端组件。
   // 同一 URL 因 48h 抓取窗口会跨天重复收录（近 3 天约 46%），只保留最新一天，避免搜索结果重复。

@@ -16,7 +16,8 @@ export function generateStaticParams() {
   }));
 }
 
-export const dynamicParams = false;
+// 数据由巡检任务更新：动态渲染，请求时读取最新数据文件（未知 slug 由 notFound 兜底）
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

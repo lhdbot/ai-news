@@ -4,11 +4,12 @@ import { notFound } from "next/navigation";
 import NewsCard from "@/components/NewsCard";
 import { formatDateCN, getAllDates, getLatestBatchIds, getNewsByDate } from "@/lib/news";
 
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return getAllDates().map((date) => ({ date }));
 }
+
+// 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，新日期无需重建即可访问
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
