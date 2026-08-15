@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import NewsCard from "@/components/NewsCard";
-import { formatDateCN, getAllDates, getNewsByDate } from "@/lib/news";
+import { formatDateCN, getAllDates, getLatestBatchIds, getNewsByDate } from "@/lib/news";
 
 export const dynamicParams = false;
 
@@ -30,6 +30,7 @@ export default async function DailyPage({
   const { date } = await params;
   const daily = getNewsByDate(date);
   if (!daily) notFound();
+  const { ids: newIds } = getLatestBatchIds(daily.items);
 
   const dates = getAllDates();
   const idx = dates.indexOf(date);
@@ -51,7 +52,7 @@ export default async function DailyPage({
 
       <div className="mt-8 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
         {daily.items.map((item) => (
-          <NewsCard key={item.id} item={item} />
+          <NewsCard key={item.id} item={item} isNew={newIds.has(item.id)} />
         ))}
       </div>
 

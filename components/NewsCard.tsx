@@ -1,4 +1,5 @@
 import type { NewsItem } from "@/lib/news";
+import { scoreItem, starsOf } from "@/lib/relevance";
 import TagBadge from "./TagBadge";
 
 const CATEGORY_STYLES: Record<string, string> = {
@@ -36,11 +37,21 @@ function formatTime(iso: string): string {
 export default function NewsCard({
   item,
   featured = false,
+  isNew = false,
 }: {
   item: NewsItem;
   featured?: boolean;
+  /** 是否为当日最新一轮收录的条目（显示"今日新增"徽标） */
+  isNew?: boolean;
 }) {
   const displayTitle = item.title_zh || item.title;
+  const relevanceScore = scoreItem(item);
+  const relevanceStars = starsOf(relevanceScore);
+  const sourceCount = (item.relatedSources?.length ?? 0) + 1;
+  const showHeat = (item.heat ?? 0) >= 12;
+  const showPaperMeta =
+    item.category === "论文研究" &&
+    Boolean(item.method || item.result || item.limitation);
   return (
     <article
       className={`group flex flex-col rounded-xl border border-border bg-surface transition-colors hover:border-accent/60 ${
@@ -53,8 +64,54 @@ export default function NewsCard({
         }`}
       >
         <CategoryBadge category={item.category} />
+        {isNew && (
+          <span
+            className="rounded border border-green-400/50 bg-green-400/15 px-1.5 py-0.5 text-xs font-medium text-green-300"
+            title={item.added_at ? `收录于 ${formatTime(item.added_at)}` : "今日新增"}
+          >
+            今日新增
+          </span>
+        )}
         <span className="font-medium text-fg/70">{item.source}</span>
         <span>{formatTime(item.published_at)}</span>
+        <span
+          className="text-amber-300"
+          title={`相关度 ${relevanceScore} 分`}
+        >
+          {"★".repeat(relevanceStars)}
+          {"☆".repeat(5 - relevanceStars)}
+        </span>
+        {showHeat && (
+          <details className="relative">
+            <summary className="cursor-pointer list-none text-orange-300">
+              🔥 {sourceCount} 源报道
+            </summary>
+            <ul className="absolute left-0 z-10 mt-1 min-w-40 space-y-1 rounded-lg border border-border bg-surface-2 p-2 shadow-lg">
+              <li>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-fg/80 hover:text-accent"
+                >
+                  {item.source}
+                </a>
+              </li>
+              {(item.relatedSources ?? []).map((s) => (
+                <li key={s.url}>
+                  <a
+                    href={s.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-fg/80 hover:text-accent"
+                  >
+                    {s.source}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
       </div>
 
       <a href={item.url} target="_blank" rel="noreferrer" className="block">
@@ -91,6 +148,39 @@ export default function NewsCard({
           <span className="mr-1 font-semibold text-fg/70">总结</span>
           {item.summary_zh}
         </p>
+      )}
+
+      {showPaperMeta && (
+        <div
+          className={`space-y-1 rounded-md border border-indigo-400/30 bg-indigo-400/5 ${
+            featured ? "mt-3 px-3 py-2" : "mt-2 px-2.5 py-1.5"
+          }`}
+        >
+          {(
+            [
+              ["方法", item.method],
+              ["结果", item.result],
+              ["局限", item.limitation],
+            ] as const
+          ).map(
+            ([label, value]) =>
+              value && (
+                <p
+                  key={label}
+                  className={`text-fg/80 ${
+                    featured
+                      ? "text-sm leading-relaxed"
+                      : "text-xs leading-normal"
+                  }`}
+                >
+                  <span className="mr-1 font-semibold text-indigo-300">
+                    {label}
+                  </span>
+                  {value}
+                </p>
+              ),
+          )}
+        </div>
       )}
 
       {(item.learn || item.impact || item.why_it_matters || item.advice) && (

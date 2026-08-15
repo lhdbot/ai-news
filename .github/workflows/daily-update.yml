@@ -1,9 +1,12 @@
 name: Daily Update
 
-# 注意: 本项目已改为在本机运行(scripts/local-update.bat + Windows 计划任务),
-# 云端定时抓取已停用, 仅保留手动触发作为备用。
+# 本机模式为主(scripts/local-update.bat + Windows 计划任务);
+# 云端作为兜底: 每天 UTC 23:00(北京时间 07:00)定时抓取, 同时保留手动触发。
 on:
   workflow_dispatch:
+  schedule:
+    # 每天 UTC 23:00 = 北京时间 07:00
+    - cron: "0 23 * * *"
 
 permissions:
   contents: write
