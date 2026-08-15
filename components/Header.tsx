@@ -16,11 +16,17 @@ export default function Header() {
           <Link href="/archive" className="transition-colors hover:text-accent">
             归档
           </Link>
+          <Link href="/trends" className="transition-colors hover:text-accent">
+            趋势雷达
+          </Link>
           <Link href="/forecast" className="transition-colors hover:text-accent">
             预测
           </Link>
           <Link href="/impact" className="transition-colors hover:text-accent">
             影响分析
+          </Link>
+          <Link href="/search" className="transition-colors hover:text-accent">
+            搜索
           </Link>
           <Link href="/skills" className="transition-colors hover:text-accent">
             Skills

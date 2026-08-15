@@ -43,6 +43,17 @@ export const NewsItemSchema = z.object({
   tags: z.array(z.string()).default([]),
   published_at: z.string(),
   summarized: z.boolean().default(false),
+  // 以下为趋势/热度扩展字段，旧数据没有，全部 optional
+  trends: z.array(z.string()).optional(),
+  heat: z.number().optional(),
+  relatedSources: z
+    .array(z.object({ source: z.string(), url: z.string() }))
+    .optional(),
+  method: z.string().optional(),
+  result: z.string().optional(),
+  limitation: z.string().optional(),
+  // 收录进日报的时间（抓取批次时间戳），用于前端标注"今日新增"；旧数据没有
+  added_at: z.string().optional(),
 });
 
 export const DailyNewsSchema = z.object({
@@ -117,6 +128,30 @@ export function getItemsByTag(tag: string): { date: string; item: NewsItem }[] {
     }
   }
   return result;
+}
+
+/**
+ * 当日"最新一轮收录"的条目 id 集合：
+ * 取全部 added_at 的最大值，往前 40 分钟（覆盖一个巡检间隔 30 分钟）内的算新批次。
+ * 旧数据没有 added_at 时返回空集（不显示"今日新增"徽标）。
+ */
+export function getLatestBatchIds(items: NewsItem[]): {
+  ids: Set<string>;
+  latestAt: string | null;
+} {
+  let max = 0;
+  for (const it of items) {
+    const t = it.added_at ? Date.parse(it.added_at) : NaN;
+    if (!Number.isNaN(t) && t > max) max = t;
+  }
+  if (!max) return { ids: new Set(), latestAt: null };
+  const cutoff = max - 40 * 60 * 1000;
+  const ids = new Set<string>();
+  for (const it of items) {
+    const t = it.added_at ? Date.parse(it.added_at) : NaN;
+    if (!Number.isNaN(t) && t >= cutoff) ids.add(it.id);
+  }
+  return { ids, latestAt: new Date(max).toISOString() };
 }
 
 export function formatDateCN(date: string): string {

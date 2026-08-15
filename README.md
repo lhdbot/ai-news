@@ -7,19 +7,27 @@
 ```
 Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流程）
   → scripts/watch-update.bat
-    → node scripts/fetch-news.mjs   抓取 14 个内容源（RSS / JSON API / GitHub Trending）
+    → node scripts/fetch-news.mjs   抓取 24 个内容源（RSS / JSON API / GitHub Trending）
     → node scripts/summarize-local.mjs  只对"新条目"调用本机 Kimi CLI 摘要（无更新时零 LLM 消耗）
-    → node scripts/daily-impact.mjs  每日个人市场影响分析（当天已生成则跳过，一天最多一次 LLM 调用）
+    → node scripts/daily-impact.mjs --days=3  三日市场影响分析（当天已生成则跳过；每条结论标注依据出处）
     → 有变化才: npm run build → 重启 3000 端口服务 → git commit + push
-另有 ai-news-daily（每天 07:10 全量刷新一次）、ai-news-weekly-forecast（每周一 08:00 生成预测）
+另有 ai-news-daily（每天 07:10 全量刷新）、ai-news-daily-forecast（每天 10:00 三日滚动预测）、
+     ai-news-weekly-forecast（每周一 08:00 七天周报预测 + 七天影响分析）
+任务互斥: 所有任务经 scripts/wait-lock.mjs 共用 logs/job.lock —— 撞车时串行排队，
+         前一个完成后等 2.5 分钟再执行下一个，排队/自愈过程在日志中写 [提示]；
+         锁超过 2 小时视为异常遗留，自动清理
+微信推送: 报告生成后由 scripts/push-wechat.mjs 经 hermes agent 管道（hermes send --to weixin）
+         把全文推送到个人微信；需先完成 hermes 的 Weixin 扫码配置（见脚本头注释）
 网站服务: 登录 Windows 后由启动文件夹脚本 scripts/start-site.bat 自动拉起，
          访问 http://localhost:3000
 日志: logs/update.log、logs/server.log
 ```
 
-云端模式（GitHub Actions cron + Vercel + DeepSeek key）已停用，仅保留 `.github/workflows/daily-update.yml` 手动触发作为备用。
+云端兜底（GitHub Actions）：`.github/workflows/daily-update.yml` 每天 UTC 23:00（北京时间 07:00）
+定时跑一轮 `fetch-news.mjs`（使用仓库 secret `DEEPSEEK_API_KEY`），并保留手动触发；
+本机断更时云端仍可产出当日数据。
 
-## 内容来源（14 个）
+## 内容来源（24 个）
 
 **论文 / 研究**
 | 来源 | 地址 | 说明 |
@@ -35,6 +43,20 @@ Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流
 |---|---|---|
 | OpenAI Blog | https://openai.com/news/rss.xml | OpenAI 官方动态 |
 | Google DeepMind | https://deepmind.google/blog/rss.xml | DeepMind 官方博客 |
+| Anthropic News（镜像） | https://rsshub.bestblogs.dev/anthropic/news | Anthropic 官方新闻（RSSHub 镜像） |
+| Hugging Face Blog | https://huggingface.co/blog/feed.xml | Hugging Face 官方博客（工具/产品向） |
+
+**芯片算力**
+| 来源 | 地址 | 说明 |
+|---|---|---|
+| NVIDIA Developer Blog | https://developer.nvidia.com/blog/feed | NVIDIA 开发者技术博客（Atom） |
+| NVIDIA Newsroom | https://nvidianews.nvidia.com/rss.xml | NVIDIA 官方新闻稿 |
+
+**具身智能**
+| 来源 | 地址 | 说明 |
+|---|---|---|
+| 宇树 Unitree SDK | https://github.com/unitreerobotics/unitree_sdk2/commits/main.atom | 宇树 SDK main 分支提交动态 |
+| 智元机器人 AgibotTech | https://github.com/AgibotTech/Agibot_D1_Max/commits/main.atom | 智元 AgibotTech 最近活跃仓库提交动态 |
 
 **开源热榜**
 | 来源 | 地址 | 说明 |
@@ -92,6 +114,18 @@ npm run dev                   # http://localhost:3000
 
 GitHub Trending 源直连失败时会自动回退到 curl + 本地代理（环境变量 `AI_NEWS_PROXY`，默认 `http://127.0.0.1:7897`）。
 
+## 事件合并、源健康告警与心跳
+
+- **事件（storyline）合并**：`fetch-news.mjs` 在筛选 top 30 之后、LLM 摘要之前，把标题分词
+  （小写、去标点）两两 Jaccard 相似度 ≥ 0.6 且来自不同源的条目合并为同一事件：
+  保留组内权重最高的条目，其余进其 `relatedSources`，并计算 `heat = 主源权重 + 2 × (合并数 - 1)`。
+- **源健康**：每次抓取把 `{源名: {lastOk, lastFail, consecutiveFailDays}}` 写入
+  `data/state/source-health.json`（连续失败天数按北京时区自然日跨运行累计）；
+  某源连续失败 ≥3 天时经 `scripts/lib/notify.mjs` 的 `notify(text)` 发送告警（文件缺失时仅记日志）。
+- **心跳**：`node scripts/heartbeat.mjs` 读取 `data/state/last-success.json`，
+  距上次成功抓取超过 26 小时则告警并以退出码 1 结束，否则静默退出 0；可挂到巡检/计划任务里做断更监控。
+- **DeepSeek 重试**：摘要批次失败后 sleep 2s 重试 1 次，仍失败才降级为不摘要。
+
 ## 部署到 Vercel（可选，当前未启用）
 
 1. 把本仓库 push 到 GitHub。
@@ -108,10 +142,20 @@ lib/news.ts             # 内容层：zod schema + 数据读取 + 板块中英�
 lib/sources.ts          # 信息源读取（页脚展示用）
 lib/site.ts             # 站点名称 / URL 等常量
 scripts/fetch-news.mjs  # 抓取脚本（Node 直接运行，无 TS 依赖；源列表读 data/sources.json）
+scripts/heartbeat.mjs      # 断更心跳检查（>26h 未成功抓取则告警并 exit 1）
 scripts/summarize-local.mjs  # 本机 Kimi CLI 摘要器
+scripts/weekly-forecast.mjs  # 预测生成器（--days=3 三日滚动 / --days=7 七天周报）
+scripts/daily-impact.mjs     # 影响分析生成器（--days=3 三日 / --days=7 七天，结论标注依据出处）
+scripts/push-wechat.mjs      # 微信推送（hermes send 管道，报告全文推到个人微信）
+scripts/wait-lock.mjs        # 任务互斥锁（串行排队 + 异常锁自愈）
 scripts/local-update.bat     # 本地每日更新入口（计划任务调用）
+scripts/daily-forecast.bat   # 每日三日滚动预测（计划任务调用）
+scripts/weekly-forecast.bat  # 每周一七天预测（计划任务调用）
 scripts/start-site.bat       # 登录后启动网站服务（启动文件夹调用）
 data/sources.json        # 信息源配置（抓取脚本 + 页脚展示共用，加源只改这里）
+data/state/              # 运行状态：source-health.json（源健康）、last-success.json（心跳）、deepseek-news.json 等
 data/news/YYYY-MM-DD.json  # 每日新闻数据（由脚本生成并提交）
-.github/workflows/         # daily-update.yml（备用，手动触发）、ci.yml（构建验证）
+data/forecasts/{daily,weekly}/YYYY-MM-DD.md  # 三日/每周预测报告（由脚本生成并提交）
+data/impact/{daily,weekly}/YYYY-MM-DD.md     # 三日/七天影响分析（由脚本生成并提交）
+.github/workflows/         # daily-update.yml（云端兜底，每天 UTC 23:00 定时 + 手动触发）、ci.yml（构建验证）
 ```

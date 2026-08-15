@@ -8,9 +8,12 @@ const PREVIEW_COUNT = 6;
 export default function CategorySection({
   category,
   items,
+  newIds,
 }: {
   category: Category;
   items: NewsItem[];
+  /** 当日最新一轮收录的条目 id（显示"今日新增"徽标） */
+  newIds?: Set<string>;
 }) {
   const preview = items.slice(0, PREVIEW_COUNT);
   return (
@@ -42,7 +45,7 @@ export default function CategorySection({
                 key={item.id}
                 className="w-72 shrink-0 snap-start md:w-80"
               >
-                <NewsCard item={item} />
+                <NewsCard item={item} isNew={newIds?.has(item.id) ?? false} />
               </div>
             ))}
           </div>
