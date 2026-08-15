@@ -1,121 +1,121 @@
 {
   "arXiv cs.AI": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "arXiv cs.CL": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "arXiv cs.LG": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "OpenAI": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "Google DeepMind": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "Microsoft Research": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "DeepSeek 官网": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "DeepSeek-V3 官方发布": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "DeepSeek-R1 官方发布": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "DeepSeek Harness": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "量子位": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "TechCrunch AI": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "The Verge AI": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "MIT Tech Review AI": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "Hugging Face Daily Papers": {
     "lastOk": null,
-    "lastFail": "2026-08-15T00:37:14.943Z",
+    "lastFail": "2026-08-15T01:07:20.265Z",
     "consecutiveFailDays": 1
   },
   "GitHub Trending 日榜": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "GitHub Trending 周榜": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "GitHub Trending 月榜": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "Hugging Face Blog": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "NVIDIA Developer Blog": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "NVIDIA Newsroom": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "Anthropic News（镜像）": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "宇树 Unitree SDK": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   },
   "智元机器人 AgibotTech": {
-    "lastOk": "2026-08-15T00:37:14.943Z",
+    "lastOk": "2026-08-15T01:07:20.265Z",
     "lastFail": null,
     "consecutiveFailDays": 0
   }
