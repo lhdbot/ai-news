@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { marked } from "marked";
+import { renderMarkdown } from "@/lib/markdown";
 import {
   getAllForecasts,
   getAllReviews,
@@ -111,7 +111,7 @@ async function ReviewSection({ selected }: { selected?: string }) {
         <article
           className="forecast-body rounded-xl border border-border bg-surface p-6 md:p-8"
           dangerouslySetInnerHTML={{
-            __html: await marked.parse(review.markdown, { async: true }),
+            __html: await renderMarkdown(review.markdown),
           }}
         />
       )}
@@ -162,7 +162,7 @@ async function ForecastSection({
         <article
           className="forecast-body rounded-xl border border-border bg-surface p-6 md:p-8"
           dangerouslySetInnerHTML={{
-            __html: await marked.parse(forecast.markdown, { async: true }),
+            __html: await renderMarkdown(forecast.markdown),
           }}
         />
       )}

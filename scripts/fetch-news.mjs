@@ -9,7 +9,9 @@
  * - 无 key 时降级：保留原标题，category 按源类型推断，summarized=false
  * - pickTop 之后按标题分词 Jaccard 相似度合并同一事件的跨源报道（storyline 合并）
  * - 每源健康状态写 data/state/source-health.json，连续失败 ≥3 天经 scripts/lib/notify.mjs 告警
- * - 成功结束写 data/state/last-success.json（scripts/heartbeat.mjs 据此判断断更）
+ * - 至少一个源抓取成功才写 data/state/last-success.json（全源失败不更新，
+ *   scripts/heartbeat.mjs 据此判断断更并告警）
+ * - 跨天复用：近 3 天已总结过的条目直接继承摘要，不再重复调用 LLM（省 token、避免搜索/标签重复）
  * - 输出 data/news/YYYY-MM-DD.json（北京时间；已存在则按 URL 合并去重）
  *   并维护 data/index.json
  *
@@ -39,6 +41,7 @@ const WINDOW_HOURS = 48;
 const PER_SOURCE_CAP = 5;
 const TOP_N = 30;
 const DEEPSEEK_BATCH = 10;
+const REUSE_DAYS = 3; // 跨天复用摘要的查找窗口（覆盖 48h 抓取窗口的跨日重合）
 
 const CATEGORIES = [
   "模型发布",
@@ -107,6 +110,30 @@ function stripHtml(s) {
     .replace(/&[a-z#0-9]+;/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/** 从 LLM 输出中容错提取 JSON（取第一个 [ 到最后一个 ]；否则取第一个 { 到最后一个 }） */
+function extractJson(text) {
+  if (!text) return null;
+  const arrStart = text.indexOf("[");
+  const arrEnd = text.lastIndexOf("]");
+  if (arrStart !== -1 && arrEnd > arrStart) {
+    try {
+      return JSON.parse(text.slice(arrStart, arrEnd + 1));
+    } catch {
+      /* 继续尝试对象 */
+    }
+  }
+  const objStart = text.indexOf("{");
+  const objEnd = text.lastIndexOf("}");
+  if (objStart !== -1 && objEnd > objStart) {
+    try {
+      return JSON.parse(text.slice(objStart, objEnd + 1));
+    } catch {
+      return null;
+    }
+  }
+  return null;
 }
 
 async function withTimeout(promise, ms, label) {
@@ -368,6 +395,8 @@ async function fetchAllSources(since) {
     console.warn(`[warn] 共 ${failed.length} 个源失败（已跳过）: ${failed.join(", ")}`);
   }
   await updateSourceHealth(statuses);
+  // 附加源成功数（挂在数组上，保持返回类型不变）
+  all.okCount = statuses.filter((s) => s.ok).length;
   return all;
 }
 
@@ -481,14 +510,34 @@ function pickTop(items) {
 
 const STORYLINE_THRESHOLD = 0.6;
 
-/** 归一化标题（小写、去标点）后按空白分词 */
+/** 归一化标题（小写、去标点）后混合分词：
+ *  连续汉字段切相邻字符 bigram，英文/数字段按词保留。
+ *  中文标题没有空格，旧版按空白切分会让整句变成一个 token，跨源中文报道
+ *  的 Jaccard 相似度趋近于 0、事件合并失效；bigram 对同义改写更稳健。
+ */
 function titleTokens(title) {
   const text = (title ?? "")
     .toLowerCase()
     .replace(/[\p{P}\p{S}]+/gu, " ")
     .replace(/\s+/g, " ")
     .trim();
-  return new Set(text ? text.split(" ") : []);
+  if (!text) return new Set();
+  const tokens = new Set();
+  const runs = text.match(/[\p{Script=Han}]+|[^\p{Script=Han}\s]+/gu) ?? [];
+  for (const run of runs) {
+    if (run.length === 1) {
+      tokens.add(`c:${run}`);
+      continue;
+    }
+    if (/^[\p{Script=Han}]+$/u.test(run)) {
+      for (let i = 0; i + 1 < run.length; i++) {
+        tokens.add(`c:${run[i]}${run[i + 1]}`);
+      }
+    } else {
+      tokens.add(`w:${run}`);
+    }
+  }
+  return tokens;
 }
 
 function jaccard(a, b) {
@@ -586,8 +635,10 @@ async function summarizeBatch(apiKey, batch) {
     throw new Error(`DeepSeek HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
   }
   const data = await res.json();
-  const content = data.choices?.[0]?.message?.content ?? "{}";
-  const parsed = JSON.parse(content);
+  const content = data.choices?.[0]?.message?.content ?? "";
+  // 容错解析：模型偶尔会在 JSON 外包 markdown 代码块或夹带前后缀文字
+  const parsed = extractJson(content);
+  if (!parsed) throw new Error("无法从 LLM 输出解析 JSON（输出非 JSON）");
   const arr = Array.isArray(parsed) ? parsed : (parsed.items ?? []);
   const byIdx = new Map(arr.map((x) => [x.idx, x]));
   return batch.map((_, i) => byIdx.get(i) ?? null);
@@ -702,6 +753,14 @@ async function main() {
   const raw = await fetchAllSources(since);
   console.log(`[info] 各源合计 ${raw.length} 条（去重前）`);
 
+  if (raw.okCount === 0) {
+    // 全源失败（断网/被墙等）：不落盘、不更新心跳，heartbeat 将按 26h 阈值告警
+    console.warn(
+      `[warn] 全部 ${SOURCES.length} 个源均抓取失败：跳过日报写入，且不更新 last-success（heartbeat 将按 26h 阈值告警）`,
+    );
+    return;
+  }
+
   let picked = pickTop(raw);
   console.log(`[info] 去重/限额后 ${picked.length} 条`);
 
@@ -716,7 +775,46 @@ async function main() {
   const newItems = picked.filter((it) => !existingUrls.has(normalizeUrl(it.url)));
   console.log(`[info] 当日已有 ${existingUrls.size} 条，本次新增 ${newItems.length} 条`);
 
-  const summarized = await summarizeAll(newItems);
+  // 跨天复用：近 REUSE_DAYS 天已总结过的条目直接继承摘要（省 LLM 调用、避免搜索/标签重复）
+  const summaryCache = new Map(); // url -> 最近一天的已总结条目
+  for (let i = 1; i <= REUSE_DAYS; i++) {
+    const prev = loadExisting(cnDay(Date.now() - i * 86400e3));
+    if (!prev) continue;
+    for (const it of prev.items) {
+      if (it.summarized && (it.title_zh || it.summary_zh)) {
+        const key = normalizeUrl(it.url);
+        if (!summaryCache.has(key)) summaryCache.set(key, it); // 只保留最近一天
+      }
+    }
+  }
+  const freshItems = [];
+  const reusedItems = [];
+  for (const it of newItems) {
+    const old = summaryCache.get(normalizeUrl(it.url));
+    if (!old) {
+      freshItems.push(it);
+      continue;
+    }
+    reusedItems.push({
+      ...it, // 保留本次抓取的 url/source/relatedSources/heat 等
+      title_zh: old.title_zh ?? "",
+      summary_zh: old.summary_zh ?? "",
+      learn: old.learn ?? "",
+      impact: old.impact ?? "",
+      advice: old.advice ?? "",
+      category: old.category ?? it.category,
+      tags: old.tags ?? [],
+      trends: old.trends,
+      method: old.method,
+      result: old.result,
+      limitation: old.limitation,
+      summarized: true,
+      added_at: old.added_at, // 保留原收录时间，避免被标为"今日新增"
+    });
+  }
+  console.log(`[info] 跨天复用摘要 ${reusedItems.length} 条，需新摘要 ${freshItems.length} 条`);
+
+  const summarized = await summarizeAll(freshItems);
   // 新收录条目标 added_at（收录时间），前端据此标注"今日新增"批次；已有条目保留原值
   const addedAt = new Date().toISOString();
   for (const it of summarized) {
@@ -729,7 +827,11 @@ async function main() {
     delete rest._description;
     return rest;
   };
-  const merged = [...(existing?.items ?? []), ...summarized.map(clean)];
+  const merged = [
+    ...(existing?.items ?? []),
+    ...reusedItems.map(clean),
+    ...summarized.map(clean),
+  ];
   // 兜底：当天一条都没有且没有历史文件时，仍然写一个空日报，保证前端有数据可读
   writeDaily(date, merged);
   updateIndex();
@@ -743,8 +845,10 @@ async function main() {
   );
   console.log("[ok] 写入 data/state/last-success.json");
 
-  const okCount = summarized.filter((s) => s.summarized).length;
-  console.log(`[done] 完成：当日共 ${merged.length} 条，其中本次 AI 摘要 ${okCount} 条。`);
+  const aiSummarized = summarized.filter((s) => s.summarized).length;
+  console.log(
+    `[done] 完成：当日共 ${merged.length} 条，其中跨天复用 ${reusedItems.length} 条、本次 AI 摘要 ${aiSummarized} 条。`,
+  );
 }
 
 // 仅直接运行时执行主流程；被 import 时（如测试）只导出函数

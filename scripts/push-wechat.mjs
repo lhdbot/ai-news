@@ -15,51 +15,19 @@
  *
  * 推送失败不阻断主流程（始终 exit 0），只写日志。
  */
-import { execFile } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { findHermes, sendOnce } from './lib/hermes.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
-const TIMEOUT_MS = 5 * 60e3;
 
-const HERMES_CANDIDATES = [
-  process.env.AI_NEWS_HERMES,
-  'E:/ai_project_myself/hermes-agent/.venv/Scripts/hermes.exe',
-  'E:/ai_project_myself/hermes-agent/venv/Scripts/hermes.exe',
-  'E:/hermes/hermes-agent/venv/Scripts/hermes.exe',
-  'E:/hermes/hermes-agent/venv/Scripts/hermes',
-].filter(Boolean);
-
-function findHermes() {
-  for (const p of HERMES_CANDIDATES) {
-    if (p && fs.existsSync(p)) return p;
-  }
-  return 'hermes'; // 兜底指望 PATH
-}
-
-const TARGET = process.env.AI_NEWS_WECHAT_TARGET || 'weixin';
 const beijingToday = () => new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);
 
 function readReport(subdir, date) {
   const file = path.join(ROOT, 'data', subdir, `${date}.md`);
   return fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : null;
-}
-
-function sendOnce(hermes, body) {
-  return new Promise((resolve) => {
-    const child = execFile(
-      hermes,
-      ['send', '--to', TARGET, '--file', '-'],
-      { timeout: TIMEOUT_MS, maxBuffer: 16 * 1024 * 1024 },
-      (err, stdout, stderr) => {
-        resolve({ ok: !err, err, stdout, stderr });
-      },
-    );
-    child.stdin.write(body);
-    child.stdin.end();
-  });
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
