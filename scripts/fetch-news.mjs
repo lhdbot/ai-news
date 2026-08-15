@@ -43,6 +43,9 @@ const TOP_N = 30;
 const DEEPSEEK_BATCH = 10;
 const REUSE_DAYS = 3; // 跨天复用摘要的查找窗口（覆盖 48h 抓取窗口的跨日重合）
 
+// 分类配额：论文研究类最多占 top N 的 40%，避免 arXiv/HF/MSR 高权重源挤占媒体内容
+const CATEGORY_CAPS = { 论文研究: Math.ceil(TOP_N * 0.4) };
+
 const CATEGORIES = [
   "模型发布",
   "论文研究",
@@ -493,13 +496,18 @@ function pickTop(items) {
     if (b._weight !== a._weight) return b._weight - a._weight;
     return new Date(b.published_at) - new Date(a.published_at);
   });
-  // 每源限额 + top N
+  // 每源限额 + 分类配额 + top N
+  // 论文研究类（arXiv×3 + HF + MSR）源多且权重高，不限会挤占媒体/行业内容
   const perSource = new Map();
+  const perCategory = new Map();
   const picked = [];
   for (const item of deduped) {
     const n = perSource.get(item.source) ?? 0;
     if (n >= PER_SOURCE_CAP) continue;
+    const cap = CATEGORY_CAPS[item.category];
+    if (cap !== undefined && (perCategory.get(item.category) ?? 0) >= cap) continue;
     perSource.set(item.source, n + 1);
+    perCategory.set(item.category, (perCategory.get(item.category) ?? 0) + 1);
     picked.push(item);
     if (picked.length >= TOP_N) break;
   }
@@ -861,4 +869,4 @@ if (isMain) {
   });
 }
 
-export { mergeStorylines, titleTokens, jaccard };
+export { mergeStorylines, titleTokens, jaccard, pickTop };
