@@ -4,11 +4,13 @@ import { notFound } from "next/navigation";
 import NewsCard from "@/components/NewsCard";
 import { getAllTags, getItemsByTag } from "@/lib/news";
 
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return getAllTags().map(({ tag }) => ({ tag }));
 }
+
+// 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，新标签无需重建即可访问
+// （标签为中文路径，动态渲染在 Windows next start 下按请求路由，不受预渲染 404 问题影响）
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

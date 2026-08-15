@@ -5,6 +5,9 @@ import CategoryNav from "@/components/CategoryNav";
 import { CATEGORIES, formatDateCN, getLatestBatchIds, getLatestNews, type NewsItem } from "@/lib/news";
 import { scoreItem, starsOf } from "@/lib/relevance";
 
+// 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，无需整站重建/重启
+export const dynamic = "force-dynamic";
+
 function starText(score: number): string {
   const n = starsOf(score);
   return "★".repeat(n) + "☆".repeat(5 - n);
