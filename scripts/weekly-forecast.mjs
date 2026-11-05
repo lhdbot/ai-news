@@ -11,6 +11,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { callKimi, extractMarkdown } from './lib/kimi.mjs';
+import { fitPrompt } from './lib/prompt-budget.mjs';
+import { writeFileAtomic } from './lib/fs-atomic.mjs';
 
 const ROOT = process.cwd();
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
@@ -99,7 +101,8 @@ async function main() {
   console.log(`[info] 汇总${WINDOW_LABEL} ${items.length} 条素材`);
 
   const profile = fs.existsSync(PROFILE_FILE) ? fs.readFileSync(PROFILE_FILE, 'utf8') : '（未提供用户画像）';
-  const prompt = buildPrompt(items, profile);
+  const { prompt, items: usedItems, trimmed } = fitPrompt(items, (list) => buildPrompt(list, profile));
+  if (trimmed) console.warn(`[warn] 素材过长，prompt 已裁剪为 ${usedItems.length}/${items.length} 条（命令行长度上限）`);
 
   let md = null;
   try {
@@ -113,7 +116,7 @@ async function main() {
   const date = beijingToday();
   fs.mkdirSync(FORECAST_DIR, { recursive: true });
   const file = path.join(FORECAST_DIR, `${date}.md`);
-  fs.writeFileSync(file, md, 'utf8');
+  writeFileAtomic(file, md, 'utf8');
   console.log(`[ok] 写入 ${path.relative(ROOT, file)}（${md.length} 字符）`);
 
   const dates = fs.readdirSync(FORECAST_DIR)
@@ -121,7 +124,7 @@ async function main() {
     .map(f => f.replace(/\.md$/, ''))
     .sort()
     .reverse();
-  fs.writeFileSync(
+  writeFileAtomic(
     path.join(FORECAST_DIR, 'index.json'),
     JSON.stringify({ updated_at: new Date().toISOString(), dates }, null, 2) + '\n',
     'utf8',

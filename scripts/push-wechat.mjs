@@ -18,7 +18,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { findHermes, sendOnce } from './lib/hermes.mjs';
+import { findHermes, sendOnce, WECHAT_TARGET } from './lib/hermes.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -55,7 +55,7 @@ async function main() {
   const hermes = findHermes();
 
   if (process.argv.includes('--test')) {
-    console.log(`[push] 用 ${hermes} 向 ${TARGET} 发测试消息…`);
+    console.log(`[push] 用 ${hermes} 向 ${WECHAT_TARGET} 发测试消息…`);
     await send(hermes, `【AI 日报】推送链路测试 ${new Date().toISOString()} —— 看到这条说明 hermes → 微信已打通`);
     return;
   }
@@ -81,7 +81,7 @@ async function main() {
   }
 
   const body = `【AI 日报】${date}${weekly ? '（含周报）' : ''}\n\n` + parts.join('\n\n---\n\n');
-  console.log(`[push] 用 ${hermes} 推送 ${body.length} 字符到 ${TARGET}…`);
+  console.log(`[push] 用 ${hermes} 推送 ${body.length} 字符到 ${WECHAT_TARGET}…`);
   await send(hermes, body);
 }
 

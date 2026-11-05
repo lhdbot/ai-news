@@ -1,20 +1,21 @@
 # AI 日报（ai-news）
 
-每天自动聚合全球优质 AI 资讯的中文网站：arXiv 论文（cs.AI / cs.CL / cs.LG）、OpenAI、Google DeepMind、Microsoft Research、Hugging Face Daily Papers、GitHub Trending 日/周/月榜第一名，以及量子位、TechCrunch、The Verge、MIT Technology Review 等中英文媒体。每条新闻提供**中文标题、原文总结、学到什么、影响、对你的建议**四个部分，不只是链接搬运。
+每天自动聚合全球优质 AI 资讯的中文网站：arXiv 论文（cs.AI / cs.CL / cs.LG）、OpenAI、Google DeepMind、Microsoft Research、Hugging Face Daily Papers、GitHub Trending 日/周/月榜 AI Top 8、Hacker News 热帖，以及量子位、TechCrunch、The Verge、MIT Technology Review 等中英文媒体；另设「人物经验」板块收录 Simon Willison、Latent Space、Ethan Mollick 等人的 AI 实战与使用经验。每条新闻提供**中文标题、原文总结、学到什么、影响、对你的建议**四个部分，不只是链接搬运。
 
 ## 工作原理（本机模式，当前默认）
 
 ```
 Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流程）
   → scripts/watch-update.bat
-    → node scripts/fetch-news.mjs   抓取 24 个内容源（RSS / JSON API / GitHub Trending）
+    → node scripts/fetch-news.mjs   抓取 34 个内容源（RSS / JSON API / GitHub Trending）
     → node scripts/summarize-local.mjs  只对"新条目"调用本机 Kimi CLI 摘要（无更新时零 LLM 消耗）
     → node scripts/daily-impact.mjs --days=3  三日市场影响分析（当天已生成则跳过；每条结论标注依据出处）
     → 有变化才更新数据文件；页面为动态渲染（force-dynamic），下次访问即见新内容，
       无需整站重建/重启服务（只有改代码时才需要手动 npm run build + 重启）
     （变化检测用 scripts/data-changed.mjs 数据指纹；数据只保存在本地，不再 git 提交，代码提交手动进行）
-另有 ai-news-daily（每天 07:10 全量刷新）、ai-news-daily-forecast（每天 10:00 三日滚动预测）、
-     ai-news-weekly-forecast（每周一 08:00 七天周报预测 + 七天影响分析）
+另有 ai-news-daily（每天 07:10 全量刷新）、ai-news-daily-forecast（每天 10:00 三日滚动预测
+     + 三日影响分析 + 微信推送）、ai-news-weekly-forecast（每周一 08:00 七天周报预测 + 七天影响分析
+     + 预测应验度复盘 + 微信推送）
 任务互斥: 所有任务经 scripts/wait-lock.mjs 共用 logs/job.lock —— 撞车时串行排队，
          前一个完成后等 2.5 分钟再执行下一个，排队/自愈过程在日志中写 [提示]；
          锁超过 2 小时视为异常遗留，自动清理
@@ -29,7 +30,7 @@ Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流
 定时跑一轮 `fetch-news.mjs`（使用仓库 secret `DEEPSEEK_API_KEY`），并保留手动触发；
 本机断更时云端仍可产出当日数据。
 
-## 内容来源（24 个）
+## 内容来源（34 个）
 
 **论文 / 研究**
 | 来源 | 地址 | 说明 |
@@ -45,6 +46,7 @@ Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流
 |---|---|---|
 | OpenAI Blog | https://openai.com/news/rss.xml | OpenAI 官方动态 |
 | Google DeepMind | https://deepmind.google/blog/rss.xml | DeepMind 官方博客 |
+| Google AI Blog | https://blog.google/technology/ai/rss/ | Google AI 官方产品与研究动态 |
 | Anthropic News（镜像） | https://rsshub.bestblogs.dev/anthropic/news | Anthropic 官方新闻（RSSHub 镜像） |
 | Hugging Face Blog | https://huggingface.co/blog/feed.xml | Hugging Face 官方博客（工具/产品向） |
 
@@ -60,12 +62,15 @@ Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流
 | 宇树 Unitree SDK | https://github.com/unitreerobotics/unitree_sdk2/commits/main.atom | 宇树 SDK main 分支提交动态 |
 | 智元机器人 AgibotTech | https://github.com/AgibotTech/Agibot_D1_Max/commits/main.atom | 智元 AgibotTech 最近活跃仓库提交动态 |
 
-**开源热榜**
+**开源热榜与发布**
 | 来源 | 地址 | 说明 |
 |---|---|---|
-| GitHub Trending 日榜 | https://github.com/trending?since=daily | 当日第一名仓库 |
-| GitHub Trending 周榜 | https://github.com/trending?since=weekly | 当周第一名仓库 |
-| GitHub Trending 月榜 | https://github.com/trending?since=monthly | 当月第一名仓库 |
+| GitHub Trending 日榜 | https://github.com/trending?since=daily | 当日 AI 相关 Top 8 仓库 |
+| GitHub Trending 周榜 | https://github.com/trending?since=weekly | 本周 AI 相关 Top 8 仓库 |
+| GitHub Trending 月榜 | https://github.com/trending?since=monthly | 本月 AI 相关 Top 8 仓库 |
+| llama.cpp Releases | https://github.com/ggml-org/llama.cpp/releases.atom | 本地推理引擎官方发布 |
+| vLLM Releases | https://github.com/vllm-project/vllm/releases.atom | 高吞吐推理框架官方发布 |
+| Ollama Releases | https://github.com/ollama/ollama/releases.atom | 本地模型运行工具官方发布 |
 
 **媒体**
 | 来源 | 地址 | 说明 |
@@ -74,6 +79,16 @@ Windows 计划任务 ai-news-watch（每 30 分钟巡检，有更新才走全流
 | TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/feed/ | 英文科技媒体 AI 频道 |
 | The Verge AI | https://www.theverge.com/rss/ai-artificial-intelligence/index.xml | 英文科技媒体 AI 频道（Atom） |
 | MIT Technology Review AI | https://www.technologyreview.com/topic/artificial-intelligence/feed/ | MIT 科技评论 AI 频道 |
+| Hacker News AI 热帖 | https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=50 | 分钟级首页热帖，AI 过滤且至少 20 points |
+| The Decoder | https://the-decoder.com/feed/ | 日更 AI 新闻媒体 |
+| Interconnects | https://www.interconnects.ai/feed | 前沿模型与行业深度分析 |
+
+**人物经验**
+| 来源 | 地址 | 说明 |
+|---|---|---|
+| Simon Willison | https://simonwillison.net/atom/everything/ | AI 工具链与实战技巧 |
+| Latent Space | https://www.latent.space/feed | AI 工程师与前沿模型实践 |
+| Ethan Mollick | https://www.oneusefulthing.org/feed | AI 在工作与教学中的使用方法 |
 
 ## 本地开发
 
@@ -83,7 +98,24 @@ node scripts/fetch-news.mjs   # 抓取新闻，生成 data/news/ 下的日报数
 npm run dev                   # http://localhost:3000
 ```
 
-其他命令：`npm run build`（生产构建）、`npm run lint`。
+其他命令：`npm run build`（生产构建）、`npm run lint`、`npm test`。
+补某天未完成的摘要：`node scripts/summarize-local.mjs --date=2026-11-02`。
+
+> **Windows 计划任务注意**：`.bat` 必须保持 CRLF 换行、注释只用 ASCII。
+> UTF-8 + LF + 中文注释会被 cmd 按 GBK 解析并吞掉下一行（曾导致 30 分钟巡检从 2026-08-15 起静默失效）。
+
+## 只读 JSON API
+
+本站保留原有计划任务，其他本地工具可通过以下接口读取数据，无需重复抓取：
+
+| 接口 | 说明 |
+|---|---|
+| `GET /api/news/latest` | 最新日报 |
+| `GET /api/news/YYYY-MM-DD` | 指定日期日报 |
+| `GET /api/intelligence/latest?kind=daily` | 最新三日预测与影响分析 |
+| `GET /api/intelligence/YYYY-MM-DD?kind=weekly` | 指定日期的七天预测与影响分析 |
+
+`kind` 支持 `daily`（默认）和 `weekly`。情报接口返回 `{ kind, forecast, impact }`，报告以 Markdown 文本提供；某一类报告尚未生成时对应字段为 `null`。非法参数返回 400，无数据返回 404，所有接口均禁止缓存。
 
 ## 配置摘要引擎
 
@@ -106,10 +138,15 @@ npm run dev                   # http://localhost:3000
 }
 ```
 
-- `type`：RSS/Atom 用 `"rss"`；JSON API 参考 `"hf"`；GitHub Trending 用 `"trending"`
+- `type`：RSS/Atom 用 `"rss"`；Hugging Face Papers 用 `"hf"`；GitHub Trending 用 `"trending"`；Hacker News 用 `"hn"`
 - `weight`：排序权重，官方一手源 10+，媒体 7-8
-- `category`：无 LLM 摘要时的兜底分类，必须是以下之一：模型发布 / 论文研究 / 行业动态 / 工具产品 / 芯片算力 / 具身智能
+- `count`：Trending/HN 单源最多返回条数（可选，默认 8）
+- `minPoints`：HN 最低热度（可选，默认 20）
+- `windowHours`：按源覆盖抓取窗口小时数（可选，默认 48；人物博客等低频源可设 720/2160）
+- `category`：无 LLM 摘要时的兜底分类，必须是以下之一：模型发布 / 论文研究 / 行业动态 / 工具产品 / 芯片算力 / 具身智能 / 人物经验
 - `site`：来源首页，网站页脚「信息来源」展示链接用（可选，缺省用 `url`）
+
+Trending 会先过滤非 AI 项目，再按榜序取 Top 8；同一次抓取中的跨榜重复仓库按 URL 去重。日报 Top 30 中论文研究最多 40%、工具产品最多 40%，并保留 3 个 GitHub 热榜、6 个行业动态和 3 个人物经验位置，防止高热源挤占其他内容。
 
 保存后无需重启：本地巡检每 30 分钟跑一次 `fetch-news.mjs`，下次抓取自动读新配置；
 有新内容时会自动摘要、重新构建，页脚的来源列表也随之更新。

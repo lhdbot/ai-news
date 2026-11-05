@@ -60,22 +60,25 @@ export default function CategorySection({
   category,
   items,
   newIds,
+  index,
 }: {
   category: Category;
   items: NewsItem[];
   /** 当日最新一轮收录的条目 id（显示"今日新增"徽标） */
   newIds?: Set<string>;
+  index: number;
 }) {
   const preview = items.slice(0, PREVIEW_COUNT);
   const color = CATEGORY_COLORS[category];
   return (
     <section
-      className="mt-11"
+      className="cat-section"
       style={{ "--cc": color } as React.CSSProperties}
       aria-label={category}
     >
       <div className="cat-head">
-        <span className="cmark" />
+        <span className="sec-index" aria-hidden="true">SEC·{String(index).padStart(2, "0")}</span>
+        <span className="cmark" aria-hidden="true" />
         <h2>{category}</h2>
         <span className="count">今日 {items.length} 条</span>
         <Link className="more" href={`/category/${CATEGORY_SLUGS[category]}`}>

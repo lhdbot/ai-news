@@ -20,7 +20,8 @@ export default function TopPicks({
             className={`t5-card ${i === 0 ? "no1" : ""}`}
             style={{ "--sc": color } as React.CSSProperties}
           >
-            <div className="rank">{String(i + 1).padStart(2, "0")}</div>
+            <span className="sr-only">第 {i + 1} 名</span>
+            <div className="rank" aria-hidden="true">{String(i + 1).padStart(2, "0")}</div>
             <div className="my-2">
               <Stars score={score} />
             </div>

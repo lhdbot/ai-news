@@ -12,6 +12,7 @@ import {
 } from "@/lib/news";
 import { scoreItem } from "@/lib/relevance";
 import { getSources } from "@/lib/sources";
+import { SITE_NAME } from "@/lib/site";
 import { getRadar } from "@/lib/trends";
 import { formatHM } from "@/components/bits";
 
@@ -67,6 +68,7 @@ export default function HomePage() {
 
   return (
     <div className="pb-4">
+      <h1 className="sr-only">{SITE_NAME} · 每日 AI 资讯精选</h1>
       {/* 状态条：最新批次 + 收录概览（-mx 出血到主容器边缘） */}
       <div className="statusbar -mx-4 md:-mx-6">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-4 gap-y-1 px-4 py-2 font-mono text-xs md:px-6">
@@ -94,8 +96,9 @@ export default function HomePage() {
       </div>
 
       {/* 今日与你最相关 TOP 5 */}
-      <section className="mt-11" aria-labelledby="top5-h">
+      <section className="home-section" aria-labelledby="top5-h">
         <div className="block-head">
+          <span className="sec-index" aria-hidden="true">SEC·01</span>
           <h2 id="top5-h">今日与你最相关 TOP 5</h2>
           <span className="en">PERSONALIZED · RANKED</span>
           <span className="tail">基于你的阅读画像打分</span>
@@ -104,8 +107,9 @@ export default function HomePage() {
       </section>
 
       {/* 今日头条 */}
-      <section className="mt-11" aria-labelledby="hero-h">
+      <section className="home-section hero-section" aria-labelledby="hero-h">
         <div className="block-head">
+          <span className="sec-index" aria-hidden="true">SEC·02</span>
           <h2 id="hero-h">今日头条</h2>
           <span className="en">TOP STORY</span>
           <Link
@@ -119,12 +123,13 @@ export default function HomePage() {
       </section>
 
       {/* 六分类板块 */}
-      {CATEGORIES.map((category) => (
+      {CATEGORIES.map((category, index) => (
         <CategorySection
           key={category}
           category={category}
           items={byCategory.get(category) ?? []}
           newIds={newIds}
+          index={index + 3}
         />
       ))}
     </div>

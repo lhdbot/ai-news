@@ -13,6 +13,7 @@
  * topItems：该节点近 14 天命中条目按 (it.heat ?? it.weight ?? 0) 降序、再按日期降序取 3 条。
  */
 import fs from 'node:fs';
+import { writeFileAtomic } from './lib/fs-atomic.mjs';
 import path from 'node:path';
 
 const ROOT = process.cwd();
@@ -86,7 +87,7 @@ const nodes = taxonomy.nodes.map(node => {
 
 const radar = { generated_at: new Date().toISOString(), nodes };
 fs.mkdirSync(path.dirname(RADAR_FILE), { recursive: true });
-fs.writeFileSync(RADAR_FILE, JSON.stringify(radar, null, 2) + '\n', 'utf8');
+writeFileAtomic(RADAR_FILE, JSON.stringify(radar, null, 2) + '\n');
 
 const hot = nodes.filter(n => n.heat > 0).sort((a, b) => b.heat - a.heat || b.count14d - a.count14d);
 console.log(`[ok] 写入 ${path.relative(ROOT, RADAR_FILE)}：${nodes.length} 个节点，近 ${WINDOW_DAYS} 天带 trends 条目 ${items.length} 条`);

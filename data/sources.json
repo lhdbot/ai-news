@@ -123,6 +123,7 @@
     "name": "GitHub Trending 日榜",
     "url": "https://github.com/trending?since=daily",
     "type": "trending",
+    "count": 8,
     "weight": 9,
     "category": "工具产品",
     "site": "https://github.com/trending"
@@ -131,6 +132,7 @@
     "name": "GitHub Trending 周榜",
     "url": "https://github.com/trending?since=weekly",
     "type": "trending",
+    "count": 8,
     "weight": 9,
     "category": "工具产品",
     "site": "https://github.com/trending?since=weekly"
@@ -139,6 +141,7 @@
     "name": "GitHub Trending 月榜",
     "url": "https://github.com/trending?since=monthly",
     "type": "trending",
+    "count": 8,
     "weight": 9,
     "category": "工具产品",
     "site": "https://github.com/trending?since=monthly"
@@ -190,5 +193,90 @@
     "weight": 8,
     "category": "具身智能",
     "site": "https://github.com/AgibotTech/Agibot_D1_Max"
+  },
+  {
+    "name": "Hacker News AI 热帖",
+    "url": "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=50",
+    "type": "hn",
+    "weight": 8,
+    "category": "行业动态",
+    "site": "https://news.ycombinator.com/front",
+    "count": 5,
+    "minPoints": 20
+  },
+  {
+    "name": "llama.cpp Releases",
+    "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
+    "type": "rss",
+    "weight": 11,
+    "category": "工具产品",
+    "site": "https://github.com/ggml-org/llama.cpp/releases"
+  },
+  {
+    "name": "vLLM Releases",
+    "url": "https://github.com/vllm-project/vllm/releases.atom",
+    "type": "rss",
+    "weight": 11,
+    "category": "工具产品",
+    "site": "https://github.com/vllm-project/vllm/releases"
+  },
+  {
+    "name": "Ollama Releases",
+    "url": "https://github.com/ollama/ollama/releases.atom",
+    "type": "rss",
+    "weight": 11,
+    "category": "工具产品",
+    "site": "https://github.com/ollama/ollama/releases"
+  },
+  {
+    "name": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/rss/",
+    "type": "rss",
+    "weight": 11,
+    "category": "行业动态",
+    "site": "https://blog.google/technology/ai/"
+  },
+  {
+    "name": "The Decoder",
+    "url": "https://the-decoder.com/feed/",
+    "type": "rss",
+    "weight": 8,
+    "category": "行业动态",
+    "site": "https://the-decoder.com/"
+  },
+  {
+    "name": "Interconnects",
+    "url": "https://www.interconnects.ai/feed",
+    "type": "rss",
+    "weight": 8,
+    "category": "行业动态",
+    "site": "https://www.interconnects.ai/"
+  },
+  {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/atom/everything/",
+    "type": "rss",
+    "weight": 8,
+    "category": "人物经验",
+    "site": "https://simonwillison.net/",
+    "windowHours": 720
+  },
+  {
+    "name": "Latent Space",
+    "url": "https://www.latent.space/feed",
+    "type": "rss",
+    "weight": 8,
+    "category": "人物经验",
+    "site": "https://www.latent.space/",
+    "windowHours": 720
+  },
+  {
+    "name": "Ethan Mollick",
+    "url": "https://www.oneusefulthing.org/feed",
+    "type": "rss",
+    "weight": 8,
+    "category": "人物经验",
+    "site": "https://www.oneusefulthing.org/",
+    "windowHours": 720
   }
 ]

@@ -43,13 +43,14 @@ export default function HeroCard({
     <article
       className="hero"
       style={{ "--cc": color } as React.CSSProperties}
+      aria-label="今日头条详细解读"
     >
       <div className="hero-main">
         <div className="badges">
           <span className="badge cat">{item.category}</span>
           {isNew && (
             <span className="badge new">
-              <span className="dot" />
+              <span className="dot" aria-hidden="true" />
               今日新增
             </span>
           )}

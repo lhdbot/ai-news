@@ -9,6 +9,7 @@ export const CATEGORIES = [
   "工具产品",
   "芯片算力",
   "具身智能",
+  "人物经验",
 ] as const;
 
 export type Category = (typeof CATEGORIES)[number];
@@ -22,13 +23,14 @@ export const CATEGORY_SLUGS: Record<Category, string> = {
   工具产品: "tools",
   芯片算力: "chips",
   具身智能: "embodied",
+  人物经验: "people",
 };
 
 export function categoryFromSlug(slug: string): Category | undefined {
   return CATEGORIES.find((c) => CATEGORY_SLUGS[c] === slug);
 }
 
-/** 六分类主题色（情报面板/板块卡片/徽标共用，对齐 designs/ai-news-home-v1.html） */
+/** 七分类主题色（情报面板/板块卡片/徽标共用，对齐 designs/ai-news-home-v1.html） */
 export const CATEGORY_COLORS: Record<Category, string> = {
   模型发布: "#8b6cff",
   论文研究: "#4d9fff",
@@ -36,6 +38,7 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   工具产品: "#2fd4e8",
   芯片算力: "#ff6b6b",
   具身智能: "#c084fc",
+  人物经验: "#2fe89a",
 };
 
 export const NewsItemSchema = z.object({

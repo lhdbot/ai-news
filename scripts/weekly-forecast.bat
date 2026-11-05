@@ -1,8 +1,9 @@
 @echo off
-rem weekly forecast + weekly impact (Mon 08:00): collect 7d -> kimi -> push (no build; pages read data dynamically)
+rem Weekly forecast + 7-day impact + forecast review, then push to WeChat.
 cd /d C:\Users\86159\ai-news
 if not exist logs mkdir logs
-node scripts\wait-lock.mjs --name weekly-forecast --mode wait >> logs\update.log 2>&1 || exit /b 1
+node scripts\wait-lock.mjs --name weekly-forecast --mode wait >> logs\update.log 2>&1
+if errorlevel 1 exit /b 1
 echo ==== weekly %date% %time% ==== >> logs\update.log
 node scripts\weekly-forecast.mjs --days=7 >> logs\update.log 2>&1
 set FFAIL=%errorlevel%

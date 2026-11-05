@@ -5,8 +5,11 @@ export function Stars({ score }: { score: number }) {
   const n = starsOf(score);
   return (
     <span className="stars" title={`相关度 ${score} 分`}>
-      {"★".repeat(n)}
-      <span className="off">{"★".repeat(5 - n)}</span>
+      <span className="sr-only">相关度 {score} 分，{n} 星，满分 5 星</span>
+      <span aria-hidden="true">
+        {"★".repeat(n)}
+        <span className="off">{"★".repeat(5 - n)}</span>
+      </span>
     </span>
   );
 }

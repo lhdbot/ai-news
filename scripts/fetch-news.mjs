@@ -3,7 +3,7 @@
  * AI 日报抓取 + 摘要脚本
  *
  * - 并发抓取 data/sources.json 配置的内容源（RSS / JSON API），单源 15s 超时，失败仅告警
- * - 取近 48h 条目，按 URL 去重；官方源加权、每源限 5 条，取 top 30
+ * - 取近 48h 条目，按 URL 去重；官方源加权、每源限 8 条，取 top 30
  * - 有 DEEPSEEK_API_KEY 时调用 DeepSeek（OpenAI 兼容）批量生成
  *   中文标题 / 一句话摘要 / 为什么重要 / 分类 / 标签（批次失败 sleep 2s 重试 1 次再降级）
  * - 无 key 时降级：保留原标题，category 按源类型推断，summarized=false
@@ -24,6 +24,7 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { promisify } from "node:util";
+import { writeFileAtomic } from "./lib/fs-atomic.mjs";
 import { fileURLToPath } from "node:url";
 
 const execFileP = promisify(execFile);
@@ -38,13 +39,26 @@ const LAST_SUCCESS_FILE = path.join(STATE_DIR, "last-success.json");
 
 const FETCH_TIMEOUT_MS = 15_000;
 const WINDOW_HOURS = 48;
-const PER_SOURCE_CAP = 5;
+const PER_SOURCE_CAP = 8;
 const TOP_N = 30;
 const DEEPSEEK_BATCH = 10;
 const REUSE_DAYS = 3; // 跨天复用摘要的查找窗口（覆盖 48h 抓取窗口的跨日重合）
 
-// 分类配额：论文研究类最多占 top N 的 40%，避免 arXiv/HF/MSR 高权重源挤占媒体内容
-const CATEGORY_CAPS = { 论文研究: Math.ceil(TOP_N * 0.4) };
+// 分类配额：限制论文与工具类高权重源，给媒体和行业动态保留位置
+const CATEGORY_CAPS = {
+  论文研究: Math.ceil(TOP_N * 0.4),
+  工具产品: Math.ceil(TOP_N * 0.4),
+};
+// 每个板块至少保留的条数（论文/模型/芯片/具身此前没有下限，会被高权重工具源挤空）
+const CATEGORY_MINIMUMS = {
+  论文研究: 3,
+  模型发布: 2,
+  芯片算力: 2,
+  具身智能: 2,
+  行业动态: 6,
+  人物经验: 3,
+};
+const TRENDING_MINIMUM = 3;
 
 const CATEGORIES = [
   "模型发布",
@@ -53,13 +67,22 @@ const CATEGORIES = [
   "工具产品",
   "芯片算力",
   "具身智能",
+  "人物经验",
 ];
+
+const AI_RELATED_PATTERN =
+  /\b(?:ai|llm|llms|agents?|agentic|gpt|claude|openai|anthropic|gemini|deepseek|qwen|mistral|ollama|llama|vllm|rag|mcp|machine learning|deep learning|neural|transformers?|diffusion|multimodal|inference|pytorch|tensorflow|hugging face|robotics?|computer vision|speech recognition|embeddings?|fine-tuning|vibe coding|coding assistant)\b|人工智能|大模型|机器学习|深度学习|智能体|具身智能|多模态|微调/i;
+
+function isAiRelated(text) {
+  return AI_RELATED_PATTERN.test(text ?? "");
+}
 
 /**
  * 信息源列表来自 data/sources.json —— 想加源直接改那个文件，
  * 下次抓取（巡检每 30 分钟跑一次）自动生效，无需动本脚本。
- * 字段：name / url / type(rss|hf|trending|deepseek-news) / weight(越大排序越靠前，
+ * 字段：name / url / type(rss|hf|trending|hn|deepseek-news) / weight(越大排序越靠前，
  * 官方一手源 10+) / category(无 LLM 摘要时的兜底分类) / site(首页，页脚展示用)
+ * 可选：count(单源最多返回条数) / minPoints(HN 最低热度) / windowHours(按源覆盖抓取窗口，默认 48h)
  */
 const SOURCES_FILE = path.join(ROOT, "data", "sources.json");
 
@@ -176,7 +199,7 @@ async function fetchRssSource(source, since) {
     const proxy = process.env.AI_NEWS_PROXY ?? "http://127.0.0.1:7897";
     const { stdout } = await execFileP(
       "curl",
-      ["-s", "--max-time", String(FETCH_TIMEOUT_MS / 1000), "-x", proxy, "-A", USER_AGENT, source.url],
+      ["-s", "-L", "--max-time", String(FETCH_TIMEOUT_MS / 1000), "-x", proxy, "-A", USER_AGENT, source.url],
       { maxBuffer: 16 * 1024 * 1024 },
     );
     if (!stdout || stdout.length < 200) {
@@ -263,7 +286,7 @@ async function fetchHtml(url) {
     const proxy = process.env.AI_NEWS_PROXY ?? "http://127.0.0.1:7897";
     const { stdout } = await execFileP(
       "curl",
-      ["-s", "--max-time", String(FETCH_TIMEOUT_MS / 1000), "-x", proxy, "-A", "Mozilla/5.0", url],
+      ["-s", "-L", "--max-time", String(FETCH_TIMEOUT_MS / 1000), "-x", proxy, "-A", "Mozilla/5.0", url],
       { maxBuffer: 16 * 1024 * 1024 },
     );
     if (!stdout || stdout.length < 10000) {
@@ -273,44 +296,117 @@ async function fetchHtml(url) {
   }
 }
 
-/** 解析 Trending 页面第 1 名仓库 */
-async function fetchTrendingSource(source) {
-  const html = await withTimeout(fetchHtml(source.url), FETCH_TIMEOUT_MS + 5000, source.name);
-  const m = html.match(/<article class="Box-row">[\s\S]*?<\/article>/);
-  if (!m) throw new Error("未解析到 Trending 条目（页面结构可能已变更）");
-  const art = m[0];
+/** 解析 Trending 页面，按榜序保留 AI 相关仓库 */
+function parseTrendingHtml(html, source) {
+  const articles = [
+    ...html.matchAll(
+      /<article\b[^>]*class="[^"]*\bBox-row\b[^"]*"[^>]*>[\s\S]*?<\/article>/gi,
+    ),
+  ];
+  if (articles.length === 0) {
+    throw new Error("未解析到 Trending 条目（页面结构可能已变更）");
+  }
 
-  const repoMatch = art.match(/<h2[^>]*>[\s\S]*?<a href="(\/[^"]+)"/);
-  if (!repoMatch) throw new Error("未解析到仓库链接");
-  const repoPath = repoMatch[1].trim(); // /owner/repo
-  const repoName = repoPath.slice(1);
+  const items = [];
+  for (const [index, match] of articles.entries()) {
+    const art = match[0];
+    const repoMatch = art.match(/<h2[^>]*>[\s\S]*?<a[^>]*href="(\/[^"]+)"/);
+    if (!repoMatch) continue;
+    const repoPath = repoMatch[1].trim().replace(/\/+$/, "");
+    if (!/^\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repoPath)) continue;
+    const repoName = repoPath.slice(1);
 
-  const descMatch = art.match(/<p class="col-9[^"]*">([\s\S]*?)<\/p>/);
-  const desc = descMatch ? stripHtml(descMatch[1]) : "";
+    const descMatch = art.match(/<p class="col-9[^"]*">([\s\S]*?)<\/p>/);
+    const desc = descMatch ? stripHtml(descMatch[1]) : "";
+    if (!isAiRelated(`${repoName} ${desc}`)) continue;
 
-  const langMatch = art.match(/itemprop="programmingLanguage">([^<]+)</);
-  const lang = langMatch ? langMatch[1].trim() : "";
-
-  const starsMatch = art.match(/([\d,]+)\s*stars\s*(today|this week|this month)/);
-  const stars = starsMatch ? `${starsMatch[1]} stars ${starsMatch[2]}` : "";
-
-  const url = `https://github.com${repoPath}`;
-  return [
-    {
-      id: hashId(normalizeUrl(url) + source.name),
-      title: `${repoName}: ${desc || "GitHub Trending #1"}`,
+    const langMatch = art.match(/itemprop="programmingLanguage">([^<]+)</);
+    const lang = langMatch ? langMatch[1].trim() : "";
+    const starsMatch = art.match(/([\d,]+)\s*stars\s*(today|this week|this month)/);
+    const stars = starsMatch ? `${starsMatch[1]} stars ${starsMatch[2]}` : "";
+    const rank = index + 1;
+    const url = `https://github.com${repoPath}`;
+    items.push({
+      id: hashId(normalizeUrl(url)),
+      title: `${repoName}: ${desc || `GitHub Trending #${rank}`}`,
       url,
       source: source.name,
       category: source.category,
       tags: [],
       published_at: new Date().toISOString(),
       _weight: source.weight,
-      _description: [desc, lang && `语言: ${lang}`, stars && `热度: ${stars}`]
+      _description: [
+        `${source.name} #${rank}`,
+        desc,
+        lang && `语言: ${lang}`,
+        stars && `热度: ${stars}`,
+      ]
         .filter(Boolean)
         .join(" | ")
         .slice(0, 500),
-    },
-  ];
+    });
+  }
+  return items.slice(0, source.count ?? 5);
+}
+
+async function fetchTrendingSource(source) {
+  const html = await withTimeout(fetchHtml(source.url), FETCH_TIMEOUT_MS + 5000, source.name);
+  return parseTrendingHtml(html, source);
+}
+
+/* ------------------------- Hacker News 热帖 ------------------------- */
+
+function parseHnHits(data, source, since) {
+  const items = [];
+  for (const hit of Array.isArray(data?.hits) ? data.hits : []) {
+    const title = stripHtml(hit.title ?? "");
+    const storyText = stripHtml(hit.story_text ?? "");
+    const fallbackUrl = hit.objectID
+      ? `https://news.ycombinator.com/item?id=${encodeURIComponent(hit.objectID)}`
+      : "";
+    const url = hit.url || fallbackUrl;
+    if (!title || !/^https?:\/\//i.test(url)) continue;
+
+    const published = new Date(Number(hit.created_at_i) * 1000);
+    if (Number.isNaN(published.getTime()) || published < since) continue;
+    const points = Number(hit.points ?? 0);
+    if (points < (source.minPoints ?? 20)) continue;
+    if (!isAiRelated(`${title} ${storyText} ${url}`)) continue;
+
+    items.push({
+      id: hashId(normalizeUrl(url)),
+      title,
+      url,
+      source: source.name,
+      category: source.category,
+      tags: ["Hacker News"],
+      published_at: published.toISOString(),
+      _weight: source.weight,
+      _description: [
+        `${points} points · ${Number(hit.num_comments ?? 0)} comments`,
+        hit.author && `作者: ${hit.author}`,
+        storyText,
+      ]
+        .filter(Boolean)
+        .join(" | ")
+        .slice(0, 500),
+    });
+    if (items.length >= (source.count ?? 5)) break;
+  }
+  return items;
+}
+
+async function fetchHnSource(source, since) {
+  const res = await withTimeout(
+    fetch(source.url, {
+      headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    }),
+    FETCH_TIMEOUT_MS + 2000,
+    source.name,
+  );
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return parseHnHits(await res.json(), source, since);
 }
 
 /* ------------------------- DeepSeek 官网新闻 ------------------------- */
@@ -337,7 +433,7 @@ async function fetchDeepseekNewsSource(source) {
     seen = new Set(JSON.parse(fs.readFileSync(DS_STATE_FILE, "utf-8")));
   } catch { /* 首次运行 */ }
   fs.mkdirSync(path.dirname(DS_STATE_FILE), { recursive: true });
-  fs.writeFileSync(DS_STATE_FILE, JSON.stringify(slugs, null, 2) + "\n", "utf-8");
+  writeFileAtomic(DS_STATE_FILE, JSON.stringify(slugs, null, 2) + "\n");
   if (!seen) {
     console.log(`[info] ${source.name}: 首次运行，记录 ${slugs.length} 条存量公告，不上报`);
     return [];
@@ -365,14 +461,19 @@ async function fetchDeepseekNewsSource(source) {
 async function fetchAllSources(since) {
   const results = await Promise.allSettled(
     SOURCES.map(async (source) => {
+      const sourceSince = source.windowHours
+        ? new Date(Date.now() - source.windowHours * 3600 * 1000)
+        : since;
       const items =
         source.type === "hf"
-          ? await fetchHfSource(source, since)
+          ? await fetchHfSource(source, sourceSince)
           : source.type === "trending"
             ? await fetchTrendingSource(source)
-            : source.type === "deepseek-news"
-              ? await fetchDeepseekNewsSource(source)
-              : await fetchRssSource(source, since);
+            : source.type === "hn"
+              ? await fetchHnSource(source, sourceSince)
+              : source.type === "deepseek-news"
+                ? await fetchDeepseekNewsSource(source)
+                : await fetchRssSource(source, sourceSince);
       console.log(`[ok] ${source.name}: ${items.length} 条`);
       return items;
     }),
@@ -411,8 +512,8 @@ async function tryNotify(text) {
   try {
     const mod = await import("./lib/notify.mjs");
     if (typeof mod.notify === "function") {
-      await mod.notify(text);
-      console.log("[ok] 告警已通过 lib/notify.mjs 发送");
+      const sent = await mod.notify(text);
+      console.log(sent ? "[ok] 告警已通过 lib/notify.mjs 发送" : "[warn] 告警发送失败（限频/未登录），仅记录日志");
     }
   } catch (err) {
     console.warn(`[warn] notify 模块不可用，告警仅记录日志: ${err.message}`);
@@ -463,10 +564,9 @@ async function updateSourceHealth(statuses) {
     health[st.name] = h;
   }
   fs.mkdirSync(STATE_DIR, { recursive: true });
-  fs.writeFileSync(
+  writeFileAtomic(
     SOURCE_HEALTH_FILE,
     JSON.stringify(health, null, 2) + "\n",
-    "utf-8",
   );
   console.log(`[ok] 更新 data/state/source-health.json（${statuses.length} 个源）`);
   for (const st of statuses) {
@@ -496,20 +596,39 @@ function pickTop(items) {
     if (b._weight !== a._weight) return b._weight - a._weight;
     return new Date(b.published_at) - new Date(a.published_at);
   });
-  // 每源限额 + 分类配额 + top N
-  // 论文研究类（arXiv×3 + HF + MSR）源多且权重高，不限会挤占媒体/行业内容
+  // 每源限额 + 分类配额 + top N；为热榜和行业动态保留少量位置，避免高权重源挤占全部版面
   const perSource = new Map();
   const perCategory = new Map();
   const picked = [];
-  for (const item of deduped) {
+  const pickedItems = new Set();
+  const take = (item) => {
+    if (pickedItems.has(item) || picked.length >= TOP_N) return false;
     const n = perSource.get(item.source) ?? 0;
-    if (n >= PER_SOURCE_CAP) continue;
+    if (n >= PER_SOURCE_CAP) return false;
     const cap = CATEGORY_CAPS[item.category];
-    if (cap !== undefined && (perCategory.get(item.category) ?? 0) >= cap) continue;
+    if (cap !== undefined && (perCategory.get(item.category) ?? 0) >= cap) return false;
     perSource.set(item.source, n + 1);
     perCategory.set(item.category, (perCategory.get(item.category) ?? 0) + 1);
     picked.push(item);
+    pickedItems.add(item);
+    return true;
+  };
+
+  let trendingCount = 0;
+  for (const item of deduped) {
+    if (trendingCount >= TRENDING_MINIMUM) break;
+    if (!item.source.startsWith("GitHub Trending")) continue;
+    if (take(item)) trendingCount++;
+  }
+  for (const [category, minimum] of Object.entries(CATEGORY_MINIMUMS)) {
+    for (const item of deduped) {
+      if ((perCategory.get(category) ?? 0) >= minimum) break;
+      if (item.category === category) take(item);
+    }
+  }
+  for (const item of deduped) {
     if (picked.length >= TOP_N) break;
+    take(item);
   }
   return picked;
 }
@@ -619,6 +738,7 @@ async function summarizeBatch(apiKey, batch) {
     '- "impact": 这件事的影响（不超过 40 字，对行业/技术/用户）',
     '- "advice": 给读者的行动建议（不超过 40 字，具体可执行）',
     `- "category": 从以下分类中任选一个：${CATEGORIES.join("、")}`,
+    "- 分类分布：全部条目中「论文研究」和「工具产品」各自不超过 40%；来自 arXiv / Hugging Face 的条目通常应为「论文研究」",
     '- "tags": 2-4 个标签（公司/模型/技术名词，尽量用原文专有名词）',
     "只返回 JSON，不要输出其他内容。",
     "",
@@ -733,7 +853,7 @@ function writeDaily(date, items) {
     generated_at: new Date().toISOString(),
     items,
   };
-  fs.writeFileSync(file, JSON.stringify(daily, null, 2) + "\n", "utf-8");
+  writeFileAtomic(file, JSON.stringify(daily, null, 2) + "\n");
   console.log(`[ok] 写入 ${path.relative(ROOT, file)}（${items.length} 条）`);
 }
 
@@ -744,10 +864,9 @@ function updateIndex() {
     .map((f) => f.replace(/\.json$/, ""))
     .sort()
     .reverse();
-  fs.writeFileSync(
+  writeFileAtomic(
     INDEX_FILE,
     JSON.stringify({ updated_at: new Date().toISOString(), dates }, null, 2) + "\n",
-    "utf-8",
   );
   console.log(`[ok] 更新 data/index.json（${dates.length} 天）`);
 }
@@ -847,10 +966,9 @@ async function main() {
 
   // 记录本次成功时间，供 scripts/heartbeat.mjs 判断断更
   fs.mkdirSync(STATE_DIR, { recursive: true });
-  fs.writeFileSync(
+  writeFileAtomic(
     LAST_SUCCESS_FILE,
     JSON.stringify({ ts: new Date().toISOString() }, null, 2) + "\n",
-    "utf-8",
   );
   console.log("[ok] 写入 data/state/last-success.json");
 
@@ -870,4 +988,14 @@ if (isMain) {
   });
 }
 
-export { mergeStorylines, titleTokens, jaccard, pickTop };
+export {
+  mergeStorylines,
+  titleTokens,
+  jaccard,
+  pickTop,
+  parseTrendingHtml,
+  parseHnHits,
+  fetchTrendingSource,
+  fetchHnSource,
+  fetchRssSource,
+};

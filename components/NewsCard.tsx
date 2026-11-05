@@ -9,6 +9,7 @@ const CATEGORY_STYLES: Record<string, string> = {
   工具产品: "text-c-tool border-c-tool/40 bg-c-tool/10",
   芯片算力: "text-c-chip border-c-chip/40 bg-c-chip/10",
   具身智能: "text-c-robot border-c-robot/40 bg-c-robot/10",
+  人物经验: "text-c-people border-c-people/40 bg-c-people/10",
 };
 
 export function CategoryBadge({ category }: { category: string }) {

@@ -15,6 +15,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { callKimi, extractMarkdown } from './lib/kimi.mjs';
+import { fitPrompt } from './lib/prompt-budget.mjs';
+import { writeFileAtomic } from './lib/fs-atomic.mjs';
 
 const ROOT = process.cwd();
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
@@ -117,7 +119,7 @@ function updateIndex() {
     .map(f => f.replace(/\.md$/, ''))
     .sort()
     .reverse();
-  fs.writeFileSync(
+  writeFileAtomic(
     path.join(IMPACT_DIR, 'index.json'),
     JSON.stringify({ updated_at: new Date().toISOString(), dates }, null, 2) + '\n',
     'utf8',
@@ -143,7 +145,8 @@ async function main() {
   console.log(`[info] ${WINDOW_LABEL}素材 ${items.length} 条，调用 Kimi 生成 ${KIND} 影响分析…`);
 
   const profile = fs.existsSync(PROFILE_FILE) ? fs.readFileSync(PROFILE_FILE, 'utf8') : '（未提供用户画像）';
-  const prompt = buildPrompt(items, profile, date);
+  const { prompt, items: usedItems, trimmed } = fitPrompt(items, (list) => buildPrompt(list, profile, date));
+  if (trimmed) console.warn(`[warn] 素材过长，prompt 已裁剪为 ${usedItems.length}/${items.length} 条（命令行长度上限）`);
 
   let md = null;
   try {
@@ -154,7 +157,7 @@ async function main() {
     process.exit(1);
   }
 
-  fs.writeFileSync(file, md, 'utf8');
+  writeFileAtomic(file, md, 'utf8');
   console.log(`[ok] 写入 ${path.relative(ROOT, file)}（${md.length} 字符）`);
   updateIndex();
   console.log('[done] 影响分析完成');

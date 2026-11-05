@@ -2,12 +2,15 @@
   "name": "ai-news",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test scripts/"
+    "test": "node --test \"scripts/*.test.mjs\" \"lib/*.test.mjs\""
   },
   "dependencies": {
     "@extractus/feed-extractor": "^7.2.1",

@@ -32,8 +32,8 @@ async function tryNotify(text) {
   try {
     const mod = await import("./lib/notify.mjs");
     if (typeof mod.notify === "function") {
-      await mod.notify(text);
-      console.log("[ok] 告警已通过 lib/notify.mjs 发送");
+      const sent = await mod.notify(text);
+      console.log(sent ? "[ok] 告警已通过 lib/notify.mjs 发送" : "[warn] 告警发送失败（限频/未登录），仅记录日志");
     }
   } catch (err) {
     console.warn(`[warn] notify 模块不可用，告警仅记录日志: ${err.message}`);

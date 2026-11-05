@@ -12,6 +12,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { callKimi, extractMarkdown } from './lib/kimi.mjs';
+import { writeFileAtomic } from './lib/fs-atomic.mjs';
 
 const ROOT = process.cwd();
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
@@ -113,7 +114,7 @@ async function main() {
       console.warn(`[warn] ${date}：kimi 两次调用均失败，跳过`);
       continue;
     }
-    fs.writeFileSync(path.join(REVIEW_DIR, `${date}.md`), md, 'utf8');
+    writeFileAtomic(path.join(REVIEW_DIR, `${date}.md`), md);
     console.log(`[ok] 写入 data/forecasts/review/${date}.md（${md.length} 字符）`);
   }
   console.log('[done] 复盘完成');

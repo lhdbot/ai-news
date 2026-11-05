@@ -2,6 +2,9 @@ import type { MetadataRoute } from "next";
 import { getAllDates, getAllTags } from "@/lib/news";
 import { SITE_URL } from "@/lib/site";
 
+// 数据每天变化而站点不做重建：sitemap 必须请求时生成，否则新日期/标签不会进 sitemap
+export const dynamic = "force-dynamic";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const dates = getAllDates();
   const tags = getAllTags();

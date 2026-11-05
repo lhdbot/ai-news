@@ -9,9 +9,11 @@ export async function notify(text) {
   const { ok, err, stdout, stderr } = await sendOnce(hermes, text);
   if (ok) {
     console.log(`[notify] 推送成功 ${String(stdout).trim().slice(0, 200)}`);
+    return true;
   } else {
     console.warn(
       `[notify] 推送失败（不阻断主流程）: ${err.message.slice(0, 200)} ${String(stderr).slice(0, 300)}`,
     );
   }
+  return false;
 }

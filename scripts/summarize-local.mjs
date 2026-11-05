@@ -16,9 +16,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { callKimi, extractJson } from './lib/kimi.mjs';
+import { writeFileAtomic } from './lib/fs-atomic.mjs';
+import { lockedCategory } from './lib/categories.mjs';
 
 const BATCH = 10;
-const CATEGORIES = ['模型发布', '论文研究', '行业动态', '工具产品', '芯片算力', '具身智能'];
+const CATEGORIES = ['模型发布', '论文研究', '行业动态', '工具产品', '芯片算力', '具身智能', '人物经验'];
 const PAPER_SOURCES = /arxiv|hugging\s*face/i;
 
 const ROOT = process.cwd();
@@ -36,10 +38,12 @@ const aliasMap = new Map(Object.entries(aliases).map(([k, v]) => [k.toLowerCase(
 const normalizeTag = t => aliasMap.get(String(t).trim().toLowerCase()) ?? String(t).trim();
 
 const beijingToday = () => new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);
-const file = path.join(ROOT, 'data', 'news', `${beijingToday()}.json`);
+const dateArg = process.argv.find(a => a.startsWith('--date='));
+const targetDate = dateArg ? dateArg.split('=')[1] : beijingToday();
+const file = path.join(ROOT, 'data', 'news', `${targetDate}.json`);
 
 if (!fs.existsSync(file)) {
-  console.log(`no data file for ${beijingToday()}, nothing to summarize`);
+  console.log(`no data file for ${targetDate}, nothing to summarize`);
   process.exit(0);
 }
 
@@ -78,6 +82,7 @@ function buildPrompt(batch) {
 - impact: 这件事的影响(30字内,对行业/技术/用户)
 - advice: 给读者的行动建议(30字内,具体可执行,如试试某个工具/关注某个方向/读原文)
 - category: 必须是 [${CATEGORIES.join('/')}] 之一
+- 分类分布: 全部条目中「论文研究」和「工具产品」各自不超过 40%；来源为 arXiv / Hugging Face 的条目通常归为「论文研究」
 - tags: 2-3个中文或专有名词标签
 - trends: 从以下趋势 taxonomy 中选 1-3 个最贴切的 id：${TREND_MENU}。只能从清单中选，输出 id 数组
 - paper=true 的条目额外输出三个字段（各一句话）：method（论文用了什么方法）、result（取得了什么结果）、limitation（有什么局限）；paper=false 的条目不要输出这三个字段
@@ -143,7 +148,7 @@ for (let i = 0; i < targets.length; i += BATCH) {
     item.learn = String(p.learn || '');
     item.impact = String(p.impact || '');
     item.advice = String(p.advice || '');
-    item.category = p.category;
+    item.category = lockedCategory(item.source) ?? p.category;
     item.tags = Array.isArray(p.tags) ? p.tags.map(normalizeTag).filter(Boolean).slice(0, 4) : [];
     // trends 校验：只保留合法 taxonomy id，最多 3 个
     item.trends = Array.isArray(p.trends)
@@ -165,9 +170,9 @@ for (let i = 0; i < targets.length; i += BATCH) {
   console.log(`batch ${i / BATCH + 1}: summarized ${done}/${targets.length}`);
   // 每批落盘一次，中断不丢已花费的额度
   data.generated_at = new Date().toISOString();
-  fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
+  writeFileAtomic(file, JSON.stringify(data, null, 2) + '\n');
 }
 
 data.generated_at = new Date().toISOString();
-fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
+writeFileAtomic(file, JSON.stringify(data, null, 2) + '\n');
 console.log(`done: ${done} items summarized via local kimi`);

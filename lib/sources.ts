@@ -5,9 +5,11 @@ import path from "node:path";
 export type SourceInfo = {
   name: string;
   url: string;
-  type: "rss" | "hf" | "trending";
+  type: "rss" | "hf" | "trending" | "hn" | "deepseek-news";
   weight: number;
   category: string;
+  count?: number;
+  minPoints?: number;
   /** 来源首页，页脚展示链接用；缺省回退到 url */
   site?: string;
 };
