@@ -38,6 +38,24 @@ const SOURCE_HEALTH_FILE = path.join(STATE_DIR, "source-health.json");
 const LAST_SUCCESS_FILE = path.join(STATE_DIR, "last-success.json");
 
 const FETCH_TIMEOUT_MS = 15_000;
+// 本地代理（默认 127.0.0.1:7897）并发能力有限：多个源同时回退时会集体超时，
+// 因此给代理请求加 3 路上限，直连请求不受影响。
+const PROXY_CONCURRENCY = 3;
+let proxyInFlight = 0;
+const proxyWaiters = [];
+async function withProxySlot(task) {
+  while (proxyInFlight >= PROXY_CONCURRENCY) {
+    await new Promise((resolve) => proxyWaiters.push(resolve));
+  }
+  proxyInFlight += 1;
+  try {
+    return await task();
+  } finally {
+    proxyInFlight -= 1;
+    const next = proxyWaiters.shift();
+    if (next) next();
+  }
+}
 const WINDOW_HOURS = 48;
 const PER_SOURCE_CAP = 8;
 const TOP_N = 30;
@@ -179,6 +197,36 @@ async function withTimeout(promise, ms, label) {
 
 /* ------------------------------ 抓取各源 ------------------------------ */
 
+/** 直连失败时回退 curl + 本地代理；代理延迟可能到 10s+，这里给到 30s */
+async function fetchTextWithProxy(url, { accept = "*/*", minBytes = 2 } = {}) {
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": USER_AGENT, Accept: accept },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const text = await res.text();
+    if (text.length < minBytes) throw new Error(`直连内容异常（${text.length} 字节）`);
+    return text;
+  } catch (directErr) {
+    const proxy = process.env.AI_NEWS_PROXY ?? "http://127.0.0.1:7897";
+    const stdout = await withProxySlot(async () => {
+      const { stdout } = await execFileP(
+        "curl",
+        ["-s", "-L", "--max-time", "30", "-x", proxy, "-A", USER_AGENT, url],
+        { maxBuffer: 16 * 1024 * 1024 },
+      );
+      return stdout;
+    });
+    if (!stdout || stdout.length < minBytes) {
+      throw new Error(
+        `直连失败(${(directErr.message || "").slice(0, 80)})且代理抓取内容异常`,
+      );
+    }
+    return stdout;
+  }
+}
+
 async function fetchRssSource(source, since) {
   let feed;
   try {
@@ -197,11 +245,14 @@ async function fetchRssSource(source, since) {
   } catch (directErr) {
     // 直连失败时回退 curl + 代理抓取 XML 后本地解析（GitHub atom 等源在部分网络环境需代理）
     const proxy = process.env.AI_NEWS_PROXY ?? "http://127.0.0.1:7897";
-    const { stdout } = await execFileP(
-      "curl",
-      ["-s", "-L", "--max-time", String(FETCH_TIMEOUT_MS / 1000), "-x", proxy, "-A", USER_AGENT, source.url],
-      { maxBuffer: 16 * 1024 * 1024 },
-    );
+    const stdout = await withProxySlot(async () => {
+      const { stdout } = await execFileP(
+        "curl",
+        ["-s", "-L", "--max-time", "30", "-x", proxy, "-A", USER_AGENT, source.url],
+        { maxBuffer: 16 * 1024 * 1024 },
+      );
+      return stdout;
+    });
     if (!stdout || stdout.length < 200) {
       throw new Error(`直连失败(${(directErr.message || "").slice(0, 80)})且代理抓取内容异常`);
     }
@@ -232,16 +283,17 @@ async function fetchRssSource(source, since) {
 }
 
 async function fetchHfSource(source, since) {
-  const res = await withTimeout(
-    fetch(source.url, {
-      headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
-      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-    }),
-    FETCH_TIMEOUT_MS + 2000,
+  const text = await withTimeout(
+    fetchTextWithProxy(source.url, { accept: "application/json" }),
+    60_000,
     source.name,
   );
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const papers = await res.json();
+  let papers;
+  try {
+    papers = JSON.parse(text);
+  } catch {
+    throw new Error("Hugging Face 返回内容不是合法 JSON");
+  }
   const items = [];
   for (const p of Array.isArray(papers) ? papers : []) {
     const paper = p.paper ?? p;
@@ -284,11 +336,14 @@ async function fetchHtml(url) {
     return await res.text();
   } catch (directErr) {
     const proxy = process.env.AI_NEWS_PROXY ?? "http://127.0.0.1:7897";
-    const { stdout } = await execFileP(
-      "curl",
-      ["-s", "-L", "--max-time", String(FETCH_TIMEOUT_MS / 1000), "-x", proxy, "-A", "Mozilla/5.0", url],
-      { maxBuffer: 16 * 1024 * 1024 },
-    );
+    const stdout = await withProxySlot(async () => {
+      const { stdout } = await execFileP(
+        "curl",
+        ["-s", "-L", "--max-time", "30", "-x", proxy, "-A", "Mozilla/5.0", url],
+        { maxBuffer: 16 * 1024 * 1024 },
+      );
+      return stdout;
+    });
     if (!stdout || stdout.length < 10000) {
       throw new Error(`直连失败(${(directErr.message || "").slice(0, 80)})且代理抓取内容异常`);
     }
@@ -350,7 +405,7 @@ function parseTrendingHtml(html, source) {
 }
 
 async function fetchTrendingSource(source) {
-  const html = await withTimeout(fetchHtml(source.url), FETCH_TIMEOUT_MS + 5000, source.name);
+  const html = await withTimeout(fetchHtml(source.url), 60_000, source.name);
   return parseTrendingHtml(html, source);
 }
 
@@ -397,16 +452,12 @@ function parseHnHits(data, source, since) {
 }
 
 async function fetchHnSource(source, since) {
-  const res = await withTimeout(
-    fetch(source.url, {
-      headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
-      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-    }),
-    FETCH_TIMEOUT_MS + 2000,
+  const text = await withTimeout(
+    fetchTextWithProxy(source.url, { accept: "application/json" }),
+    60_000,
     source.name,
   );
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return parseHnHits(await res.json(), source, since);
+  return parseHnHits(JSON.parse(text), source, since);
 }
 
 /* ------------------------- DeepSeek 官网新闻 ------------------------- */
@@ -419,7 +470,7 @@ async function fetchHnSource(source, since) {
 const DS_STATE_FILE = path.join(ROOT, "data", "state", "deepseek-news.json");
 
 async function fetchDeepseekNewsSource(source) {
-  const html = await withTimeout(fetchHtml(source.url), FETCH_TIMEOUT_MS + 5000, source.name);
+  const html = await withTimeout(fetchHtml(source.url), 60_000, source.name);
   const found = new Map(); // slug -> 链接文本
   for (const m of html.matchAll(/<a\b[^>]*href="\/news\/([a-z0-9-]+)\/"[^>]*>([\s\S]*?)<\/a>/gi)) {
     const slug = m[1].toLowerCase();
