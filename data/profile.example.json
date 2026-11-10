@@ -1,0 +1,24 @@
+{
+  "stack": [
+    "LangGraph",
+    "RAG",
+    "vLLM",
+    "Python",
+    "TypeScript"
+  ],
+  "keywords": [
+    "agent",
+    "rag",
+    "mcp",
+    "inference"
+  ],
+  "goals": [
+    "垂直场景端到端方案",
+    "个人产品闭环"
+  ],
+  "focusTrends": [
+    "agent",
+    "agent-runtime",
+    "inference-infra"
+  ]
+}

@@ -48,3 +48,8 @@ data/forecasts/
 data/state/
 data/trends/radar.json
 data/index.json
+
+# 个人画像：真实文件只放本地，不入库
+.local/
+data/profile.md
+data/profile.json

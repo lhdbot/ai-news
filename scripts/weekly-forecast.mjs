@@ -17,7 +17,11 @@ import { writeFileAtomic } from './lib/fs-atomic.mjs';
 const ROOT = process.cwd();
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
 const FORECAST_ROOT = path.join(ROOT, 'data', 'forecasts');
-const PROFILE_FILE = path.join(ROOT, 'data', 'profile.md');
+const PROFILE_CANDIDATES = [
+  path.join(ROOT, '.local', 'profile.md'),
+  // 兼容旧位置（历史版本放在 data/，已从 git 移除）
+  path.join(ROOT, 'data', 'profile.md'),
+];
 const MAX_ITEMS = 120;
 
 const daysArg = process.argv.find(a => a.startsWith('--days='));
@@ -100,7 +104,8 @@ async function main() {
   }
   console.log(`[info] 汇总${WINDOW_LABEL} ${items.length} 条素材`);
 
-  const profile = fs.existsSync(PROFILE_FILE) ? fs.readFileSync(PROFILE_FILE, 'utf8') : '（未提供用户画像）';
+  const profileFile = PROFILE_CANDIDATES.find((p) => fs.existsSync(p));
+  const profile = profileFile ? fs.readFileSync(profileFile, 'utf8') : '（未提供用户画像）';
   const { prompt, items: usedItems, trimmed } = fitPrompt(items, (list) => buildPrompt(list, profile));
   if (trimmed) console.warn(`[warn] 素材过长，prompt 已裁剪为 ${usedItems.length}/${items.length} 条（命令行长度上限）`);
 

@@ -10,7 +10,11 @@ export interface Profile {
   focusTrends: string[];
 }
 
-const PROFILE_FILE = path.join(process.cwd(), "data", "profile.json");
+const PROFILE_CANDIDATES = [
+  path.join(process.cwd(), ".local", "profile.json"),
+  // 兼容旧位置（历史版本放在 data/，已从 git 移除）
+  path.join(process.cwd(), "data", "profile.json"),
+];
 
 // undefined = 未读取；null = 缺失/解析失败
 let cached: Profile | null | undefined;
@@ -24,17 +28,21 @@ function toStringArray(value: unknown): string[] {
 /** 读取个人画像；缺失或解析失败返回 null（打分时只按 heat 兜底） */
 export function getProfile(): Profile | null {
   if (cached !== undefined) return cached;
-  try {
-    const raw = JSON.parse(fs.readFileSync(PROFILE_FILE, "utf-8"));
-    cached = {
-      stack: toStringArray(raw.stack),
-      keywords: toStringArray(raw.keywords),
-      goals: toStringArray(raw.goals),
-      focusTrends: toStringArray(raw.focusTrends),
-    };
-  } catch {
-    cached = null;
+  for (const file of PROFILE_CANDIDATES) {
+    try {
+      const raw = JSON.parse(fs.readFileSync(file, "utf-8"));
+      cached = {
+        stack: toStringArray(raw.stack),
+        keywords: toStringArray(raw.keywords),
+        goals: toStringArray(raw.goals),
+        focusTrends: toStringArray(raw.focusTrends),
+      };
+      return cached;
+    } catch {
+      // 尝试下一个候选路径
+    }
   }
+  cached = null;
   return cached;
 }
 

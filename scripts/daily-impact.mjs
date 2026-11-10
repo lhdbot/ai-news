@@ -21,7 +21,11 @@ import { writeFileAtomic } from './lib/fs-atomic.mjs';
 const ROOT = process.cwd();
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
 const IMPACT_ROOT = path.join(ROOT, 'data', 'impact');
-const PROFILE_FILE = path.join(ROOT, 'data', 'profile.md');
+const PROFILE_CANDIDATES = [
+  path.join(ROOT, '.local', 'profile.md'),
+  // 兼容旧位置（历史版本放在 data/，已从 git 移除）
+  path.join(ROOT, 'data', 'profile.md'),
+];
 const MAX_ITEMS = 80;
 const MIN_ITEMS = 5;
 
@@ -144,7 +148,8 @@ async function main() {
   }
   console.log(`[info] ${WINDOW_LABEL}素材 ${items.length} 条，调用 Kimi 生成 ${KIND} 影响分析…`);
 
-  const profile = fs.existsSync(PROFILE_FILE) ? fs.readFileSync(PROFILE_FILE, 'utf8') : '（未提供用户画像）';
+  const profileFile = PROFILE_CANDIDATES.find((p) => fs.existsSync(p));
+  const profile = profileFile ? fs.readFileSync(profileFile, 'utf8') : '（未提供用户画像）';
   const { prompt, items: usedItems, trimmed } = fitPrompt(items, (list) => buildPrompt(list, profile, date));
   if (trimmed) console.warn(`[warn] 素材过长，prompt 已裁剪为 ${usedItems.length}/${items.length} 条（命令行长度上限）`);
 
