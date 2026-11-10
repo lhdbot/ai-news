@@ -12,6 +12,7 @@ node scripts\summarize-local.mjs >> logs\update.log 2>&1
 node scripts\summarize-local.mjs --retry --limit=20 >> logs\update.log 2>&1
 node scripts\build-radar.mjs >> logs\update.log 2>&1
 node scripts\build-digest.mjs >> logs\update.log 2>&1
+node scripts\quality-report.mjs >> logs\update.log 2>&1
 node scripts\export-markdown.mjs >> logs\update.log 2>&1
 node scripts\job-status.mjs finish daily ok >> logs\update.log 2>&1
 goto done

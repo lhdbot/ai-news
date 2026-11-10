@@ -35,6 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
+      url: `${SITE_URL}/changelog`,
+      lastModified: new Date("2026-11-10T00:00:00+08:00"),
+      changeFrequency: "weekly",
+      priority: 0.6,
+    },
+    {
       url: `${SITE_URL}/skills`,
       lastModified: new Date(),
       changeFrequency: "weekly",

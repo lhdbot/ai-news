@@ -75,6 +75,18 @@ export default function HealthPage() {
   const daily = latest ? getNewsByDate(latest) : null;
   const digestFile = latest ? path.join(root, "data", "digests", `${latest}.json`) : "";
   const digest = digestFile ? readJson<{ items: unknown[]; total: number }>(digestFile) : null;
+  const qualityFile = latest ? path.join(root, "data", "quality", `${latest}.json`) : "";
+  const quality = qualityFile
+    ? readJson<{
+        summarizedRate: number;
+        duplicateRate: number;
+        events: number;
+        multiSourceEvents: number;
+        digestItems: number;
+        digestTotal: number;
+        sourceSuccessRate: number | null;
+      }>(qualityFile)
+    : null;
 
   const failing = Object.entries(health).filter(([, v]) => (v.consecutiveFailDays ?? 0) >= 3);
   const okTotal = Object.values(health).reduce((sum, v) => sum + (v.okCount ?? 0), 0);
@@ -135,6 +147,12 @@ export default function HealthPage() {
             <li>最近成功抓取：{fmt(lastSuccess?.ts)}（{lastAgeH === null ? "未知" : Math.round(lastAgeH) + " 小时前"}）</li>
             <li>最新日报：{latest ?? "—"} · {daily?.items.length ?? 0} 条</li>
             <li>今日精选：{digest ? `${digest.items.length} / ${digest.total} 条` : "未生成"}</li>
+            <li>
+              内容质量：
+              {quality
+                ? `摘要 ${Math.round(quality.summarizedRate * 100)}% · 重复 ${Math.round(quality.duplicateRate * 100)}% · 事件 ${quality.events}（多源 ${quality.multiSourceEvents}）· digest ${quality.digestItems}/${quality.digestTotal}`
+                : "尚未生成（运行 quality-report.mjs）"}
+            </li>
             <li>摘要队列：{queue.items.length} 条（到期 {queue.items.filter((i) => Date.parse(i.nextRetryAt) <= Date.now()).length} 条）</li>
           </ul>
         </div>

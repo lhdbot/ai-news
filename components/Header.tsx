@@ -12,6 +12,7 @@ const NAV_ITEMS = [
   { href: "/impact", label: "影响分析" },
   { href: "/forecast", label: "预测" },
   { href: "/search", label: "搜索" },
+  { href: "/changelog", label: "更新" },
   { href: "/skills", label: "Skills" },
 ] as const;
 

@@ -18,6 +18,7 @@ node scripts\summarize-local.mjs >> logs\update.log 2>&1
 node scripts\summarize-local.mjs --retry --limit=20 >> logs\update.log 2>&1
 node scripts\build-radar.mjs >> logs\update.log 2>&1
 node scripts\build-digest.mjs >> logs\update.log 2>&1
+node scripts\quality-report.mjs >> logs\update.log 2>&1
 node scripts\export-markdown.mjs >> logs\update.log 2>&1
 node scripts\daily-impact.mjs --days=3 >> logs\update.log 2>&1
 node scripts\data-changed.mjs --check >> logs\update.log 2>&1 && echo [watch] data updated >> logs\update.log || echo [watch] no data change >> logs\update.log

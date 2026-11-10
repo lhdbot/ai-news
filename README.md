@@ -128,6 +128,8 @@ npm run dev                   # http://localhost:3000
   digest 按 eventId 去重，避免同一事件反复出现；可用 `node scripts/rebuild-event-index.mjs` 重建。
 - **页面缓存（ISR）**：首页 5 分钟、归档 1 小时、分类 10 分钟、趋势 30 分钟；搜索与 API 保持实时。
 - **源级成功率**：`source-health.json` 记录每源累计成功/失败次数与最后错误，`/health` 展示成功率与失败最多的源。
+- **内容质量报告**：`quality-report.mjs` 计算摘要完成率、跨天重复率、事件/多源事件、digest 覆盖；写入 `data/quality/`，/health 展示。
+- **更新日志**：`/changelog` 页面 + `data/changelog.json`，版本化记录功能、修复与安全变更。
 - **摘要失败队列**：`data/state/summary-queue.json`；LLM 输出逐条过 zod Schema，失败单条重试一次，
   仍失败按 5m/30m/2h/24h 退避；`summarize-local.mjs --retry --limit=20` 在每轮巡检中补跑。
   历史缺口可先用 `node scripts/enqueue-missing-summaries.mjs` 一次性入队。

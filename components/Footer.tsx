@@ -47,6 +47,10 @@ export default function Footer() {
               运行状态
             </a>{" "}
             ·{" "}
+            <a href="/changelog" className="underline hover:text-accent">
+              更新日志
+            </a>{" "}
+            ·{" "}
             <a
               href={SITE_URL}
               target="_blank"
