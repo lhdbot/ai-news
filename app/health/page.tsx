@@ -20,6 +20,9 @@ interface SourceHealth {
   lastOk?: string | null;
   lastFail?: string | null;
   consecutiveFailDays?: number;
+  okCount?: number;
+  failCount?: number;
+  lastError?: string;
 }
 
 function readJson<T>(file: string): T | null {
@@ -74,6 +77,13 @@ export default function HealthPage() {
   const digest = digestFile ? readJson<{ items: unknown[]; total: number }>(digestFile) : null;
 
   const failing = Object.entries(health).filter(([, v]) => (v.consecutiveFailDays ?? 0) >= 3);
+  const okTotal = Object.values(health).reduce((sum, v) => sum + (v.okCount ?? 0), 0);
+  const failTotal = Object.values(health).reduce((sum, v) => sum + (v.failCount ?? 0), 0);
+  const successRate = okTotal + failTotal > 0 ? Math.round((okTotal / (okTotal + failTotal)) * 100) : null;
+  const topFailing = Object.entries(health)
+    .filter(([, v]) => (v.failCount ?? 0) > 0)
+    .sort((a, b) => (b[1].failCount ?? 0) - (a[1].failCount ?? 0))
+    .slice(0, 5);
   const recentFailures = Object.entries(health)
     .filter(([, v]) => v.lastFail)
     .sort((a, b) => String(b[1].lastFail).localeCompare(String(a[1].lastFail)))
@@ -132,6 +142,12 @@ export default function HealthPage() {
           <h2 className="text-lg font-bold">信源健康</h2>
           <ul className="mt-3 space-y-1.5 text-sm text-muted">
             <li>连续失败 ≥3 天：{failing.length} 个</li>
+            <li>累计成功 / 失败：{okTotal} / {failTotal}{successRate === null ? "" : `（成功率 ${successRate}%）`}</li>
+            {topFailing.map(([name, v]) => (
+              <li key={name} className="truncate">
+                {name} · 失败 {v.failCount} 次 · {v.lastError || "—"}
+              </li>
+            ))}
             {recentFailures.map(([name, v]) => (
               <li key={name} className="truncate">
                 {name} · 连续失败 {v.consecutiveFailDays ?? 0} 天 · 最近错误 {fmt(v.lastFail)}

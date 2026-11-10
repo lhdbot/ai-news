@@ -67,6 +67,8 @@ export const NewsItemSchema = z.object({
   limitation: z.string().optional(),
   // 收录进日报的时间（抓取批次时间戳），用于前端标注"今日新增"；旧数据没有
   added_at: z.string().optional(),
+  // 跨天事件 id（data/index/events.json），旧数据可能没有
+  eventId: z.string().optional(),
 });
 
 export const DailyNewsSchema = z.object({

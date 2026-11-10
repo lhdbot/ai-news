@@ -26,6 +26,8 @@ import path from "node:path";
 import { promisify } from "node:util";
 import { writeFileAtomic } from "./lib/fs-atomic.mjs";
 import { loadUrlIndex, normalizeUrl, saveUrlIndex, updateUrlIndex } from "./lib/url-index.mjs";
+import { jaccard, titleTokens } from "./lib/text-similarity.mjs";
+import { assignEvents, loadEventIndex, saveEventIndex } from "./lib/events.mjs";
 import { fileURLToPath } from "node:url";
 
 const execFileP = promisify(execFile);
@@ -585,6 +587,7 @@ async function updateSourceHealth(statuses) {
     };
     if (st.ok) {
       h.lastOk = nowIso;
+      h.okCount = (h.okCount ?? 0) + 1;
       h.consecutiveFailDays = 0;
     } else {
       const prevFailDay = h.lastFail ? cnDay(h.lastFail) : null;
@@ -597,6 +600,8 @@ async function updateSourceHealth(statuses) {
         h.consecutiveFailDays = 1;
       }
       h.lastFail = nowIso;
+      h.failCount = (h.failCount ?? 0) + 1;
+      h.lastError = String(st.error ?? "").slice(0, 300);
     }
     health[st.name] = h;
   }
@@ -679,37 +684,6 @@ const STORYLINE_THRESHOLD = 0.6;
  *  中文标题没有空格，旧版按空白切分会让整句变成一个 token，跨源中文报道
  *  的 Jaccard 相似度趋近于 0、事件合并失效；bigram 对同义改写更稳健。
  */
-function titleTokens(title) {
-  const text = (title ?? "")
-    .toLowerCase()
-    .replace(/[\p{P}\p{S}]+/gu, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  if (!text) return new Set();
-  const tokens = new Set();
-  const runs = text.match(/[\p{Script=Han}]+|[^\p{Script=Han}\s]+/gu) ?? [];
-  for (const run of runs) {
-    if (run.length === 1) {
-      tokens.add(`c:${run}`);
-      continue;
-    }
-    if (/^[\p{Script=Han}]+$/u.test(run)) {
-      for (let i = 0; i + 1 < run.length; i++) {
-        tokens.add(`c:${run[i]}${run[i + 1]}`);
-      }
-    } else {
-      tokens.add(`w:${run}`);
-    }
-  }
-  return tokens;
-}
-
-function jaccard(a, b) {
-  if (a.size === 0 || b.size === 0) return 0;
-  let inter = 0;
-  for (const t of a) if (b.has(t)) inter++;
-  return inter / (a.size + b.size - inter);
-}
 
 /**
  * 标题分词两两 Jaccard ≥ 0.6 且来自不同源的条目合并为一个事件组（并查集传递合并）：
@@ -997,6 +971,13 @@ async function main() {
     ...reusedItems.map(clean),
     ...summarized.map(clean),
   ];
+  // 跨天事件聚合：给没有 eventId 的条目分配事件（相似标题 7 天内合并）
+  const eventIndexFile = path.join(ROOT, "data", "index", "events.json");
+  const eventIndex = loadEventIndex(eventIndexFile);
+  assignEvents(merged, eventIndex, date);
+  saveEventIndex(eventIndexFile, eventIndex);
+  console.log(`[ok] 更新 data/index/events.json（${Object.keys(eventIndex.events).length} 个事件）`);
+
   // 兜底：当天一条都没有且没有历史文件时，仍然写一个空日报，保证前端有数据可读
   writeDaily(date, merged);
   updateIndex();

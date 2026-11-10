@@ -5,6 +5,8 @@
  */
 import { normalizeUrl } from './url-index.mjs';
 
+const dedupeKey = (item) => item.eventId || normalizeUrl(item.url);
+
 export const DIGEST_SIZE = 30;
 // 合计 30：配额是硬上限，保证七个板块的版面比例稳定
 export const CATEGORY_QUOTAS = {
@@ -41,7 +43,7 @@ export function selectDigest(items, index, date, { size = DIGEST_SIZE, quotas = 
   const out = [];
   const counts = new Map();
   const take = (item, reason) => {
-    const key = normalizeUrl(item.url);
+    const key = dedupeKey(item);
     if (seen.has(key) || out.length >= size) return false;
     seen.add(key);
     out.push({ ...item, position: out.length + 1, isNew: isNew(item), reason });

@@ -124,6 +124,10 @@ npm run dev                   # http://localhost:3000
   规则：当日首次出现优先、七个分类有固定配额、跨天重复只在热度高时补位。首页优先读 digest，归档/分类页仍读全量。
 - **全局 URL 索引**：`data/index/urls.json` 记录每个 URL 的首次出现日期，供 digest 与 RSS 去重；
   可用 `node scripts/rebuild-url-index.mjs` 从历史日报重建。
+- **跨天事件**：`data/index/events.json` 记录 eventId；7 天窗口内标题 Jaccard ≥0.6 的条目归为同一事件，
+  digest 按 eventId 去重，避免同一事件反复出现；可用 `node scripts/rebuild-event-index.mjs` 重建。
+- **页面缓存（ISR）**：首页 5 分钟、归档 1 小时、分类 10 分钟、趋势 30 分钟；搜索与 API 保持实时。
+- **源级成功率**：`source-health.json` 记录每源累计成功/失败次数与最后错误，`/health` 展示成功率与失败最多的源。
 - **摘要失败队列**：`data/state/summary-queue.json`；LLM 输出逐条过 zod Schema，失败单条重试一次，
   仍失败按 5m/30m/2h/24h 退避；`summarize-local.mjs --retry --limit=20` 在每轮巡检中补跑。
   历史缺口可先用 `node scripts/enqueue-missing-summaries.mjs` 一次性入队。

@@ -17,7 +17,8 @@ export function generateStaticParams() {
 }
 
 // 数据由巡检任务更新：动态渲染，请求时读取最新数据文件（未知 slug 由 notFound 兜底）
-export const dynamic = "force-dynamic";
+// ISR：数据最多缓存 600 秒；巡检写入后由下一次请求触发后台刷新
+export const revalidate = 600;
 
 export async function generateMetadata({
   params,

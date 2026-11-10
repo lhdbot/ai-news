@@ -8,7 +8,8 @@ export const metadata: Metadata = {
 };
 
 // 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，无需重建/重启
-export const dynamic = "force-dynamic";
+// ISR：数据最多缓存 3600 秒；巡检写入后由下一次请求触发后台刷新
+export const revalidate = 3600;
 
 export default function ArchivePage() {
   const dates = getAllDates();
