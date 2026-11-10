@@ -25,6 +25,20 @@
 | 暂缓（设触发条件） | 7 | 32% |
 | 不建议采纳 / 保持现状 | 2 | 9% |
 
+### 实施进度（2026-11-10）
+
+| 项 | 状态 | 落点 |
+|---|---|---|
+| P0-1 画像移出 + 历史清理 | ✅ | `.local/` + examples；filter-repo + force push |
+| P0-2 锁自愈 | ✅ | `scripts/lib/lock.mjs`、`wait-lock.mjs`：45 分钟或 PID 退出即清理 |
+| P0-3 任务状态 + /health | ✅ | `job-status.mjs`、`logs/app.jsonl`、`app/health/page.tsx` |
+| P0-4 摘要失败队列 | ✅ | `summary-queue.mjs`、`summarize-local --retry` |
+| P0-5 LLM Schema | ✅ | `enrichment-schema.mjs`（zod）+ 单条重试 |
+| P0-6 每日 digest | ✅ | `build-digest.mjs`、`lib/digest.ts`；首页/API 接入 |
+| P0-7 跨天去重 | ✅ | `url-index.mjs`、`rebuild-url-index.mjs`；RSS 去重 |
+
+测试：43 个通过；端到端已跑通一轮 watch（62s，job=ok，digest 30/93）。
+
 **最重要的三个判断：**
 
 - 现在**不该**上 SQLite/PostgreSQL：3.4k 条、页面 174–492ms、数据 3.42MB，瓶颈不在查询。

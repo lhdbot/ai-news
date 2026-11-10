@@ -115,7 +115,20 @@ npm run dev                   # http://localhost:3000
 | `GET /api/intelligence/latest?kind=daily` | 最新三日预测与影响分析 |
 | `GET /api/intelligence/YYYY-MM-DD?kind=weekly` | 指定日期的七天预测与影响分析 |
 
-`kind` 支持 `daily`（默认）和 `weekly`。情报接口返回 `{ kind, forecast, impact }`，报告以 Markdown 文本提供；某一类报告尚未生成时对应字段为 `null`。非法参数返回 400，无数据返回 404，所有接口均禁止缓存。
+`kind` 支持 `daily`（默认）和 `weekly`。情报接口返回 `{ kind, forecast, impact }`。
+新闻接口额外支持 `?view=digest` 返回当日精选（最多 30 条），默认 `full` 保持兼容。，报告以 Markdown 文本提供；某一类报告尚未生成时对应字段为 `null`。非法参数返回 400，无数据返回 404，所有接口均禁止缓存。
+
+## 每日精选、摘要重试与运行状态（2026-11 新增）
+
+- **每日精选 digest**：`scripts/build-digest.mjs` 从当日原始日报中选最多 30 条，写入 `data/digests/YYYY-MM-DD.json`；
+  规则：当日首次出现优先、七个分类有固定配额、跨天重复只在热度高时补位。首页优先读 digest，归档/分类页仍读全量。
+- **全局 URL 索引**：`data/index/urls.json` 记录每个 URL 的首次出现日期，供 digest 与 RSS 去重；
+  可用 `node scripts/rebuild-url-index.mjs` 从历史日报重建。
+- **摘要失败队列**：`data/state/summary-queue.json`；LLM 输出逐条过 zod Schema，失败单条重试一次，
+  仍失败按 5m/30m/2h/24h 退避；`summarize-local.mjs --retry` 在每轮巡检中补跑。
+- **任务状态与 /health**：每个 bat 首尾调用 `scripts/job-status.mjs`，状态写入 `data/state/jobs/`，
+  事件写入 `logs/app.jsonl`；`/health` 页面展示任务、信源健康、摘要队列与数据新鲜度。
+- **锁自愈**：`logs/job.lock` 改为 JSON（job/pid/startedAt），超过 45 分钟或持有进程退出即自动清理。
 
 ## 配置摘要引擎
 
@@ -192,7 +205,9 @@ scripts/daily-forecast.bat   # 每日三日滚动预测（计划任务调用）
 scripts/weekly-forecast.bat  # 每周一七天预测（计划任务调用）
 scripts/start-site.bat       # 登录后启动网站服务（启动文件夹调用）
 data/sources.json        # 信息源配置（抓取脚本 + 页脚展示共用，加源只改这里）
-data/state/              # 运行状态：source-health.json（源健康）、last-success.json（心跳）、deepseek-news.json 等
+data/digests/            # 每日精选（脚本生成，不入库）
+data/index/             # 全局 URL 索引（脚本生成，不入库）
+data/state/              # 运行状态（含 jobs/ 任务状态、summary-queue.json）：source-health.json（源健康）、last-success.json（心跳）、deepseek-news.json 等
 data/news/YYYY-MM-DD.json  # 每日新闻数据（脚本生成，仅本地保存，不入库）
 data/forecasts/{daily,weekly}/YYYY-MM-DD.md  # 三日/每周预测报告（仅本地保存，不入库）
 data/impact/{daily,weekly}/YYYY-MM-DD.md     # 三日/七天影响分析（仅本地保存，不入库）

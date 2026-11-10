@@ -25,6 +25,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { promisify } from "node:util";
 import { writeFileAtomic } from "./lib/fs-atomic.mjs";
+import { loadUrlIndex, normalizeUrl, saveUrlIndex, updateUrlIndex } from "./lib/url-index.mjs";
 import { fileURLToPath } from "node:url";
 
 const execFileP = promisify(execFile);
@@ -132,21 +133,6 @@ function hashId(str) {
   return crypto.createHash("sha1").update(str).digest("hex").slice(0, 12);
 }
 
-function normalizeUrl(url) {
-  try {
-    const u = new URL(url);
-    u.hash = "";
-    // 去掉常见追踪参数
-    for (const key of [...u.searchParams.keys()]) {
-      if (key.startsWith("utm_") || key === "ref" || key === "src") {
-        u.searchParams.delete(key);
-      }
-    }
-    return u.toString().replace(/\/$/, "");
-  } catch {
-    return url;
-  }
-}
 
 function stripHtml(s) {
   return (s ?? "")
@@ -1014,6 +1000,13 @@ async function main() {
   // 兜底：当天一条都没有且没有历史文件时，仍然写一个空日报，保证前端有数据可读
   writeDaily(date, merged);
   updateIndex();
+
+  // 全局 URL 索引：记录首次出现日期，供 digest / RSS 去重
+  const urlIndexFile = path.join(ROOT, "data", "index", "urls.json");
+  const urlIndex = loadUrlIndex(urlIndexFile);
+  updateUrlIndex(urlIndex, merged, date);
+  saveUrlIndex(urlIndexFile, urlIndex);
+  console.log(`[ok] 更新 data/index/urls.json（${Object.keys(urlIndex.urls).length} 个 URL）`);
 
   // 记录本次成功时间，供 scripts/heartbeat.mjs 判断断更
   fs.mkdirSync(STATE_DIR, { recursive: true });

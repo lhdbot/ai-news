@@ -46,6 +46,8 @@ data/news/
 data/impact/
 data/forecasts/
 data/state/
+data/digests/
+data/index/
 data/trends/radar.json
 data/index.json
 

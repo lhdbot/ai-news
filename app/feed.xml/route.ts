@@ -12,9 +12,16 @@ function escapeXml(s: string): string {
 
 export function GET() {
   // 取最近 7 天的条目汇入 RSS
-  const items = getAllDates()
-    .slice(0, 7)
-    .flatMap((date) => getNewsByDate(date)?.items ?? []);
+  // 同一 URL 跨天只推送一次（保留最近一天的条目）
+  const items = [];
+  const seen = new Set();
+  for (const date of getAllDates().slice(0, 7)) {
+    for (const item of getNewsByDate(date)?.items ?? []) {
+      if (seen.has(item.url)) continue;
+      seen.add(item.url);
+      items.push(item);
+    }
+  }
 
   const entries = items
     .map((item) => {

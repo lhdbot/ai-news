@@ -1,4 +1,5 @@
 export type IntelligenceKind = "daily" | "weekly";
+export type NewsView = "full" | "digest";
 
 export function isValidDate(value: string): boolean {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
@@ -15,6 +16,13 @@ export function parseKind(value: string | null): IntelligenceKind | null {
   return null;
 }
 
+/** 新闻接口视图：full=当日全量，digest=每日精选（默认 full，保持兼容） */
+export function parseNewsView(value: string | null): NewsView | null {
+  if (value === null || value === "full") return "full";
+  if (value === "digest") return "digest";
+  return null;
+}
+
 export function apiJson(data: unknown): Response {
   return Response.json(data, {
     headers: { "Cache-Control": "no-store" },
@@ -23,7 +31,7 @@ export function apiJson(data: unknown): Response {
 
 export function apiError(
   status: number,
-  code: "invalid_date" | "invalid_kind" | "not_found",
+  code: "invalid_date" | "invalid_kind" | "invalid_view" | "not_found",
   message: string,
 ): Response {
   return Response.json(

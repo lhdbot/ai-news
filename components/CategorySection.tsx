@@ -60,12 +60,15 @@ export default function CategorySection({
   category,
   items,
   newIds,
+  total,
   index,
 }: {
   category: Category;
   items: NewsItem[];
   /** 当日最新一轮收录的条目 id（显示"今日新增"徽标） */
   newIds?: Set<string>;
+  /** 当日全量条数（可选；与精选数不同时展示「精选/今日」） */
+  total?: number;
   index: number;
 }) {
   const preview = items.slice(0, PREVIEW_COUNT);
@@ -80,7 +83,11 @@ export default function CategorySection({
         <span className="sec-index" aria-hidden="true">SEC·{String(index).padStart(2, "0")}</span>
         <span className="cmark" aria-hidden="true" />
         <h2>{category}</h2>
-        <span className="count">今日 {items.length} 条</span>
+        <span className="count">
+          {total && total > items.length
+            ? `精选 ${items.length} / 今日 ${total} 条`
+            : `今日 ${items.length} 条`}
+        </span>
         <Link className="more" href={`/category/${CATEGORY_SLUGS[category]}`}>
           查看全部 →
         </Link>
