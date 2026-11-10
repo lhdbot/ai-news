@@ -5,11 +5,11 @@ import { Stars, formatHM } from "./bits";
 export default function TopPicks({
   picks,
 }: {
-  picks: { item: NewsItem; score: number }[];
+  picks: { item: NewsItem; score: number; reasons?: string[] }[];
 }) {
   return (
     <div className="top5">
-      {picks.map(({ item, score }, i) => {
+      {picks.map(({ item, score, reasons }, i) => {
         const color = CATEGORY_COLORS[item.category];
         return (
           <a
@@ -27,6 +27,11 @@ export default function TopPicks({
             </div>
             <h3>{item.title_zh || item.title}</h3>
             {item.summary_zh && <p className="sum">{item.summary_zh}</p>}
+            {reasons && reasons.length > 0 && (
+              <p className="mt-1 line-clamp-2 text-[11px] leading-snug text-muted/80">
+                {reasons.join(" · ")}
+              </p>
+            )}
             <div className="src-line">
               {item.source}
               {formatHM(item.published_at) && ` · ${formatHM(item.published_at)}`}

@@ -31,7 +31,7 @@ export function apiJson(data: unknown): Response {
 
 export function apiError(
   status: number,
-  code: "invalid_date" | "invalid_kind" | "invalid_view" | "not_found",
+  code: "invalid_date" | "invalid_kind" | "invalid_view" | "invalid_body" | "not_found",
   message: string,
 ): Response {
   return Response.json(

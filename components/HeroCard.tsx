@@ -1,6 +1,7 @@
 import { CATEGORY_COLORS, type NewsItem } from "@/lib/news";
 import { scoreItem } from "@/lib/relevance";
 import { Stars, formatHM } from "./bits";
+import FeedbackButtons from "./FeedbackButtons";
 
 const EMPTY_HINT = "暂无解读，待下一轮摘要补全";
 
@@ -114,6 +115,9 @@ export default function HeroCard({
             </svg>
           }
         />
+      </div>
+      <div className="mt-3 border-t border-border/50 pt-3">
+        <FeedbackButtons id={item.id} />
       </div>
     </article>
   );

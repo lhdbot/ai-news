@@ -76,6 +76,10 @@ export default function HealthPage() {
   const digestFile = latest ? path.join(root, "data", "digests", `${latest}.json`) : "";
   const digest = digestFile ? readJson<{ items: unknown[]; total: number }>(digestFile) : null;
   const qualityFile = latest ? path.join(root, "data", "quality", `${latest}.json`) : "";
+  const reviewFile = latest ? path.join(root, "data", "quality", "reviews", `${latest}.json`) : "";
+  const review = reviewFile
+    ? readJson<{ count: number; averages: { accuracy: number; density: number; readability: number; actionability: number } }>(reviewFile)
+    : null;
   const quality = qualityFile
     ? readJson<{
         summarizedRate: number;
@@ -152,6 +156,12 @@ export default function HealthPage() {
               {quality
                 ? `摘要 ${Math.round(quality.summarizedRate * 100)}% · 重复 ${Math.round(quality.duplicateRate * 100)}% · 事件 ${quality.events}（多源 ${quality.multiSourceEvents}）· digest ${quality.digestItems}/${quality.digestTotal}`
                 : "尚未生成（运行 quality-report.mjs）"}
+            </li>
+            <li>
+              语义抽检：
+              {review?.averages
+                ? `准确 ${review.averages.accuracy} · 密度 ${review.averages.density} · 可读 ${review.averages.readability} · 行动 ${review.averages.actionability}（${review.count} 条）`
+                : "尚未抽检（运行 quality-sample.mjs）"}
             </li>
             <li>摘要队列：{queue.items.length} 条（到期 {queue.items.filter((i) => Date.parse(i.nextRetryAt) <= Date.now()).length} 条）</li>
           </ul>

@@ -1,6 +1,7 @@
 import type { NewsItem } from "@/lib/news";
 import { scoreItem, starsOf } from "@/lib/relevance";
 import TagBadge from "./TagBadge";
+import FeedbackButtons from "./FeedbackButtons";
 
 const CATEGORY_STYLES: Record<string, string> = {
   模型发布: "text-c-model border-c-model/40 bg-c-model/10",
@@ -260,6 +261,10 @@ export default function NewsCard({
           )}
         </div>
       )}
+
+      <div className={`border-t border-border/50 pt-2 ${featured ? "mt-4" : "mt-3"}`}>
+        <FeedbackButtons id={item.id} />
+      </div>
 
       {item.tags.length > 0 && (
         <div

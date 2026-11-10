@@ -10,7 +10,7 @@ import {
   getLatestNews,
   type NewsItem,
 } from "@/lib/news";
-import { scoreItem } from "@/lib/relevance";
+import { explainScore, scoreItem } from "@/lib/relevance";
 import { getSources } from "@/lib/sources";
 import { SITE_NAME } from "@/lib/site";
 import { getRadar } from "@/lib/trends";
@@ -53,7 +53,7 @@ export default function HomePage() {
   const latestAt = digest ? digest.generated_at : batch.latestAt;
   // 与你最相关 TOP 5：按相关度打分排序（分数相同保持原顺序）
   const top5 = items
-    .map((item, index) => ({ item, index, score: scoreItem(item) }))
+    .map((item, index) => ({ item, index, score: scoreItem(item), reasons: explainScore(item) }))
     .sort((a, b) => b.score - a.score || a.index - b.index)
     .slice(0, 5);
   // 头条：日报首条（抓取/编辑侧排序置顶）

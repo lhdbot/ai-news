@@ -10,6 +10,28 @@ export interface Profile {
   focusTrends: string[];
 }
 
+const FEEDBACK_FILE = path.join(process.cwd(), "data", "state", "feedback.json");
+let feedbackCache: { mtimeMs: number; data: Record<string, string> } | null = null;
+
+/** 本地反馈：id -> save/like/dislike；文件缺失返回空表 */
+function getFeedback(): Record<string, string> {
+  try {
+    const stat = fs.statSync(FEEDBACK_FILE);
+    if (feedbackCache && feedbackCache.mtimeMs === stat.mtimeMs) return feedbackCache.data;
+    const raw = JSON.parse(fs.readFileSync(FEEDBACK_FILE, "utf-8")) as {
+      items?: Record<string, { action?: string }>;
+    };
+    const map: Record<string, string> = {};
+    for (const [id, value] of Object.entries(raw.items ?? {})) {
+      if (value && typeof value.action === "string") map[id] = value.action;
+    }
+    feedbackCache = { mtimeMs: stat.mtimeMs, data: map };
+    return map;
+  } catch {
+    return {};
+  }
+}
+
 const PROFILE_CANDIDATES = [
   path.join(process.cwd(), ".local", "profile.json"),
   // 兼容旧位置（历史版本放在 data/，已从 git 移除）
@@ -56,6 +78,12 @@ export function getProfile(): Profile | null {
  */
 export function scoreItem(item: NewsItem): number {
   let score = item.heat ?? 10;
+
+  const feedback = getFeedback()[item.id];
+  if (feedback === "save") score += 3;
+  else if (feedback === "like") score += 2;
+  else if (feedback === "dislike") score -= 20;
+
   const profile = getProfile();
   if (!profile) return score;
 
@@ -83,4 +111,30 @@ export function starsOf(score: number): number {
   if (score >= 15) return 3;
   if (score >= 10) return 2;
   return 1;
+}
+
+/** 推荐理由（最多 3 条）：反馈、画像命中、多源报道，兜底热度 */
+export function explainScore(item: NewsItem): string[] {
+  const reasons: string[] = [];
+  const feedback = getFeedback()[item.id];
+  if (feedback === "save") reasons.push("已收藏");
+  else if (feedback === "like") reasons.push("标记有用");
+
+  const profile = getProfile();
+  if (profile) {
+    const haystack = [item.title, item.title_zh, item.summary_zh, ...item.tags]
+      .join("\n")
+      .toLowerCase();
+    const stackHits = profile.stack
+      .filter((keyword) => haystack.includes(keyword.toLowerCase()))
+      .slice(0, 2);
+    if (stackHits.length > 0) reasons.push(`命中技术栈：${stackHits.join("、")}`);
+    const trendHits = (item.trends ?? []).filter((trend) => profile.focusTrends.includes(trend)).slice(0, 2);
+    if (trendHits.length > 0) reasons.push(`关注趋势：${trendHits.join("、")}`);
+  }
+
+  const sourceCount = (item.relatedSources?.length ?? 0) + 1;
+  if (sourceCount > 1) reasons.push(`${sourceCount} 源报道`);
+  if (reasons.length === 0) reasons.push(`热度 ${item.heat ?? 10}`);
+  return reasons.slice(0, 3);
 }
