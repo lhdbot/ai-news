@@ -256,7 +256,9 @@ async function summarizeDate(date, targets) {
 async function main() {
   const retryMode = process.argv.includes('--retry');
   if (retryMode) {
-    const due = dueItems(queue);
+    const limitArg = process.argv.find((a) => a.startsWith('--limit='));
+    const limit = limitArg ? Math.max(1, parseInt(limitArg.split('=')[1], 10) || 20) : Infinity;
+    const due = dueItems(queue).slice(0, limit);
     if (due.length === 0) {
       console.log('no due retries in summary queue');
       return;

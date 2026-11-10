@@ -37,7 +37,7 @@
 | P0-6 每日 digest | ✅ | `build-digest.mjs`、`lib/digest.ts`；首页/API 接入 |
 | P0-7 跨天去重 | ✅ | `url-index.mjs`、`rebuild-url-index.mjs`；RSS 去重 |
 
-测试：43 个通过；端到端已跑通一轮 watch（62s，job=ok，digest 30/93）。
+测试：43 个通过；端到端已跑通两轮 watch（62s / 24s，job=ok，digest 30/93）。历史 136 条摘要缺口已入队，每轮最多补 20 条。
 
 **最重要的三个判断：**
 

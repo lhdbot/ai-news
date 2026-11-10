@@ -125,7 +125,8 @@ npm run dev                   # http://localhost:3000
 - **全局 URL 索引**：`data/index/urls.json` 记录每个 URL 的首次出现日期，供 digest 与 RSS 去重；
   可用 `node scripts/rebuild-url-index.mjs` 从历史日报重建。
 - **摘要失败队列**：`data/state/summary-queue.json`；LLM 输出逐条过 zod Schema，失败单条重试一次，
-  仍失败按 5m/30m/2h/24h 退避；`summarize-local.mjs --retry` 在每轮巡检中补跑。
+  仍失败按 5m/30m/2h/24h 退避；`summarize-local.mjs --retry --limit=20` 在每轮巡检中补跑。
+  历史缺口可先用 `node scripts/enqueue-missing-summaries.mjs` 一次性入队。
 - **任务状态与 /health**：每个 bat 首尾调用 `scripts/job-status.mjs`，状态写入 `data/state/jobs/`，
   事件写入 `logs/app.jsonl`；`/health` 页面展示任务、信源健康、摘要队列与数据新鲜度。
 - **锁自愈**：`logs/job.lock` 改为 JSON（job/pid/startedAt），超过 45 分钟或持有进程退出即自动清理。

@@ -15,7 +15,7 @@ node scripts\data-changed.mjs --mark >> logs\update.log 2>&1
 node scripts\fetch-news.mjs >> logs\update.log 2>&1
 if errorlevel 1 goto failed
 node scripts\summarize-local.mjs >> logs\update.log 2>&1
-node scripts\summarize-local.mjs --retry >> logs\update.log 2>&1
+node scripts\summarize-local.mjs --retry --limit=20 >> logs\update.log 2>&1
 node scripts\build-radar.mjs >> logs\update.log 2>&1
 node scripts\build-digest.mjs >> logs\update.log 2>&1
 node scripts\export-markdown.mjs >> logs\update.log 2>&1
