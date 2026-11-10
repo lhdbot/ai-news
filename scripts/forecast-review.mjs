@@ -12,6 +12,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { callKimi, extractMarkdown } from './lib/kimi.mjs';
+import { fitPrompt } from './lib/prompt-budget.mjs';
 import { writeFileAtomic } from './lib/fs-atomic.mjs';
 
 const ROOT = process.cwd();
@@ -106,9 +107,16 @@ async function main() {
       continue;
     }
     console.log(`[info] 复盘 ${date}（素材 ${items.length} 条），调用 Kimi…`);
+    const { prompt, items: usedItems, trimmed } = fitPrompt(items, (list) =>
+      buildPrompt(date, forecastMd, list),
+    );
+    if (trimmed) {
+      console.warn(`[warn] ${date}：素材过长，prompt 已裁剪为 ${usedItems.length}/${items.length} 条（命令行长度上限）`);
+    }
+
     let md = null;
     try {
-      const stdout = await callKimi(buildPrompt(date, forecastMd, items), { retries: 2, timeoutMs: 15 * 60 * 1000, label: `review ${date}` });
+      const stdout = await callKimi(prompt, { retries: 2, timeoutMs: 15 * 60 * 1000, label: `review ${date}` });
       md = extractMarkdown(stdout);
     } catch {
       console.warn(`[warn] ${date}：kimi 两次调用均失败，跳过`);
