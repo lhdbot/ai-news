@@ -1,6 +1,35 @@
 {
-  "current": "0.4.0",
+  "current": "0.4.1",
   "entries": [
+    {
+      "version": "0.4.1",
+      "date": "2026-11-11",
+      "title": "可靠性、SEO 与质量趋势",
+      "summary": "失败信源自动重试；补齐分享图与结构化数据；把语义抽检做成可看趋势。",
+      "tags": [
+        "可靠性",
+        "SEO",
+        "质量"
+      ],
+      "changes": [
+        {
+          "type": "新增",
+          "text": "信源失败自动二次重试（2s 间隔，仅重试失败源）"
+        },
+        {
+          "type": "新增",
+          "text": "OG 分享图、canonical、JSON-LD、Twitter Card"
+        },
+        {
+          "type": "新增",
+          "text": "/health 展示语义抽检近 7 天趋势"
+        },
+        {
+          "type": "优化",
+          "text": "/health 设为 noindex；日报归档补 article 元数据"
+        }
+      ]
+    },
     {
       "version": "0.4.0",
       "date": "2026-11-10",

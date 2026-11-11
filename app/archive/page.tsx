@@ -5,6 +5,7 @@ import { formatDateCN, getAllDates, getNewsByDate } from "@/lib/news";
 export const metadata: Metadata = {
   title: "归档",
   description: "按日期浏览历史 AI 日报",
+  alternates: { canonical: "/archive" },
 };
 
 // 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，无需重建/重启

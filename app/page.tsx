@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import SignalPanel from "@/components/SignalPanel";
 import TopPicks from "@/components/TopPicks";
@@ -20,6 +21,10 @@ import { formatHM } from "@/components/bits";
 // 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，无需整站重建/重启
 // ISR：数据最多缓存 300 秒；巡检写入后由下一次请求触发后台刷新
 export const revalidate = 300;
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   const daily = getLatestNews();

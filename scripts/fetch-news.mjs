@@ -497,35 +497,36 @@ async function fetchDeepseekNewsSource(source) {
     });
 }
 
+/** 按源类型抓取；windowHours 覆盖全局 48h 窗口 */
+async function fetchSource(source, since) {
+  const sourceSince = source.windowHours
+    ? new Date(Date.now() - source.windowHours * 3600 * 1000)
+    : since;
+  const items =
+    source.type === "hf"
+      ? await fetchHfSource(source, sourceSince)
+      : source.type === "trending"
+        ? await fetchTrendingSource(source)
+        : source.type === "hn"
+          ? await fetchHnSource(source, sourceSince)
+          : source.type === "deepseek-news"
+            ? await fetchDeepseekNewsSource(source)
+            : await fetchRssSource(source, sourceSince);
+  console.log(`[ok] ${source.name}: ${items.length} 条`);
+  return items;
+}
+
 async function fetchAllSources(since) {
-  const results = await Promise.allSettled(
-    SOURCES.map(async (source) => {
-      const sourceSince = source.windowHours
-        ? new Date(Date.now() - source.windowHours * 3600 * 1000)
-        : since;
-      const items =
-        source.type === "hf"
-          ? await fetchHfSource(source, sourceSince)
-          : source.type === "trending"
-            ? await fetchTrendingSource(source)
-            : source.type === "hn"
-              ? await fetchHnSource(source, sourceSince)
-              : source.type === "deepseek-news"
-                ? await fetchDeepseekNewsSource(source)
-                : await fetchRssSource(source, sourceSince);
-      console.log(`[ok] ${source.name}: ${items.length} 条`);
-      return items;
-    }),
-  );
+  const results = await Promise.allSettled(SOURCES.map((source) => fetchSource(source, since)));
   const all = [];
-  const failed = [];
   const statuses = [];
+  const failedIndexes = [];
   results.forEach((r, i) => {
     if (r.status === "fulfilled") {
       all.push(...r.value);
       statuses.push({ name: SOURCES[i].name, ok: true });
     } else {
-      failed.push(SOURCES[i].name);
+      failedIndexes.push(i);
       statuses.push({
         name: SOURCES[i].name,
         ok: false,
@@ -534,6 +535,31 @@ async function fetchAllSources(since) {
       console.warn(`[warn] 源「${SOURCES[i].name}」抓取失败: ${r.reason?.message ?? r.reason}`);
     }
   });
+
+  // 二次重试：代理抖动时同一源再试一次（2s 间隔，仅失败源）
+  if (failedIndexes.length > 0) {
+    console.log(`[info] 二次重试 ${failedIndexes.length} 个失败源…`);
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+    const retryResults = await Promise.allSettled(
+      failedIndexes.map((i) => fetchSource(SOURCES[i], since)),
+    );
+    retryResults.forEach((r, j) => {
+      const index = failedIndexes[j];
+      if (r.status === "fulfilled") {
+        all.push(...r.value);
+        statuses[index] = { name: SOURCES[index].name, ok: true, retried: true };
+        console.log(`[ok] 重试成功：${SOURCES[index].name}（${r.value.length} 条）`);
+      } else {
+        statuses[index] = {
+          name: SOURCES[index].name,
+          ok: false,
+          error: r.reason?.message ?? String(r.reason),
+        };
+      }
+    });
+  }
+
+  const failed = statuses.filter((s) => !s.ok).map((s) => s.name);
   if (failed.length > 0) {
     console.warn(`[warn] 共 ${failed.length} 个源失败（已跳过）: ${failed.join(", ")}`);
   }

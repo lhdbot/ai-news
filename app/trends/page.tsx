@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "趋势雷达",
   description:
     "AI 技术趋势雷达：按主题树追踪各趋势的阶段、热度、近 14 天报道量与近 3 天增速。",
+  alternates: { canonical: "/trends" },
 };
 
 // 数据由巡检任务更新：动态渲染，请求时读取最新数据文件，无需重建/重启

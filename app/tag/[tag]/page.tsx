@@ -33,6 +33,7 @@ export async function generateMetadata({
   return {
     title: `#${tag}`,
     description: `标签「${tag}」下的 AI 资讯`,
+    alternates: { canonical: `/tag/${encodeURIComponent(tag)}` },
   };
 }
 

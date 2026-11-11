@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "AI 预测",
   description:
     "三日滚动预测（每天 10:00 更新）+ 每周预测（每周一 08:00 更新）：基于近日新闻盘点的 AI 发展方向预测，结合个人情况的行动建议。",
+  alternates: { canonical: "/forecast" },
 };
 
 interface Section {

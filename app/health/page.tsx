@@ -4,7 +4,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { getAllDates, getNewsByDate } from "@/lib/news";
 
-export const metadata: Metadata = { title: "运行状态" };
+export const metadata: Metadata = {
+  title: "运行状态",
+  alternates: { canonical: "/health" },
+  robots: { index: false, follow: false },
+};
 export const dynamic = "force-dynamic";
 
 interface JobStatus {
@@ -77,6 +81,30 @@ export default function HealthPage() {
   const digest = digestFile ? readJson<{ items: unknown[]; total: number }>(digestFile) : null;
   const qualityFile = latest ? path.join(root, "data", "quality", `${latest}.json`) : "";
   const reviewFile = latest ? path.join(root, "data", "quality", "reviews", `${latest}.json`) : "";
+  const reviewsDir = path.join(root, "data", "quality", "reviews");
+  let reviewHistory: {
+    date: string;
+    count: number;
+    averages: { accuracy: number; density: number; readability: number; actionability: number };
+  }[] = [];
+  try {
+    reviewHistory = fs
+      .readdirSync(reviewsDir)
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => {
+        const data = readJson<{
+          count: number;
+          averages: { accuracy: number; density: number; readability: number; actionability: number };
+        }>(path.join(reviewsDir, f));
+        return data ? { date: f.slice(0, -5), ...data } : null;
+      })
+      .filter((item): item is NonNullable<typeof item> => Boolean(item))
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .slice(0, 7);
+  } catch {
+    reviewHistory = [];
+  }
+
   const review = reviewFile
     ? readJson<{ count: number; averages: { accuracy: number; density: number; readability: number; actionability: number } }>(reviewFile)
     : null;
@@ -183,6 +211,40 @@ export default function HealthPage() {
             ))}
           </ul>
         </div>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-lg font-bold">语义抽检趋势（近 7 天）</h2>
+        {reviewHistory.length === 0 ? (
+          <p className="mt-3 text-sm text-muted">还没有抽检数据；daily 任务会在每天 07:10 生成。</p>
+        ) : (
+          <div className="mt-3 overflow-x-auto rounded-xl border border-border bg-surface">
+            <table className="w-full min-w-[560px] text-sm">
+              <thead>
+                <tr className="border-b border-border text-left text-xs text-muted">
+                  <th className="px-4 py-3">日期</th>
+                  <th className="px-4 py-3">准确</th>
+                  <th className="px-4 py-3">密度</th>
+                  <th className="px-4 py-3">可读</th>
+                  <th className="px-4 py-3">行动</th>
+                  <th className="px-4 py-3">条数</th>
+                </tr>
+              </thead>
+              <tbody>
+                {reviewHistory.map((item) => (
+                  <tr key={item.date} className="border-b border-border/50 last:border-0">
+                    <td className="px-4 py-2.5 font-mono text-xs text-muted">{item.date}</td>
+                    <td className="px-4 py-2.5">{item.averages.accuracy}</td>
+                    <td className="px-4 py-2.5">{item.averages.density}</td>
+                    <td className="px-4 py-2.5">{item.averages.readability}</td>
+                    <td className="px-4 py-2.5">{item.averages.actionability}</td>
+                    <td className="px-4 py-2.5 text-muted">{item.count}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
       </section>
 
       {queue.items.length > 0 && (

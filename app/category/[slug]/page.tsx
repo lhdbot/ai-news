@@ -27,7 +27,10 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   const category = categoryFromSlug(slug);
-  return { title: category ? `${category} - AI 日报` : "AI 日报" };
+  return {
+    title: category ? `${category} - AI 日报` : "AI 日报",
+    alternates: { canonical: `/category/${slug}` },
+  };
 }
 
 export default async function CategoryPage({

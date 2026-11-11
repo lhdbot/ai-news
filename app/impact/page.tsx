@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "对我的影响",
   description:
     "三日影响分析（每天更新）+ 七天影响分析（每周一更新）：AI 新闻对我的岗位、技能和项目有什么影响，每条结论均标注依据出处。",
+  alternates: { canonical: "/impact" },
 };
 
 interface Section {

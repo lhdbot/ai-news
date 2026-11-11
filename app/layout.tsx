@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -25,6 +26,11 @@ export const metadata: Metadata = {
       "application/rss+xml": "/feed.xml",
     },
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} — 每日 AI 资讯精选`,
+    description: SITE_DESCRIPTION,
+  },
 };
 
 export default function RootLayout({
@@ -35,6 +41,20 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" className="h-full antialiased" data-scroll-behavior="smooth">
       <body className="flex min-h-full flex-col">
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: SITE_NAME,
+            url: SITE_URL,
+            description: SITE_DESCRIPTION,
+            potentialAction: {
+              "@type": "SearchAction",
+              target: `${SITE_URL}/search?q={search_term_string}`,
+              "query-input": "required name=search_term_string",
+            },
+          }}
+        />
         <Header />
         <main className="mx-auto w-full max-w-7xl flex-1 px-4 md:px-6">{children}</main>
         <Footer />

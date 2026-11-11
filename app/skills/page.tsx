@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Skills 推荐",
   description:
     "值得安装的 agent skills（SKILL.md 扩展）：官方合集、社区精选与一人公司场景适配。",
+  alternates: { canonical: "/skills" },
 };
 
 interface Skill {

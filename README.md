@@ -128,6 +128,8 @@ npm run dev                   # http://localhost:3000
   digest 按 eventId 去重，避免同一事件反复出现；可用 `node scripts/rebuild-event-index.mjs` 重建。
 - **页面缓存（ISR）**：首页 5 分钟、归档 1 小时、分类 10 分钟、趋势 30 分钟；搜索与 API 保持实时。
 - **源级成功率**：`source-health.json` 记录每源累计成功/失败次数与最后错误，`/health` 展示成功率与失败最多的源。
+- **失败重试**：抓取结束后对失败源自动二次重试一次（2s 间隔），降低代理抖动导致的漏抓。
+- **SEO**：自动生成 `/opengraph-image` 分享图；各页面 canonical；layout 注入 WebSite JSON-LD；Twitter Card。
 - **内容质量报告**：`quality-report.mjs` 计算摘要完成率、跨天重复率、事件/多源事件、digest 覆盖；写入 `data/quality/`，/health 展示。
 - **语义抽检**：`quality-sample.mjs` 每天抽 5 条交本机 Kimi 按准确/密度/可读/行动四维打分（只依据摘要，不核对原文），结果在 /health。
 - **本地反馈**：收藏 / 有用 / 不感兴趣写入 `data/state/feedback.json`，参与首页 TOP5 排序；TOP5 卡片显示推荐理由。

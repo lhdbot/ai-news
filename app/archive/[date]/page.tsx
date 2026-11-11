@@ -21,6 +21,8 @@ export async function generateMetadata({
   return {
     title: `${formatDateCN(date)} AI 日报`,
     description: `${formatDateCN(date)} 的 AI 资讯精选`,
+    alternates: { canonical: `/archive/${date}` },
+    openGraph: { type: "article", publishedTime: date },
   };
 }
 

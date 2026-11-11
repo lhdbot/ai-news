@@ -4,6 +4,7 @@ import { getAllDates, getNewsByDate } from "@/lib/news";
 export const metadata: Metadata = {
   title: "搜索",
   description: "检索全部历史日报：按标题、中文标题、摘要、标签过滤。",
+  alternates: { canonical: "/search" },
 };
 
 // 数据由巡检任务更新：请求时读取，无需重建

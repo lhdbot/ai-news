@@ -4,6 +4,7 @@ import changelog from "@/data/changelog.json";
 export const metadata: Metadata = {
   title: "更新日志",
   description: "ai-news 的版本、功能与修复记录。",
+  alternates: { canonical: "/changelog" },
 };
 
 interface Change {
