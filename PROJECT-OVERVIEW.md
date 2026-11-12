@@ -3,6 +3,7 @@
 > 生成时间：2026-11-06 15:15（Asia/Shanghai）
 > 仓库：https://github.com/lhdbot/ai-news （main，最新提交见 git log）
 > 本地站点：http://localhost:3000 （生产模式 `next start`）
+> 2026-11-12 更新：v0.5.0 增加信源缓存兜底、/api/health 与 npm run doctor。
 > 2026-11-10 更新：已落地 P0 可靠性改造——锁自愈、任务状态 + /health、摘要失败队列 + zod Schema、
 > 每日精选 digest（30 条）、全局 URL 索引、RSS 跨天去重；测试 43 个。
 > 重要前提：**运行数据只保存在本地**，`data/news/`、`data/forecasts/`、`data/impact/`、`data/state/` 均被 .gitignore 忽略，远程仓库只有代码与配置。

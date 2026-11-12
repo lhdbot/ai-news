@@ -26,6 +26,7 @@ import path from "node:path";
 import { promisify } from "node:util";
 import { writeFileAtomic } from "./lib/fs-atomic.mjs";
 import { loadUrlIndex, normalizeUrl, saveUrlIndex, updateUrlIndex } from "./lib/url-index.mjs";
+import { readSourceCache, sourceCachePath, writeSourceCache } from "./lib/source-cache.mjs";
 import { jaccard, titleTokens } from "./lib/text-similarity.mjs";
 import { assignEvents, loadEventIndex, saveEventIndex } from "./lib/events.mjs";
 import { fileURLToPath } from "node:url";
@@ -37,6 +38,7 @@ const ROOT = path.join(__dirname, "..");
 const NEWS_DIR = path.join(ROOT, "data", "news");
 const INDEX_FILE = path.join(ROOT, "data", "index.json");
 const STATE_DIR = path.join(ROOT, "data", "state");
+const SOURCE_CACHE_DIR = path.join(ROOT, "data", "cache", "sources");
 const SOURCE_HEALTH_FILE = path.join(STATE_DIR, "source-health.json");
 const LAST_SUCCESS_FILE = path.join(STATE_DIR, "last-success.json");
 
@@ -497,23 +499,37 @@ async function fetchDeepseekNewsSource(source) {
     });
 }
 
-/** 按源类型抓取；windowHours 覆盖全局 48h 窗口 */
+/** 按源类型抓取；失败时回退到最近一次成功缓存（窗口内过滤） */
 async function fetchSource(source, since) {
   const sourceSince = source.windowHours
     ? new Date(Date.now() - source.windowHours * 3600 * 1000)
     : since;
-  const items =
-    source.type === "hf"
-      ? await fetchHfSource(source, sourceSince)
-      : source.type === "trending"
-        ? await fetchTrendingSource(source)
-        : source.type === "hn"
-          ? await fetchHnSource(source, sourceSince)
-          : source.type === "deepseek-news"
-            ? await fetchDeepseekNewsSource(source)
-            : await fetchRssSource(source, sourceSince);
-  console.log(`[ok] ${source.name}: ${items.length} 条`);
-  return items;
+  const cacheFile = sourceCachePath(SOURCE_CACHE_DIR, source.name);
+  try {
+    const items =
+      source.type === "hf"
+        ? await fetchHfSource(source, sourceSince)
+        : source.type === "trending"
+          ? await fetchTrendingSource(source)
+          : source.type === "hn"
+            ? await fetchHnSource(source, sourceSince)
+            : source.type === "deepseek-news"
+              ? await fetchDeepseekNewsSource(source)
+              : await fetchRssSource(source, sourceSince);
+    writeSourceCache(cacheFile, source.name, items);
+    console.log(`[ok] ${source.name}: ${items.length} 条`);
+    return items;
+  } catch (err) {
+    const cached = readSourceCache(cacheFile, sourceSince);
+    if (cached && cached.length > 0) {
+      cached.fromCache = true;
+      console.warn(
+        `[warn] 源「${source.name}」失败，使用最近缓存 ${cached.length} 条: ${(err.message || String(err)).slice(0, 120)}`,
+      );
+      return cached;
+    }
+    throw err;
+  }
 }
 
 async function fetchAllSources(since) {
@@ -524,7 +540,7 @@ async function fetchAllSources(since) {
   results.forEach((r, i) => {
     if (r.status === "fulfilled") {
       all.push(...r.value);
-      statuses.push({ name: SOURCES[i].name, ok: true });
+      statuses.push({ name: SOURCES[i].name, ok: true, cached: Boolean(r.value.fromCache) });
     } else {
       failedIndexes.push(i);
       statuses.push({
@@ -614,6 +630,10 @@ async function updateSourceHealth(statuses) {
     if (st.ok) {
       h.lastOk = nowIso;
       h.okCount = (h.okCount ?? 0) + 1;
+      if (st.cached) {
+        h.cachedCount = (h.cachedCount ?? 0) + 1;
+        h.lastCached = nowIso;
+      }
       h.consecutiveFailDays = 0;
     } else {
       const prevFailDay = h.lastFail ? cnDay(h.lastFail) : null;

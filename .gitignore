@@ -46,6 +46,7 @@ data/news/
 data/impact/
 data/forecasts/
 data/state/
+data/cache/
 data/digests/
 data/quality/
 data/index/

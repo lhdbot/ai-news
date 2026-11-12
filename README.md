@@ -116,7 +116,9 @@ npm run dev                   # http://localhost:3000
 | `GET /api/intelligence/YYYY-MM-DD?kind=weekly` | 指定日期的七天预测与影响分析 |
 
 `kind` 支持 `daily`（默认）和 `weekly`。情报接口返回 `{ kind, forecast, impact }`。
-新闻接口额外支持 `?view=digest` 返回当日精选（最多 30 条），默认 `full` 保持兼容。，报告以 Markdown 文本提供；某一类报告尚未生成时对应字段为 `null`。非法参数返回 400，无数据返回 404，所有接口均禁止缓存。
+新闻接口额外支持 `?view=digest` 返回当日精选（最多 30 条），默认 `full` 保持兼容。
+
+运维自检：`npm run doctor`（数据/索引/队列/任务/代理/站点）与 `GET /api/health`（JSON 版运行状态）。，报告以 Markdown 文本提供；某一类报告尚未生成时对应字段为 `null`。非法参数返回 400，无数据返回 404，所有接口均禁止缓存。
 
 ## 每日精选、摘要重试与运行状态（2026-11 新增）
 
@@ -129,6 +131,7 @@ npm run dev                   # http://localhost:3000
 - **页面缓存（ISR）**：首页 5 分钟、归档 1 小时、分类 10 分钟、趋势 30 分钟；搜索与 API 保持实时。
 - **源级成功率**：`source-health.json` 记录每源累计成功/失败次数与最后错误，`/health` 展示成功率与失败最多的源。
 - **失败重试**：抓取结束后对失败源自动二次重试一次（2s 间隔），降低代理抖动导致的漏抓。
+- **缓存兜底**：每次成功抓取会把条目写入 `data/cache/sources/`；失败且无重试结果时回退到窗口内的最近缓存。
 - **SEO**：自动生成 `/opengraph-image` 分享图；各页面 canonical；layout 注入 WebSite JSON-LD；Twitter Card。
 - **内容质量报告**：`quality-report.mjs` 计算摘要完成率、跨天重复率、事件/多源事件、digest 覆盖；写入 `data/quality/`，/health 展示。
 - **语义抽检**：`quality-sample.mjs` 每天抽 5 条交本机 Kimi 按准确/密度/可读/行动四维打分（只依据摘要，不核对原文），结果在 /health。
